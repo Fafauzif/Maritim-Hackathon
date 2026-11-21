@@ -1,0 +1,168 @@
+{
+  "generatedAt": "2026-11-21T04:59:57.219Z",
+  "source": "public client chunks (no authentication required)",
+  "counts": {
+    "styleRecords": 14,
+    "previewImages": 14,
+    "mapSkins": 10
+  },
+  "contradiction": "Marketing copy says \"nine personalities\"; the client registers 14 style previews and N style records. Unresolved until the in-game style picker is observable.",
+  "styles": [
+    {
+      "id": 1,
+      "key": "european",
+      "name": "Европейский",
+      "short": "Европа",
+      "color": "#9A5541",
+      "accent": "#5F6670",
+      "description": "Османовские бульвары, голландские фронтоны, фахверк, мансарды и кованые балконы",
+      "evidence": "evidence/scripts/public/styles-EE7sSX4o.js"
+    },
+    {
+      "id": 2,
+      "key": "japanese",
+      "name": "Японский",
+      "short": "Япония",
+      "color": "#C46686",
+      "accent": "#4E4640",
+      "description": "Мати-я с решётками, черепичные карнизы, фонарики, узкие башенки, пагоды",
+      "evidence": "evidence/scripts/public/styles-EE7sSX4o.js"
+    },
+    {
+      "id": 3,
+      "key": "slavic",
+      "name": "Славянский",
+      "short": "Славяне",
+      "color": "#B7684F",
+      "accent": "#6F8661",
+      "description": "Избы с резными наличниками, терема, купеческие дома, доходные дома, кирпичные и панельные пятиэтажки с дворами",
+      "evidence": "evidence/scripts/public/styles-EE7sSX4o.js"
+    },
+    {
+      "id": 4,
+      "key": "arabic",
+      "name": "Арабский",
+      "short": "Восток",
+      "color": "#D4A27F",
+      "accent": "#3F7F86",
+      "description": "Белёные и охристые стены, арки, машрабии, купола, дворики-риады, ветровые башни, базары",
+      "evidence": "evidence/scripts/public/styles-EE7sSX4o.js"
+    },
+    {
+      "id": 5,
+      "key": "american",
+      "name": "Американский",
+      "short": "Америка",
+      "color": "#6A9BCC",
+      "accent": "#C0573F",
+      "description": "Пригород с верандами, кирпичная Main Street, закусочные, ар-деко и стеклянные небоскрёбы",
+      "evidence": "evidence/scripts/public/styles-EE7sSX4o.js"
+    },
+    {
+      "id": 6,
+      "key": "italian",
+      "name": "Итальянский",
+      "short": "Италия",
+      "color": "#CC785C",
+      "accent": "#6F8661",
+      "description": "Палаццо со ставнями, терракотовые крыши, лоджии, аркады-портики, пьяццы и кампанилы",
+      "evidence": "evidence/scripts/public/styles-EE7sSX4o.js"
+    },
+    {
+      "id": 7,
+      "key": "scandinavian",
+      "name": "Скандинавский",
+      "short": "Скандинавия",
+      "color": "#788C5D",
+      "accent": "#5E7894",
+      "description": "Цветные деревянные дома, крутые крыши, травяные кровли, светлое дерево, кирпич и медь",
+      "evidence": "evidence/scripts/public/styles-EE7sSX4o.js"
+    },
+    {
+      "id": 8,
+      "key": "futurist",
+      "name": "Футуризм",
+      "short": "Будущее",
+      "color": "#7FA8B8",
+      "accent": "#E9E4D8",
+      "description": "Город далёкого будущего: белые обтекаемые башни, кольца и диски, висячие сады, монорельс, парящие террасы",
+      "evidence": "evidence/scripts/public/styles-EE7sSX4o.js"
+    },
+    {
+      "id": 9,
+      "key": "cyberpunk",
+      "name": "Киберпанк",
+      "short": "Неон",
+      "color": "#B4507E",
+      "accent": "#3FA7A0",
+      "description": "Мегаблоки в неоне: голо-вывески, кабели и трубы, капсульные отели, лапшичные под эстакадами, тёмный бетон и дождь",
+      "evidence": "evidence/scripts/public/styles-EE7sSX4o.js"
+    },
+    {
+      "id": 10,
+      "key": "fantasy",
+      "name": "Фэнтези",
+      "short": "Сказка",
+      "color": "#6A5A8C",
+      "accent": "#D9A94E",
+      "description": "Сказочный город: кривые фахверковые дома с нависающими этажами, крыши-колпаки, башенки, светящиеся кристаллы, таверны и башни магов",
+      "evidence": "evidence/scripts/public/styles-EE7sSX4o.js"
+    },
+    {
+      "id": 11,
+      "key": "medieval",
+      "name": "Средневековье",
+      "short": "Старый город",
+      "color": "#8F3F34",
+      "accent": "#41618A",
+      "description": "Старый город за крепостной стеной: высокие щипцы к улице, крутые черепичные крыши с рядами слуховых окошек, красный фахверк, каменные дома-башни, аркады, ратуша с беффруа и собор",
+      "evidence": "evidence/scripts/public/styles-EE7sSX4o.js"
+    },
+    {
+      "id": 12,
+      "key": "metropolis",
+      "name": "Мегаполис",
+      "short": "Сити",
+      "color": "#3D5A78",
+      "accent": "#D4AF6A",
+      "description": "Современный мегаполис: стеклянные сверхвысокие башни с подсвеченными коронами, сады на этажах, мосты и бассейны в небе, медиаэкраны и вертолётные площадки",
+      "evidence": "evidence/scripts/public/styles-EE7sSX4o.js"
+    },
+    {
+      "id": 13,
+      "key": "british",
+      "name": "Британия",
+      "short": "Британия",
+      "color": "#9C4A36",
+      "accent": "#1F3A5F",
+      "description": "Террасы из красного и жёлтого кирпича, цветные двери, ряды печных труб, полумесяцы, пабы на углах, викторианские вокзалы и бетон 60-х",
+      "evidence": "evidence/scripts/public/styles-EE7sSX4o.js"
+    },
+    {
+      "id": 14,
+      "key": "brazil",
+      "name": "Бразилия",
+      "short": "Бразилия",
+      "color": "#E2B04A",
+      "accent": "#2F5FA8",
+      "description": "Пастельные колониальные ряды под черепицей, фасады в азулежу, бетонные волны и пилотисы, решётки кобого, ботеку на углах, пальмы и мозаика набережных",
+      "evidence": "evidence/scripts/public/styles-EE7sSX4o.js"
+    }
+  ],
+  "previews": {
+    "american": "/assets/american-C12oxzky.webp",
+    "arabic": "/assets/arabic-nNhHxSjA.webp",
+    "brazil": "/assets/brazil-B8HnSvK1.webp",
+    "british": "/assets/british-B86WRU2W.webp",
+    "cyberpunk": "/assets/cyberpunk-VCxSc-rX.webp",
+    "european": "/assets/european-e8-qLuYs.webp",
+    "fantasy": "/assets/fantasy-CfbzQptw.webp",
+    "futurist": "/assets/futurist-COboU_BN.webp",
+    "italian": "/assets/italian-Bx584NEf.webp",
+    "japanese": "/assets/japanese-CD_HqvQX.webp",
+    "medieval": "/assets/medieval-DRkovSGp.webp",
+    "metropolis": "/assets/metropolis-Cb-MMfHx.webp",
+    "scandinavian": "/assets/scandinavian-CBez4saW.webp",
+    "slavic": "/assets/slavic-BzlgZosM.webp"
+  }
+}

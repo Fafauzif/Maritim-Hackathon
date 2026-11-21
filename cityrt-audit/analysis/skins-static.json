@@ -1,0 +1,296 @@
+{
+  "generatedAt": "2026-11-21T04:59:57.219Z",
+  "skins": [
+    {
+      "id": "meadow",
+      "colors": {
+        "grass": [
+          "#86AC6E",
+          "#96B676"
+        ]
+      },
+      "hexCount": 5,
+      "desat": null,
+      "evidence": "evidence/scripts/public/_skins-DJrChhsr.js"
+    },
+    {
+      "id": "autumn",
+      "colors": {
+        "grass": [
+          "#7E9066",
+          "#8E956A"
+        ],
+        "leaf": [
+          "#A8603F",
+          "#BC8A4C"
+        ],
+        "soil": [
+          "#B89A78"
+        ],
+        "tint": [
+          "#FBF6EE"
+        ],
+        "water": [
+          "#A2BCBE",
+          "#5C84A4",
+          "#F1EEE4"
+        ],
+        "sky": [
+          "#B4BFD0",
+          "#F2DDC2"
+        ]
+      },
+      "hexCount": 11,
+      "desat": 0.15,
+      "evidence": "evidence/scripts/public/_skins-DJrChhsr.js"
+    },
+    {
+      "id": "desert",
+      "colors": {
+        "grass": [
+          "#C4B49A",
+          "#CEBDA0"
+        ],
+        "leaf": [
+          "#727F55",
+          "#8A9262"
+        ],
+        "soil": [
+          "#D0BE9E"
+        ],
+        "tint": [
+          "#F8F2E8"
+        ],
+        "water": [
+          "#86CFC6",
+          "#3F8FA8",
+          "#F4F1E2"
+        ],
+        "sky": [
+          "#B6CCDE",
+          "#F6E2C0"
+        ]
+      },
+      "hexCount": 11,
+      "desat": 0.2,
+      "evidence": "evidence/scripts/public/_skins-DJrChhsr.js"
+    },
+    {
+      "id": "tundra",
+      "colors": {
+        "grass": [
+          "#748E80",
+          "#82958A"
+        ],
+        "leaf": [
+          "#3A5649",
+          "#4E6853"
+        ],
+        "soil": [
+          "#9C9A92"
+        ],
+        "tint": [
+          "#E6EEF6"
+        ],
+        "water": [
+          "#8FADB8",
+          "#45708E",
+          "#EEF2F4"
+        ],
+        "sky": [
+          "#B0C2D6",
+          "#E5E8EE"
+        ]
+      },
+      "hexCount": 11,
+      "desat": 0.35,
+      "evidence": "evidence/scripts/public/_skins-DJrChhsr.js"
+    },
+    {
+      "id": "tropics",
+      "colors": {
+        "grass": [
+          "#5A9068",
+          "#68986A"
+        ],
+        "leaf": [
+          "#346E55",
+          "#467C52"
+        ],
+        "soil": [
+          "#B98260"
+        ],
+        "tint": [
+          "#FFFFFF"
+        ],
+        "water": [
+          "#6CD2C6",
+          "#2B8FB2",
+          "#F1F7EE"
+        ],
+        "sky": [
+          "#8EC3E6",
+          "#EAF2E2"
+        ]
+      },
+      "hexCount": 11,
+      "desat": 0.05,
+      "evidence": "evidence/scripts/public/_skins-DJrChhsr.js"
+    },
+    {
+      "id": "sakura",
+      "colors": {
+        "grass": [
+          "#86AC7A",
+          "#94B280"
+        ],
+        "leaf": [
+          "#C47C98",
+          "#D292AA"
+        ],
+        "soil": [
+          "#D2BFA2"
+        ],
+        "tint": [
+          "#FFFBFA"
+        ],
+        "water": [
+          "#A9D0D2",
+          "#6A97BE",
+          "#F8EEF0"
+        ],
+        "sky": [
+          "#B4C7E4",
+          "#F6E2E6"
+        ]
+      },
+      "hexCount": 11,
+      "desat": 0.05,
+      "evidence": "evidence/scripts/public/_skins-DJrChhsr.js"
+    },
+    {
+      "id": "mars",
+      "colors": {
+        "grass": [
+          "#94705E",
+          "#A88068"
+        ],
+        "leaf": [
+          "#6A4C40",
+          "#82604E"
+        ],
+        "soil": [
+          "#B89A80"
+        ],
+        "tint": [
+          "#E3BFA4"
+        ],
+        "water": [
+          "#C4D6D8",
+          "#8AA6B0",
+          "#FFFFFF"
+        ],
+        "sky": [
+          "#C49C80",
+          "#E6C8A8"
+        ]
+      },
+      "hexCount": 11,
+      "desat": 0.55,
+      "evidence": "evidence/scripts/public/_skins-DJrChhsr.js"
+    },
+    {
+      "id": "moon",
+      "colors": {
+        "grass": [
+          "#959BA8",
+          "#A4A9B4"
+        ],
+        "leaf": [
+          "#AEB5C0",
+          "#C2C8D0"
+        ],
+        "soil": [
+          "#A2A6AF"
+        ],
+        "tint": [
+          "#DCE0EA"
+        ],
+        "water": [
+          "#6E7890",
+          "#4E5870",
+          "#C4CAD6"
+        ],
+        "sky": [
+          "#252A40",
+          "#4D5270"
+        ]
+      },
+      "hexCount": 11,
+      "desat": 1,
+      "evidence": "evidence/scripts/public/_skins-DJrChhsr.js"
+    },
+    {
+      "id": "blueprint",
+      "colors": {
+        "grass": [
+          "#4A6A91",
+          "#56789E"
+        ],
+        "leaf": [
+          "#6F88A8",
+          "#8299B8"
+        ],
+        "soil": [
+          "#46668E"
+        ],
+        "tint": [
+          "#7F9BC0"
+        ],
+        "water": [
+          "#2C4466",
+          "#1E3150",
+          "#C9D7EA"
+        ],
+        "sky": [
+          "#4A6C99",
+          "#8AA6CA"
+        ]
+      },
+      "hexCount": 11,
+      "desat": 1,
+      "evidence": "evidence/scripts/public/_skins-DJrChhsr.js"
+    },
+    {
+      "id": "fairy",
+      "colors": {
+        "grass": [
+          "#9890B4",
+          "#A69CBC"
+        ],
+        "leaf": [
+          "#C98C9E",
+          "#D2A85A"
+        ],
+        "soil": [
+          "#C2B2CE"
+        ],
+        "tint": [
+          "#F4EEFA"
+        ],
+        "water": [
+          "#A6D6D0",
+          "#6A7EBC",
+          "#FFF4FA"
+        ],
+        "sky": [
+          "#B8A6DA",
+          "#F6DCE8"
+        ]
+      },
+      "hexCount": 11,
+      "desat": 0.25,
+      "evidence": "evidence/scripts/public/_skins-DJrChhsr.js"
+    }
+  ]
+}

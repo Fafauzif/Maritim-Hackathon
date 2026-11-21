@@ -1,0 +1,16 @@
+{
+  "requestedUrl": "https://cityrt.com/en/",
+  "finalUrl": "https://cityrt.com/en/login?next=play",
+  "classification": "landing",
+  "title": "Sign In — CityRT",
+  "probe": {
+    "renderer": null,
+    "unmaskedRenderer": null,
+    "drawCalls": 0,
+    "frames": 35,
+    "canvas": null,
+    "shaderCount": 0
+  },
+  "capturedAt": "2026-11-21T04:51:11.017Z",
+  "cdpEndpoint": "http://127.0.0.1:9222"
+}

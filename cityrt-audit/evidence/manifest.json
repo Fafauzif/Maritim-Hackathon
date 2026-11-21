@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T05:14:02.720Z",
+  "generatedAt": "2026-11-21T05:29:28.643Z",
   "entries": [
     {
       "path": "analysis/asset-inventory.json",
@@ -29,6 +29,430 @@
       "path": "analysis/catalog/catalog-summary.json",
       "sha256": "af026d16efd5734a84994bd09d5f2afbfd4c77b7d4c902cd9b94beedead01ace",
       "bytes": 18153,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/art-systems.json",
+      "sha256": "10bc91f9168a27ff5861c453a823b7de6e2750cbc086615c6ac69a65179f0935",
+      "bytes": 20887,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/bundle-inventory.json",
+      "sha256": "068eaf7f7aac611c5b67edee3d58ae90acd680f2b094e0191aba61945a2229a7",
+      "bytes": 16443,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/focused-extract.json",
+      "sha256": "280f976bd232f161c6282feea1aefd4b09891e91de1d156c617649a6383342a3",
+      "bytes": 11595,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/look-and-shaders.json",
+      "sha256": "b3f5285faeb885af6aa8458709e92f41dc7a3352935704929b3625035497dfd8",
+      "bytes": 21526,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/rendering-extract.json",
+      "sha256": "6c30be0009c51b99abaa8ccf53a3de3917b4f20008855fa79f907802a8f251d8",
+      "bytes": 22962,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/00-materials-C1pDfKA6.glsl",
+      "sha256": "e9319bb56752dd9937e1e5824596f0803540a213da73c65b1f4b0de9f1ca5916",
+      "bytes": 4010,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/01-materials-C1pDfKA6.glsl",
+      "sha256": "d1b808a172856ed6bd82385e771e17d699fd6e748f751ec40de2edda94c0b552",
+      "bytes": 3417,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/02-materials-C1pDfKA6.glsl",
+      "sha256": "ed4929647abd738b17b7e15dacd08df59353382714bdfc072ce24329eb7bdae1",
+      "bytes": 2096,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/03-materials-C1pDfKA6.glsl",
+      "sha256": "8da4bdfb1d004d9ed0b2205911f31152e747b0b66a0c93ab0ca45a3b06339e77",
+      "bytes": 1988,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/04-materials-C1pDfKA6.glsl",
+      "sha256": "77cbf39f046b3e5b4ceb5c2cd7ad3dfdbe4d69ef17c586d834f6d7f01094e2f3",
+      "bytes": 1767,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/05-materials-C1pDfKA6.glsl",
+      "sha256": "d518682bf7143fdd1e855950396ecfdc1838b485c413593c70eb1486fbed4f97",
+      "bytes": 1757,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/06-materials-C1pDfKA6.glsl",
+      "sha256": "dffb0590521202bc3aee87ec745f0e58571f733ed03d5cdcfa80ae0554e4e2ab",
+      "bytes": 1619,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/07-materials-C1pDfKA6.glsl",
+      "sha256": "5850c5b478e61941aa44ee4d1469f2dcfeb3c387190bcd64999eeeb5f8f61209",
+      "bytes": 1506,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/08-materials-C1pDfKA6.glsl",
+      "sha256": "08541d654d77b3adda45a3efa4bae66f2dd1b8c34fd0bfc65c2c192444891b77",
+      "bytes": 1214,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/09-materials-C1pDfKA6.glsl",
+      "sha256": "d3257679d2240f665094a138945b9ea7741c3e661e5b9d4c461710823cbc8970",
+      "bytes": 1208,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/10-materials-C1pDfKA6.glsl",
+      "sha256": "51e06b429457b6092172f11490d54180bd10146897fc498c0f265a552296d071",
+      "bytes": 1134,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/11-materials-C1pDfKA6.glsl",
+      "sha256": "1fa974aeb9aac11c7de0e7818a3cb295b3fcb129d4a2238a22f85f3a7c1c112b",
+      "bytes": 1132,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/12-materials-C1pDfKA6.glsl",
+      "sha256": "3008bfc9cb31b5d67df7705349b382fe8a3b10cf0fc6e9ea18353e2e8fa96f31",
+      "bytes": 1075,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/13-materials-C1pDfKA6.glsl",
+      "sha256": "3d56d6b5e21d00e04312f17c0572cd138c9ae2fc6dabb6bdd4c62c1296f55806",
+      "bytes": 1060,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/14-materials-C1pDfKA6.glsl",
+      "sha256": "dc3ecaed709fc7286494707098135479e1d4f7c0d5b23835351aaea32bf75057",
+      "bytes": 1056,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/15-materials-C1pDfKA6.glsl",
+      "sha256": "e38a38ea10d43c7b60cf894b969357ff06e530ec737279d8019434ab6a75cf30",
+      "bytes": 1003,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/16-materials-C1pDfKA6.glsl",
+      "sha256": "e23e0f61f00e3cf322e6a46ceb0330a92619c419f11bc4ac12cc03f807f80879",
+      "bytes": 987,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/17-materials-C1pDfKA6.glsl",
+      "sha256": "0942d59518e1fff453d0e5f996bb3f3f8a12c4057866f3f3312bc5b64651427c",
+      "bytes": 964,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/18-materials-C1pDfKA6.glsl",
+      "sha256": "79618fa511ccbaeba85a60349829a7be3a9207d093b7b9519602f3523c9c1916",
+      "bytes": 864,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/19-materials-C1pDfKA6.glsl",
+      "sha256": "5775849f6d93c78000fbf6babcdaec4d42b677b2c985f6add50f08ab7b1e15f6",
+      "bytes": 816,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/20-materials-C1pDfKA6.glsl",
+      "sha256": "976c2350f9a21533cab23dee1c372259fe04244f41475fa7f7a0c004589e2c8c",
+      "bytes": 793,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/21-materials-C1pDfKA6.glsl",
+      "sha256": "d94173e2e50c360adf1301599b305bc1c9ff52b5821ee5ca53841e63460a82ba",
+      "bytes": 792,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/22-materials-C1pDfKA6.glsl",
+      "sha256": "6f6f04340e74f7864b5e0dcb7b16c0e09feadd90c410aabd28b9df896a02c28d",
+      "bytes": 770,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/23-materials-C1pDfKA6.glsl",
+      "sha256": "e5b4520f335a115537e7a67e0f7c4dd27108e6e1ab0f4a63b489236f63c7612c",
+      "bytes": 768,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/24-materials-C1pDfKA6.glsl",
+      "sha256": "d40c86cac86b186316a0b68a9cc66a4ff034e3899023f0864f28dc01f566bf9a",
+      "bytes": 753,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/25-materials-C1pDfKA6.glsl",
+      "sha256": "47c2e0e7eb1262bb719d0c2e6b7b74f9914284a36e31a19487ea768557f5c736",
+      "bytes": 747,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/26-materials-C1pDfKA6.glsl",
+      "sha256": "41a2a45ff86cb8662962c3362d565549f47c6d177d818262825a4b59ef132001",
+      "bytes": 699,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/27-materials-C1pDfKA6.glsl",
+      "sha256": "1ebe600c9e10cb9397200beb4f3df4d3de93715a136817ccc08292126d9d9b62",
+      "bytes": 625,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/28-materials-C1pDfKA6.glsl",
+      "sha256": "13f17a38c54681912735d30acf5eabfc1e9623fd9401963a000f399f8d93dca7",
+      "bytes": 494,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/29-materials-C1pDfKA6.glsl",
+      "sha256": "cbe6c96544c207925384de0cd81915c6b568e91cd5515a66581e8955d7b2c4df",
+      "bytes": 491,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/30-materials-C1pDfKA6.glsl",
+      "sha256": "8ae60d50b587ac692ef33c1cbeae99e6460b274af0e6c7ed91f2583c8251c033",
+      "bytes": 379,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/31-materials-C1pDfKA6.glsl",
+      "sha256": "6664199749c7fded0e2e7d40158a055b376ed3d9b2c0585f2ae64ea389debeb3",
+      "bytes": 336,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/32-materials-C1pDfKA6.glsl",
+      "sha256": "c5bab57a49f0ea303e26571db9b13c5f25ec503b7ccf0cbeee3b3326d3e7e0dd",
+      "bytes": 329,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/33-materials-C1pDfKA6.glsl",
+      "sha256": "a36ba50eac6e2a8fdf451974df5c43d3ea627b4b5952903232e585be18677404",
+      "bytes": 325,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/34-materials-C1pDfKA6.glsl",
+      "sha256": "6da2a348e6831d957ade624aef4747869e6d2bcca2230933e67bc7905e83c60f",
+      "bytes": 297,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/35-materials-C1pDfKA6.glsl",
+      "sha256": "81f5df5841f63b3f7a43cf4a5d3a89253268cc517456238a30f50bf2a8946b58",
+      "bytes": 284,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/36-materials-C1pDfKA6.glsl",
+      "sha256": "b8fb24481b44972b19c0831ba8cf9adc255bd2c6f083a6b5ea0a98ca5b0b5c5f",
+      "bytes": 282,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/37-materials-C1pDfKA6.glsl",
+      "sha256": "37aaa0673b71fc7bed6fc5cf9187204c2236c8b984ba513ee90367623b02e9b0",
+      "bytes": 277,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/38-materials-C1pDfKA6.glsl",
+      "sha256": "c6a83497ff81903ebb88d67bb1ecefad3ea447869550b2bf7fa8d33db6ebbe3f",
+      "bytes": 226,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/39-materials-C1pDfKA6.glsl",
+      "sha256": "b2f894bfdf14553b333aaaaada0b835fff82f345bf8beb3320fce7d0b3595a98",
+      "bytes": 211,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/sketch-00.glsl",
+      "sha256": "434d80fb978cd63e317c500c67f4df241a0c3bac65ba0a7f342bf56e803d5ae6",
+      "bytes": 1102,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/sketch-01.glsl",
+      "sha256": "9fa39a8c53ad70cd4c77bb70b1491c5c1d917132db1118201c18cdfd405494f3",
+      "bytes": 134,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/sketch-02.glsl",
+      "sha256": "e8aec41a3c096baa75309e0b165d1bf1f0d298e549dd944f3aefe5538b94547e",
+      "bytes": 5942,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/sketch-03.glsl",
+      "sha256": "f772e63016dba3d3c3bcc989a85919d9191ca60485fef3e5471d32f77f98e102",
+      "bytes": 1209,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/sketch-04.glsl",
+      "sha256": "eb8419b451967c4fbd31a75ba56db0f4fd3433b8bee2bc8136e3ca6a292fca20",
+      "bytes": 575,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/sketch-05.glsl",
+      "sha256": "c1422d5f59a051a539f3b6f1ffe222335b4656e3ddc312e7897abbfee2cc1bcd",
+      "bytes": 6158,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/sketch-06.glsl",
+      "sha256": "5d2267829e0f8c825ada9f489f28097a2c75c827ec28a96fc6fcda154444fd74",
+      "bytes": 1051,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
+      "path": "analysis/game/shaders/sketch-07.glsl",
+      "sha256": "c998f712ea0257c2f77f96dca0360f908591d676d0066a10b227d497f46193d8",
+      "bytes": 4688,
       "kind": "derived-evidence",
       "producedBy": "cityrt-audit",
       "proves": "CityRT audit artefact"
@@ -162,17 +586,25 @@
       "proves": "CityRT audit artefact"
     },
     {
+      "path": "analysis/rendering/ink-pipeline.md",
+      "sha256": "43c19be45fb13ff071d0989a0fdc5a9a2dfa3fe8060e0f346b9bd700d3a92a9f",
+      "bytes": 3212,
+      "kind": "derived-evidence",
+      "producedBy": "cityrt-audit",
+      "proves": "CityRT audit artefact"
+    },
+    {
       "path": "analysis/rendering/renderer-verdict.md",
-      "sha256": "9f357af8fb1c33207c8fd024425c71a1fa683905d4605be3a4eebfabc3dee819",
-      "bytes": 3348,
+      "sha256": "d720780f13968cdd84f588eb345587eee3d032d653f2dd40fb24e993383b2c9e",
+      "bytes": 4468,
       "kind": "derived-evidence",
       "producedBy": "cityrt-audit",
       "proves": "CityRT audit artefact"
     },
     {
       "path": "analysis/simulation/observations.md",
-      "sha256": "ba24f3e934b8b566445df4c7244ae16cc90429a6fe3601f1a89b8b6de000e418",
-      "bytes": 1746,
+      "sha256": "7753b7b6400d54177738cbe3bf8c9fd19544a847b1d904424c2a6dddc5153d6f",
+      "bytes": 2597,
       "kind": "derived-evidence",
       "producedBy": "cityrt-audit",
       "proves": "CityRT audit artefact"
@@ -195,24 +627,24 @@
     },
     {
       "path": "docs/ART-BIBLE.md",
-      "sha256": "90fabfd34421c349e8c4be98cb3f0ebfe9f4ec8e2bc4a47c370d09a9b66cc4a3",
-      "bytes": 11847,
+      "sha256": "75189b90184df211c3a2553a0bcf2afeed8bc54b3ab6638fe06250abb9d076fc",
+      "bytes": 15406,
       "kind": "derived-evidence",
       "producedBy": "cityrt-audit",
       "proves": "CityRT audit artefact"
     },
     {
       "path": "docs/COVERAGE.md",
-      "sha256": "448804634109c1f1018e61a9ea66c031d6184fdb476827856a764ed92d735a05",
-      "bytes": 3763,
+      "sha256": "62fd9d714b229720465e01c39a4d14f8d44fc50854f74ee5ee2e42defe3c68fc",
+      "bytes": 4121,
       "kind": "derived-evidence",
       "producedBy": "cityrt-audit",
       "proves": "CityRT audit artefact"
     },
     {
       "path": "docs/KIT-SPEC.md",
-      "sha256": "a48126166d886428fb88516dd2dd8c0e0a8ea159a7834b5b16114aacba76dcc8",
-      "bytes": 6698,
+      "sha256": "da154240baf2b49b62a66865b70811e9dc3af9bda1801cc30604eaed7e4dbdb1",
+      "bytes": 8781,
       "kind": "derived-evidence",
       "producedBy": "cityrt-audit",
       "proves": "CityRT audit artefact"
@@ -227,8 +659,8 @@
     },
     {
       "path": "docs/UNKNOWNS.md",
-      "sha256": "b6072a60c6c7ec9efe229b1fd642c416d2b1f898cccdfeaee5fae46f8d6bdbdd",
-      "bytes": 3416,
+      "sha256": "ffaa3fdf5144b004ff8a5a2035a02c146819fc3ebefeebdeba643d74d67ef091",
+      "bytes": 3529,
       "kind": "derived-evidence",
       "producedBy": "cityrt-audit",
       "proves": "CityRT audit artefact"

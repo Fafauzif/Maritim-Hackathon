@@ -107,6 +107,35 @@ roof only). Every LOD keeps the same footprint and roofline so swapping does not
 - Keep `< 5 000` tris and one 4-material draw batch for ordinary buildings so a city keeps
   a manageable draw-call count **[assumption]**.
 
+## 7b. The ink-and-paper look (do not skip this)
+
+The game is not plain 3D: it renders Three.js through a custom ink/wash pipeline. A kit that
+matches geometry and palette but renders clean PBR will still not look like CityRT.
+
+Required look elements and their measured basis (`analysis/rendering/ink-pipeline.md`):
+
+| Element | Target | Source |
+|---|---|---|
+| Paper base | warm cream `#F3ECE0` (shader `vec3(0.955,0.925,0.855)`) | wash shader |
+| Edge lines | depth/normal-based ink on silhouettes and creases; weight scaled by `width` preset | `uInk`, `uLine`, `uLineAlpha`, `uInkCrisp` |
+| Line instability | slight per-frame wobble in `classic`/`pencil`; zero in `wash` | `uWobble`, `uBoil`, `uJitter` |
+| Shadow hatching | hatch density rises in shadow; hatch spacing preset-controlled | `uHatchPx`, `uCon`, `uDetail` |
+| Paper grain / stains | low-amplitude texture over the whole frame | `uPaper`, `uStain` |
+| Vignette | warm darkening at frame edges, 0.3–0.55 by preset | `uVignette` |
+| Sky hatching | sparse diagonal strokes in sky only, 0–0.16 | `uSkyHatch`, `uSkyTop`, `uSkyBot` |
+| Wash pooling | subtle height-driven colour pooling, strongest in `wash` preset | `uWashY`, `uWashA` |
+| Night | separate model; only windows/signage emissive | `uNight`, `uShineK` |
+
+Two practical Blender routes:
+
+1. **Freestyle + compositor**: Freestyle for silhouette/crease lines (wobble via noise
+   displacement on the line), then compositor nodes for paper, vignette, hatch mask from shadow
+   pass. Fastest path to the look.
+2. **Shader-based**: procedural hatch driven by the shadow terminator, inverted-hull or
+   solidify outlines with noise, paper plate over the render. More control, more setup.
+
+Pick one and put it in the kit's master scene template so every building inherits it.
+
 ## 8. Acceptance tests (run before calling the kit done)
 
 | # | Test | Pass |
@@ -119,6 +148,8 @@ roof only). Every LOD keeps the same footprint and roofline so swapping does not
 | 6 | Detail hierarchy | tiers 1–3 present on ordinary, 1–5 on heroes |
 | 7 | Camera compare | side-by-side against `evidence/style-previews/<style>.webp` at the shared camera preset |
 | 8 | Night style | cyberpunk renders with emissive signage above wall luminance, no daylight tint |
+| 9 | Ink look | paper base `#F3ECE0` ± ΔE 4, hatch present in shadow only, ink edge coverage matches the chosen look preset, vignette 0.3–0.55 |
+| 10 | Day cycle | full cycle completes in 24 min at ×1, with windows lighting individually at night |
 
 Tests 1–3 and 7 are pixel checks; 4–6 and 8 are structural/blender-scene checks. A later run
 should automate 1–3 with the same `Palette` module used here.

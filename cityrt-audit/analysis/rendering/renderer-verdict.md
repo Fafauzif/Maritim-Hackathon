@@ -1,54 +1,95 @@
-# Renderer verdict (unauthenticated, 2026-11-21)
+# Renderer verdict (authenticated client captured 2026-11-21)
 
-## Status
+**Status: RESOLVED.** The client bundles were captured from the signed-in game and analysed
+statically. This supersedes the earlier "unknown" verdict, which was based on the
+unauthenticated marketing shell.
 
-**Renderer family: unknown.** The 3D client was not reachable, so no engine fingerprint,
-shader source, or draw-call evidence exists. This file records what *is* established and
-what a future run must capture.
+## Engine
 
-## What was established
-
-| Question | Answer | Evidence |
+| Fact | Value | Evidence |
 |---|---|---|
-| Is the 3D client served to anonymous visitors? | No | `evidence/scripts/public/` holds all 25 chunks referenced by the loader; largest is 148 KB (`main-B5x1aucL.js`) and none contains `WebGLRenderer`, `THREE`, `babylon`, `pc.Application`, or a wasm binary |
-| What does the public site ship? | An SSR marketing shell + client-side route chunks | `index-BOyK8tfh.js` is a 1.8 KB Vite loader whose dependency map names 25 assets |
-| Where is the game client? | Behind authentication | `/en/login?next=play` is the gated entry; `/en/play` is a 404 route (the `next` value is an action, not a path) |
-| Is WebGL used at all in the shell? | No canvas is created by the public shell | `canvas` appears once in `main-B5x1aucL.js`; no context creation |
+| Engine | **Three.js** | `three.core-DdSv55GA.js` (369 KB) + `materials-C1pDfKA6.js` (439 KB) in `evidence/game-bundles/` |
+| Renderer | `WebGLRenderer` | 39 references; `materials` bundle contains the renderer class |
+| WebGL2 | yes (`getContext('webgl2')` present) | `boot-DntyKGy4.js` |
+| Tone mapping | `ACESFilmicToneMapping` is supported and referenced; exact assignment not yet isolated | 42 `toneMapping` refs, 3 `ACESFilmic` |
+| Shadow map | PCF soft supported (`PCFSoftShadowMap` = 2) | `materials` bundle enum |
+| Instancing | heavy use (`InstancedMesh` 43 refs) | whole-bundle scan |
+| Buildings | **procedural geometry**, not imported glTF | zero model/`.glb`/`.ktx2` HTTP responses across the whole session; `geo-*`, `shapes-*`, `shared_kit-*`, `geom-*` modules build geometry in code |
+| Idle frame policy | ~30 FPS while the camera is still, full refresh while moving | shipped UI text in `en-C1arqVDc.js` |
 
-## What the published renders show about the rendering model
+## The actual visual identity: an ink-and-wash post pipeline
 
-Four 1200×800 style previews were inspected visually (`european`, `cyberpunk`, `japanese`,
-`medieval`). They are the strongest available rendering evidence and support these
-*observations about output*, not about implementation:
+CityRT is not a plain flat-shaded 3D game. It renders Three.js geometry through a **custom
+hand-drawn ink/wash layer**. Evidence: `sketch-C5kxZCCL.js`, `washmat-Bp0o3aa1.js`,
+`post-BtPl7EWO.js`, plus 53 shader uniforms extracted from them.
 
-- **Fixed elevated axonometric camera**, roughly 35–40° pitch, consistent framing across all
-  four previews. No wide-angle perspective distortion; parallel verticals.
-- **Flat, matte shading.** No specular highlights, no glass reflections, no visible normal
-  maps. Facades read as flat colour with geometric relief (cornices, ledges, dormers).
-- **Soft directional shadowing** with contact darkening at ground level; direction appears
-  consistent (sun from upper-left in `european`).
-- **Detail is geometry, not texture.** Window grids, balconies, chimneys, roof clutter,
-  AC units, awnings and signage are modelled. Signage text is geometry/emissive.
-- **Emissive accents are style-specific**: `cyberpunk` uses saturated neon signage against
-  dark concrete; `european`/`medieval`/`japanese` use no emissive glow outdoors.
-- **Vegetation is simplified**: ellipsoid/cone canopies, saturated greens, no leaf cards
-  visible at this resolution.
+The wash material injects into the lighting result:
 
-Whether the implementation is Three.js, a custom WebGL renderer, or a wasm engine is
-**not determinable** from these images.
+```glsl
+outgoingLight = mix(outgoingLight, sketch, clamp(uDesat + uInfo * 0.82, 0.0, 1.0));
+```
 
-## What the next authenticated run must capture
+and the sketch shader family uses these uniforms (complete list in
+`analysis/game/art-systems.json`):
 
-1. `WebGLRenderingContext` / `WebGL2RenderingContext` shader sources via pre-navigation hook
-   (already implemented in `tools/browser/probe.js`).
-2. `WEBGL_debug_renderer_info` unmasked renderer and vendor (verified working on this host).
-3. Draw-call counts per frame at the default camera; shadow-map configuration.
-4. Post-processing pass list (bloom/vignette/SSAO/outline) from shader source.
-5. Model and texture payloads from the authenticated network log.
+| Group | Uniforms |
+|---|---|
+| Ink lines | `uInk`, `uLine`, `uLineAlpha`, `uInkCrisp`, `uInkTent`, `uInkTentR`, `uWidth?` (`uEdgeLine`, `uEdgeRes`) |
+| Hand-drawn movement | `uWobble`, `uBoil`, `uJitter`, `uTime`, `uOffset` |
+| Hatching | `uHatchPx`, `uCon`, `uDetail`, `uInner`, `uNrmOct` |
+| Paper | `uPaper`, `uPaperK`, `uStain`, `uVignette`, `uGrain?` (`uDetail`) |
+| Sky | `uSkyTop`, `uSkyBot`, `uSkyHatch`, `uSkyHatchK`, `uGrade` |
+| Light/shadow | `uShadowSoft`, `uShK`, `uShTint`, `uCamDir`, `uNight`, `uHiK`, `uHiTint`, `uLift` |
+| Colour | `uDesat`, `uSat`, `uTint`, `uExpo`, `uBlend`, `uMix` |
+| Camera reconstruction | `uInvVP`, `uPrevVP`, `uNear`, `uFar`, `uTanHalf`, `uRes` |
 
-## Contradiction to resolve
+Notable: `uBoil` + `uWobble` + `uJitter` mean the linework is deliberately unstable over time —
+an animated hand-drawn "line boil". This single detail explains the reference renders' character
+and is the hardest thing to fake in a plain 3D render.
 
-Marketing copy says "nine personalities". The shipped client registers **14** style records
-and **14** preview images (`analysis/styles/styles-static.json`). The nine might be a
-game-mode subset, a curation, or stale copy. Until the in-game picker is observable, this
-audit documents all 14 as the superset and marks the discrepancy as open.
+## Look presets (user-facing, exact values)
+
+`look-DZfJ2UwR.js` ships four presets. Every parameter is a float in the shipped data:
+
+| Param | `classic` (default) | `clean` | `wash` | `pencil` |
+|---|---|---|---|---|
+| hatch | 1 | 0.8 | 0 | 0.75 |
+| ground | 1 | 0.12 | 0 | 0.45 |
+| cross | 1 | 0.25 | 0 | 0.4 |
+| dark | 0.55 | 0.42 | 0.4 | 0.32 |
+| spacing | 1 | 1.25 | 1.2 | 1.55 |
+| wash | 0 | 0.35 | 1 | 0.4 |
+| lift | 0 | 0.2 | 0.1 | 0.3 |
+| fill | 1 | 0 | 0 | 0.35 |
+| grain | 1 | 0.35 | 0.25 | 0.55 |
+| paper | 1 | 0.5 | 0.55 | 0.75 |
+| stain | 1 | 0.4 | 0.6 | 0.7 |
+| vignette | 0.55 | 0.3 | 0.3 | 0.4 |
+| sky | 0.16 | 0.05 | 0 | 0.08 |
+| line | 0.92 | 0.9 | 1 | 0.85 |
+| width | 1 | 1 | 0.69 | 0.95 |
+| inner | 1 | 0.85 | 0.87 | 0.75 |
+| pen | 1 | 0.45 | 0.92 | 0.7 |
+| wobble | 1 | 0.8 | 0 | 1.1 |
+
+The marketing style renders used for the earlier palette work correspond most closely to a low
+hatch/low grain setting — the shipped preview images show far less hatching than `classic`.
+
+## Graphics quality controls (from `quality-BJbdVyLr.js`)
+
+LocalStorage keys, stepped values, defaults on:
+
+| Setting | Steps | Default |
+|---|---|---|
+| `sks.quality.msaa` | 0, 2, 4, 8 | 0 |
+| `sks.quality.frame` (render scale) | 0, 1, 1.25, 1.5, 1.75, 2, 2.5, 3 | 0 |
+| `sks.quality.edge` (edge/ink resolution) | 0, 1, 1.5, 2, 2.5, 3, 4 | 0 |
+
+## What remains unmeasured
+
+- Exact renderer constructor arguments (antialias, pixel ratio, tone-mapping numeric value).
+- Camera body: fov/near/far/pitch/yaw/zoom limits (module `lens-*` failed to download: HTTP 500).
+- Shadow map size and cascade count.
+- Which post passes run per quality tier.
+
+These are narrow now; the architecture and the artistic system are known.

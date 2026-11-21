@@ -1,8 +1,22 @@
 # Simulation and feel observations
 
-**Status: blocked.** The game loop is behind authentication and no client bundle containing
-it is served anonymously, so no tick rate, movement speed, construction timing, day/night
-period, or camera easing constant was observed or extracted.
+**Status: partial.** The authenticated client bundles were captured, so the timing system is
+now readable in code. The city simulation modules (`newgame`, `launch`, `lens`) returned HTTP 500
+before download, so tick-level constants remain open.
+
+## Measured from the client
+
+| Item | Value | Source |
+|---|---|---|
+| Day length | **24 real minutes default**, user range 4–120 min | `evidence/game-bundles/daylight-xoA8egPB.js` |
+| Time model | `sky` is an hour 0–24; advances by `dt * speed * 24 / (dayMinutes*60)` | same |
+| Day/night toggle | `dayNight` pref (default on) | `prefs-Dk13dMkm.js` |
+| Speed control | multiplier with ×3 available; pauses with simulation/menu | `prefs`, shipped tips |
+| Idle render policy | ~30 FPS while the camera is still; full refresh while moving | shipped UI text (`en-C1arqVDc.js`) |
+| Camera smoothing | `camSlow` default 0.25 (slow-camera filming mode) | `prefs-Dk13dMkm.js` |
+| Pause on menu | `menuPause` default on | same |
+| Autosave | every ~60 s; `Ctrl+S` quicksave | shipped tips |
+| Undo | full refund on construction undo | shipped tips |
 
 ## What is established from public material
 

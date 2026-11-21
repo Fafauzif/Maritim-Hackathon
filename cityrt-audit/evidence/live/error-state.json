@@ -1,0 +1,71 @@
+[
+  {
+    "url": "https://cityrt.com/play/?new&map=river&difficulty=sandbox",
+    "title": "Error — CityRT",
+    "text": "CityRT CityRT How to Play Rules Sign In 500 Nothing here Something broke on our end. Back to Home © 2026 CityRT Terms Privacy Refund Support",
+    "buttons": [
+      {
+        "tag": "a",
+        "text": "CityRT\nCityRT",
+        "href": "/"
+      },
+      {
+        "tag": "a",
+        "text": "How to Play",
+        "href": "/#how"
+      },
+      {
+        "tag": "a",
+        "text": "Rules",
+        "href": "/rules"
+      },
+      {
+        "tag": "a",
+        "text": "Sign In",
+        "href": "/account"
+      },
+      {
+        "tag": "a",
+        "text": "Back to Home",
+        "href": "/"
+      },
+      {
+        "tag": "a",
+        "text": "Terms",
+        "href": "/rules#terms"
+      },
+      {
+        "tag": "a",
+        "text": "Privacy",
+        "href": "/rules#privacy"
+      },
+      {
+        "tag": "a",
+        "text": "Refund",
+        "href": "/rules#refund"
+      },
+      {
+        "tag": "a",
+        "text": "Support",
+        "href": "/rules#contacts"
+      }
+    ]
+  },
+  {
+    "url": "https://t.me/cityrt_bot?start=login_b-IzoPwyp9JpjjnOFiCbRg",
+    "title": "Telegram: Launch @cityrt_bot",
+    "text": "DOWNLOAD CityRT Bot @cityrt_bot START BOT",
+    "buttons": [
+      {
+        "tag": "a",
+        "text": "DOWNLOAD",
+        "href": "//telegram.org/dl?tme=074da928eeb8f34441_9418763612829168636"
+      },
+      {
+        "tag": "a",
+        "text": "START BOT",
+        "href": "tg://resolve?domain=cityrt_bot&start=login_b-IzoPwyp9JpjjnOFiCbRg"
+      }
+    ]
+  }
+]

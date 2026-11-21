@@ -1,0 +1,36 @@
+{
+ "midState": {
+  "url": "https://cityrt.com/play/?new&map=river&difficulty=sandbox",
+  "canvases": [
+   {
+    "width": 1276,
+    "height": 1396,
+    "id": "view",
+    "className": ""
+   },
+   {
+    "width": 520,
+    "height": 520,
+    "id": "",
+    "className": ""
+   }
+  ],
+  "probe": null,
+  "bodyText": "CityRT Laying out the streets47% TipHold the right mouse button and move to rotate the camera. The scroll wheel zooms toward the cursor. New Game River River, Medium map, 128×128, 1 km Laying out the streets 47% Tip Homes only grow along roads that have power and water. CityRT",
+  "buttons": [
+   "Try Again",
+   "Start a New City"
+  ]
+ },
+ "probe": {
+  "renderer": null,
+  "vendor": null,
+  "unmaskedRenderer": null,
+  "unmaskedVendor": null,
+  "contextAttributes": null,
+  "canvas": null,
+  "drawCalls": 0,
+  "frames": 0,
+  "shaders": []
+ }
+}

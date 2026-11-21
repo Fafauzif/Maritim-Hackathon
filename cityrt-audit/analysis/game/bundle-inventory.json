@@ -1,0 +1,856 @@
+{
+  "generatedAt": "2026-11-21T05:27:27.725Z",
+  "fileCount": 126,
+  "totalBytes": 6069617,
+  "markerTotals": {
+    "near": 475,
+    "ShaderMaterial": 23,
+    "RawShaderMaterial": 11,
+    "vertexShader": 62,
+    "gl_Position": 18,
+    "#include <": 739,
+    "far": 348,
+    "getContext(`webgl`": 2,
+    "requestAnimationFrame": 46,
+    "InstancedMesh": 43,
+    "fov": 29,
+    "getContext(`webgl2`": 3,
+    "bloom": 122,
+    "THREE": 79,
+    "MeshStandardMaterial": 17,
+    "MeshLambertMaterial": 17,
+    "MeshPhongMaterial": 17,
+    "BufferGeometry": 29,
+    "shadowMap": 98,
+    "fragmentShader": 66,
+    "setPixelRatio": 7,
+    "WebGLRenderer": 39,
+    "MeshBasicMaterial": 7,
+    "toneMapping": 42,
+    "ACESFilmicToneMapping": 3,
+    "PCFSoftShadowMap": 2,
+    "DirectionalLight": 24,
+    "HemisphereLight": 14,
+    "AmbientLight": 7,
+    "FogExp2": 6,
+    "OffscreenCanvas": 5,
+    "WebGPU": 1,
+    "gl_FragColor": 61,
+    "OrthographicCamera": 6,
+    "FXAA": 5
+  },
+  "inventory": [
+    {
+      "name": "en-C1arqVDc.js",
+      "bytes": 2691252,
+      "markers": {
+        "bloom": 25,
+        "near": 206,
+        "far": 166
+      }
+    },
+    {
+      "name": "curves-CW5SbN5k.js",
+      "bytes": 1164312,
+      "markers": {
+        "InstancedMesh": 4,
+        "fov": 1,
+        "near": 37,
+        "far": 55
+      }
+    },
+    {
+      "name": "materials-C1pDfKA6.js",
+      "bytes": 449266,
+      "markers": {
+        "WebGLRenderer": 38,
+        "THREE": 19,
+        "ShaderMaterial": 14,
+        "RawShaderMaterial": 7,
+        "MeshStandardMaterial": 13,
+        "MeshLambertMaterial": 13,
+        "MeshPhongMaterial": 13,
+        "MeshBasicMaterial": 4,
+        "InstancedMesh": 16,
+        "BufferGeometry": 5,
+        "toneMapping": 41,
+        "ACESFilmicToneMapping": 3,
+        "shadowMap": 85,
+        "PCFSoftShadowMap": 2,
+        "DirectionalLight": 18,
+        "HemisphereLight": 10,
+        "AmbientLight": 4,
+        "FogExp2": 3,
+        "OffscreenCanvas": 3,
+        "WebGPU": 1,
+        "requestAnimationFrame": 2,
+        "vertexShader": 43,
+        "fragmentShader": 45,
+        "gl_FragColor": 50,
+        "gl_Position": 13,
+        "#include <": 733,
+        "setPixelRatio": 4,
+        "OrthographicCamera": 2,
+        "fov": 5,
+        "near": 78,
+        "far": 49
+      }
+    },
+    {
+      "name": "topo-qlRfCOK2.js",
+      "bytes": 378834,
+      "markers": {
+        "near": 5
+      }
+    },
+    {
+      "name": "three.core-DdSv55GA.js",
+      "bytes": 377444,
+      "markers": {
+        "WebGLRenderer": 1,
+        "THREE": 58,
+        "ShaderMaterial": 6,
+        "RawShaderMaterial": 3,
+        "MeshStandardMaterial": 3,
+        "MeshLambertMaterial": 3,
+        "MeshPhongMaterial": 3,
+        "MeshBasicMaterial": 3,
+        "InstancedMesh": 5,
+        "BufferGeometry": 21,
+        "toneMapping": 1,
+        "DirectionalLight": 6,
+        "HemisphereLight": 4,
+        "AmbientLight": 3,
+        "FogExp2": 3,
+        "vertexShader": 8,
+        "fragmentShader": 8,
+        "gl_FragColor": 1,
+        "gl_Position": 1,
+        "OrthographicCamera": 4,
+        "fov": 18,
+        "near": 90,
+        "far": 33
+      }
+    },
+    {
+      "name": "main-BRBjU3V2.js",
+      "bytes": 167788,
+      "markers": {
+        "THREE": 2,
+        "ShaderMaterial": 1,
+        "MeshStandardMaterial": 1,
+        "MeshLambertMaterial": 1,
+        "MeshPhongMaterial": 1,
+        "InstancedMesh": 11,
+        "BufferGeometry": 2,
+        "shadowMap": 10,
+        "getContext(`webgl2`": 1,
+        "requestAnimationFrame": 5,
+        "vertexShader": 2,
+        "fragmentShader": 1,
+        "gl_Position": 1,
+        "setPixelRatio": 3,
+        "fov": 4,
+        "near": 39,
+        "far": 6
+      }
+    },
+    {
+      "name": "post-BtPl7EWO.js",
+      "bytes": 60346,
+      "markers": {
+        "InstancedMesh": 7,
+        "FXAA": 5,
+        "shadowMap": 3,
+        "vertexShader": 7,
+        "fragmentShader": 10,
+        "gl_FragColor": 10,
+        "gl_Position": 2,
+        "#include <": 4,
+        "fov": 1,
+        "near": 12,
+        "far": 15
+      }
+    },
+    {
+      "name": "terrain-BmuFUe67.js",
+      "bytes": 36417,
+      "markers": {
+        "bloom": 4,
+        "far": 7
+      }
+    },
+    {
+      "name": "atlas-ptNQDssk.js",
+      "bytes": 33543,
+      "markers": {}
+    },
+    {
+      "name": "sketch-C5kxZCCL.js",
+      "bytes": 33414,
+      "markers": {
+        "requestAnimationFrame": 1
+      }
+    },
+    {
+      "name": "savemeta-BRkkybsO.js",
+      "bytes": 29874,
+      "markers": {
+        "OffscreenCanvas": 2
+      }
+    },
+    {
+      "name": "boot-DntyKGy4.js",
+      "bytes": 27905,
+      "markers": {
+        "getContext(`webgl`": 1,
+        "requestAnimationFrame": 5
+      }
+    },
+    {
+      "name": "save-FHYjw35a.js",
+      "bytes": 22629,
+      "markers": {
+        "BufferGeometry": 1
+      }
+    },
+    {
+      "name": "scenario-CeuPSeZX.js",
+      "bytes": 19379,
+      "markers": {}
+    },
+    {
+      "name": "geopack-HDAxjwGV.js",
+      "bytes": 18819,
+      "markers": {
+        "requestAnimationFrame": 2
+      }
+    },
+    {
+      "name": "shell-DgL_J6s9.js",
+      "bytes": 18720,
+      "markers": {
+        "requestAnimationFrame": 3
+      }
+    },
+    {
+      "name": "settings-4tyMX_jW.js",
+      "bytes": 18687,
+      "markers": {
+        "requestAnimationFrame": 6
+      }
+    },
+    {
+      "name": "looks-lMaIj7if.js",
+      "bytes": 16641,
+      "markers": {
+        "bloom": 92
+      }
+    },
+    {
+      "name": "title-B3alLhoa.js",
+      "bytes": 16214,
+      "markers": {
+        "requestAnimationFrame": 3
+      }
+    },
+    {
+      "name": "geo-CPar3Mvm.js",
+      "bytes": 14906,
+      "markers": {}
+    },
+    {
+      "name": "_start-hyFeG8Mg.js",
+      "bytes": 14861,
+      "markers": {}
+    },
+    {
+      "name": "intro-CMYwud2P.js",
+      "bytes": 13941,
+      "markers": {}
+    },
+    {
+      "name": "saves-ic9jr-ou.js",
+      "bytes": 13795,
+      "markers": {
+        "requestAnimationFrame": 1
+      }
+    },
+    {
+      "name": "map-E2Qe3kMG.js",
+      "bytes": 13168,
+      "markers": {
+        "requestAnimationFrame": 1,
+        "near": 1
+      }
+    },
+    {
+      "name": "state-GF3_9yrE.js",
+      "bytes": 13039,
+      "markers": {}
+    },
+    {
+      "name": "together-ClO-ws7O.js",
+      "bytes": 12863,
+      "markers": {
+        "requestAnimationFrame": 1
+      }
+    },
+    {
+      "name": "challenges-6SzU25fI.js",
+      "bytes": 12824,
+      "markers": {
+        "requestAnimationFrame": 1
+      }
+    },
+    {
+      "name": "_relief-CuRzowcC.js",
+      "bytes": 11738,
+      "markers": {}
+    },
+    {
+      "name": "bend-syp0Rqoc.js",
+      "bytes": 11732,
+      "markers": {
+        "ShaderMaterial": 2,
+        "RawShaderMaterial": 1,
+        "vertexShader": 2,
+        "gl_Position": 1,
+        "#include <": 2,
+        "far": 2
+      }
+    },
+    {
+      "name": "challenges-p4IZJTbv.js",
+      "bytes": 11399,
+      "markers": {
+        "near": 1
+      }
+    },
+    {
+      "name": "career-D8iZs5iW.js",
+      "bytes": 10886,
+      "markers": {
+        "requestAnimationFrame": 2,
+        "near": 1
+      }
+    },
+    {
+      "name": "audio-WdXA3gP_.js",
+      "bytes": 10857,
+      "markers": {
+        "near": 2
+      }
+    },
+    {
+      "name": "quality-BJbdVyLr.js",
+      "bytes": 10526,
+      "markers": {
+        "getContext(`webgl2`": 1,
+        "far": 1
+      }
+    },
+    {
+      "name": "icons-BERXebV_.js",
+      "bytes": 10523,
+      "markers": {}
+    },
+    {
+      "name": "maps-rL2iwfm9.js",
+      "bytes": 10301,
+      "markers": {}
+    },
+    {
+      "name": "scatter-2NmHHKYI.js",
+      "bytes": 9645,
+      "markers": {
+        "far": 8
+      }
+    },
+    {
+      "name": "entry-CSSbzSGK.js",
+      "bytes": 9123,
+      "markers": {
+        "far": 1
+      }
+    },
+    {
+      "name": "i18n-ElqdXQ7M.js",
+      "bytes": 9106,
+      "markers": {}
+    },
+    {
+      "name": "cloud-DF1i81Ut.js",
+      "bytes": 8788,
+      "markers": {
+        "far": 2
+      }
+    },
+    {
+      "name": "geom-DoZGdBci.js",
+      "bytes": 8487,
+      "markers": {}
+    },
+    {
+      "name": "pick-ui-8TN11AvX.js",
+      "bytes": 8476,
+      "markers": {
+        "requestAnimationFrame": 1
+      }
+    },
+    {
+      "name": "pause-CThzHzX5.js",
+      "bytes": 7995,
+      "markers": {
+        "requestAnimationFrame": 1
+      }
+    },
+    {
+      "name": "tab-BxEjXDUo.js",
+      "bytes": 7769,
+      "markers": {}
+    },
+    {
+      "name": "saves-detail-B4xIKd0T.js",
+      "bytes": 7706,
+      "markers": {}
+    },
+    {
+      "name": "shapes-BncVtTXM.js",
+      "bytes": 7684,
+      "markers": {}
+    },
+    {
+      "name": "index-DkWGfb4u.js",
+      "bytes": 7377,
+      "markers": {}
+    },
+    {
+      "name": "play-lib-DJHYpTiM.js",
+      "bytes": 7292,
+      "markers": {}
+    },
+    {
+      "name": "_preview-BVm3xoYV.js",
+      "bytes": 7177,
+      "markers": {
+        "near": 2
+      }
+    },
+    {
+      "name": "emblems-1hJtP9o5.js",
+      "bytes": 6825,
+      "markers": {}
+    },
+    {
+      "name": "cursors-D_MdKtGH.js",
+      "bytes": 6695,
+      "markers": {}
+    },
+    {
+      "name": "saves-lib-DQDyMsLG.js",
+      "bytes": 6462,
+      "markers": {}
+    },
+    {
+      "name": "styles-D9QuAWKO.js",
+      "bytes": 6373,
+      "markers": {}
+    },
+    {
+      "name": "modes-lib-BRVOJsj9.js",
+      "bytes": 6347,
+      "markers": {}
+    },
+    {
+      "name": "play-ui-Clg-7pZQ.js",
+      "bytes": 6171,
+      "markers": {
+        "requestAnimationFrame": 2
+      }
+    },
+    {
+      "name": "touch-DAMM3Z8T.js",
+      "bytes": 5977,
+      "markers": {}
+    },
+    {
+      "name": "prefs-Dk13dMkm.js",
+      "bytes": 5495,
+      "markers": {
+        "bloom": 1,
+        "requestAnimationFrame": 1
+      }
+    },
+    {
+      "name": "shared_kit-CduiyIzJ.js",
+      "bytes": 5268,
+      "markers": {}
+    },
+    {
+      "name": "loading-teoyIgM1.js",
+      "bytes": 5048,
+      "markers": {
+        "requestAnimationFrame": 2
+      }
+    },
+    {
+      "name": "profile-DOoMWlay.js",
+      "bytes": 4964,
+      "markers": {}
+    },
+    {
+      "name": "gfxtip-D_aHQhb3.js",
+      "bytes": 4944,
+      "markers": {}
+    },
+    {
+      "name": "launch-D2cGO4ll.js",
+      "bytes": 4811,
+      "markers": {}
+    },
+    {
+      "name": "campaigns-Cv6nFvSr.js",
+      "bytes": 4773,
+      "markers": {
+        "requestAnimationFrame": 1,
+        "near": 1
+      }
+    },
+    {
+      "name": "look-DZfJ2UwR.js",
+      "bytes": 4729,
+      "markers": {}
+    },
+    {
+      "name": "pass-BZ0ggfXu.js",
+      "bytes": 4580,
+      "markers": {
+        "requestAnimationFrame": 1
+      }
+    },
+    {
+      "name": "picker-eeMItReA.js",
+      "bytes": 4556,
+      "markers": {}
+    },
+    {
+      "name": "shots-UAqSw9Pa.js",
+      "bytes": 4413,
+      "markers": {}
+    },
+    {
+      "name": "passui-DfC2a31_.js",
+      "bytes": 4218,
+      "markers": {}
+    },
+    {
+      "name": "play-CRUV97AU.js",
+      "bytes": 4136,
+      "markers": {
+        "far": 1
+      }
+    },
+    {
+      "name": "ranks-EsQOYQub.js",
+      "bytes": 3906,
+      "markers": {}
+    },
+    {
+      "name": "gift-B-AIWq42.js",
+      "bytes": 3854,
+      "markers": {}
+    },
+    {
+      "name": "fullscreen-AZoROBHB.js",
+      "bytes": 3501,
+      "markers": {}
+    },
+    {
+      "name": "_skins-BKBiKrSj.js",
+      "bytes": 3423,
+      "markers": {}
+    },
+    {
+      "name": "social-DNErxigz.js",
+      "bytes": 3344,
+      "markers": {
+        "requestAnimationFrame": 1
+      }
+    },
+    {
+      "name": "layout-Cw8PAUGy.js",
+      "bytes": 3287,
+      "markers": {}
+    },
+    {
+      "name": "logocube-DUwLN53D.js",
+      "bytes": 3026,
+      "markers": {}
+    },
+    {
+      "name": "track-CL5-h8eQ.js",
+      "bytes": 2979,
+      "markers": {
+        "far": 2
+      }
+    },
+    {
+      "name": "palette-B94H2wxH.js",
+      "bytes": 2916,
+      "markers": {}
+    },
+    {
+      "name": "bigmapcard-DZeHUE6T.js",
+      "bytes": 2828,
+      "markers": {}
+    },
+    {
+      "name": "surface-BbHxu6Q_.js",
+      "bytes": 2666,
+      "markers": {}
+    },
+    {
+      "name": "about-CxbP8gGQ.js",
+      "bytes": 2606,
+      "markers": {}
+    },
+    {
+      "name": "geo-CjVqi9gp.js",
+      "bytes": 2431,
+      "markers": {}
+    },
+    {
+      "name": "dom-D_BxZZNc.js",
+      "bytes": 2163,
+      "markers": {}
+    },
+    {
+      "name": "washmat-Bp0o3aa1.js",
+      "bytes": 2092,
+      "markers": {
+        "fragmentShader": 2
+      }
+    },
+    {
+      "name": "logo-1Vs4EI2q.js",
+      "bytes": 2078,
+      "markers": {}
+    },
+    {
+      "name": "pass-BENlPZ7l.js",
+      "bytes": 2065,
+      "markers": {}
+    },
+    {
+      "name": "pal-Doxq3a-X.js",
+      "bytes": 1900,
+      "markers": {}
+    },
+    {
+      "name": "splash-Ci_azm7I.js",
+      "bytes": 1829,
+      "markers": {}
+    },
+    {
+      "name": "soon-Cn8Dsjck.js",
+      "bytes": 1799,
+      "markers": {}
+    },
+    {
+      "name": "pal-T-INdQBs.js",
+      "bytes": 1691,
+      "markers": {}
+    },
+    {
+      "name": "mode-DW7yG5c0.js",
+      "bytes": 1578,
+      "markers": {}
+    },
+    {
+      "name": "hudrow-Bc2IrP56.js",
+      "bytes": 1503,
+      "markers": {
+        "requestAnimationFrame": 3
+      }
+    },
+    {
+      "name": "registry-IEYpmEUF.js",
+      "bytes": 1451,
+      "markers": {}
+    },
+    {
+      "name": "world-Dwe-3BBB.js",
+      "bytes": 1448,
+      "markers": {}
+    },
+    {
+      "name": "styles-DNdP-tjk.js",
+      "bytes": 1418,
+      "markers": {}
+    },
+    {
+      "name": "router-BrPS8uwX.js",
+      "bytes": 1194,
+      "markers": {}
+    },
+    {
+      "name": "savemeta-Cd160EDE.js",
+      "bytes": 1167,
+      "markers": {}
+    },
+    {
+      "name": "front-KdwRwJWk.js",
+      "bytes": 1122,
+      "markers": {}
+    },
+    {
+      "name": "device-DEKz-aKi.js",
+      "bytes": 903,
+      "markers": {
+        "getContext(`webgl2`": 1,
+        "getContext(`webgl`": 1
+      }
+    },
+    {
+      "name": "rng-DfJd1Ax5.js",
+      "bytes": 876,
+      "markers": {}
+    },
+    {
+      "name": "mascot-Cu1dUQPX.js",
+      "bytes": 808,
+      "markers": {}
+    },
+    {
+      "name": "rolldown-runtime-hePW80VL.js",
+      "bytes": 716,
+      "markers": {}
+    },
+    {
+      "name": "play-lib-DS0bIJBG.js",
+      "bytes": 678,
+      "markers": {}
+    },
+    {
+      "name": "saves-lib-BKKpRVPT.js",
+      "bytes": 637,
+      "markers": {}
+    },
+    {
+      "name": "haptic-7QMBFKWj.js",
+      "bytes": 610,
+      "markers": {}
+    },
+    {
+      "name": "palmfrond-DxlZfxvB.js",
+      "bytes": 595,
+      "markers": {}
+    },
+    {
+      "name": "modes-lib-vyy2RkoA.js",
+      "bytes": 565,
+      "markers": {}
+    },
+    {
+      "name": "play-ui-DICv1OaK.js",
+      "bytes": 511,
+      "markers": {}
+    },
+    {
+      "name": "looks-D21Mvra1.js",
+      "bytes": 415,
+      "markers": {}
+    },
+    {
+      "name": "daylight-xoA8egPB.js",
+      "bytes": 413,
+      "markers": {}
+    },
+    {
+      "name": "afterframe-Cfq5d7KI.js",
+      "bytes": 351,
+      "markers": {}
+    },
+    {
+      "name": "pick-ui-Zregfw0E.js",
+      "bytes": 301,
+      "markers": {}
+    },
+    {
+      "name": "canvasrect-B1Wnd7cG.js",
+      "bytes": 294,
+      "markers": {}
+    },
+    {
+      "name": "update-DZzVyhLU.js",
+      "bytes": 290,
+      "markers": {}
+    },
+    {
+      "name": "viewport-CqYuirrU.js",
+      "bytes": 272,
+      "markers": {}
+    },
+    {
+      "name": "profile-BNJhIiAb.js",
+      "bytes": 238,
+      "markers": {}
+    },
+    {
+      "name": "version-KLbJmAmx.js",
+      "bytes": 186,
+      "markers": {}
+    },
+    {
+      "name": "title-DZhs_ENq.js",
+      "bytes": 139,
+      "markers": {}
+    },
+    {
+      "name": "picker-CX_LMwK0.js",
+      "bytes": 71,
+      "markers": {}
+    },
+    {
+      "name": "registry-Yk63tQXp.js",
+      "bytes": 60,
+      "markers": {}
+    },
+    {
+      "name": "settings-BkGPIAAz.js",
+      "bytes": 31,
+      "markers": {}
+    },
+    {
+      "name": "splash-m1ZFqtsS.js",
+      "bytes": 29,
+      "markers": {}
+    },
+    {
+      "name": "about-DeLWRa4s.js",
+      "bytes": 28,
+      "markers": {}
+    },
+    {
+      "name": "pause-BBSTnXah.js",
+      "bytes": 28,
+      "markers": {}
+    },
+    {
+      "name": "pass-BjChQbor.js",
+      "bytes": 27,
+      "markers": {}
+    },
+    {
+      "name": "soon-Bg0GUJzv.js",
+      "bytes": 27,
+      "markers": {}
+    },
+    {
+      "name": "zz-proto-np-BvRk9kiK.js",
+      "bytes": 0,
+      "markers": {}
+    }
+  ]
+}

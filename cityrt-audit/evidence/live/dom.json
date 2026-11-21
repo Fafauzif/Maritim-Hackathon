@@ -1,0 +1,176 @@
+{
+  "url": "https://cityrt.com/play/",
+  "title": "CityRT",
+  "bodyClass": "mn-hud-off",
+  "canvases": [],
+  "iframes": [],
+  "shadowRoots": [],
+  "buttons": [
+    {
+      "tag": "button",
+      "text": "Play",
+      "className": "mn-btn primary go sk-framed"
+    },
+    {
+      "tag": "button",
+      "text": "New Game\npick a map, name your city, start building",
+      "className": "ti-item"
+    },
+    {
+      "tag": "button",
+      "text": "Campaigns\nstories with goals and choices",
+      "className": "ti-item"
+    },
+    {
+      "tag": "button",
+      "text": "Career\nfrom village head to governor\nPass",
+      "className": "ti-item"
+    },
+    {
+      "tag": "button",
+      "text": "Challenges\ntoday: Tight Purse Strings",
+      "className": "ti-item"
+    },
+    {
+      "tag": "button",
+      "text": "Online\none city, two mayors",
+      "className": "ti-item"
+    },
+    {
+      "tag": "button",
+      "text": "Load Game\nyour album of saved cities",
+      "className": "ti-item"
+    },
+    {
+      "tag": "button",
+      "text": "Mayor Profile\npersonal bests, stars, badges",
+      "className": "ti-item"
+    },
+    {
+      "tag": "button",
+      "text": "Anti-Bot Pass\nthe whole game for $0.50 a month",
+      "className": "ti-item"
+    },
+    {
+      "tag": "button",
+      "text": "Settings",
+      "className": "ti-item sm"
+    },
+    {
+      "tag": "button",
+      "text": "About",
+      "className": "ti-item sm"
+    },
+    {
+      "tag": "button",
+      "text": "Sign Out",
+      "className": "ti-out"
+    },
+    {
+      "tag": "button",
+      "text": "Unlock Everything",
+      "className": "pz-btn"
+    },
+    {
+      "tag": "a",
+      "text": "Windows106 MByour computer",
+      "className": "dl-t me"
+    },
+    {
+      "tag": "a",
+      "text": "MMac M1+121 MB",
+      "className": "dl-t"
+    },
+    {
+      "tag": "a",
+      "text": "IntelMac Intel127 MB",
+      "className": "dl-t"
+    },
+    {
+      "tag": "button",
+      "text": "?",
+      "className": "dl-qb"
+    },
+    {
+      "tag": "button",
+      "text": "Or play in the browser",
+      "className": "dl-web"
+    },
+    {
+      "tag": "button",
+      "text": "November 19Zone PlannerPaint the lot's cells and the whole b",
+      "className": "nf-acard"
+    },
+    {
+      "tag": "button",
+      "text": "November 17BETAFPS Optimization30 FPS while the camera stand",
+      "className": "nf-acard"
+    },
+    {
+      "tag": "button",
+      "text": "November 17Winter: snowfall and blizzardsFour kinds of snow,",
+      "className": "nf-acard"
+    },
+    {
+      "tag": "button",
+      "text": "November 16Underground GaragesOne for every style, up to 3,6",
+      "className": "nf-acard"
+    },
+    {
+      "tag": "button",
+      "text": "November 11PassNew style: BrazilColourful houses, azulejo ti",
+      "className": "nf-acard"
+    },
+    {
+      "tag": "button",
+      "text": "November 11BETANew terrain: hills, lakes, canalsShape land, ",
+      "className": "nf-acard"
+    },
+    {
+      "tag": "button",
+      "text": "November 11Pass13 new maps with terrainMountains, gorges, a ",
+      "className": "nf-acard"
+    },
+    {
+      "tag": "button",
+      "text": "November 2PassNew style: BritainBrick terraces, pubs, London",
+      "className": "nf-acard"
+    },
+    {
+      "tag": "button",
+      "text": "October 27New roads: streets at any angleRoundabouts, viaduc",
+      "className": "nf-acard"
+    },
+    {
+      "tag": "button",
+      "text": "October 26BETAPassPublic transportBuses, metro, control cent",
+      "className": "nf-acard"
+    },
+    {
+      "tag": "button",
+      "text": "October 26New cars and drivingGet behind the wheel and cruis",
+      "className": "nf-acard"
+    },
+    {
+      "tag": "a",
+      "text": "Telegram",
+      "className": "sc-a"
+    },
+    {
+      "tag": "a",
+      "text": "X",
+      "className": "sc-a"
+    },
+    {
+      "tag": "a",
+      "text": "TikTok",
+      "className": "sc-a"
+    },
+    {
+      "tag": "a",
+      "text": "Instagram",
+      "className": "sc-a"
+    }
+  ],
+  "bodyText": "CityRT CityRT city builder New Game «River» open field Play New Game pick a map, name your city, start building Campaigns stories with goals and choices Career from village head to governor Pass Challenges today: Tight Purse Strings Online one city, two mayors Load Game your album of saved cities Mayor Profile personal bests, stars, badges Anti-Bot Pass the whole game for $0.50 a month Settings About CityRT 0.9 Sign Out English Русский English Українська Español (Latinoamérica) Português (Brasil) Deutsch Français Italiano Polski Türkçe 简体中文 한국어 ↑↓ select, Enter open"
+}

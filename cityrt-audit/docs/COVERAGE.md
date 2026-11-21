@@ -15,12 +15,13 @@ Brief: `docs/superpowers/specs/2026-11-21-cityrt-style-audit-brief.md`
 
 | Scope item | Status | Evidence / deliverable |
 |---|---|---|
-| Rendering: tone mapping, lighting, fog, shadows, post | **Not observed** | `analysis/rendering/renderer-verdict.md`; output-level observations only |
+| Rendering: engine, tone mapping, lighting, shadows, post | **Observed** | `analysis/rendering/renderer-verdict.md` (Three.js + ink pipeline) and `analysis/rendering/ink-pipeline.md` (53 uniforms, wash injection, look presets) |
+| Simulation/feel | **Partial** | day cycle 24 min (4–120), ×3 speed, ~30 FPS idle, `camSlow` 0.25; tick/vehicle/construction constants blocked by HTTP 500 chunks (`docs/UNKNOWNS.md` U5) |
 | Nine style personalities as visual systems | **Met, 14 shipped** | `docs/STYLE-MATRIX.md`, `analysis/styles/styles-static.json` |
 | Palette per style | **Met** | `analysis/palette/*.json` (14 hero renders) + `analysis/catalog/catalog-summary.json` (824 studio renders) |
 | Materials | **Met at output level** | `docs/ART-BIBLE.md` §5 — rules derived from renders; shader params unknown |
 | Building language: grid, massing, proportions, budgets | **Partially met** | grid 5 m inferred; footprints measured from shipped text; proportions measured (silhouette aspect); tri budgets are assumptions |
-| Simulation/feel | **Not observed** | `analysis/simulation/observations.md`; only public genre facts |
+| Simulation/feel | **Partial** | day cycle 24 min (4–120), ×3 speed, ~30 FPS idle, `camSlow` 0.25; tick/vehicle/construction constants blocked by HTTP 500 chunks (`docs/UNKNOWNS.md` U5) |
 | Art bible | **Met** | `docs/ART-BIBLE.md` |
 | Kit specification | **Met** | `docs/KIT-SPEC.md` |
 | No Blender execution | **Respected** | no Blender call in the run |

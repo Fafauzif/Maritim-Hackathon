@@ -1,0 +1,124 @@
+{
+  "generatedAt": "2026-11-21T05:25:52.622Z",
+  "rendererFiles": [
+    "materials-C1pDfKA6.js",
+    "three.core-DdSv55GA.js"
+  ],
+  "lookFiles": [
+    "look-DZfJ2UwR.js",
+    "materials-C1pDfKA6.js"
+  ],
+  "daylightFiles": [
+    "daylight-xoA8egPB.js",
+    "prefs-Dk13dMkm.js"
+  ],
+  "styleFiles": [
+    "atlas-ptNQDssk.js",
+    "challenges-p4IZJTbv.js",
+    "emblems-1hJtP9o5.js",
+    "en-C1arqVDc.js",
+    "maps-rL2iwfm9.js",
+    "pass-BENlPZ7l.js",
+    "passui-DfC2a31_.js",
+    "shots-UAqSw9Pa.js",
+    "state-GF3_9yrE.js",
+    "styles-D9QuAWKO.js",
+    "styles-DNdP-tjk.js"
+  ],
+  "findings": {
+    "renderer": [
+      {
+        "bundle": "materials-C1pDfKA6.js",
+        "snippet": "s?4:0,resolveDepthBuffer:f.ignoreDepthValues===!1,resolveStencilBuffer:f.ignoreDepthValues===!1,storeMultisampledDepthBuffer:f.ignoreDepthValues===!1,storeMultisampledStencilBuffer:f.ignoreDepthValues===!1})}else{let n={antialias:v.antialias,alpha:!0,depth:v.depth,stencil:v.stencil,framebufferScaleFactor:i};p=new XRWebGLLayer(r,t,n),r.updateRenderState({baseLayer:p}),e.setPixelRatio(1),e.setSize(p.framebufferWidth,p.framebufferHeight,!1),b=new Xn"
+      },
+      {
+        "bundle": "materials-C1pDfKA6.js",
+        "snippet": "n),tl.name=`DFG_LUT`,tl.minFilter=yt,tl.magFilter=yt,tl.wrapS=Vt,tl.wrapT=Vt,tl.generateMipmaps=!1,tl.needsUpdate=!0),tl}var rl=class{constructor(e={}){let{canvas:t=Da(),context:r=null,depth:i=!0,stencil:a=!1,alpha:o=!1,antialias:s=!1,premultipliedAlpha:c=!0,preserveDrawingBuffer:l=!1,powerPreference:u=`default`,failIfMajorPerformanceCaveat:d=!1,reversedDepthBuffer:f=!1,outputBufferType:p=De}=e;this.isWebGLRenderer=!0;let m;if(r!==null){if(typeof"
+      },
+      {
+        "bundle": "materials-C1pDfKA6.js",
+        "snippet": "erial:null,isScene:!0},we=!1;function Te(){return j===null?I:1}let R=r;function Ee(e,n){return t.getContext(e,n)}let z,Oe,B,ke,V,H,Ae,je,Me,Ne,Pe,Fe,Ie,Le,Re,ze,Be,Ve,He,Ue,We,Ge,Ke;try{let e={alpha:!0,depth:i,stencil:a,antialias:s,premultipliedAlpha:c,preserveDrawingBuffer:l,powerPreference:u,failIfMajorPerformanceCaveat:d};if(`setAttribute`in t&&t.setAttribute(`data-engine`,`three.js r186`),t.addEventListener(`webglcontextlost`,Je,!1),t.addEven"
+      },
+      {
+        "bundle": "materials-C1pDfKA6.js",
+        "snippet": "{1:`Linear`,2:`Reinhard`,3:`Cineon`,4:`ACESFilmic`,6:`AgX`,7:`Neutral`,5:`Custom`};function Gs(e,t){let n=Ws[t];return n===void 0?(K(`WebGLProgram: Unsupported toneMapping:`,t),`vec3 `+e+`( vec3 color ) { return LinearToneMapping( color ); }`):`vec3 `+e+`( vec3 color ) { return `+n+`ToneMapping( color ); }`}var Ks=new q;function q"
+      },
+      {
+        "bundle": "materials-C1pDfKA6.js",
+        "snippet": "gPlanes:a.numPlanes,numClipIntersection:a.numIntersection,dithering:i.dithering,shadowMapEnabled:e.shadowMap.enabled&&l.length>0,shadowMapType:e.shadowMap.type,toneMapping:H,decodeVideoTexture:ie&&i.map.isVideoTexture===!0&&L.getTransfer(i.map.colorSpace)===`srgb`,decodeVideoTextureEmissive:le&&i.emissiveMap.isVideoTexture===!0&&L"
+      }
+    ],
+    "camera": [
+      {
+        "bundle": "materials-C1pDfKA6.js",
+        "snippet": "OneMinusConstantColorFactor:()=>212,OneMinusDstAlphaFactor:()=>207,OneMinusDstColorFactor:()=>209,OneMinusSrcAlphaFactor:()=>205,OneMinusSrcColorFactor:()=>203,OrthographicCamera:()=>A,PCFShadowMap:()=>1,PCFSoftShadowMap:()=>2,PMREMGenerator:()=>uo,Path:()=>nt,PerspectiveCamera:()=>Hr,Plane:()=>f,PlaneGeometry:()=>Ir,PlaneHelper:()=>We,"
+      },
+      {
+        "bundle": "three.core-DdSv55GA.js",
+        "snippet": "5044,Et=35048,Dt=35040,Ot=35045,kt=35049,At=35041,jt=35046,Mt=35050,Nt=35042,Pt=`300 es`,Ft=2e3,It=2001,Lt={COMPUTE:`compute`,RENDER:`render`},Rt={PERSPECTIVE:`perspective`,LINEAR:`linear`,FLAT:`flat`},zt={NORMAL:`normal`,CENTROID:`centroid`,SAMPLE:`sample`,FIRST:`first`,EITHER:`either`},Bt={TEXTURE_COMPARE:`depthTextureCompare`}"
+      }
+    ],
+    "look": [
+      {
+        "bundle": "look-DZfJ2UwR.js",
+        "snippet": "e(`Линии`),name:e(`Дрожь руки`),desc:e(`линия чуть гуляет от геометрии`),min:0,max:2,step:.1}],i={classic:{name:e(`Как было`),desc:e(`прежний стиль: плотная штриховка, зерно, бумага`),v:{hatch:1,ground:1,cross:1,dark:.55,spacing:1,wash:0,lift:0,fill:1,grain:1,paper:1,stain:1,vignette:.55,sky:.16,line:.92,width:1,inner:1,pen:1,wobble:1}},clean:{name:e(`Чистый эскиз`),desc:e(`штрих только на стенах в тени, земля и крыши спокойные, меньше зерна`),v:{hatch:.8,ground:.12,cross:.25,dark:.42,spacing:1.25,wash:.35,lift:.2,fill:0,"
+      },
+      {
+        "bundle": "look-DZfJ2UwR.js",
+        "snippet": "ignette:.55,sky:.16,line:.92,width:1,inner:1,pen:1,wobble:1}},clean:{name:e(`Чистый эскиз`),desc:e(`штрих только на стенах в тени, земля и крыши спокойные, меньше зерна`),v:{hatch:.8,ground:.12,cross:.25,dark:.42,spacing:1.25,wash:.35,lift:.2,fill:0,grain:.35,paper:.5,stain:.4,vignette:.3,sky:.05,line:.9,width:1,inner:.85,pen:.45,wobble:.8}},wash:{name:e(`Тушь и размывка`),desc:e(`без штрихов: чистый контур тушью и ровные прозрачные тени`),v:{hatch:0,ground:0,cross:0,dark:.4,spacing:1.2,wash:1,lift:.1,fill:0,grain:.25,pap"
+      },
+      {
+        "bundle": "look-DZfJ2UwR.js",
+        "snippet": "r:.5,stain:.4,vignette:.3,sky:.05,line:.9,width:1,inner:.85,pen:.45,wobble:.8}},wash:{name:e(`Тушь и размывка`),desc:e(`без штрихов: чистый контур тушью и ровные прозрачные тени`),v:{hatch:0,ground:0,cross:0,dark:.4,spacing:1.2,wash:1,lift:.1,fill:0,grain:.25,paper:.55,stain:.6,vignette:.3,sky:0,line:1,width:.69,inner:.87,pen:.92,wobble:0}},pencil:{name:e(`Мягкий карандаш`),desc:e(`штрих остаётся везде, но редкий и светлый — рисунок без грязи`),v:{hatch:.75,ground:.45,cross:.4,dark:.32,spacing:1.55,wash:.4,lift:.3,fill:.3"
+      }
+    ],
+    "daylight": [
+      {
+        "bundle": "daylight-xoA8egPB.js",
+        "snippet": "import{t as e}from\"./prefs-Dk13dMkm.js\";var t=e=>(e%24+24)%24,n=()=>Math.max(4,Math.min(120,+e.get(`dayMinutes`)||24)),r=()=>e.get(`dayNight`)!==!1;function i(e){return e?(typeof e.sky==`number`&&isFinite(e.sky)||(e.sky=t(e.hour??12)),e.sky):12}function a(e,a){let o=i(e);return!r()||e.paused||!(a>0)?o:(e.sky=t(o+a*(e.speed||1)*24/(n()*60)),e.sky)}f"
+      },
+      {
+        "bundle": "daylight-xoA8egPB.js",
+        "snippet": "inite(e.sky)||(e.sky=t(e.hour??12)),e.sky):12}function a(e,a){let o=i(e);return!r()||e.paused||!(a>0)?o:(e.sky=t(o+a*(e.speed||1)*24/(n()*60)),e.sky)}function o(e,n){e&&(e.sky=t(+n||0))}export{a,i,n,o as r,r as t};"
+      },
+      {
+        "bundle": "prefs-Dk13dMkm.js",
+        "snippet": "en-AZoROBHB.js\";import{r as a}from\"./haptic-7QMBFKWj.js\";import{t as o}from\"./afterframe-Cfq5d7KI.js\";var s=`cityrt.prefs`,c=.8,l=e=>Math.max(.75,Math.min(1.5,+e||1))*(n.phone?c:1),u={uiScale:1,hints:!0,autosave:!0,menuPause:!0,dayNight:!0,dayMinutes:24,camSlow:.25,gameCursor:!0,haptics:!0,districtNames:!0,fullscreen:null,lightMorning:`now`,lightDay:`now`,lightEvening:`now`,lightNight:`now`,freePlace:!1},d=null;function f(){if(d)return d;let e=null;try{e=JSON.parse(localStorage.getItem"
+      }
+    ],
+    "styles": [
+      {
+        "bundle": "atlas-ptNQDssk.js",
+        "snippet": "]));for(let e of l)u.forEach((t,n)=>{let r=e[n+1];r&&(d[t][e[0]]=r.trim()?r:``)});var f={american:`en`,futurist:`en`,cyberpunk:`en`,fantasy:`en`,medieval:`en`,metropolis:`en`,british:`en`,brazil:`en`,european:`fr`,italian:`it`,scandinavian:`sv`,japanese:`ja`,arabic:`ar`},p=e=>f[e]||null,m=null;function h(e,t){let n=m;m=e||null;try{return t()}finally{m=n}}var g=()=>m,_=()=>f[m]||`ru`,v=new Set,ee=new Set,y"
+      },
+      {
+        "bundle": "challenges-p4IZJTbv.js",
+        "snippet": "x(t=f()){let r=c(l(`daily2:`+t)),a=e=>e[Math.floor(r()*e.length)%e.length],o=p(t).getUTCDay(),s=o===2||o===4||o===6,u=s?b[o]||(r()<.5?`river`:`forest`):null,h=[];if(s){h.push(a(v));let e=u===`river`?`european`:u===`forest`?`american`:null;e&&i.styles.includes(e)&&r()<.5&&h.push(`style_`+e);let t=1500+Math.round(r()*6)*250,n=4+Math.floor(r()*3);h.push(`grow${t}x${n}`)}else{let e=_.slice(),t=e.splice(Math.f"
+      },
+      {
+        "bundle": "emblems-1hJtP9o5.js",
+        "snippet": "]],a=(e,t,n,r,i,a=12)=>{let o=[];for(let s=0;s<=a;s++){let c=r+(i-r)*(s/a);o.push([e+Math.cos(c)*n,t+Math.sin(c)*n])}return o},o={w:1.05},s={w:1.25},c=`#B9D3E4`,l=`#9C6A48`,u=`#F2E4C6`,d=`#4E4640`,f={european:[[`p`,[[4.5,21.5],[4.5,11.5],[6.6,11.5],[6.6,8.4],[8.8,8.4],[8.8,5.4],[12,2.6],[15.2,5.4],[15.2,8.4],[17.4,8.4],[17.4,11.5],[19.5,11.5],[19.5,21.5]],`#C98065`],[`p`,i(7.4,13,10.2,16.2),c,o],[`p`,i(13"
+      },
+      {
+        "bundle": "emblems-1hJtP9o5.js",
+        "snippet": "5E8F3E`,o],[`p`,[[20.2,9],[18.6,5],[19.6,4.4]],`#5E8F3E`,o],[`l`,[[1.4,21.6],[22.6,21.6]],s]]},p=new Map;function m(t,n=``){let i=t+`|`+n,a=p.get(i);if(!a){let o=r.findIndex(e=>e.key===t);a=e(f[t]||f.european,`0 0 24 24`,4100+o*37,`sk-ico sk-emb `+n),p.set(i,a)}return a}var h=e=>n[e]?n[e].color:`#B9AFA3`,g=e=>n[e]?n[e].name:e===`shared`?t(`Любой стиль`):e;export{h as n,g as r,m as t};"
+      },
+      {
+        "bundle": "maps-rL2iwfm9.js",
+        "snippet": "ца. Трассы на обоих берегах.`),style:`slavic`,size:128,sizes:[72,128,256,384],town:!1,money:11e4,skin:`meadow`,passOnly:!0}),c({id:`bridgelab`,name:`Bridge lab`,order:99,seed:5,demo:!0,desc:``,style:`european`,size:128,sizes:[128],town:!1,money:1e5,passOnly:!0});var f=[[49,-150,6.5],[57,-118,6.5],[50,-88,7],[57,-60,7],[51.5,-34,7.5],[55.5,-14,8],[54,0,8.5],[52.8,4.2,8.5],[55.2,7.6,9],[59,9.6,10],[62.5,10."
+      },
+      {
+        "bundle": "maps-rL2iwfm9.js",
+        "snippet": "eed:72,desc:t(`Мягкие круглые холмы до горизонта, в низинах маленькие озёра, между ними вьётся ручей. Обрывов нет: строить можно почти везде, а с вершин лучшие виды. Трассы с запада и с юга.`),style:`european`,size:128,sizes:[72,128,256,384],town:!1,money:1e5,skin:`meadow`,passOnly:!0}),c({id:`island`,name:t(`Остров на косе`),order:61,seed:62,desc:t(`Холмистый остров в открытом море, к материку его привяз"
+      },
+      {
+        "bundle": "pass-BENlPZ7l.js",
+        "snippet": "e`:`pass`,a=e===`free`||e===`pass`,o=n.__PASS__&&typeof n.__PASS__==`object`?n.__PASS__:null,s=i===`pass`&&!a&&r.has(`free`),c=`Anti-Bot Pass`,l=!!o,u=i===`free`||s?`free`:`pass`,d={styles:[`slavic`,`european`,`american`],maps:[`classic`,`river`,`forest`],maxGrid:128,skins:[`meadow`],scenarios:[`economy`,`utilities`,`style_slavic`,`style_european`,`style_american`],cities:1},f={japanese:`slavic`,arabic:`a"
+      },
+      {
+        "bundle": "pass-BENlPZ7l.js",
+        "snippet": "s`,l=!!o,u=i===`free`||s?`free`:`pass`,d={styles:[`slavic`,`european`,`american`],maps:[`classic`,`river`,`forest`],maxGrid:128,skins:[`meadow`],scenarios:[`economy`,`utilities`,`style_slavic`,`style_european`,`style_american`],cities:1},f={japanese:`slavic`,arabic:`american`,italian:`european`,scandinavian:`european`,futurist:`european`,cyberpunk:`american`,fantasy:`european`,medieval:`european`,metropol"
+      }
+    ]
+  }
+}

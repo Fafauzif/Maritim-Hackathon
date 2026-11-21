@@ -1,0 +1,870 @@
+[
+ {
+  "url": "https://cityrt.com/play/",
+  "status": 200,
+  "type": "document",
+  "contentType": "text/html; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/play/assets/rng-DfJd1Ax5.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 515
+ },
+ {
+  "url": "https://cityrt.com/play/assets/device-DEKz-aKi.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 549
+ },
+ {
+  "url": "https://cityrt.com/play/assets/mode-DW7yG5c0.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 794
+ },
+ {
+  "url": "https://cityrt.com/play/assets/cursors-D_MdKtGH.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 3231
+ },
+ {
+  "url": "https://cityrt.com/play/assets/index-DkWGfb4u.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 3603
+ },
+ {
+  "url": "https://cityrt.com/play/assets/i18n-ElqdXQ7M.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/play/assets/sketch-C5kxZCCL.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/play/assets/en-C1arqVDc.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/play/assets/front-KdwRwJWk.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 719
+ },
+ {
+  "url": "https://cityrt.com/play/assets/world-Dwe-3BBB.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 847
+ },
+ {
+  "url": "https://cityrt.com/play/assets/quality-BJbdVyLr.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/play/assets/pass-BENlPZ7l.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 1082
+ },
+ {
+  "url": "https://cityrt.com/play/assets/maps-rL2iwfm9.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/play/assets/state-GF3_9yrE.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/play/assets/registry-IEYpmEUF.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 735
+ },
+ {
+  "url": "https://cityrt.com/play/assets/rolldown-runtime-hePW80VL.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 438
+ },
+ {
+  "url": "https://cityrt.com/play/assets/mascot-Cu1dUQPX.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 544
+ },
+ {
+  "url": "https://cityrt.com/play/assets/bigmapcard-DZeHUE6T.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 1541
+ },
+ {
+  "url": "https://cityrt.com/play/assets/look-DZfJ2UwR.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 2393
+ },
+ {
+  "url": "https://cityrt.com/play/assets/save-FHYjw35a.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/play/assets/shots-BHqdzxDi.css",
+  "status": 200,
+  "type": "stylesheet",
+  "contentType": "text/css; charset=utf-8",
+  "contentLength": 3476
+ },
+ {
+  "url": "https://cityrt.com/play/assets/social-Nt8kQFcB.css",
+  "status": 200,
+  "type": "stylesheet",
+  "contentType": "text/css; charset=utf-8",
+  "contentLength": 1065
+ },
+ {
+  "url": "https://cityrt.com/play/assets/shell-CT6nH9Aw.css",
+  "status": 200,
+  "type": "stylesheet",
+  "contentType": "text/css; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/play/assets/ui-CfrIeVvW.css",
+  "status": 200,
+  "type": "stylesheet",
+  "contentType": "text/css; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/play/assets/pause-BaPNknhx.css",
+  "status": 200,
+  "type": "stylesheet",
+  "contentType": "text/css; charset=utf-8",
+  "contentLength": 1448
+ },
+ {
+  "url": "https://cityrt.com/play/assets/boot-BjohBwhA.css",
+  "status": 200,
+  "type": "stylesheet",
+  "contentType": "text/css; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/play/assets/palette-B94H2wxH.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 1604
+ },
+ {
+  "url": "https://cityrt.com/play/assets/fullscreen-AZoROBHB.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 1753
+ },
+ {
+  "url": "https://cityrt.com/play/assets/prefs-Dk13dMkm.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 2632
+ },
+ {
+  "url": "https://cityrt.com/play/assets/haptic-7QMBFKWj.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 416
+ },
+ {
+  "url": "https://cityrt.com/play/assets/afterframe-Cfq5d7KI.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 351
+ },
+ {
+  "url": "https://cityrt.com/play/assets/pangolin-latin-m8jKOiJo.woff2",
+  "status": 200,
+  "type": "font",
+  "contentType": "font/woff2",
+  "contentLength": 38700
+ },
+ {
+  "url": "https://cityrt.com/play/assets/social-DNErxigz.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 1962
+ },
+ {
+  "url": "https://cityrt.com/play/assets/atlas-ptNQDssk.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/play/assets/touch-DAMM3Z8T.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 3043
+ },
+ {
+  "url": "https://cityrt.com/play/assets/icons-BERXebV_.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 3226
+ },
+ {
+  "url": "https://cityrt.com/play/assets/shell-DgL_J6s9.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/play/assets/router-BrPS8uwX.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 736
+ },
+ {
+  "url": "https://cityrt.com/play/assets/launch-D2cGO4ll.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 2552
+ },
+ {
+  "url": "https://cityrt.com/play/assets/boot-DntyKGy4.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/play/assets/shots-UAqSw9Pa.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 1608
+ },
+ {
+  "url": "https://cityrt.com/play/assets/dom-D_BxZZNc.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 1283
+ },
+ {
+  "url": "https://cityrt.com/play/assets/audio-WdXA3gP_.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/play/assets/track-CL5-h8eQ.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 1565
+ },
+ {
+  "url": "https://cityrt.com/play/assets/title-B3alLhoa.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/play/assets/passui-DfC2a31_.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 2498
+ },
+ {
+  "url": "https://cityrt.com/play/assets/_skins-BKBiKrSj.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 1760
+ },
+ {
+  "url": "https://cityrt.com/play/assets/logocube-DUwLN53D.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 968
+ },
+ {
+  "url": "https://cityrt.com/play/assets/logo-1Vs4EI2q.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 1158
+ },
+ {
+  "url": "https://cityrt.com/play/assets/challenges-p4IZJTbv.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/play/assets/version-KLbJmAmx.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 193
+ },
+ {
+  "url": "https://cityrt.com/play/assets/styles-D9QuAWKO.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 2710
+ },
+ {
+  "url": "https://cityrt.com/play/assets/daylight-xoA8egPB.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 413
+ },
+ {
+  "url": "https://cityrt.com/play/assets/pause-CThzHzX5.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/play/assets/about-CxbP8gGQ.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 1749
+ },
+ {
+  "url": "https://cityrt.com/play/assets/gfxtip-D_aHQhb3.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 2529
+ },
+ {
+  "url": "https://cityrt.com/play/assets/splash-Ci_azm7I.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 1297
+ },
+ {
+  "url": "https://cityrt.com/play/assets/settings-4tyMX_jW.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/play/assets/soon-Cn8Dsjck.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 1272
+ },
+ {
+  "url": "https://cityrt.com/play/assets/pass-BZ0ggfXu.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 2380
+ },
+ {
+  "url": "https://cityrt.com/play/assets/intro-CMYwud2P.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/play/assets/materials-C1pDfKA6.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/play/assets/inter-latin-8kRkwJBP.woff2",
+  "status": 200,
+  "type": "font",
+  "contentType": "font/woff2",
+  "contentLength": 48432
+ },
+ {
+  "url": "https://cityrt.com/play/assets/three.core-DdSv55GA.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/play/assets/savemeta-Cd160EDE.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 689
+ },
+ {
+  "url": "https://cityrt.com/play/assets/profile-BNJhIiAb.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 238
+ },
+ {
+  "url": "https://cityrt.com/play/assets/update-DZzVyhLU.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 290
+ },
+ {
+  "url": "https://cityrt.com/play/assets/ranks-EsQOYQub.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 2486
+ },
+ {
+  "url": "https://cityrt.com/play/assets/cloud-DF1i81Ut.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/play/assets/savemeta-BRkkybsO.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/api/cities",
+  "status": 200,
+  "type": "fetch",
+  "contentType": "application/json; charset=utf-8",
+  "contentLength": 13
+ },
+ {
+  "url": "https://cityrt.com/play/assets/cyberpunk-DGaVxGmJ.webp",
+  "status": 200,
+  "type": "image",
+  "contentType": "image/webp",
+  "contentLength": 523544
+ },
+ {
+  "url": "https://cityrt.com/play/assets/japanese-CqII_JoE.webp",
+  "status": 200,
+  "type": "image",
+  "contentType": "image/webp",
+  "contentLength": 396282
+ },
+ {
+  "url": "https://cityrt.com/play/assets/futurist-iRl-UXPQ.webp",
+  "status": 200,
+  "type": "image",
+  "contentType": "image/webp",
+  "contentLength": 578302
+ },
+ {
+  "url": "https://cityrt.com/play/assets/looks-D21Mvra1.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 415
+ },
+ {
+  "url": "https://cityrt.com/play/assets/looks-lMaIj7if.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/play/assets/river-dawn-C--QCiXv.webp",
+  "status": 200,
+  "type": "image",
+  "contentType": "image/webp",
+  "contentLength": 1119664
+ },
+ {
+  "url": "https://cityrt.com/play/assets/scenario-DlrU7i4u.css",
+  "status": 200,
+  "type": "stylesheet",
+  "contentType": "text/css; charset=utf-8",
+  "contentLength": 4064
+ },
+ {
+  "url": "https://cityrt.com/play/assets/play-C4p-DQyE.css",
+  "status": 200,
+  "type": "stylesheet",
+  "contentType": "text/css; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/play/assets/picker-DW2gj-fB.css",
+  "status": 200,
+  "type": "stylesheet",
+  "contentType": "text/css; charset=utf-8",
+  "contentLength": 3113
+ },
+ {
+  "url": "https://cityrt.com/play/assets/pick-ui-CXKggcCV.css",
+  "status": 200,
+  "type": "stylesheet",
+  "contentType": "text/css; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/play/assets/modes-lib-By3iCjYn.css",
+  "status": 200,
+  "type": "stylesheet",
+  "contentType": "text/css; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/play/assets/saves-lib-DsZ1RmPL.css",
+  "status": 200,
+  "type": "stylesheet",
+  "contentType": "text/css; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/play/assets/profile-DNg48YFm.css",
+  "status": 200,
+  "type": "stylesheet",
+  "contentType": "text/css; charset=utf-8",
+  "contentLength": 2129
+ },
+ {
+  "url": "https://cityrt.com/play/assets/about-DeLWRa4s.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 28
+ },
+ {
+  "url": "https://cityrt.com/play/assets/together-DbqWQ5jr.css",
+  "status": 200,
+  "type": "stylesheet",
+  "contentType": "text/css; charset=utf-8",
+  "contentLength": 2732
+ },
+ {
+  "url": "https://cityrt.com/play/assets/campaigns-Cv6nFvSr.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 2860
+ },
+ {
+  "url": "https://cityrt.com/play/assets/_relief-CuRzowcC.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/play/assets/play-ui-Clg-7pZQ.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 2865
+ },
+ {
+  "url": "https://cityrt.com/play/assets/scenario-CeuPSeZX.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/play/assets/play-lib-DJHYpTiM.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/play/assets/_preview-BVm3xoYV.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 3515
+ },
+ {
+  "url": "https://cityrt.com/play/assets/pick-ui-8TN11AvX.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 3952
+ },
+ {
+  "url": "https://cityrt.com/play/assets/styles-DNdP-tjk.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 590
+ },
+ {
+  "url": "https://cityrt.com/play/assets/picker-eeMItReA.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 2474
+ },
+ {
+  "url": "https://cityrt.com/play/assets/emblems-1hJtP9o5.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 2671
+ },
+ {
+  "url": "https://cityrt.com/play/assets/modes-lib-BRVOJsj9.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 3706
+ },
+ {
+  "url": "https://cityrt.com/play/assets/gift-B-AIWq42.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 2330
+ },
+ {
+  "url": "https://cityrt.com/play/assets/challenges-6SzU25fI.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/play/assets/career-D8iZs5iW.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/play/assets/map-E2Qe3kMG.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/play/assets/loading-teoyIgM1.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 3074
+ },
+ {
+  "url": "https://cityrt.com/play/assets/modes-lib-vyy2RkoA.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 366
+ },
+ {
+  "url": "https://cityrt.com/play/assets/pass-BjChQbor.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 27
+ },
+ {
+  "url": "https://cityrt.com/play/assets/pick-ui-Zregfw0E.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 301
+ },
+ {
+  "url": "https://cityrt.com/play/assets/pause-BBSTnXah.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 28
+ },
+ {
+  "url": "https://cityrt.com/play/assets/zz-proto-np-BvRk9kiK.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/play/assets/play-CRUV97AU.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 2233
+ },
+ {
+  "url": "https://cityrt.com/play/assets/play-lib-DS0bIJBG.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 424
+ },
+ {
+  "url": "https://cityrt.com/play/assets/play-ui-DICv1OaK.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 511
+ },
+ {
+  "url": "https://cityrt.com/play/assets/profile-DOoMWlay.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 2652
+ },
+ {
+  "url": "https://cityrt.com/play/assets/saves-lib-DQDyMsLG.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 3460
+ },
+ {
+  "url": "https://cityrt.com/play/assets/saves-ic9jr-ou.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/play/assets/settings-BkGPIAAz.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 31
+ },
+ {
+  "url": "https://cityrt.com/play/assets/soon-Bg0GUJzv.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 27
+ },
+ {
+  "url": "https://cityrt.com/play/assets/saves-lib-BKKpRVPT.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 391
+ },
+ {
+  "url": "https://cityrt.com/play/assets/splash-m1ZFqtsS.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 29
+ },
+ {
+  "url": "https://cityrt.com/play/assets/title-DZhs_ENq.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 139
+ },
+ {
+  "url": "https://cityrt.com/play/assets/saves-detail-B4xIKd0T.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/play/assets/tab-BxEjXDUo.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/play/assets/together-ClO-ws7O.js",
+  "status": 200,
+  "type": "script",
+  "contentType": "text/javascript; charset=utf-8",
+  "contentLength": 0
+ },
+ {
+  "url": "https://cityrt.com/api/downloads",
+  "status": 200,
+  "type": "fetch",
+  "contentType": "application/json; charset=utf-8",
+  "contentLength": 226
+ },
+ {
+  "url": "https://cityrt.com/play/assets/snow-church-FMBiF3iB.webp",
+  "status": 200,
+  "type": "image",
+  "contentType": "image/webp",
+  "contentLength": 1286140
+ }
+]

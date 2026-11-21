@@ -1,0 +1,23 @@
+{
+ "finalState": {
+  "url": "https://cityrt.com/play/?new&map=river&difficulty=sandbox",
+  "canvases": [
+   {
+    "id": "view",
+    "width": 1276,
+    "height": 1396
+   },
+   {
+    "id": "",
+    "width": 520,
+    "height": 520
+   }
+  ],
+  "canvasSize": {
+   "width": 1276,
+   "height": 1396
+  },
+  "bodyText": "CityRT Placing benches and streetlights54% TipHold Space and drag to slide the map around like a sheet of paper on your desk. New Game River River, Medium map, 128×128, 1 km Placing benches and streetlights 54% Tip The demand bars at the top right show which zones your city needs most. CityRT"
+ },
+ "assets": []
+}

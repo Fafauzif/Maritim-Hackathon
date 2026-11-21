@@ -147,4 +147,4 @@ async function dumpProbe(page) {
   };
 }
 
-module.exports = { installProbe, dumpProbe };
+module.exports = { installProbe, dumpProbe, installInPage };

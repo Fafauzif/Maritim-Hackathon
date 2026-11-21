@@ -38,21 +38,39 @@ motion or in-engine — shaders, light rig, post effects, simulation — is mark
 Implication for Blender: model for a fixed 3/4 axonometric view. Any face that never appears
 in that view is low priority; roof tops and two street facades carry nearly all the read.
 
-## 3. Rendering model (observed output)
+## 3. Rendering model (captured from the authenticated client)
 
-- **Flat, matte, unlit-looking shading.** No specular highlights, no reflections, no visible
-  normal maps, no gloss on glass. (`analysis/rendering/renderer-verdict.md`)
-- **Soft directional shadows** with ambient contact darkening under props and eaves. Sun
-  direction reads from upper-left in the evening/european render.
-- **No outline pass** visible at 1200 px: edges are defined by colour change and contact shadow,
-  not by ink lines.
-- **Emissive accents inside `cyberpunk` only**: neon signage and lit windows against dark
-  concrete. Daytime styles have no bloom or glow outdoors.
-- **Vegetation is primitive**: ellipsoid/cone canopies in saturated green, no leaf cards.
+CityRT is **Three.js + a custom ink-and-wash post pipeline**. Details in
+`analysis/rendering/renderer-verdict.md` and `analysis/rendering/ink-pipeline.md`.
 
-**UNOBSERVED:** tone mapping, exposure, shadow technique (cascade count / PCF radius), any
-post-processing, anti-aliasing mode, texture usage. Do not claim these until the client is
-captured.
+- **Geometry is procedural**, built in code (`geo-*`, `shapes-*`, `shared_kit-*`), not imported
+  glTF: the whole session served zero `.glb`/`.gltf` files. Instancing is heavy.
+- **The signature layer is hand-drawn ink**: depth/normal edge lines (`uInk`, `uLineAlpha`,
+  `uInkCrisp`), animated line boil (`uBoil`, `uWobble`, `uJitter`), hatching in shadow
+  (`uHatchPx`, `uCon`, `uDetail`), paper texture and stains (`uPaper`, `uStain`), warm vignette
+  (`uVignette`), and hatched sky (`uSkyTop`/`uSkyBot`/`uSkyHatch`).
+- **Wash shading** replaces plain diffuse: the material patch does
+  `outgoingLight = mix(outgoingLight, sketch, clamp(uDesat + uInfo*0.82, 0, 1))`, so lit
+  surfaces keep a sketch tone and shadow pools like watercolour.
+- **Paper is warm cream** `vec3(0.955, 0.925, 0.855)` ≈ `#F3ECE0` — the same tone the website
+  uses as `#F3EDE0`.
+- **Night is a separate lighting model** (`uNight`); windows light up one by one.
+- **Idle policy**: ~30 FPS while the camera is still, full refresh while moving.
+
+Four user-selectable **look presets** define how strong the ink layer reads:
+
+| Preset | Character | Key values |
+|---|---|---|
+| `classic` (default) | dense hatching, grain, paper | hatch 1, grain 1, paper 1, stain 1, vignette 0.55, line 0.92, pen 1, wobble 1 |
+| `clean` | light sketch: hatch only in shadowed walls | hatch 0.8, ground 0.12, grain 0.35, paper 0.5, vignette 0.3, pen 0.45 |
+| `wash` | pure ink contour, no hatching, flat washes | hatch 0, wash 1, width 0.69, line 1, wobble 0 |
+| `pencil` | soft sparse pencil texture | hatch 0.75, spacing 1.55, grain 0.55, paper 0.75, wobble 1.1 |
+
+The official style previews read closest to a low-hatch setting; do not assume `classic`
+densities when matching them.
+
+**Still unmeasured:** exact renderer constructor arguments, camera body (module failed to
+download), shadow-map size, per-quality post chain.
 
 ## 4. Palette system
 
@@ -60,8 +78,25 @@ Three layers stack, in this order:
 
 1. **Style accent pair** (shipped, exact): `color` = warm/base signature, `accent` = cool
    contrast. Use as the two anchor hues for signage, trim, UI chips and hero props.
-2. **Style scene palette** (measured, 6 colours per style): full-scene k-means including
-   ground and roofs. See `analysis/palette/<style>.json`.
+2. **Material family tables** (shipped, exact): the game ships complete hex families per
+   surface class, and different styles use different tables. Representative values:
+
+| Family | Default table (`pal-T-INdQBs.js`) | Second table (`pal-Doxq3a-X.js`) |
+|---|---|---|
+| plaster | `#F1E5C8 #EEDDB4 #F3EAD6 #EBD5B5 #E9D0C6 #DDE2C8 #DAD4E2` | `#EFE8D8 #EAE0CA #E8DCC0 #E3D2AE #E6D3C3` |
+| stone | `#A9A08F #9E9686 #B5AC9A #A39C8C #B0A48E` | `#C9BFA9 #BFB49C #C4B9A2 #B8AE98` |
+| slate roof | `#4F5F86 #5A5486 #6A5A8C #47607A #7A4E6E #3F6F78` | `#5A5E66 #53575E #62656A` |
+| shingle / tile | `#9A4E3C #A85A42 #8E4A3A #7D5A45` | `#9A4A36 #A65A3E #8C4434 #9A5B44` |
+| timber | `#5A4032 #4E3A2E #654634 #4A3A34` | `#7A3328 #843A2C #6E3226 #7E4030` |
+| brick | — | `#9E4A36 #A8553E #94473A #A35A44` |
+| ochre / sandstone | — | `#D9BF8E #D3B07A #CFA67A` / `#C3A07E #BC9473 #B2735A` |
+| doors | `#A8473C #4F7A4E #3F5F86 #C99A3A #7A4E6E #6F5A4B` | `#5E3A2A #6E4230 #4E3426 #3F4A3A` |
+| lawn | `#9DBA74 #A3BE78 #96B470` | `#A2B97A #9DB474 #A7BC7E` |
+| metals | gold `#D9A94E`, copper `#5E9A88`, bronze `#A8743A`, iron `#3A3532` | gold `#C9A13B`, copper `#5E9A88`, lead `#7A7E84` |
+
+Full families (39 + 49 entries, including `flowers`, `mushroom`, `cloth`, `stained`, `cobble`,
+`path`, `glaze`) are in `analysis/game/art-systems.json`.
+
 3. **Map skin** (shipped, 10 options): overrides grass, leaf, soil, water, sky and applies a
    desaturation factor 0.05–1.0. `blueprint` and `moon` at desat 1.0 are fully monochrome.
 
@@ -148,19 +183,34 @@ blocks will look wrong when tiled. See `analysis/catalog/catalog-analysis.json` 
 
 ## 8. Lighting and time of day
 
-Observed: a single dominant sun with soft shadows and strong ambient fill (shadow cores stay
-coloured, never black). **UNOBSERVED:** whether the game has a day/time cycle, whether style
-choice pins a time of day, and any night lighting besides cyberpunk emissives.
+Measured from the client:
 
-Recommendation until observed: author three fixed light presets in Blender — `day` (default for
-11 styles), `dusk` (fantasy/medieval mood option), `night` (cyberpunk) — do not build a cycle.
+- **Day length: 24 real minutes by default**, user-settable 4–120 minutes
+  (`daylight-xoA8egPB.js`, pref `dayMinutes`; `sky` is an hour 0–24).
+- Day/night can be switched off entirely (`dayNight` pref); the sky hour advances with a speed
+  multiplier (game offers ×3) and pauses with the simulation.
+- Night uses a distinct lighting model (`uNight`) and windows light up one by one (shipped tip
+  text). `cyberpunk` is the style built around this register.
+- Light preset preferences: `lightMorning`, `lightDay`, `lightEvening`, `lightNight`, each
+  defaulting to `now` — i.e. the game normally follows the simulated time.
+
+Recreation guidance: build a **24-minute day cycle** (or fixed presets mapped to clock hours),
+with a warm low sun at morning/evening, high sun at noon, and a blue-shifted night where only
+windows and signage are emissive. A one-off dusk preset is not enough; the cycle is the default.
 
 ## 9. Motion and feel
 
-**UNOBSERVED.** The only behavioural facts shipped publicly: it is a city builder with roads,
-districts, schools, hospitals and a budget; it runs online with friends; the client understands
-`map`, `scenario`, `room`, `host` URL parameters. Simulation cadence, camera easing and
-construction timing need an authenticated capture (`analysis/simulation/observations.md`).
+Measured from the client and its shipped preferences:
+
+- **Idle vs moving render policy**: ~30 FPS while the camera is still; full display refresh while
+  the camera moves.
+- **Camera smoothing** pref `camSlow` defaults to `0.25` (a slow-camera mode for filming).
+- **Simulation speed** options include ×3; the world pauses when the menu is open (`menuPause`).
+- **Day length** 24 minutes default (see §8).
+- Undo of any construction refunds fully (shipped tip), autosave ≈ every minute, `Ctrl+S` quicksave.
+
+Still unmeasured: tick rate, vehicle speeds, construction duration, growth cadence. Their
+modules did not download before the server returned 500 (`newgame`, `launch`, `lens` chunks).
 
 ## 10. Do / don't checklist
 
@@ -172,15 +222,18 @@ construction timing need an authenticated capture (`analysis/simulation/observat
 - Hold one 5 m cell grid and one footprint ladder so blocks tile.
 - Ship each style as a vocabulary set, not a colour LUT: same cell grid, different motifs.
 - Give cyberpunk real emissive signage geometry; a dark tint alone will not read as cyberpunk.
+- Build the **ink-and-paper layer**: paper `#F3ECE0`, ink edges on silhouettes/creases, hatch in
+  shadow, occasional line wobble, warm vignette (`analysis/rendering/ink-pipeline.md`).
+- Drive a **24-minute day cycle** with a night model where windows light individually.
 
 **Don't**
 
-- Don't add specular sheen, reflections, glass transmission or grunge textures.
-- Don't add ink outlines; the reference has none at capture resolution.
+- Don't add specular sheen, reflections, glass transmission or photographic grunge.
+- Don't render it as clean PBR: without the ink/hatch/paper layer it is a different art style.
+- Don't use uniform hatching everywhere; it concentrates in shadow, on walls and in the sky.
 - Don't make windows irregular row-by-row; variation belongs to building-level parameters.
 - Don't mix two environments (map skins) or two mood registers in one city.
 - Don't exceed the silhouette aspect band 1.0–1.4 for ordinary buildings.
-- Don't claim a shader/light/cycle match without an authenticated capture.
 
 ## 11. Verification procedure
 

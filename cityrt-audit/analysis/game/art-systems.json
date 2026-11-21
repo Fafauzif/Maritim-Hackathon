@@ -1,0 +1,851 @@
+{
+  "generatedAt": "2026-11-21T05:27:49.350Z",
+  "source": "authenticated client bundles (evidence/game-bundles)",
+  "palettes": [
+    {
+      "file": "pal-T-INdQBs.js",
+      "families": {
+        "plaster": [
+          "#F1E5C8",
+          "#EEDDB4",
+          "#F3EAD6",
+          "#EBD5B5",
+          "#E9D0C6",
+          "#DDE2C8",
+          "#DAD4E2",
+          "#ECDAA6",
+          "#E4D6C2"
+        ],
+        "pastel": [
+          "#E9C9C0",
+          "#D5DFC4",
+          "#CFD8E4",
+          "#E8D9A8",
+          "#D9CDE2",
+          "#E6D0B0"
+        ],
+        "timber": [
+          "#5A4032",
+          "#4E3A2E",
+          "#654634",
+          "#4A3A34",
+          "#5E4436"
+        ],
+        "stone": [
+          "#A9A08F",
+          "#9E9686",
+          "#B5AC9A",
+          "#A39C8C",
+          "#B0A48E",
+          "#9A9688"
+        ],
+        "slate": [
+          "#4F5F86",
+          "#5A5486",
+          "#6A5A8C",
+          "#47607A",
+          "#7A4E6E",
+          "#3F6F78"
+        ],
+        "shingle": [
+          "#9A4E3C",
+          "#A85A42",
+          "#8E4A3A",
+          "#7D5A45",
+          "#94603E"
+        ],
+        "moss": [
+          "#5E7A4E",
+          "#6B8752",
+          "#58704A"
+        ],
+        "thatch": [
+          "#BC9C5C",
+          "#B39255",
+          "#C4A566"
+        ],
+        "door": [
+          "#A8473C",
+          "#4F7A4E",
+          "#3F5F86",
+          "#C99A3A",
+          "#7A4E6E",
+          "#6B4A36",
+          "#3F6F78"
+        ],
+        "shutter": [
+          "#4F7A4E",
+          "#3F5F86",
+          "#A8473C",
+          "#C99A3A",
+          "#6A5A8C",
+          "#3F6F78",
+          "#8C5A3C"
+        ],
+        "stained": [
+          "#C95B6B",
+          "#5C7FA3",
+          "#D9A94E",
+          "#6F8F5E",
+          "#8C6AB8",
+          "#3F8F9A"
+        ],
+        "cloth": [
+          "#A8473C",
+          "#3F5F86",
+          "#4F7A4E",
+          "#6A5A8C",
+          "#C99A3A",
+          "#7A4E6E"
+        ],
+        "flowers": [
+          "#D9577A",
+          "#E8A33A",
+          "#B85CC9",
+          "#F2D98A",
+          "#E46A4E",
+          "#7FA6E0",
+          "#F0F0E6"
+        ],
+        "leaf": [
+          "#6F8F4E",
+          "#5F7F48",
+          "#7E9E5E",
+          "#89A65F"
+        ],
+        "mushroom": [
+          "#C8453B",
+          "#B8573F",
+          "#D9A94E",
+          "#8C6AB8"
+        ],
+        "lawn": [
+          "#9DBA74",
+          "#A3BE78",
+          "#96B470"
+        ],
+        "path": [
+          "#CDBFA4",
+          "#C4B79C",
+          "#D3C7AE"
+        ],
+        "stoneDark": [
+          "#7E776B"
+        ],
+        "stoneLight": [
+          "#C9C0AE"
+        ],
+        "stoneMoss": [
+          "#8E9677"
+        ],
+        "mortar": [
+          "#857D70"
+        ],
+        "thatchDark": [
+          "#8E6E3A"
+        ],
+        "thatchLight": [
+          "#D2B676"
+        ],
+        "wood": [
+          "#8A6040"
+        ],
+        "woodLight": [
+          "#B08458"
+        ],
+        "woodDark": [
+          "#5A4032"
+        ],
+        "woodGrey": [
+          "#8E8478"
+        ],
+        "iron": [
+          "#3A3532"
+        ],
+        "ironLight": [
+          "#5A524C"
+        ],
+        "gold": [
+          "#F2C46A"
+        ],
+        "copper": [
+          "#5E9A88"
+        ],
+        "bronze": [
+          "#A8743A"
+        ],
+        "glass": [
+          "#9FB9BE"
+        ],
+        "glassWarm": [
+          "#B7C2A8"
+        ],
+        "ink": [
+          "#2A2320"
+        ],
+        "cyan": [
+          "#7FE0EE"
+        ],
+        "violet": [
+          "#B48CF2"
+        ],
+        "green": [
+          "#8EF0B8"
+        ],
+        "rose": [
+          "#F28CC8"
+        ]
+      }
+    },
+    {
+      "file": "pal-Doxq3a-X.js",
+      "families": {
+        "plaster": [
+          "#EFE8D8",
+          "#EAE0CA",
+          "#E8DCC0",
+          "#E3D2AE",
+          "#E6D3C3",
+          "#DCD6C6",
+          "#ECE3CF"
+        ],
+        "ochre": [
+          "#D9BF8E",
+          "#D3B07A",
+          "#CFA67A",
+          "#C99C72",
+          "#D8C29A",
+          "#C4A27C"
+        ],
+        "bold": [
+          "#B9705A",
+          "#C08A5A",
+          "#A7B39A",
+          "#D6B45E",
+          "#B98E86",
+          "#9FAAB0"
+        ],
+        "timber": [
+          "#7A3328",
+          "#843A2C",
+          "#6E3226",
+          "#7E4030",
+          "#5E3A2C"
+        ],
+        "stone": [
+          "#C9BFA9",
+          "#BFB49C",
+          "#C4B9A2",
+          "#B8AE98",
+          "#CBC2AE"
+        ],
+        "sandstone": [
+          "#C3A07E",
+          "#BC9473",
+          "#B2735A",
+          "#C2876A"
+        ],
+        "brick": [
+          "#9E4A36",
+          "#A8553E",
+          "#94473A",
+          "#A35A44"
+        ],
+        "tile": [
+          "#9A4A36",
+          "#A65A3E",
+          "#8C4434",
+          "#9A5B44",
+          "#8A5A48",
+          "#A35040"
+        ],
+        "tileOld": [
+          "#6E4A3E",
+          "#7A5446",
+          "#6A4438",
+          "#7E5A48"
+        ],
+        "slate": [
+          "#5A5E66",
+          "#53575E",
+          "#62656A"
+        ],
+        "shingle": [
+          "#7A6A58",
+          "#857360",
+          "#6E6152"
+        ],
+        "door": [
+          "#5E3A2A",
+          "#6E4230",
+          "#4E3426",
+          "#3F4A3A",
+          "#5A3A36"
+        ],
+        "stained": [
+          "#4E5A78",
+          "#5A4E6E",
+          "#3F5A6A",
+          "#6A5A48",
+          "#4E6A5A"
+        ],
+        "cloth": [
+          "#A8382E",
+          "#36507A",
+          "#D9A93A",
+          "#3F6B4A",
+          "#6A3A5A",
+          "#C9873A"
+        ],
+        "goods": [
+          "#C9873A",
+          "#D9B26A",
+          "#8C5A3C",
+          "#A8382E",
+          "#E9E2CF",
+          "#5E7A4E",
+          "#B88A5A"
+        ],
+        "lawn": [
+          "#A2B97A",
+          "#9DB474",
+          "#A7BC7E"
+        ],
+        "cobble": [
+          "#BDB3A2",
+          "#B5AB98",
+          "#C2B8A6"
+        ],
+        "path": [
+          "#CDBFA4",
+          "#C4B79C"
+        ],
+        "leaf": [
+          "#6F8F4E",
+          "#5F7F48",
+          "#7E9E5E"
+        ],
+        "flowers": [
+          "#C9453B",
+          "#E8A33A",
+          "#F0F0E6",
+          "#B85CC9",
+          "#E46A4E"
+        ],
+        "timberDark": [
+          "#4A2E24"
+        ],
+        "stoneDark": [
+          "#8E8676"
+        ],
+        "stoneLight": [
+          "#DCD3C0"
+        ],
+        "mortar": [
+          "#9A9180"
+        ],
+        "brickDark": [
+          "#7A3A2E"
+        ],
+        "glazed": [
+          "#3A3230"
+        ],
+        "niche": [
+          "#ECE6D8"
+        ],
+        "green": [
+          "#3F6B4A"
+        ],
+        "yellow": [
+          "#D2A13A"
+        ],
+        "black": [
+          "#2F2A28"
+        ],
+        "white": [
+          "#E9E2CF"
+        ],
+        "copper": [
+          "#5E9A88"
+        ],
+        "lead": [
+          "#7A7E84"
+        ],
+        "gold": [
+          "#C9A13B"
+        ],
+        "wood": [
+          "#8A6040"
+        ],
+        "woodLight": [
+          "#A9825A"
+        ],
+        "woodDark": [
+          "#5A4032"
+        ],
+        "woodGrey": [
+          "#8E8478"
+        ],
+        "plank": [
+          "#7E5A3C"
+        ],
+        "iron": [
+          "#33302E"
+        ],
+        "ironLight": [
+          "#55504A"
+        ],
+        "glass": [
+          "#7E9490"
+        ],
+        "glassWarm": [
+          "#9AA48E"
+        ],
+        "lead2": [
+          "#3A3A38"
+        ],
+        "cobbleDark": [
+          "#9C9282"
+        ],
+        "dirt": [
+          "#B89E7A"
+        ],
+        "straw": [
+          "#D2B676"
+        ],
+        "hay": [
+          "#C9A85E"
+        ],
+        "glaze": {
+          "green": "#3F6B4A",
+          "yellow": "#D2A13A",
+          "black": "#2F2A28",
+          "white": "#E9E2CF"
+        }
+      }
+    }
+  ],
+  "sketch": {
+    "glslChunkCount": 8,
+    "uniforms": [
+      "uBlend",
+      "uBoil",
+      "uCamDir",
+      "uCon",
+      "uDesat",
+      "uDetail",
+      "uEdgeLine",
+      "uEdgeRes",
+      "uExpo",
+      "uFar",
+      "uFog",
+      "uGrade",
+      "uHatchPx",
+      "uHiK",
+      "uHiTint",
+      "uInfo",
+      "uInk",
+      "uInkCrisp",
+      "uInkTent",
+      "uInkTentR",
+      "uInner",
+      "uInvVP",
+      "uJitter",
+      "uLift",
+      "uLine",
+      "uLineAlpha",
+      "uMix",
+      "uNear",
+      "uNight",
+      "uNrmOct",
+      "uOffset",
+      "uPaper",
+      "uPaperK",
+      "uPen",
+      "uPrevVP",
+      "uRes",
+      "uSat",
+      "uShK",
+      "uShTint",
+      "uShadowSoft",
+      "uSharp",
+      "uSkyBot",
+      "uSkyHatch",
+      "uSkyHatchK",
+      "uSkyTop",
+      "uStain",
+      "uTanHalf",
+      "uTime",
+      "uTint",
+      "uVignette",
+      "uWashA",
+      "uWashY",
+      "uWobble"
+    ],
+    "functions": [
+      "ik_noise",
+      "ik_octDec",
+      "ik_octEnc"
+    ],
+    "washInjection": [
+      "`outgoingLight = mix(outgoingLight, sketch, clamp(uDesat + uInfo * 0.82, 0.0, 1.0));`",
+      "`;function r(){let r=e({noGlow:!0,desat:1,key:`",
+      "`}),i={uWashY:{value:0},uWashA:{value:1},uTint:{value:[0,0,0,0]}};r.userData.wash=i;let a=r.onBeforeCompile;return r.onBeforeCompile=(e,r)=>{a(e,r),e.uniforms.uWashY=i.uWashY,e.uniforms.uWashA=i.uWashA,e.uniforms.uTint=i.uTint,e.fragmentShader=e.fragmentShader.replace(`",
+      "`uniform float uDesat;\nuniform float uWashY;\nuniform float uWashA;\nuniform vec4 uTint;`"
+    ]
+  },
+  "cameraHits": [
+    {
+      "bundle": "en-C1arqVDc.js",
+      "snippet": " и поленница под свесом. На длинном участке — сеновал.\":`A broad, low-pitch"
+    },
+    {
+      "bundle": "en-C1arqVDc.js",
+      "snippet": "h locker rooms and a terrace, parking and bikes by the gate, a marked pitch"
+    },
+    {
+      "bundle": "en-C1arqVDc.js",
+      "snippet": "Пожарных нет: тушат всем двором\":`No fire department: the whole block pitch"
+    },
+    {
+      "bundle": "en-C1arqVDc.js",
+      "snippet": "st Bin`,\"Ящик из досок, вилы и тачка — огород всё помнит\":`Plank box, pitch"
+    },
+    {
+      "bundle": "en-C1arqVDc.js",
+      "snippet": "from a house builder in a new suburban neighborhood: one steep single-pitch"
+    },
+    {
+      "bundle": "en-C1arqVDc.js",
+      "snippet": "e in gravel and a post with a mailbox and intercom. Grows: two single-pitch"
+    },
+    {
+      "bundle": "en-C1arqVDc.js",
+      "snippet": "wing into a honeycomb. Pale stucco in ochre, pale pink and white, low-pitch"
+    },
+    {
+      "bundle": "en-C1arqVDc.js",
+      "snippet": "вух команд, Tab — красный, с табуретами\":`A wooden table with a green pitch"
+    },
+    {
+      "bundle": "en-C1arqVDc.js",
+      "snippet": "ield, chalk foul lines, a pentagon home plate and batter's boxes, the pitch"
+    },
+    {
+      "bundle": "en-C1arqVDc.js",
+      "snippet": "rs and strawberry cakes under strings of bulbs on birch poles, a kubb pitch"
+    },
+    {
+      "bundle": "en-C1arqVDc.js",
+      "snippet": "s and arcs, corner flags — and goals with see-through nets. Along the pitch"
+    },
+    {
+      "bundle": "en-C1arqVDc.js",
+      "snippet": "ts behind the goals, ad boards and a green mesh fence. Stretches: the pitch"
+    },
+    {
+      "bundle": "en-C1arqVDc.js",
+      "snippet": "d field to almost full size; wider — a longer stand, deeper — a wider pitch"
+    },
+    {
+      "bundle": "en-C1arqVDc.js",
+      "snippet": ", a gate with stone balls and a ticket booth. Wider lots get a longer pitch"
+    },
+    {
+      "bundle": "en-C1arqVDc.js",
+      "snippet": "d, and big ones add open stands at the sides. Deeper lots get a wider pitch"
+    },
+    {
+      "bundle": "en-C1arqVDc.js",
+      "snippet": "шире поле и больше рядов.\":`A desert town's football stadium: a green pitch"
+    },
+    {
+      "bundle": "en-C1arqVDc.js",
+      "snippet": "hoe gate with lanterns and palms in planters. Wider lots get a longer pitch"
+    },
+    {
+      "bundle": "en-C1arqVDc.js",
+      "snippet": "s, and big ones add open stands at the sides. Deeper lots get a wider pitch"
+    },
+    {
+      "bundle": "en-C1arqVDc.js",
+      "snippet": "лиан. На глубоком участке — вторая трибуна со стороны улицы.\":`A mown pitch"
+    },
+    {
+      "bundle": "en-C1arqVDc.js",
+      "snippet": "th orange zones and backboards on poles, and next to it a mini soccer pitch"
+    },
+    {
+      "bundle": "en-C1arqVDc.js",
+      "snippet": "плой линией, и кувшин нарисован светом на фоне башен.\":`A plump glass pitch"
+    },
+    {
+      "bundle": "en-C1arqVDc.js",
+      "snippet": " handle is a glowing gallery ramp for strolling from the belly of the pitch"
+    },
+    {
+      "bundle": "en-C1arqVDc.js",
+      "snippet": "o the restaurant. At night every ring burns with a warm line, and the pitch"
+    },
+    {
+      "bundle": "en-C1arqVDc.js",
+      "snippet": "ом полу, Tab — цвет покрытия\":`Two towers of oak and black steel with pitch"
+    },
+    {
+      "bundle": "en-C1arqVDc.js",
+      "snippet": "nd all of this may last until tea, and then until evening. Beyond the pitch"
+    },
+    {
+      "bundle": "en-C1arqVDc.js",
+      "snippet": "cing the street, and lattice floodlight pylons in the corners. On the pitch"
+    },
+    {
+      "bundle": "en-C1arqVDc.js",
+      "snippet": "teenth-century Italianate villa above the park: smooth stucco, gently pitch"
+    },
+    {
+      "bundle": "en-C1arqVDc.js",
+      "snippet": "ached by a covered cloister on pointed arches, and next to it a rugby pitch"
+    },
+    {
+      "bundle": "en-C1arqVDc.js",
+      "snippet": " лейка у порога, Tab — шалфейная краска, с поленницей под навесом\":`A pitch"
+    },
+    {
+      "bundle": "en-C1arqVDc.js",
+      "snippet": "side are two tiers of yellow, blue and white seats, a moat around the pitch"
+    }
+  ],
+  "geometry": [
+    {
+      "file": "geo-CPar3Mvm.js",
+      "bytes": 14906,
+      "head": "import{Lt as e,Qt as t,ir as n,j as r,no as i,oa as a,ro as o,rr as s}from\"./three.core-DdSv55GA.js\";import{n as c,r as l,s as u}from\"./palette-B94H2wxH.js\";import{t as d}from\"./atlas-ptNQDssk.js\";import{o as f,s as p}from\"./geopack-HDAxjwGV.js\";var m=[0,0,0],h=new o,g=new o,_=new o,v=new o;new o;var y=new o,b=new o,x=new o,S=new s,C=new n,w=new Map;function T(e){let n=w.get(e);if(!n){let r=new t(1,e);n=r.attributes.",
+      "exports": [
+        "N as n",
+        "A as r",
+        "M as t"
+      ],
+      "numbers": [
+        "0",
+        "1",
+        "9",
+        "3",
+        "8",
+        "4",
+        "2"
+      ]
+    },
+    {
+      "file": "geo-CjVqi9gp.js",
+      "bytes": 2431,
+      "head": "var e=Math.PI*2;function t(t,n,r,i,a,o,s={}){let c=s.seg||12,l=s.glow||0,u=s.a0||0,d=a.length,f=a.map((e,t)=>s.bend?s.bend(t/Math.max(1,d-1)):[0,0]),p=a.map((e,t)=>{let n=a[Math.max(0,t-1)],r=a[Math.min(d-1,t+1)],i=r[0]-n[0],o=r[1]-n[1],s=Math.hypot(i,o)||1;return[o/s,-i/s]}),m=[];for(let t=0;t<=c;t++){let n=u+t/c*e;m.push([Math.cos(n),Math.sin(n)])}for(let e=0;e<d-1;e++){let[u,d]=a[e],[h,g]=a[e+1],[_,v]=f[e],[y,b]=f",
+      "exports": [
+        "o as a",
+        "a as i",
+        "i as n",
+        "n as o",
+        "t as r",
+        "r as t"
+      ],
+      "numbers": [
+        "1",
+        "0",
+        "7",
+        "3",
+        "6",
+        "4",
+        "20"
+      ]
+    },
+    {
+      "file": "geom-DoZGdBci.js",
+      "bytes": 8487,
+      "head": "import{n as e}from\"./palette-B94H2wxH.js\";var t=new Map;function n(n){if(n&&n.isColor)return n;let r=t.get(n);return r||(r=e(n),t.set(n,r)),r}function r(e){let t=[],n=[];for(let r of e||[]){if(!r){n.length>=2&&t.push(n),n=[];continue}let e=n[n.length-1];e&&Math.hypot(r[0]-e[0],r[1]-e[1])<.05||n.push(r)}return n.length>=2&&t.push(n),t}function i(e){let t=0;for(let n=0;n<e.length-1;n++)t+=Math.hypot(e[n+1][0]-e[n][0],e",
+      "exports": [
+        "c as _",
+        "h as a",
+        "a as b",
+        "l as c",
+        "x as d",
+        "S as f",
+        "p as g",
+        "d as h",
+        "v as i",
+        "y as l",
+        "_ as m",
+        "u as n",
+        "i as o",
+        "o as p",
+        "b as r",
+        "m as s",
+        "n as t",
+        "r as u",
+        "f as v",
+        "s as y"
+      ],
+      "numbers": [
+        "0",
+        "1",
+        "2.6"
+      ]
+    },
+    {
+      "file": "shapes-BncVtTXM.js",
+      "bytes": 7684,
+      "head": "import{Wr as e,ir as t,no as n,oa as r,ro as i}from\"./three.core-DdSv55GA.js\";import{n as a}from\"./palette-B94H2wxH.js\";import{n as o}from\"./geo-CPar3Mvm.js\";var s=class{constructor(e,t={}){this.pos=Float32Array.from(e.pos),this.nor=Float32Array.from(e.nor),this.col=Float32Array.from(e.colr),this.glow=Float32Array.from(e.glow);let n=!1;for(let t=0;t<e.uvs.length;t++)if(e.uvs[t]!==0){n=!0;break}this.uv=n?Float32Array.",
+      "exports": [
+        "_ as C",
+        "d as E",
+        "u as S",
+        "v as T",
+        "N as _",
+        "S as a",
+        "L as b",
+        "k as c",
+        "U as d",
+        "Q as f",
+        "B as g",
+        "W as h",
+        "b as i",
+        "F as l",
+        "x as m",
+        "C as n",
+        "w as o",
+        "$ as p",
+        "V as r",
+        "G as s"
+      ],
+      "numbers": [
+        "0",
+        "1",
+        "3",
+        "1.35",
+        "2"
+      ]
+    },
+    {
+      "file": "shared_kit-CduiyIzJ.js",
+      "bytes": 5268,
+      "head": "import{i as e}from\"./palette-B94H2wxH.js\";import{f as t,p as n}from\"./shapes-BncVtTXM.js\";import{b as r,p as i}from\"./geom-DoZGdBci.js\";var a=Math.PI*2,o=(e,t,n)=>t+(n-t)*e(),s=(e,t)=>t[Math.floor(e()*t.length)%t.length],c=`#3E3530`,l=`#2F2A27`,u=`#8D9496`,d=`#A3AAA8`,f=`#BDB5A6`,p=`#9C978E`,m=`#9A7A58`,h=`#7A5E44`,g=`#B8956C`,_=`#6B5646`,v=`#6F9A6A`,y=`#557D50`,b=`#8DB06A`,x=`#7E9B5A`,S=[`#D97757`,`#6D8FB5`,`#E2B858",
+      "exports": [
+        "D as A",
+        "L as C",
+        "k as D",
+        "R as E",
+        "z as F",
+        "I",
+        "j as M",
+        "O as N",
+        "F as O",
+        "A as P",
+        "M as S",
+        "B as T",
+        "m as _",
+        "x as a",
+        "d as b",
+        "v as c",
+        "_ as d",
+        "u as f",
+        "T as g",
+        "l as h"
+      ],
+      "numbers": [
+        "1",
+        "0",
+        "3",
+        "4",
+        "9",
+        "6",
+        "7",
+        "5",
+        "8"
+      ]
+    },
+    {
+      "file": "geopack-HDAxjwGV.js",
+      "bytes": 18819,
+      "head": "import{A as e,E as t,fa as n,j as r,ro as i}from\"./three.core-DdSv55GA.js\";var a=16.7,o=2,s=2,c=0,l=!1,u=0,d=0;function f(e){d=e>0?e:0}var p=new Float64Array(9).fill(a),m=new Float64Array(9),h=a,g=0,_=0,v=0;function y(e){v=e>a?e:0}var b=()=>v>0&&globalThis.__liveFrame===!0,x=()=>b()?Math.min(2,v/a):1,S=()=>{let e=performance.now(),t=e-_;_&&t<40&&(p[g]=t,g=(g+1)%9,m.set(p),m.sort(),h=Math.max(6,Math.min(a,m[4]))),_=e,",
+      "exports": [
+        "ne as A",
+        "te as C",
+        "z as D",
+        "N as E",
+        "R as F",
+        "M",
+        "j as N",
+        "y as O",
+        "F as P",
+        "w as S",
+        "P as T",
+        "ce as _",
+        "Pe as a",
+        "Ne as b",
+        "W as c",
+        "je as d",
+        "ve as f",
+        "G as g",
+        "xe as h",
+        "Me as i"
+      ],
+      "numbers": [
+        "16.7",
+        "2",
+        "0",
+        "9",
+        "1",
+        "6",
+        "100",
+        "24",
+        "1500",
+        "400",
+        "250",
+        "1.5",
+        "8",
+        "16",
+        "4.6",
+        "6.5",
+        "3",
+        "4",
+        "2246822507",
+        "3266489909",
+        "668265263",
+        "374761393",
+        "65535"
+      ]
+    },
+    {
+      "file": "atlas-ptNQDssk.js",
+      "bytes": 33543,
+      "head": "import{Hn as e,L as t,Qi as n,Rn as r,ft as i,no as a}from\"./three.core-DdSv55GA.js\";import{o,t as s}from\"./palette-B94H2wxH.js\";import{o as c}from\"./quality-BJbdVyLr.js\";var l=[[`ГОРОДИЩЕ`,`CityRT`,`CityRT`,`CityRT`,`CityRT`,`CityRT`,`CityRT`],[`МОЛЛ ГОРОДИЩЕ`,`CityRT MALL`,`GALERIES CityRT`,`CENTRO CityRT`,`CityRT GALLERIA`,`CityRT モール`,`CityRT مول`],[`МОЛОКО «ГОРОДИЩЕ»`,`CityRT MILK`,`LAIT CityRT`,`LATTE CityRT`,`",
+      "exports": [
+        "ae as a",
+        "E as c",
+        "g as i",
+        "h as l",
+        "de as n",
+        "p as o",
+        "oe as r",
+        "_ as s",
+        "$ as t"
+      ],
+      "numbers": [
+        "0",
+        "2048",
+        "8192",
+        "512",
+        "128",
+        "255",
+        "256",
+        "4096",
+        "8",
+        "84",
+        "2",
+        "9",
+        "1",
+        "5",
+        "14"
+      ]
+    }
+  ]
+}

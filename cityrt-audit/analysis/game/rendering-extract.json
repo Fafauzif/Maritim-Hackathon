@@ -1,0 +1,234 @@
+{
+  "generatedAt": "2026-11-21T05:25:31.654Z",
+  "source": "authenticated client bundles in evidence/game-bundles",
+  "renderer": [],
+  "toneMapping": [
+    {
+      "bundle": "materials-C1pDfKA6.js",
+      "snippet": "new An(new Mr,e);this._renderer.compile(t,no)}_sceneToCubeUV(e,t,n,r,i){let a=new Hr(90,1,t,n),o=[1,-1,1,1,1,1],s=[1,1,1,-1,-1,-1],c=this._renderer,l=c.autoClear,u=c.toneMapping;c.getClearColor(ro),c.toneMapping=0,c.autoClear=!1,c.state.buffers.depth.getReversed()&&(c.setRenderTarget(r),c.clearDepth(),c.setRenderTarget(null)),this._backgroundBox===null&&(this._backgroundBox=new An(new Ze,new gi({name:`PMREM.B"
+    },
+    {
+      "bundle": "materials-C1pDfKA6.js",
+      "snippet": ".lookAt(i.x,i.y+s[t],i.z)):(a.up.set(0,o[t],0),a.position.set(i.x,i.y,i.z),a.lookAt(i.x,i.y,i.z+s[t]));let l=this._cubeSize;mo(r,n*l,t>2?l:0,l,l),c.setRenderTarget(r),p&&c.render(d,a),c.render(e,a)}c.toneMapping=u,c.autoClear=l,e.background=m}_textureToCubeUV(e,t){let n=this._renderer,r=e.mapping===301||e.mapping===302;r?(this._cubemapMaterial===null&&(this._cubemapMaterial=vo()),this._cubemapMaterial.uniform"
+    },
+    {
+      "bundle": "materials-C1pDfKA6.js",
+      "snippet": "{type:dn,depthBuffer:!1,stencilBuffer:!1}),c=new Xn(t,n,{type:dn,depthBuffer:!1,stencilBuffer:!1}));for(let e=0;e<v.length;e++){let r=v[e];r.setSize&&r.setSize(t,n)}},this.begin=function(e,t){if(h||e.toneMapping===0&&v.length===0)return!1;if(_=t,t!==null){let e=t.width,n=t.height;(o.width!==e||o.height!==n)&&this.setSize(e,n)}return y===!1&&e.setRenderTarget(o),g=e.toneMapping,e.toneMapping=0,!0},this.hasRend"
+    },
+    {
+      "bundle": "materials-C1pDfKA6.js",
+      "snippet": "tion(e,t){if(h||e.toneMapping===0&&v.length===0)return!1;if(_=t,t!==null){let e=t.width,n=t.height;(o.width!==e||o.height!==n)&&this.setSize(e,n)}return y===!1&&e.setRenderTarget(o),g=e.toneMapping,e.toneMapping=0,!0},this.hasRenderPass=function(){return y},this.end=function(e,t){e.toneMapping=g,h=!0;let n=o,r=s;for(let i=0;i<v.length;i++){let a=v[i];a.enabled!==!1&&(a.render(e,r,n,t),a.needsSwap!==!1&&(n=r,r"
+    },
+    {
+      "bundle": "materials-C1pDfKA6.js",
+      "snippet": "idth,n=t.height;(o.width!==e||o.height!==n)&&this.setSize(e,n)}return y===!1&&e.setRenderTarget(o),g=e.toneMapping,e.toneMapping=0,!0},this.hasRenderPass=function(){return y},this.end=function(e,t){e.toneMapping=g,h=!0;let n=o,r=s;for(let i=0;i<v.length;i++){let a=v[i];a.enabled!==!1&&(a.render(e,r,n,t),a.needsSwap!==!1&&(n=r,r=r===s?c:s))}if(p!==e.outputColorSpace||m!==e.toneMapping){p=e.outputColorSpace,m=e"
+    },
+    {
+      "bundle": "materials-C1pDfKA6.js",
+      "snippet": "]}, value.a ) );`,`}`].join(` `)}var Ws={1:`Linear`,2:`Reinhard`,3:`Cineon`,4:`ACESFilmic`,6:`AgX`,7:`Neutral`,5:`Custom`};function Gs(e,t){let n=Ws[t];return n===void 0?(K(`WebGLProgram: Unsupported toneMapping:`,t),`vec3 `+e+`( vec3 color ) { return LinearToneMapping( color ); }`):`vec3 `+e+`( vec3 color ) { return `+n+`ToneMapping( color ); }`}var Ks=new q;function qs(){return L.getLuminanceCoefficients(Ks"
+    },
+    {
+      "bundle": "materials-C1pDfKA6.js",
+      "snippet": "uffer?`#define USE_LOGARITHMIC_DEPTH_BUFFER`:``,n.reversedDepthBuffer?`#define USE_REVERSED_DEPTH_BUFFER`:``,`uniform mat4 viewMatrix;`,`uniform vec3 cameraPosition;`,`uniform bool isOrthographic;`,n.toneMapping===0?``:`#define TONE_MAPPING`,n.toneMapping===0?``:X.tonemapping_pars_fragment,n.toneMapping===0?``:Gs(`toneMapping`,n.toneMapping),n.dithering?`#define DITHERING`:``,n.opaque?`#define OPAQUE`:``,X.co"
+    },
+    {
+      "bundle": "materials-C1pDfKA6.js",
+      "snippet": ":``,n.reversedDepthBuffer?`#define USE_REVERSED_DEPTH_BUFFER`:``,`uniform mat4 viewMatrix;`,`uniform vec3 cameraPosition;`,`uniform bool isOrthographic;`,n.toneMapping===0?``:`#define TONE_MAPPING`,n.toneMapping===0?``:X.tonemapping_pars_fragment,n.toneMapping===0?``:Gs(`toneMapping`,n.toneMapping),n.dithering?`#define DITHERING`:``,n.opaque?`#define OPAQUE`:``,X.colorspace_pars_fragment,Us(`linearToOutputTex"
+    }
+  ],
+  "exposure": [
+    {
+      "bundle": "materials-C1pDfKA6.js",
+      "snippet": "olor.rgb = toneMapping( gl_FragColor.rgb ); #endif`,tonemapping_pars_fragment:`#ifndef saturate #define saturate( a ) clamp( a, 0.0, 1.0 ) #endif uniform float toneMappingExposure; vec3 LinearToneMapping( vec3 color ) { return saturate( toneMappingExposure * color ); } vec3 ReinhardToneMapping( vec3 color ) { color *= toneMappingExposu"
+    },
+    {
+      "bundle": "materials-C1pDfKA6.js",
+      "snippet": "`#ifndef saturate #define saturate( a ) clamp( a, 0.0, 1.0 ) #endif uniform float toneMappingExposure; vec3 LinearToneMapping( vec3 color ) { return saturate( toneMappingExposure * color ); } vec3 ReinhardToneMapping( vec3 color ) { color *= toneMappingExposure; return saturate( color / ( vec3( 1.0 ) + color ) ); } vec3 CineonToneMapp"
+    },
+    {
+      "bundle": "materials-C1pDfKA6.js",
+      "snippet": "neMappingExposure; vec3 LinearToneMapping( vec3 color ) { return saturate( toneMappingExposure * color ); } vec3 ReinhardToneMapping( vec3 color ) { color *= toneMappingExposure; return saturate( color / ( vec3( 1.0 ) + color ) ); } vec3 CineonToneMapping( vec3 color ) { color *= toneMappingExposure; color = max( vec3( 0.0 ), color "
+    },
+    {
+      "bundle": "materials-C1pDfKA6.js",
+      "snippet": "eMapping( vec3 color ) { color *= toneMappingExposure; return saturate( color / ( vec3( 1.0 ) + color ) ); } vec3 CineonToneMapping( vec3 color ) { color *= toneMappingExposure; color = max( vec3( 0.0 ), color - 0.004 ); return pow( ( color * ( 6.2 * color + 0.5 ) ) / ( color * ( 6.2 * color + 1.7 ) + 0.06 ), vec3( 2.2 ) ); } vec3 R"
+    },
+    {
+      "bundle": "materials-C1pDfKA6.js",
+      "snippet": " mat3 ACESOutputMat = mat3( vec3( 1.60475, -0.10208, -0.00327 ), vec3( -0.53108, 1.10813, -0.07276 ), vec3( -0.07367, -0.00605, 1.07602 ) ); color *= toneMappingExposure / 0.6; color = ACESInputMat * color; color = RRTAndODTFit( color ); color = ACESOutputMat * color; return saturate( color ); } const mat3 LINEAR_REC2020_TO"
+    },
+    {
+      "bundle": "materials-C1pDfKA6.js",
+      "snippet": " vec3( - 0.016493938717834573, - 0.016493938717834257, 1.2519364065950405 ) ); const float AgxMinEv = - 12.47393; const float AgxMaxEv = 4.026069; color *= toneMappingExposure; color = LINEAR_SRGB_TO_LINEAR_REC2020 * color; color = AgXInsetMatrix * color; color = max( color, 1e-10 ); color = log2( color ); color = ( color - AgxMi"
+    }
+  ],
+  "outputColorSpace": [
+    {
+      "bundle": "materials-C1pDfKA6.js",
+      "snippet": "=g,h=!0;let n=o,r=s;for(let i=0;i<v.length;i++){let a=v[i];a.enabled!==!1&&(a.render(e,r,n,t),a.needsSwap!==!1&&(n=r,r=r===s?c:s))}if(p!==e.outputColorSpace||m!==e.toneMapping){p=e.outputColorSpace,m=e.toneMapping,u.defines={},L.getTransfer(p)===`srgb`&&(u.defines.SRGB_TRANSFER=``);let t=Oo[m];t"
+    },
+    {
+      "bundle": "materials-C1pDfKA6.js",
+      "snippet": "h;i++){let a=v[i];a.enabled!==!1&&(a.render(e,r,n,t),a.needsSwap!==!1&&(n=r,r=r===s?c:s))}if(p!==e.outputColorSpace||m!==e.toneMapping){p=e.outputColorSpace,m=e.toneMapping,u.defines={},L.getTransfer(p)===`srgb`&&(u.defines.SRGB_TRANSFER=``);let t=Oo[m];t&&(u.defines[t]=``),u.needsUpdate=!0}u.un"
+    },
+    {
+      "bundle": "materials-C1pDfKA6.js",
+      "snippet": "pping`,n.toneMapping),n.dithering?`#define DITHERING`:``,n.opaque?`#define OPAQUE`:``,X.colorspace_pars_fragment,Us(`linearToOutputTexel`,n.outputColorSpace),qs(),n.useDepthPacking?`#define DEPTH_PACKING `+n.depthPacking:``,` `].filter(Zs).join(` `)),o=tc(o),o=Qs(o,n),o=$s(o,n),s=tc(s),s=Qs(s,n)"
+    },
+    {
+      "bundle": "materials-C1pDfKA6.js",
+      "snippet": "atchingColor:re&&h._colorsTexture!==null,instancing:ne,instancingColor:ne&&h.instanceColor!==null,instancingMorph:ne&&h.morphTexture!==null,outputColorSpace:te===null?e.outputColorSpace:te.isXRRenderTarget===!0?te.texture.colorSpace:L.workingColorSpace,alphaToCoverage:!!i.alphaToCoverage,map:ie,"
+    }
+  ],
+  "shadowMap": [
+    {
+      "bundle": "materials-C1pDfKA6.js",
+      "snippet": "wsWithMaps,numLightProbes:o.numLightProbes,numLightProbeGrids:g.length,numClippingPlanes:a.numPlanes,numClipIntersection:a.numIntersection,dithering:i.dithering,shadowMapEnabled:e.shadowMap.enabled&&l.length>0,shadowMapType:e.shadowMap.type,toneMapping:H,decodeVideoTexture:ie&&i.map.isVideoTexture===!0&&L.getTransfer(i.map.colorSpace)===`srgb`,decodeVideoTextureEmissi"
+    },
+    {
+      "bundle": "materials-C1pDfKA6.js",
+      "snippet": "LightProbeGrids:g.length,numClippingPlanes:a.numPlanes,numClipIntersection:a.numIntersection,dithering:i.dithering,shadowMapEnabled:e.shadowMap.enabled&&l.length>0,shadowMapType:e.shadowMap.type,toneMapping:H,decodeVideoTexture:ie&&i.map.isVideoTexture===!0&&L.getTransfer(i.map.colorSpace)===`srgb`,decodeVideoTextureEmissive:le&&i.emissiveMap.isVideoTexture===!0&&L.ge"
+    },
+    {
+      "bundle": "materials-C1pDfKA6.js",
+      "snippet": "Ae,B,Ne,m,c),ze=new Hc(D,Ne,Oe),Ke=new $c(R,ke,Oe,B),He=new Ya(R,z,ke),Ue=new wo(R,z,ke),ke.programs=Pe.programs,D.capabilities=Oe,D.extensions=z,D.properties=V,D.renderLists=Ie,D.shadowMap=ze,D.state=B,D.info=ke}h!==1009&&(E=new ko(h,t.width,t.height,s,i,a));let U=new Yc(D,R);this.xr=U,this.getContext=function(){return R},this.getContextAttributes=function(){return R"
+    }
+  ],
+  "pixelRatio": [
+    {
+      "bundle": "materials-C1pDfKA6.js",
+      "snippet": "e].disconnect(t))}ee=null,te=null,g.reset();for(let e in _)delete _[e];if(e.setRenderTarget(y),p=null,f=null,d=null,r=null,b=null,ce.stop(),n.isPresenting=!1,e.setPixelRatio(w),e.setSize(C.width,C.height,!1),T!==null){let e=T.camera;e.fov=T.fov,e.zoom=T.zoom,e.updateProjectionMatrix(),T=null}n.dispatchEvent({type:`sessionend`})}thi"
+    },
+    {
+      "bundle": "materials-C1pDfKA6.js",
+      "snippet": "o=v.stencil?en:dt);let c={colorFormat:t.RGBA8,depthFormat:s,scaleFactor:i};d=this.getBinding(),f=d.createProjectionLayer(c),r.updateRenderState({layers:[f]}),e.setPixelRatio(1),e.setSize(f.textureWidth,f.textureHeight,!1),b=new Xn(f.textureWidth,f.textureHeight,{format:a,type:De,depthTexture:new Rn(f.textureWidth,f.textureHeight,o,"
+    },
+    {
+      "bundle": "materials-C1pDfKA6.js",
+      "snippet": "{let n={antialias:v.antialias,alpha:!0,depth:v.depth,stencil:v.stencil,framebufferScaleFactor:i};p=new XRWebGLLayer(r,t,n),r.updateRenderState({baseLayer:p}),e.setPixelRatio(1),e.setSize(p.framebufferWidth,p.framebufferHeight,!1),b=new Xn(p.framebufferWidth,p.framebufferHeight,{format:a,type:De,colorSpace:e.outputColorSpace,stencil"
+    },
+    {
+      "bundle": "materials-C1pDfKA6.js",
+      "snippet": ");e&&e.loseContext()},this.forceContextRestore=function(){let e=z.get(`WEBGL_lose_context`);e&&e.restoreContext()},this.getPixelRatio=function(){return I},this.setPixelRatio=function(e){e!==void 0&&(I=e,this.setSize(P,F,!1))},this.getSize=function(e){return e.set(P,F)},this.setSize=function(e,n,r=!0){if(U.isPresenting){K(`WebGLRend"
+    }
+  ],
+  "clearColor": [
+    {
+      "bundle": "materials-C1pDfKA6.js",
+      "snippet": "(u.geometry.dispose(),u.material.dispose(),u=void 0),l!==void 0&&(l.geometry.dispose(),l.material.dispose(),l=void 0)}return{getClearColor:function(){return s},setClearColor:function(e,t=1){s.set(e),c=t,_(s,c)},getClearAlpha:function(){return c},setClearAlpha:function(e){c=e,_(s,c)},render:h,addToRenderList:g,dispose:v}}function Ja"
+    },
+    {
+      "bundle": "materials-C1pDfKA6.js",
+      "snippet": "st(me=e)},this.setOpaqueSort=function(e){ue=e},this.setTransparentSort=function(e){de=e},this.getClearColor=function(e){return e.copy(Be.getClearColor())},this.setClearColor=function(){Be.setClearColor(...arguments)},this.getClearAlpha=function(){return Be.getClearAlpha()},this.setClearAlpha=function(){Be.setClearAlpha(...arguments"
+    },
+    {
+      "bundle": "materials-C1pDfKA6.js",
+      "snippet": "=function(e){ue=e},this.setTransparentSort=function(e){de=e},this.getClearColor=function(e){return e.copy(Be.getClearColor())},this.setClearColor=function(){Be.setClearColor(...arguments)},this.getClearAlpha=function(){return Be.getClearAlpha()},this.setClearAlpha=function(){Be.setClearAlpha(...arguments)},this.clear=function(e=!0,"
+    },
+    {
+      "bundle": "materials-C1pDfKA6.js",
+      "snippet": "lutionScale);let s=D.getRenderTarget(),c=D.getActiveCubeFace(),l=D.getActiveMipmapLevel();D.setRenderTarget(i),D.getClearColor(ce),le=D.getClearAlpha(),le<1&&D.setClearColor(16777215,.5),D.clear(),we&&Be.render(n);let u=D.toneMapping;D.toneMapping=0;let d=r.viewport;if(r.viewport!==void 0&&(r.viewport=void 0),C.setupLightsView(r),g"
+    }
+  ],
+  "fog": [
+    {
+      "bundle": "materials-C1pDfKA6.js",
+      "snippet": "pping:()=>304,Euler:()=>Lr,EventDispatcher:()=>Ge,ExternalTexture:()=>Xe,ExtrudeGeometry:()=>lt,FileLoader:()=>I,Float16BufferAttribute:()=>R,Float32BufferAttribute:()=>ze,FloatType:()=>xt,Fog:()=>Fa,FogExp2:()=>y,FramebufferTexture:()=>Kt,FrontSide:()=>0,Frustum:()=>be,FrustumArray:()=>Bt,GLBufferAttribute:()=>Qt,GLSL1:()=>`100`,GLSL3:()=>me,GreaterCompare:()=>516,GreaterDepth:()=>6,GreaterEqualCompare:"
+    },
+    {
+      "bundle": "materials-C1pDfKA6.js",
+      "snippet": ".vertexColors,vertexAlphas:i.vertexColors===!0&&!!v.attributes.color&&v.attributes.color.itemSize===4,pointsUvs:h.isPoints===!0&&!!v.attributes.uv&&(ie||Oe),fog:!!_,useFog:i.fog===!0,fogExp2:!!_&&_.isFogExp2,flatShading:i.wireframe===!1&&(i.flatShading===!0||v.attributes.normal===void 0&&N===!1&&(i.isMeshLambertMaterial||i.isMeshPhongMaterial||i.isMeshStandardMaterial||i.isMeshPhysicalMaterial)),sizeAtte"
+    },
+    {
+      "bundle": "materials-C1pDfKA6.js",
+      "snippet": "(e,t){function n(e,t){e.matrixAutoUpdate===!0&&e.updateMatrix(),t.value.copy(e.matrix)}function r(t,n){n.color.getRGB(t.fogColor.value,ma(e)),n.isFog?(t.fogNear.value=n.near,t.fogFar.value=n.far):n.isFogExp2&&(t.fogDensity.value=n.density)}function i(e,t,n,r,i){t.isNodeMaterial?t.uniformsNeedUpdate=!1:t.isMeshBasicMaterial?a(e,t):t.isMeshLambertMaterial?(a(e,t),t.envMap&&(e.envMapIntensity.value=t.envMap"
+    },
+    {
+      "bundle": "three.core-DdSv55GA.js",
+      "snippet": "(t),this.g=e.getY(t),this.b=e.getZ(t),this}toJSON(){return this.getHex()}*[Symbol.iterator](){yield this.r,yield this.g,yield this.b}},Fr=new U;U.NAMES=jr;var Ir=class e{constructor(e,t=25e-5){this.isFogExp2=!0,this.name=``,this.color=new U(e),this.density=t}clone(){return new e(this.color,this.density)}toJSON(){return{type:`FogExp2`,name:this.name,color:this.color.getHex(),density:this.density}}},Lr=cla"
+    },
+    {
+      "bundle": "three.core-DdSv55GA.js",
+      "snippet": "his.b}},Fr=new U;U.NAMES=jr;var Ir=class e{constructor(e,t=25e-5){this.isFogExp2=!0,this.name=``,this.color=new U(e),this.density=t}clone(){return new e(this.color,this.density)}toJSON(){return{type:`FogExp2`,name:this.name,color:this.color.getHex(),density:this.density}}},Lr=class e{constructor(e,t=1,n=1e3){this.isFog=!0,this.name=``,this.color=new U(e),this.near=t,this.far=n}clone(){return new e(this.c"
+    }
+  ],
+  "lights": [],
+  "camera": [],
+  "postProcessing": [
+    {
+      "bundle": "en-C1arqVDc.js",
+      "snippet": " на поверхностях\":`a mottled texture on surfaces`,Бумага:`Paper`,\"зерно бумаги поверх всего кадра\":`paper grain over the whole frame`,\"Пятна бумаги\":`Paper Stains`,\"крупные тёплые разводы\":`big, warm blotches`,Виньетка:`Vignette`,\"тёплое затемнение по краям\":`warm darkening around the edges`,\"Штрих на небе\":`Sky Strokes`,\"диагональные штрихи на небе\":`diagonal strokes across the sky`,Линии:`Lines`,\"Чёткость контура\":`Outline Strength`,\"наскольк"
+    },
+    {
+      "bundle": "look-DZfJ2UwR.js",
+      "snippet": "round.value=e.ground,t.uHatchCross.value=e.cross,t.uHatchDark.value=e.dark,t.uWash.value=e.wash,t.uShadeLift.value=e.lift,t.uHatchFill.value=e.fill,t.uGrain.value=e.grain,r.uPaper.value=e.paper,r.uStain.value=e.stain,r.uVignette.value=e.vignette,r.uSkyHatchK.value=e.sky,r.uLineAlpha.value=e.line,r.uInner.value=e.inner,r.uPen.value=e.pen,(n.lineMul!==e.width||n.wobbleMul!==e.wobble||n.hatchMul!==e.spacing)&&(n.lineMul=e.width,n.wobbleMul=e.wobbl"
+    },
+    {
+      "bundle": "materials-C1pDfKA6.js",
+      "snippet": "[],y=!1;this.setSize=function(e,t){o.setSize(e,t),s!==null&&s.setSize(e,t),c!==null&&c.setSize(e,t);for(let n=0;n<v.length;n++){let r=v[n];r.setSize&&r.setSize(e,t)}},this.setEffects=function(e){v=e,y=v.length>0&&v[0].isRenderPass===!0;let t=o.width,n=o.height;v.length>0&&s===null&&(s=new Xn(t,n,{type:dn,depthBuffer:!1,stencilBuffer:!1}),c=new Xn(t,n,{type:dn,depthBuffer:!1,stencilBuffer:!1}));for(let e=0;e<v.length;e++){let r=v[e];r.setSize&&r.s"
+    },
+    {
+      "bundle": "materials-C1pDfKA6.js",
+      "snippet": ",t){if(h||e.toneMapping===0&&v.length===0)return!1;if(_=t,t!==null){let e=t.width,n=t.height;(o.width!==e||o.height!==n)&&this.setSize(e,n)}return y===!1&&e.setRenderTarget(o),g=e.toneMapping,e.toneMapping=0,!0},this.hasRenderPass=function(){return y},this.end=function(e,t){e.toneMapping=g,h=!0;let n=o,r=s;for(let i=0;i<v.length;i++){let a=v[i];a.enabled!==!1&&(a.render(e,r,n,t),a.needsSwap!==!1&&(n=r,r=r===s?c:s))}if(p!==e.outputColorSpace||m!=="
+    },
+    {
+      "bundle": "materials-C1pDfKA6.js",
+      "snippet": "Sensing()===!1,we&&Be.addToRenderList(S,e),this.info.render.frame++,this.info.autoReset===!0&&this.info.reset(),ge===!0&&Re.beginShadows();let i=C.state.shadowsArray;if(ze.render(i,e,t),ge===!0&&Re.endShadows(),(r&&E.hasRenderPass())===!1){let n=S.opaque,r=S.transmissive;if(C.setupLights(),t.isArrayCamera){let i=t.cameras;if(r.length>0)for(let t=0,a=i.length;t<a;t++){let a=i[t];lt(n,r,e,a)}we&&Be.render(e);for(let t=0,n=i.length;t<n;t++){let n=i["
+    }
+  ],
+  "instancing": [
+    {
+      "bundle": "materials-C1pDfKA6.js",
+      "snippet": "r:()=>tr,ImageUtils:()=>Ki,IncrementStencilOp:()=>si,IncrementWrapStencilOp:()=>Pi,InstancedBufferAttribute:()=>kr,InstancedBufferGeometry:()=>On,InstancedInterleavedBuffer:()=>mi,InstancedMesh:()=>zi,Int16BufferAttribute:()=>Hn,Int32BufferAttribute:()=>qr,Int8BufferAttribute:()=>$i,IntType:()=>Yn,InterleavedBuffer:()=>cr,InterleavedBufferAttribute:()=>xi,Interpolant:()="
+    },
+    {
+      "bundle": "materials-C1pDfKA6.js",
+      "snippet": ")}function l(t){return e.bindVertexArray(t)}function u(t){return e.deleteVertexArray(t)}function d(e,t,n,i){let a=i.wireframe===!0,o=r[t.id];o===void 0&&(o={},r[t.id]=o);let s=e.isInstancedMesh===!0?e.id:0,l=o[s];l===void 0&&(l={},o[s]=l);let u=l[n.id];u===void 0&&(u={},l[n.id]=u);let d=u[a];return d===void 0&&(d=f(c()),u[a]=d),d}function f(e){let t=[],r=[],i=[];for(let "
+    },
+    {
+      "bundle": "materials-C1pDfKA6.js",
+      "snippet": "13;if(s.isInterleavedBufferAttribute){let t=s.data,c=t.stride,p=s.offset;if(t.isInstancedInterleavedBuffer){for(let e=0;e<i.locationSize;e++)_(i.location+e,t.meshPerAttribute);n.isInstancedMesh!==!0&&a._maxInstanceCount===void 0&&(a._maxInstanceCount=t.meshPerAttribute*t.count)}else for(let e=0;e<i.locationSize;e++)g(i.location+e);e.bindBuffer(e.ARRAY_BUFFER,l);for(let e"
+    },
+    {
+      "bundle": "materials-C1pDfKA6.js",
+      "snippet": "+)y(i.location+e,o/i.locationSize,u,r,c*d,(p+o/i.locationSize*e)*d,f)}else{if(s.isInstancedBufferAttribute){for(let e=0;e<i.locationSize;e++)_(i.location+e,s.meshPerAttribute);n.isInstancedMesh!==!0&&a._maxInstanceCount===void 0&&(a._maxInstanceCount=s.meshPerAttribute*s.count)}else for(let e=0;e<i.locationSize;e++)g(i.location+e);e.bindBuffer(e.ARRAY_BUFFER,l);for(let e"
+    }
+  ],
+  "materials": [],
+  "simulation": [
+    {
+      "bundle": "daylight-xoA8egPB.js",
+      "snippet": "import{t as e}from\"./prefs-Dk13dMkm.js\";var t=e=>(e%24+24)%24,n=()=>Math.max(4,Math.min(120,+e.get(`dayMinutes`)||24)),r=()=>e.get(`dayNight`)!==!1;function i(e){return e?(typeof e.sky==`number`&&isFinite(e.sky)||(e.sky=t(e.hour??12)),e.sky):12}function a(e,a){let o=i(e);return!r()||e.paused||!(a>0)?o:(e.sky=t(o+a*(e.speed||1)*24/(n()*60)"
+    },
+    {
+      "bundle": "prefs-Dk13dMkm.js",
+      "snippet": "a}from\"./haptic-7QMBFKWj.js\";import{t as o}from\"./afterframe-Cfq5d7KI.js\";var s=`cityrt.prefs`,c=.8,l=e=>Math.max(.75,Math.min(1.5,+e||1))*(n.phone?c:1),u={uiScale:1,hints:!0,autosave:!0,menuPause:!0,dayNight:!0,dayMinutes:24,camSlow:.25,gameCursor:!0,haptics:!0,districtNames:!0,fullscreen:null,lightMorning:`now`,lightDay:`now`,lightEvening:`now`,lightNight:`now`,freePlace:!1},d=null;function f(){if(d)ret"
+    }
+  ],
+  "styles": [
+    {
+      "bundle": "atlas-ptNQDssk.js",
+      "snippet": "import{Hn as e,L as t,Qi as n,Rn as r,ft as i,no as a}from\"./three.core-DdSv55GA.js\";import{o,t as s}from\"./palette-B94H2wxH.js\";import{o as c}from\"./quality-BJbdVyLr.js\";var l=[[`ГОРОДИЩЕ`,`CityRT`,`CityRT`,`CityRT`,`CityRT`,`CityRT`,`CityRT`],[`МОЛЛ ГОР"
+    },
+    {
+      "bundle": "boot-DntyKGy4.js",
+      "snippet": "r),r=t.split(`.`).map(Number);for(let e=0;e<Math.max(n.length,r.length);e++)if((n[e]||0)!==(r[e]||0))return(n[e]||0)<(r[e]||0);return!1},O=`cityrt.app.later`,ue=e=>e===`mac`||e===`intel`,k=()=>`<span class=\"dl-q\"><button type=\"button\" class=\"dl-qb\" aria-label=\"${S(n(`Как открыть на Mac`"
+    },
+    {
+      "bundle": "boot-DntyKGy4.js",
+      "snippet": "news/zone-planner-court.webp\":Fe,\"./art/news/zone-planner-plan.webp\":Ie,\"./art/news/zone-planner.webp\":Le}),B=e=>Re[`./art/news/`+e]||``,V=`cityrt.news.seen`,H=null;function U(){if(H)return H;H=new Set;try{let e=JSON.parse(localStorage.getItem(V)||`[]`);if(Array.isArray(e))for(let t of "
+    },
+    {
+      "bundle": "career-D8iZs5iW.js",
+      "snippet": "port{f as P,l as te,o as ne}from\"./pick-ui-8TN11AvX.js\";import{T as re,h as ie,i as ae,t as oe,y as se}from\"./modes-lib-BRVOJsj9.js\";var F=`cityrt.menu.career`,I=()=>{try{return JSON.parse(localStorage.getItem(F)||`null`)||{}}catch{return{}}},L=e=>{try{localStorage.setItem(F,JSON.string"
+    },
+    {
+      "bundle": "cursors-D_MdKtGH.js",
+      "snippet": "\"vertical-align:-4px;margin-right:6px\" src='${S(e===`system`?D:w.arrow,t*2).slice(5,-2)}'>`,k=!0;try{let e=JSON.parse(localStorage.getItem(`cityrt.prefs`)||`null`);e&&e.gameCursor===!1&&(k=!1)}catch{}var A=`url(\"data:image/svg+xml,%3Csvg`,j=e=>!!e&&(e.startsWith(A)||e.startsWith(`image-"
+    },
+    {
+      "bundle": "en-C1arqVDc.js",
+      "snippet": "y}. The city on screen will be saved in its place.`,\"Сохранения хранятся в этом браузере. Перенести город на другой компьютер можно файлом .cityrt.\":`Saves live in this browser. To move a city to another computer, use a .cityrt file.`,\"<b>{n}</b> сохранение|<b>{n}</b> сохранения|<b>{n}<"
+    }
+  ]
+}

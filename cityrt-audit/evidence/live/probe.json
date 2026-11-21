@@ -1,0 +1,36 @@
+{
+ "before": {
+  "url": "https://cityrt.com/play/",
+  "title": "CityRT",
+  "canvas": null,
+  "hasWebgl2": true,
+  "bodyClasses": "mn-hud-off"
+ },
+ "after": {
+  "url": "https://cityrt.com/play/",
+  "title": "CityRT",
+  "canvas": null,
+  "probe": {
+   "drawCalls": 0,
+   "frames": 27,
+   "shaders": 0,
+   "renderer": "WebKit WebGL"
+  }
+ },
+ "probe": {
+  "renderer": "WebKit WebGL",
+  "vendor": "WebKit",
+  "unmaskedRenderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x00004688) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "unmaskedVendor": "Google Inc. (Intel)",
+  "contextAttributes": {
+   "powerPreference": "high-performance"
+  },
+  "canvas": {
+   "width": 300,
+   "height": 150
+  },
+  "drawCalls": 0,
+  "frames": 27,
+  "shaders": []
+ }
+}

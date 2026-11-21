@@ -125,7 +125,7 @@ comes from height, roof, colour and props, not from irregular fenestration.
 
 **Growth rules are part of the art.** 134 shipped buildings describe parametric extension
 ("wider → more bays; deeper → service yard; level → more floors"). A kit that only ships fixed
-blocks will look wrong when tiled. See `analysis/catalog/catalog-analysis.json.growthRules`.
+blocks will look wrong when tiled. See `analysis/catalog/catalog-analysis.json` (field `growthRules`).
 
 ## 7. Per-style vocabulary (from shipped descriptions)
 

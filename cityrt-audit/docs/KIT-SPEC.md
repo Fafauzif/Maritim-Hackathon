@@ -33,7 +33,7 @@ Each building must snap to one of these plot sizes. Values in metres at 5 m/cell
 | Landmark | 12×9 | 60×45 | cathedral, castle, stadium, mega-factory |
 
 Growth rules (must be parametric, not fixed meshes) — 134 shipped examples exist in
-`analysis/catalog/catalog-analysis.json.growthRules`:
+`analysis/catalog/catalog-analysis.json` (field `growthRules`):
 
 - **wider** → repeat a bay / service bay / shopfront unit
 - **deeper** → add courtyard wing, service yard, rear hall

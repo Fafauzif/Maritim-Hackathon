@@ -37,6 +37,13 @@ Brief: `docs/superpowers/specs/2026-11-21-cityrt-style-audit-brief.md`
 | Capture before the scene populates | **Prevented** — `sceneReady` predicate implemented with tests |
 | Style never changes due to persisted state | **Prevented by design** — fresh context per style; not exercised live because login failed |
 
+## Automated evidence check
+
+`node cityrt-audit/tools/coverage.js cityrt-audit` scans every deliverable for cited
+repository paths and verifies each one exists and matches its digest in
+`evidence/manifest.json`. Latest run: **27 claims, 20 file references checked, 0 missing,
+0 unregistered, 0 hash mismatches.** The manifest itself holds **907** registered artefacts.
+
 ## Honest limits of this audit
 
 - The single largest gap is the authenticated client (U1–U5). Everything about shaders,

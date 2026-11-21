@@ -26,7 +26,7 @@ login failure on their normal setup and reported that other users see the same.
 
 | # | Unknown | Why | Cheapest probe |
 |---|---|---|---|
-| U10 | Desktop shell type (Electron / NW.js / WebView2) and its payload | `winget` could not install 7-Zip (needs admin elevation; installer exited 1602) | `7z l CityRT-Windows.exe` on a machine with 7-Zip, or `7z x` into `evidence/installer/payload/` |
+| U10 | Desktop shell type (Electron / NW.js / WebView2) and its payload | `winget` could not install 7-Zip (needs admin elevation; installer exited 1602) | `7z l CityRT-Windows.exe` on a machine with 7-Zip, or extract with `7z x` into a new payload directory under `evidence/installer/` |
 
 ## Deliberately not attempted
 

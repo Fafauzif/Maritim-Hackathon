@@ -1,0 +1,6 @@
+﻿# 111 MB input, never a deliverable
+CityRT-Windows.exe
+# audit runtime state and large captures (hashes live in evidence/manifest.json)
+cityrt-audit/.profile/
+cityrt-audit/evidence/**/*.har
+cityrt-audit/evidence/models/

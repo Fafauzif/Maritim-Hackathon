@@ -1,0 +1,1326 @@
+{
+  "schemaVersion": 1,
+  "revision": "v2",
+  "baseCommit": "e07093ef34118bc3e686257accbbfe6246595153",
+  "buildId": "20261121T1445-local",
+  "blenderVersion": "5.2.2 LTS",
+  "axisConvention": "Blender +X east, +Y north, +Z up, waterline Z=0, 1 unit = 1 m. glTF +X east, +Y up, -Z north. Map Blender [x,y,z] to glTF [x,z,-y].",
+  "units": "metres",
+  "georeferenced": false,
+  "assets": [
+    {
+      "id": "globe",
+      "path": "runtime/globe/globe.glb",
+      "kind": "globe",
+      "bytes": 1784408,
+      "sha256": "1ce709976853daf773ce83737ec740f6de26fc19e88a7ca76abb056fc0a33e89",
+      "summary": {
+        "nodes": 13,
+        "meshInstances": 10,
+        "meshData": 10,
+        "materials": 3,
+        "textures": 1,
+        "images": 1,
+        "triangles": 36996,
+        "vertices": 19547,
+        "boundsGltf": {
+          "min": [
+            -10,
+            -10,
+            -10
+          ],
+          "max": [
+            10,
+            10,
+            10
+          ],
+          "size": [
+            20,
+            20,
+            20
+          ]
+        }
+      }
+    },
+    {
+      "id": "kit",
+      "path": "runtime/kit/common-kit.glb",
+      "kind": "kit",
+      "bytes": 307452,
+      "sha256": "49dbd06201cd427fc25ff53a3a1ac0098262fd1ae10d67373c32503ab1773eec",
+      "summary": {
+        "nodes": 16,
+        "meshInstances": 16,
+        "meshData": 16,
+        "materials": 22,
+        "textures": 0,
+        "images": 0,
+        "triangles": 5013,
+        "vertices": 10129,
+        "boundsGltf": {
+          "min": [
+            -25.0,
+            -2.15,
+            -15.57
+          ],
+          "max": [
+            25.84,
+            8.175,
+            21.8872
+          ],
+          "size": [
+            50.84,
+            10.325,
+            37.457
+          ]
+        }
+      }
+    },
+    {
+      "id": "coast_kodingareng",
+      "path": "runtime/coasts/kodingareng/coast.glb",
+      "kind": "coast",
+      "bytes": 3447240,
+      "sha256": "93c0835f3896a830a574e3258ac547f74a2a79fa54434edd887b1c1020b6696a",
+      "summary": {
+        "nodes": 333,
+        "meshInstances": 320,
+        "meshData": 130,
+        "materials": 29,
+        "textures": 0,
+        "images": 0,
+        "triangles": 152276,
+        "vertices": 176123,
+        "boundsGltf": {
+          "min": [
+            -340,
+            -7.6,
+            -340
+          ],
+          "max": [
+            340,
+            12.943,
+            340
+          ],
+          "size": [
+            680,
+            20.543,
+            680
+          ]
+        }
+      }
+    },
+    {
+      "id": "section_kodingareng",
+      "path": "runtime/coasts/kodingareng/section.glb",
+      "kind": "section",
+      "bytes": 545484,
+      "sha256": "e249fd967043825994b6bf81d07fe680f5a0da1dab24e748d034ff5685ca6709",
+      "summary": {
+        "nodes": 43,
+        "meshInstances": 30,
+        "meshData": 30,
+        "materials": 12,
+        "textures": 0,
+        "images": 0,
+        "triangles": 9646,
+        "vertices": 19258,
+        "boundsGltf": {
+          "min": [
+            -2.9434,
+            -32.0,
+            -13.5446
+          ],
+          "max": [
+            13.1348,
+            18.8919,
+            176.0556
+          ],
+          "size": [
+            16.078,
+            50.892,
+            189.6
+          ]
+        }
+      }
+    },
+    {
+      "id": "coast_tunda",
+      "path": "runtime/coasts/tunda/coast.glb",
+      "kind": "coast",
+      "bytes": 3800564,
+      "sha256": "d1ea4e0372d413e5ebaa0fce7918885c33338268b8de3786939706abe027646f",
+      "summary": {
+        "nodes": 416,
+        "meshInstances": 403,
+        "meshData": 127,
+        "materials": 29,
+        "textures": 0,
+        "images": 0,
+        "triangles": 179824,
+        "vertices": 222773,
+        "boundsGltf": {
+          "min": [
+            -360,
+            -8.5607,
+            -360
+          ],
+          "max": [
+            360,
+            12.0962,
+            360
+          ],
+          "size": [
+            720,
+            20.657,
+            720
+          ]
+        }
+      }
+    },
+    {
+      "id": "section_tunda",
+      "path": "runtime/coasts/tunda/section.glb",
+      "kind": "section",
+      "bytes": 539928,
+      "sha256": "354a6601de2b58f5d906a1774591f6e48bbd100c5333a4b3d1be523c5b484e05",
+      "summary": {
+        "nodes": 40,
+        "meshInstances": 27,
+        "meshData": 27,
+        "materials": 11,
+        "textures": 0,
+        "images": 0,
+        "triangles": 9580,
+        "vertices": 19124,
+        "boundsGltf": {
+          "min": [
+            -149.8784,
+            -34.56,
+            -14.3391
+          ],
+          "max": [
+            -15.6243,
+            13.76,
+            94.117
+          ],
+          "size": [
+            134.254,
+            48.32,
+            108.456
+          ]
+        }
+      }
+    },
+    {
+      "id": "coast_amur",
+      "path": "runtime/coasts/amur/coast.glb",
+      "kind": "coast",
+      "bytes": 3933760,
+      "sha256": "0c8b98ca83a4904115d645482b7c4950fc272382124c7d069b5a19b32f918ea6",
+      "summary": {
+        "nodes": 549,
+        "meshInstances": 536,
+        "meshData": 80,
+        "materials": 26,
+        "textures": 0,
+        "images": 0,
+        "triangles": 175349,
+        "vertices": 169861,
+        "boundsGltf": {
+          "min": [
+            -400,
+            -7.6074,
+            -400
+          ],
+          "max": [
+            400,
+            9.6845,
+            400
+          ],
+          "size": [
+            800,
+            17.292,
+            800
+          ]
+        }
+      }
+    },
+    {
+      "id": "section_amur",
+      "path": "runtime/coasts/amur/section.glb",
+      "kind": "section",
+      "bytes": 546784,
+      "sha256": "2c6122fe49e0241a4ad1167c0f960981d8f428344374734e280f8f9f5576247e",
+      "summary": {
+        "nodes": 45,
+        "meshInstances": 32,
+        "meshData": 32,
+        "materials": 13,
+        "textures": 0,
+        "images": 0,
+        "triangles": 9704,
+        "vertices": 19230,
+        "boundsGltf": {
+          "min": [
+            12.0425,
+            -27.0031,
+            -64.5875
+          ],
+          "max": [
+            194.0474,
+            26.0705,
+            -47.2118
+          ],
+          "size": [
+            182.005,
+            53.074,
+            17.376
+          ]
+        }
+      }
+    }
+  ],
+  "sites": {
+    "kodingareng": {
+      "label": "Kodingareng Lompo",
+      "coastAssetId": "coast_kodingareng",
+      "sectionAssetId": "section_kodingareng",
+      "sourcePath": "source/coasts/kodingareng/scene.blend",
+      "siteLocatorWgs84": {
+        "lat": -5.14905,
+        "lon": 119.26473,
+        "role": "globe locator from project place board; scene origin is art-local"
+      },
+      "originGltf": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "waterlineUpM": 0.0,
+      "waterNode": "ENV_Water",
+      "sectionWaterNode": "SECTION_Water",
+      "anchorsGltf": {
+        "COAST_ORIGIN": [
+          0.0,
+          0.0,
+          -0.0
+        ],
+        "ORBIT_SITE": [
+          0.0,
+          0.0,
+          -0.0
+        ],
+        "ORBIT_WATERFRONT": [
+          6.5,
+          1.5,
+          124.099998
+        ],
+        "TARGET_SURVEY": [
+          10.0,
+          1.4,
+          146.0
+        ],
+        "ANCHOR_JETTY": [
+          15.3732,
+          0.6,
+          139.731995
+        ],
+        "ANCHOR_VESSEL": [
+          10.0,
+          0.0,
+          146.0
+        ],
+        "SECTION_A": [
+          12.985111,
+          0.0,
+          175.85112
+        ],
+        "SECTION_B": [
+          0.049628,
+          0.0,
+          -13.503719
+        ]
+      },
+      "cameras": {
+        "COAST_OVERVIEW": {
+          "projection": "perspective",
+          "position": [
+            10.0,
+            235.0,
+            310.0
+          ],
+          "target": [
+            7.718241,
+            181.378647,
+            250.674255
+          ],
+          "up": [
+            -0.02576,
+            0.74212,
+            -0.669772
+          ],
+          "near": 0.5,
+          "far": 5000.0,
+          "aspect": 1.777778,
+          "resolution": [
+            3840,
+            2160
+          ],
+          "sensorFit": "AUTO",
+          "lensMm": 36.0,
+          "verticalFovDeg": 31.4173,
+          "horizontalFovDeg": 53.1301,
+          "fitGuidance": "Render at 16:9. For a narrower container keep the vertical FOV and crop horizontally; for a wider container keep vertical FOV and add side margin."
+        },
+        "COAST_PLAN": {
+          "projection": "orthographic",
+          "position": [
+            0.0,
+            720.0,
+            20.0
+          ],
+          "target": [
+            0.0,
+            640.0,
+            20.0
+          ],
+          "up": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "near": 0.5,
+          "far": 5000.0,
+          "aspect": 1.777778,
+          "resolution": [
+            3840,
+            2160
+          ],
+          "sensorFit": "AUTO",
+          "orthoWidthM": 470.0,
+          "orthoHeightM": 264.375
+        },
+        "COAST_APPROACH": {
+          "projection": "perspective",
+          "position": [
+            64.0,
+            54.0,
+            228.0
+          ],
+          "target": [
+            27.395283,
+            21.181976,
+            164.888428
+          ],
+          "up": [
+            -0.205817,
+            0.911984,
+            -0.354858
+          ],
+          "near": 0.5,
+          "far": 5000.0,
+          "aspect": 1.777778,
+          "resolution": [
+            3840,
+            2160
+          ],
+          "sensorFit": "AUTO",
+          "lensMm": 48.0,
+          "verticalFovDeg": 23.8224,
+          "horizontalFovDeg": 41.1121,
+          "fitGuidance": "Render at 16:9. For a narrower container keep the vertical FOV and crop horizontally; for a wider container keep vertical FOV and add side margin."
+        },
+        "COAST_DETAIL": {
+          "projection": "perspective",
+          "position": [
+            55.0,
+            24.0,
+            190.0
+          ],
+          "target": [
+            8.906483,
+            5.981625,
+            127.145203
+          ],
+          "up": [
+            -0.133193,
+            0.974306,
+            -0.181626
+          ],
+          "near": 0.5,
+          "far": 5000.0,
+          "aspect": 1.777778,
+          "resolution": [
+            3840,
+            2160
+          ],
+          "sensorFit": "AUTO",
+          "lensMm": 42.0,
+          "verticalFovDeg": 27.1075,
+          "horizontalFovDeg": 46.3972,
+          "fitGuidance": "Render at 16:9. For a narrower container keep the vertical FOV and crop horizontally; for a wider container keep vertical FOV and add side margin."
+        },
+        "COAST_SECTION": {
+          "projection": "orthographic",
+          "position": [
+            -140.885925,
+            -2.322051,
+            124.302879
+          ],
+          "target": [
+            -61.071945,
+            -2.322051,
+            118.85051
+          ],
+          "up": [
+            0.0,
+            1.0,
+            -0.0
+          ],
+          "near": 1.0,
+          "far": 1200.0,
+          "aspect": 1.777778,
+          "resolution": [
+            3840,
+            2160
+          ],
+          "sensorFit": "AUTO",
+          "orthoWidthM": 115.5172,
+          "orthoHeightM": 64.9784
+        },
+        "TRAVEL_CAM": {
+          "projection": "perspective",
+          "position": [
+            10.0,
+            235.0,
+            310.0
+          ],
+          "target": [
+            7.718241,
+            181.378647,
+            250.674255
+          ],
+          "up": [
+            -0.02576,
+            0.74212,
+            -0.669772
+          ],
+          "near": 0.5,
+          "far": 5000.0,
+          "aspect": 1.777778,
+          "resolution": [
+            3840,
+            2160
+          ],
+          "sensorFit": "AUTO",
+          "lensMm": 40.0,
+          "verticalFovDeg": 28.4093,
+          "horizontalFovDeg": 48.4555,
+          "fitGuidance": "Render at 16:9. For a narrower container keep the vertical FOV and crop horizontally; for a wider container keep vertical FOV and add side margin."
+        }
+      },
+      "section": {
+        "fromNode": "SECTION_A",
+        "toNode": "SECTION_B",
+        "lookDirectionGltf": [
+          0.997675,
+          0.0,
+          -0.068155
+        ],
+        "verticalExaggeration": 3.2,
+        "verticalPivotUpM": 0.0,
+        "illustrative": true,
+        "mutuallyExclusiveWithCoast": true
+      },
+      "cleanStills": {
+        "godview": "media/coasts/kodingareng/godview.png",
+        "mapview": "media/coasts/kodingareng/mapview.png",
+        "approach": "media/coasts/kodingareng/approach.png",
+        "detail": "media/coasts/kodingareng/detail.png",
+        "section": "media/coasts/kodingareng/section.png"
+      },
+      "film": "media/coasts/kodingareng/travel.mp4",
+      "artNotes": "Compact low island with stilt and on-grade houses along connected lanes, a covered landing pavilion, a fixed jetty and a survey boat at the cut line. Illustrative; not a building census or surveyed shoreline."
+    },
+    "tunda": {
+      "label": "Pulau Tunda",
+      "coastAssetId": "coast_tunda",
+      "sectionAssetId": "section_tunda",
+      "sourcePath": "source/coasts/tunda/scene.blend",
+      "siteLocatorWgs84": {
+        "lat": -5.81151,
+        "lon": 106.27811,
+        "role": "globe locator from project place board; scene origin is art-local"
+      },
+      "originGltf": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "waterlineUpM": 0.0,
+      "waterNode": "ENV_Water",
+      "sectionWaterNode": "SECTION_Water",
+      "anchorsGltf": {
+        "COAST_ORIGIN": [
+          0.0,
+          0.0,
+          -0.0
+        ],
+        "ORBIT_SITE": [
+          0.0,
+          0.0,
+          -0.0
+        ],
+        "ORBIT_WATERFRONT": [
+          -80.599998,
+          1.5,
+          64.599998
+        ],
+        "TARGET_SURVEY": [
+          -124.0,
+          1.4,
+          76.0
+        ],
+        "ANCHOR_JETTY": [
+          -129.600006,
+          0.6,
+          73.199997
+        ],
+        "ANCHOR_VESSEL": [
+          -124.0,
+          0.0,
+          76.0
+        ],
+        "SECTION_A": [
+          -148.0,
+          0.0,
+          94.0
+        ],
+        "SECTION_B": [
+          -16.0,
+          0.0,
+          -12.0
+        ]
+      },
+      "cameras": {
+        "COAST_OVERVIEW": {
+          "projection": "perspective",
+          "position": [
+            -10.0,
+            270.0,
+            390.0
+          ],
+          "target": [
+            -8.253841,
+            222.853699,
+            325.39212
+          ],
+          "up": [
+            0.015922,
+            0.807893,
+            -0.589114
+          ],
+          "near": 0.5,
+          "far": 5000.0,
+          "aspect": 1.777778,
+          "resolution": [
+            3840,
+            2160
+          ],
+          "sensorFit": "AUTO",
+          "lensMm": 34.0,
+          "verticalFovDeg": 33.1664,
+          "horizontalFovDeg": 55.7945,
+          "fitGuidance": "Render at 16:9. For a narrower container keep the vertical FOV and crop horizontally; for a wider container keep vertical FOV and add side margin."
+        },
+        "COAST_PLAN": {
+          "projection": "orthographic",
+          "position": [
+            0.0,
+            720.0,
+            5.0
+          ],
+          "target": [
+            0.0,
+            640.0,
+            5.0
+          ],
+          "up": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "near": 0.5,
+          "far": 5000.0,
+          "aspect": 1.777778,
+          "resolution": [
+            3840,
+            2160
+          ],
+          "sensorFit": "AUTO",
+          "orthoWidthM": 560.0,
+          "orthoHeightM": 315.0
+        },
+        "COAST_APPROACH": {
+          "projection": "perspective",
+          "position": [
+            -172.0,
+            54.0,
+            168.0
+          ],
+          "target": [
+            -133.409698,
+            24.489773,
+            104.439514
+          ],
+          "up": [
+            0.19144,
+            0.929478,
+            -0.315312
+          ],
+          "near": 0.5,
+          "far": 5000.0,
+          "aspect": 1.777778,
+          "resolution": [
+            3840,
+            2160
+          ],
+          "sensorFit": "AUTO",
+          "lensMm": 54.0,
+          "verticalFovDeg": 21.2393,
+          "horizontalFovDeg": 36.8699,
+          "fitGuidance": "Render at 16:9. For a narrower container keep the vertical FOV and crop horizontally; for a wider container keep vertical FOV and add side margin."
+        },
+        "COAST_DETAIL": {
+          "projection": "perspective",
+          "position": [
+            -160.0,
+            30.0,
+            132.0
+          ],
+          "target": [
+            -114.60704,
+            3.993618,
+            71.476059
+          ],
+          "up": [
+            0.195048,
+            0.945687,
+            -0.260064
+          ],
+          "near": 0.5,
+          "far": 5000.0,
+          "aspect": 1.777778,
+          "resolution": [
+            3840,
+            2160
+          ],
+          "sensorFit": "AUTO",
+          "lensMm": 40.0,
+          "verticalFovDeg": 28.4093,
+          "horizontalFovDeg": 48.4555,
+          "fitGuidance": "Render at 16:9. For a narrower container keep the vertical FOV and crop horizontally; for a wider container keep vertical FOV and add side margin."
+        },
+        "COAST_SECTION": {
+          "projection": "orthographic",
+          "position": [
+            -201.635864,
+            -2.836917,
+            -55.306786
+          ],
+          "target": [
+            -151.54509,
+            -2.836917,
+            7.070412
+          ],
+          "up": [
+            0.0,
+            1.0,
+            -0.0
+          ],
+          "near": 1.0,
+          "far": 1200.0,
+          "aspect": 1.777778,
+          "resolution": [
+            3840,
+            2160
+          ],
+          "sensorFit": "AUTO",
+          "orthoWidthM": 123.4776,
+          "orthoHeightM": 69.4562
+        },
+        "TRAVEL_CAM": {
+          "projection": "perspective",
+          "position": [
+            -10.0,
+            270.0,
+            390.0
+          ],
+          "target": [
+            -8.253841,
+            222.853699,
+            325.39212
+          ],
+          "up": [
+            0.015922,
+            0.807893,
+            -0.589114
+          ],
+          "near": 0.5,
+          "far": 5000.0,
+          "aspect": 1.777778,
+          "resolution": [
+            3840,
+            2160
+          ],
+          "sensorFit": "AUTO",
+          "lensMm": 40.0,
+          "verticalFovDeg": 28.4093,
+          "horizontalFovDeg": 48.4555,
+          "fitGuidance": "Render at 16:9. For a narrower container keep the vertical FOV and crop horizontally; for a wider container keep vertical FOV and add side margin."
+        }
+      },
+      "section": {
+        "fromNode": "SECTION_A",
+        "toNode": "SECTION_B",
+        "lookDirectionGltf": [
+          0.626135,
+          0.0,
+          0.779715
+        ],
+        "verticalExaggeration": 3.2,
+        "verticalPivotUpM": 0.0,
+        "illustrative": true,
+        "mutuallyExclusiveWithCoast": true
+      },
+      "cleanStills": {
+        "godview": "media/coasts/tunda/godview.png",
+        "mapview": "media/coasts/tunda/mapview.png",
+        "approach": "media/coasts/tunda/approach.png",
+        "detail": "media/coasts/tunda/detail.png",
+        "section": "media/coasts/tunda/section.png"
+      },
+      "film": "media/coasts/tunda/travel.mp4",
+      "artNotes": "Greener island with a sheltered cove landing, differentiated shoreline, mangrove fringe and roof clusters around the landing. Illustrative."
+    },
+    "amur": {
+      "label": "Razdolnaya mouth, northern Amur Bay",
+      "coastAssetId": "coast_amur",
+      "sectionAssetId": "section_amur",
+      "sourcePath": "source/coasts/amur/scene.blend",
+      "siteLocatorWgs84": {
+        "lat": 43.32556,
+        "lon": 131.80778,
+        "role": "globe locator from project place board; scene origin is art-local"
+      },
+      "originGltf": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "waterlineUpM": 0.0,
+      "waterNode": "ENV_Water",
+      "sectionWaterNode": "SECTION_Water",
+      "anchorsGltf": {
+        "COAST_ORIGIN": [
+          0.0,
+          0.0,
+          -0.0
+        ],
+        "ORBIT_SITE": [
+          0.0,
+          0.0,
+          -0.0
+        ],
+        "ORBIT_WATERFRONT": [
+          27.299999,
+          1.5,
+          -44.200001
+        ],
+        "TARGET_SURVEY": [
+          42.0,
+          1.4,
+          -52.0
+        ],
+        "ANCHOR_JETTY": [
+          46.086201,
+          0.6,
+          -55.125198
+        ],
+        "ANCHOR_VESSEL": [
+          42.0,
+          0.0,
+          -52.0
+        ],
+        "SECTION_A": [
+          12.053854,
+          0.0,
+          -50.203247
+        ],
+        "SECTION_B": [
+          193.820496,
+          0.0,
+          -63.98917
+        ]
+      },
+      "cameras": {
+        "COAST_OVERVIEW": {
+          "projection": "perspective",
+          "position": [
+            10.0,
+            150.0,
+            140.0
+          ],
+          "target": [
+            24.394245,
+            102.019188,
+            77.624939
+          ],
+          "up": [
+            0.134862,
+            0.80018,
+            -0.584401
+          ],
+          "near": 0.5,
+          "far": 5000.0,
+          "aspect": 1.777778,
+          "resolution": [
+            3840,
+            2160
+          ],
+          "sensorFit": "AUTO",
+          "lensMm": 40.0,
+          "verticalFovDeg": 28.4093,
+          "horizontalFovDeg": 48.4555,
+          "fitGuidance": "Render at 16:9. For a narrower container keep the vertical FOV and crop horizontally; for a wider container keep vertical FOV and add side margin."
+        },
+        "COAST_PLAN": {
+          "projection": "orthographic",
+          "position": [
+            20.0,
+            720.0,
+            -10.0
+          ],
+          "target": [
+            20.0,
+            640.0,
+            -10.0
+          ],
+          "up": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "near": 0.5,
+          "far": 5000.0,
+          "aspect": 1.777778,
+          "resolution": [
+            3840,
+            2160
+          ],
+          "sensorFit": "AUTO",
+          "orthoWidthM": 500.0,
+          "orthoHeightM": 281.25
+        },
+        "COAST_APPROACH": {
+          "projection": "perspective",
+          "position": [
+            4.0,
+            46.0,
+            78.0
+          ],
+          "target": [
+            30.414297,
+            22.755419,
+            6.153114
+          ],
+          "up": [
+            0.100261,
+            0.956858,
+            -0.272711
+          ],
+          "near": 0.5,
+          "far": 5000.0,
+          "aspect": 1.777778,
+          "resolution": [
+            3840,
+            2160
+          ],
+          "sensorFit": "AUTO",
+          "lensMm": 58.0,
+          "verticalFovDeg": 19.8046,
+          "horizontalFovDeg": 34.4829,
+          "fitGuidance": "Render at 16:9. For a narrower container keep the vertical FOV and crop horizontally; for a wider container keep vertical FOV and add side margin."
+        },
+        "COAST_DETAIL": {
+          "projection": "perspective",
+          "position": [
+            8.0,
+            28.0,
+            12.0
+          ],
+          "target": [
+            53.924572,
+            3.083475,
+            -48.581356
+          ],
+          "up": [
+            0.188152,
+            0.95026,
+            -0.248201
+          ],
+          "near": 0.5,
+          "far": 5000.0,
+          "aspect": 1.777778,
+          "resolution": [
+            3840,
+            2160
+          ],
+          "sensorFit": "AUTO",
+          "lensMm": 42.0,
+          "verticalFovDeg": 27.1075,
+          "horizontalFovDeg": 46.3972,
+          "fitGuidance": "Render at 16:9. For a narrower container keep the vertical FOV and crop horizontally; for a wider container keep vertical FOV and add side margin."
+        },
+        "COAST_SECTION": {
+          "projection": "orthographic",
+          "position": [
+            81.380051,
+            -2.898671,
+            94.969574
+          ],
+          "target": [
+            75.329903,
+            -2.898671,
+            15.198677
+          ],
+          "up": [
+            0.0,
+            1.0,
+            -0.0
+          ],
+          "near": 1.0,
+          "far": 1200.0,
+          "aspect": 1.777778,
+          "resolution": [
+            3840,
+            2160
+          ],
+          "sensorFit": "AUTO",
+          "orthoWidthM": 93.8231,
+          "orthoHeightM": 52.7755
+        },
+        "TRAVEL_CAM": {
+          "projection": "perspective",
+          "position": [
+            10.0,
+            150.0,
+            140.0
+          ],
+          "target": [
+            24.394245,
+            102.019188,
+            77.624939
+          ],
+          "up": [
+            0.134862,
+            0.80018,
+            -0.584401
+          ],
+          "near": 0.5,
+          "far": 5000.0,
+          "aspect": 1.777778,
+          "resolution": [
+            3840,
+            2160
+          ],
+          "sensorFit": "AUTO",
+          "lensMm": 40.0,
+          "verticalFovDeg": 28.4093,
+          "horizontalFovDeg": 48.4555,
+          "fitGuidance": "Render at 16:9. For a narrower container keep the vertical FOV and crop horizontally; for a wider container keep vertical FOV and add side margin."
+        }
+      },
+      "section": {
+        "fromNode": "SECTION_A",
+        "toNode": "SECTION_B",
+        "lookDirectionGltf": [
+          -0.075627,
+          0.0,
+          -0.997136
+        ],
+        "verticalExaggeration": 3.0,
+        "verticalPivotUpM": 0.0,
+        "illustrative": true,
+        "mutuallyExclusiveWithCoast": true
+      },
+      "cleanStills": {
+        "godview": "media/coasts/amur/godview.png",
+        "mapview": "media/coasts/amur/mapview.png",
+        "approach": "media/coasts/amur/approach.png",
+        "detail": "media/coasts/amur/detail.png",
+        "section": "media/coasts/amur/section.png"
+      },
+      "film": "media/coasts/amur/travel.mp4",
+      "artNotes": "River-to-bay estuary with low asymmetric marsh banks, tidal creeks, reed bands and a compact working landing. Illustrative; no plume or bathymetry claim."
+    }
+  },
+  "globe": {
+    "assetId": "globe",
+    "radiusArtUnits": 10.0,
+    "projection": "natural-earth equirectangular UV on a UV sphere; +Y north after export",
+    "markers": {
+      "kodingareng": {
+        "label": "Kodingareng Lompo",
+        "wgs84": {
+          "lat": -5.14905,
+          "lon": 119.26473,
+          "role": "globe locator from project place board; scene origin is art-local"
+        },
+        "node": "ANCHOR_kodingareng",
+        "positionGltf": [
+          -4.868729,
+          -0.89747,
+          -8.688499
+        ],
+        "role": "globe locator; not a scene transform"
+      },
+      "tunda": {
+        "label": "Pulau Tunda",
+        "wgs84": {
+          "lat": -5.81151,
+          "lon": 106.27811,
+          "role": "globe locator from project place board; scene origin is art-local"
+        },
+        "node": "ANCHOR_tunda",
+        "positionGltf": [
+          -2.788594,
+          -1.012562,
+          -9.549788
+        ],
+        "role": "globe locator; not a scene transform"
+      },
+      "amur": {
+        "label": "Razdolnaya mouth, northern Amur Bay",
+        "wgs84": {
+          "lat": 43.32556,
+          "lon": 131.80778,
+          "role": "globe locator from project place board; scene origin is art-local"
+        },
+        "node": "ANCHOR_amur",
+        "positionGltf": [
+          -4.849538,
+          6.861429,
+          -5.422431
+        ],
+        "role": "globe locator; not a scene transform"
+      }
+    },
+    "cameras": {
+      "GLOBE_HOME": {
+        "projection": "orthographic",
+        "position": [
+          -13.394819,
+          9.27051,
+          -25.191992
+        ],
+        "target": [
+          22.324701,
+          -15.450838,
+          41.986656
+        ],
+        "up": [
+          0.145075,
+          0.951057,
+          0.272846
+        ],
+        "near": 0.5,
+        "far": 200.0,
+        "aspect": 1.777778,
+        "resolution": [
+          3840,
+          2160
+        ],
+        "sensorFit": "AUTO",
+        "orthoWidthM": 21.4,
+        "orthoHeightM": 12.0375
+      },
+      "GLOBE_REGION_kodingareng": {
+        "projection": "perspective",
+        "position": [
+          -11.868188,
+          3.461952,
+          -18.799229
+        ],
+        "target": [
+          31.050285,
+          -23.268642,
+          43.196579
+        ],
+        "up": [
+          0.190186,
+          0.942526,
+          0.274725
+        ],
+        "near": 0.5,
+        "far": 200.0,
+        "aspect": 1.777778,
+        "resolution": [
+          3840,
+          2160
+        ],
+        "sensorFit": "AUTO",
+        "lensMm": 62.0,
+        "verticalFovDeg": 18.5498,
+        "horizontalFovDeg": 32.3784,
+        "fitGuidance": "Render at 16:9. For a narrower container keep the vertical FOV and crop horizontally; for a wider container keep vertical FOV and add side margin."
+      },
+      "GLOBE_REGION_tunda": {
+        "projection": "perspective",
+        "position": [
+          -7.352726,
+          3.204677,
+          -21.021833
+        ],
+        "target": [
+          20.633068,
+          -22.654066,
+          49.321045
+        ],
+        "up": [
+          0.119489,
+          0.946319,
+          0.300338
+        ],
+        "near": 0.5,
+        "far": 200.0,
+        "aspect": 1.777778,
+        "resolution": [
+          3840,
+          2160
+        ],
+        "sensorFit": "AUTO",
+        "lensMm": 62.0,
+        "verticalFovDeg": 18.5498,
+        "horizontalFovDeg": 32.3784,
+        "fitGuidance": "Render at 16:9. For a narrower container keep the vertical FOV and crop horizontally; for a wider container keep vertical FOV and add side margin."
+      },
+      "GLOBE_REGION_amur": {
+        "projection": "perspective",
+        "position": [
+          -8.560334,
+          18.939413,
+          -8.617965
+        ],
+        "target": [
+          14.217513,
+          -55.198433,
+          10.997071
+        ],
+        "up": [
+          0.70223,
+          0.375745,
+          0.604722
+        ],
+        "near": 0.5,
+        "far": 200.0,
+        "aspect": 1.777778,
+        "resolution": [
+          3840,
+          2160
+        ],
+        "sensorFit": "AUTO",
+        "lensMm": 62.0,
+        "verticalFovDeg": 18.5498,
+        "horizontalFovDeg": 32.3784,
+        "fitGuidance": "Render at 16:9. For a narrower container keep the vertical FOV and crop horizontally; for a wider container keep vertical FOV and add side margin."
+      },
+      "GLOBE_REEL": {
+        "projection": "orthographic",
+        "position": [
+          -9.758414,
+          9.27051,
+          -26.811024
+        ],
+        "target": [
+          16.264023,
+          -15.45085,
+          44.68504
+        ],
+        "up": [
+          0.10569,
+          0.951056,
+          0.290381
+        ],
+        "near": 0.5,
+        "far": 200.0,
+        "aspect": 1.777778,
+        "resolution": [
+          3840,
+          2160
+        ],
+        "sensorFit": "AUTO",
+        "orthoWidthM": 21.6,
+        "orthoHeightM": 12.15
+      }
+    },
+    "assetBounds": {
+      "min": [
+        -10,
+        -10,
+        -10
+      ],
+      "max": [
+        10,
+        10,
+        10
+      ],
+      "size": [
+        20,
+        20,
+        20
+      ]
+    }
+  },
+  "kit": {
+    "assetId": "kit",
+    "components": [
+      "KIT_HOUSE_A",
+      "KIT_HOUSE_B",
+      "KIT_HOUSE_C",
+      "KIT_HOUSE_D",
+      "KIT_PAVILION",
+      "KIT_WORKING_LANDING",
+      "KIT_COMMUNITY_HALL",
+      "KIT_JETTY",
+      "KIT_BOAT_SURVEY",
+      "KIT_BOAT_LOCAL",
+      "KIT_PALM",
+      "KIT_SHRUB",
+      "KIT_REED",
+      "KIT_MANGROVE",
+      "KIT_CRATE",
+      "KIT_BARREL"
+    ],
+    "originRules": "Each component has its own authored pivot at ground/waterline; place on Z=0 for waterline assets and on sampled terrain for land assets. Instance repeated parts; do not normalise component sizes."
+  },
+  "evidencePath": "evidence/depth-case-verified.json",
+  "media": {
+    "globeOverview": "media/globe/globe-overview.png",
+    "kitSheet": "media/kit/asset-sheet.png",
+    "coastReel": "media/coast-reel.mp4",
+    "pitchPlates": [
+      "media/pitch/kodingareng-surface.png",
+      "media/pitch/kodingareng-deeper.png",
+      "media/pitch/kodingareng-section.png"
+    ]
+  },
+  "integrationNotes": [
+    "Load one coast.glb at a time; hide coast.glb before showing its section.glb.",
+    "Both variants share the same world origin and A/B anchor transforms.",
+    "ENV_Water and SECTION_Water are independent selectable water nodes.",
+    "Runtime meshes carry no evidence figures, arrows, labels or statutory boundaries.",
+    "Use the annotated pitch plates for the case story; do not bake them into runtime art."
+  ]
+}

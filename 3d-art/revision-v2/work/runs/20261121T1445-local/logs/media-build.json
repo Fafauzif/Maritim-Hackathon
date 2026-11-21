@@ -1,0 +1,13 @@
+{
+  "pitch": {
+    "surface": "media/pitch/kodingareng-surface.png",
+    "deeper": "media/pitch/kodingareng-deeper.png",
+    "section": "media/pitch/kodingareng-section.png"
+  },
+  "review": {
+    "look_sheet": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\revision-v2\\work\\runs\\20261121T1445-local\\proofs\\look\\kodingareng-look-contact-sheet.png",
+    "before_after": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\revision-v2\\delivery\\LAUTARA_3D_Art_Handoff_v2\\review\\before-after.png",
+    "parity": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\revision-v2\\delivery\\LAUTARA_3D_Art_Handoff_v2\\review\\parity-sheet.png"
+  },
+  "runtime_parity": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\revision-v2\\delivery\\LAUTARA_3D_Art_Handoff_v2\\review\\runtime-parity.png"
+}

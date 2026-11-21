@@ -1,0 +1,46 @@
+{
+  "Tunda": {
+    "historical": {
+      "read": 23,
+      "planned": 23,
+      "ring_only": 0,
+      "reef_only": 1,
+      "both": 5,
+      "neither": 17,
+      "overlap_median": 43.37820234476769,
+      "west_below_reef_pass": 1
+    },
+    "baseline_check": {
+      "read": 57,
+      "planned": 57,
+      "ring_only": 1,
+      "reef_only": 2,
+      "both": 17,
+      "neither": 37,
+      "overlap_median": 43.37820234476769,
+      "west_below_reef_pass": 3
+    }
+  },
+  "Kodingareng": {
+    "historical": {
+      "read": 50,
+      "planned": 50,
+      "ring_only": 0,
+      "reef_only": 4,
+      "both": 25,
+      "neither": 21,
+      "overlap_median": 5.682782018659881,
+      "west_below_reef_pass": 0
+    },
+    "baseline_check": {
+      "read": 59,
+      "planned": 59,
+      "ring_only": 0,
+      "reef_only": 4,
+      "both": 10,
+      "neither": 45,
+      "overlap_median": 5.682782018659881,
+      "west_below_reef_pass": 0
+    }
+  }
+}

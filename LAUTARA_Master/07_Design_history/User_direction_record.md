@@ -1,0 +1,28 @@
+# User direction, in sequence
+
+This is an editorial record of the maritime project conversation. Quoted phrases preserve wording as supplied. Summaries condense longer exchanges. This file does not claim to be a verbatim export of the chat or the individual agent deliberations.
+
+| Turn / phase | What the user asked for | What a successor should carry forward |
+|---|---|---|
+| Theme discovery | Start with problem statements for each sub-theme; explore exploitation of sand. | State the underlying maritime challenge before choosing features. |
+| Partnership | Investigate what past partnerships did, how, and what each country has. “A standalone idea that can be supported by the russia-indonesia cooperation.” | Demonstrate domestic value and a specific bilateral contribution. |
+| Analytical method | Find public secondary data, GIS and APIs capable of original maritime analysis; the coastal-observation angle felt promising. | Make computations traceable and use multiple independent kinds of evidence. |
+| Case scope | Ask if Tunda is large/prevalent enough. “learn-from-x or made for x but can be used anywhere.” Explicitly asked to stay in planning at that stage. | Explain transfer through a comparison coast. Avoid a national prevalence estimate unsupported by case evidence. |
+| First audit | Request a BCC-style issue tree, investigation of root causes, strategic directions and a readable 10–15-page PDF with maps/charts. | Preserve the first diagnostic as the history of the hypotheses and the original data. |
+| Critique | Request the supplied skill, independent critique and a self-improvement loop. | Record checks, revision evidence and the limits of review. |
+| Interpretation | Ask for simple, actionable, solution-directed insights, e.g. “XYZ needs to...” and “We need to consider XYZ when..”. | State the decision maker, action and evidence that would change the answer. |
+| Open the decision space | Challenge “is there enough evidence to check this place now, and if so, where should they look?” Ask for prevention and other decisions. | Keep all eight decisions in the research. |
+| Expand the audit | Ask for 20–25 pages, rich public API coverage inspired by God’s Eye View and NASA, original triangulation, research-article structure, charts and accessible writing. Ask clarifying questions before running. | Keep the comprehensive research plus the original reproducibility ZIP. |
+| Method choice and delivery | Request Superpowers, a larger run, selling the final idea, PDF plus reproducibility bundle. Approve broad analysis; no external human support. | Preserve which results were produced with public evidence and which still require fieldwork. |
+| Scientific version | Request a proper journal-style article layout using the attached paper as a visual reference. | Keep the distinct 11-page manuscript and 9-page external paper. |
+| Explanatory questions | Ask for key insights, a realistic illustrative case, safe locations, unlawful extraction, readiness for a hackathon solution. | Replays support a practical decision, while siting, source attribution and enforcement require independent evidence. |
+| Creative planning | Explore ambitious mechanisms and overseas winning entries, weigh rubric, visual design and possible Gaussian splatting, consider investor/judge/agency perspectives. Explicitly ask for plan and clarifications first. | Preserve the sequence on future tasks. Generating alternatives before clarification previously frustrated the user. |
+| Brainstorm authorization | “I just saw something I’d never noticed before”; “explore the full arc”; let a judge use the same evidence rules in Tunda and Amur Bay and see what changes. | Demonstrate a discovery a person can make; give both countries analytical responsibility. |
+| Visualize and benchmark | Ask for GPT Image explanations of all five alternatives, international hackathon comparisons and inspiration from NASA’s Eco-Metropolis. | Retain concept images and the rationale for selecting a mechanism. |
+| Product selection | Ask for a deeper explanation of “the ocean has floors” and the data needed to make it realistic. | Anchor the interaction to real archived model values and locally verifiable measurements. |
+| Art direction | Specify CityRT and supply two screenshots. Ask for an overhead, interactive ocean view with a playful but professional style. Ask whether REA could be used; “still planning, dont run it yet.” | Keep the visual inspiration. There is no recorded CityRT implementation/physics audit. |
+| Team brief | Request ~5–7 pages, one page of problem/relevant analysis, GPT Image illustrations, minimal research-style LaTeX/TikZ diagram, features and web stack, potentially Blender/Blender MCP. Use plain English. | Use the latest seven-page briefing as the current design reference. |
+| Technical additions | Request exact APIs and datasets and allow another page if needed. | Every major layer should have a practical retrieval route and an evidence label. |
+| Audience correction | “first and foremost a government/internal kind of thing, that coincientlly is shaped like a game for easy understanding.” | Give priority to officer, supervisor, field lead and field brief. |
+| Screen correction | GPT images are visualizations; the operator should get a god’s-eye view, explore the level and understand what the product does. Ask for an independent readability review and authorize revision. | Final operator states, section and versioned field handoff take precedence over early illustrations. |
+| Consolidation | Ask for one paragraph explaining the solution, then one detailed master AI context pack with files. | The pack is both a briefing and a portable source collection. |

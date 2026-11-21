@@ -1,0 +1,30 @@
+[
+  [
+    [
+      "cpc",
+      [
+        "Amur",
+        2022,
+        [
+          131.9,
+          43.64
+        ]
+      ]
+    ],
+    "HTTP Error 429: Too Many Requests"
+  ],
+  [
+    [
+      "cpc",
+      [
+        "Amur",
+        2025,
+        [
+          131.9,
+          43.64
+        ]
+      ]
+    ],
+    "HTTP Error 429: Too Many Requests"
+  ]
+]

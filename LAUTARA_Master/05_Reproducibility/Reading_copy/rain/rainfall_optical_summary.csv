@@ -1,0 +1,25 @@
+site,period,proxy_nominal_wet_threshold_mm,rain_group,utc_calendar_days,acquired_days,qualifying_acquisition_days,catalog_acquisition_missing_days,acquisition_below_threshold_days,unread_acquisition_days
+Tunda,Jun–Sep 2025,5,above_or_equal,52,11,4,41,7,0
+Tunda,Jun–Sep 2025,5,below,70,19,13,51,6,0
+Tunda,Jun–Sep 2025,10,above_or_equal,35,7,3,28,4,0
+Tunda,Jun–Sep 2025,10,below,87,23,14,64,9,0
+Tunda,Jun–Sep 2025,20,above_or_equal,9,2,1,7,1,0
+Tunda,Jun–Sep 2025,20,below,113,28,16,85,12,0
+Tunda,Nov–Dec 2025,5,above_or_equal,47,12,1,35,11,0
+Tunda,Nov–Dec 2025,5,below,14,4,0,10,4,0
+Tunda,Nov–Dec 2025,10,above_or_equal,34,8,1,26,7,0
+Tunda,Nov–Dec 2025,10,below,27,8,0,19,8,0
+Tunda,Nov–Dec 2025,20,above_or_equal,16,1,0,15,1,0
+Tunda,Nov–Dec 2025,20,below,45,15,1,30,14,0
+Kodingareng,Jun–Sep 2025,5,above_or_equal,30,8,1,22,7,0
+Kodingareng,Jun–Sep 2025,5,below,92,23,9,69,14,0
+Kodingareng,Jun–Sep 2025,10,above_or_equal,20,6,1,14,5,0
+Kodingareng,Jun–Sep 2025,10,below,102,25,9,77,16,0
+Kodingareng,Jun–Sep 2025,20,above_or_equal,7,2,0,5,2,0
+Kodingareng,Jun–Sep 2025,20,below,115,29,10,86,19,0
+Kodingareng,Nov–Dec 2025,5,above_or_equal,45,13,0,32,13,0
+Kodingareng,Nov–Dec 2025,5,below,16,2,0,14,2,0
+Kodingareng,Nov–Dec 2025,10,above_or_equal,38,11,0,27,11,0
+Kodingareng,Nov–Dec 2025,10,below,23,4,0,19,4,0
+Kodingareng,Nov–Dec 2025,20,above_or_equal,14,6,0,8,6,0
+Kodingareng,Nov–Dec 2025,20,below,47,9,0,38,9,0

@@ -1,0 +1,34 @@
+{
+  "assetId": "blend_globe",
+  "path": "source/globe/globe.blend",
+  "scene": "Earth_Globe",
+  "objects": 21,
+  "meshes": 10,
+  "materials": 3,
+  "images": 3,
+  "missingImagePaths": [],
+  "cameras": [
+    "GLOBE_HOME",
+    "GLOBE_REEL",
+    "GLOBE_REGION_amur",
+    "GLOBE_REGION_kodingareng",
+    "GLOBE_REGION_tunda"
+  ],
+  "lights": [
+    "GLOBE_Key_Sun",
+    "GLOBE_Rim_Sun"
+  ],
+  "collections": [
+    "GLOBE_Cameras",
+    "GLOBE_Lights",
+    "GLOBE_Markers",
+    "GLOBE_Surface"
+  ],
+  "hasWater": true,
+  "hasSection": false,
+  "world": "Earth_World",
+  "viewTransform": "Khronos PBR Neutral",
+  "engine": "BLENDER_EEVEE",
+  "render": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\revision-v2\\work\\runs\\20261121T1445-local\\renders\\import-check\\blend_globe.png",
+  "renderBytes": 563193
+}

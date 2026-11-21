@@ -1,0 +1,58 @@
+{
+  ".zmetadata": {
+    "url": "https://s3.waw3-1.cloudferro.com/mdl-arco-geo-025/arco/GLOBAL_MULTIYEAR_PHY_001_030/cmems_mod_glo_phy_my_0.083deg_P1D-m_202311/geoChunked.zarr/.zmetadata",
+    "sha256": "028e875963071a41dc1389187a16d5638340f35edf2cd3b55eb88aff6867d5cb"
+  },
+  "latitude/0": {
+    "url": "https://s3.waw3-1.cloudferro.com/mdl-arco-geo-025/arco/GLOBAL_MULTIYEAR_PHY_001_030/cmems_mod_glo_phy_my_0.083deg_P1D-m_202311/geoChunked.zarr/latitude/0",
+    "sha256": "3a3e83d0a779203b360c5ea8c1e4c44798fea6d18109a0cf8cd0a3c1cf8915c1"
+  },
+  "longitude/0": {
+    "url": "https://s3.waw3-1.cloudferro.com/mdl-arco-geo-025/arco/GLOBAL_MULTIYEAR_PHY_001_030/cmems_mod_glo_phy_my_0.083deg_P1D-m_202311/geoChunked.zarr/longitude/0",
+    "sha256": "35ed36f6041cb392550dfcbeb7f3094d57099184c05f39f14dc48908918e5e3d"
+  },
+  "elevation/0": {
+    "url": "https://s3.waw3-1.cloudferro.com/mdl-arco-geo-025/arco/GLOBAL_MULTIYEAR_PHY_001_030/cmems_mod_glo_phy_my_0.083deg_P1D-m_202311/geoChunked.zarr/elevation/0",
+    "sha256": "69a247146cdfd6e493a459d0559776a2672a973c6252e24848a39b7515fd433a"
+  },
+  "time/0": {
+    "url": "https://s3.waw3-1.cloudferro.com/mdl-arco-geo-025/arco/GLOBAL_MULTIYEAR_PHY_001_030/cmems_mod_glo_phy_my_0.083deg_P1D-m_202311/geoChunked.zarr/time/0",
+    "sha256": "90117828228ea3c56da154a29d89dddfb7974b98816028fd3a086c5054439403"
+  },
+  "time/1": {
+    "url": "https://s3.waw3-1.cloudferro.com/mdl-arco-geo-025/arco/GLOBAL_MULTIYEAR_PHY_001_030/cmems_mod_glo_phy_my_0.083deg_P1D-m_202311/geoChunked.zarr/time/1",
+    "sha256": "33eb7ae9a2aa4fa1ec214259821986ad10473ca9ea43d9c53097fbb034afac0a"
+  },
+  "uo/4.42.56.224": {
+    "url": "https://s3.waw3-1.cloudferro.com/mdl-arco-geo-025/arco/GLOBAL_MULTIYEAR_PHY_001_030/cmems_mod_glo_phy_my_0.083deg_P1D-m_202311/geoChunked.zarr/uo/4.42.56.224",
+    "sha256": "55a25cdcad7e0aaa9cbde449431111159931e508dece28020a599c4c45519de3"
+  },
+  "uo/4.49.56.224": {
+    "url": "https://s3.waw3-1.cloudferro.com/mdl-arco-geo-025/arco/GLOBAL_MULTIYEAR_PHY_001_030/cmems_mod_glo_phy_my_0.083deg_P1D-m_202311/geoChunked.zarr/uo/4.49.56.224",
+    "sha256": "0589dc9084a82bb458bfedd5d9594ef64c49333ec52dca6feb3c7b892773162e"
+  },
+  "uo/5.42.55.214": {
+    "url": "https://s3.waw3-1.cloudferro.com/mdl-arco-geo-025/arco/GLOBAL_MULTIYEAR_PHY_001_030/cmems_mod_glo_phy_my_0.083deg_P1D-m_202311/geoChunked.zarr/uo/5.42.55.214",
+    "sha256": "edfb4e64f11917522c88367f428143e262809d4183da4201d46fe638531235b3"
+  },
+  "uo/5.49.55.214": {
+    "url": "https://s3.waw3-1.cloudferro.com/mdl-arco-geo-025/arco/GLOBAL_MULTIYEAR_PHY_001_030/cmems_mod_glo_phy_my_0.083deg_P1D-m_202311/geoChunked.zarr/uo/5.49.55.214",
+    "sha256": "e64e2b86a3236fe2958804486a8ad401217caafced69a740a8c9dab93137c17b"
+  },
+  "vo/4.42.56.224": {
+    "url": "https://s3.waw3-1.cloudferro.com/mdl-arco-geo-025/arco/GLOBAL_MULTIYEAR_PHY_001_030/cmems_mod_glo_phy_my_0.083deg_P1D-m_202311/geoChunked.zarr/vo/4.42.56.224",
+    "sha256": "00477bfc6f440e3de98420a78a02fb5b9c7d89f047e7b7b853561ced8f6d90ad"
+  },
+  "vo/4.49.56.224": {
+    "url": "https://s3.waw3-1.cloudferro.com/mdl-arco-geo-025/arco/GLOBAL_MULTIYEAR_PHY_001_030/cmems_mod_glo_phy_my_0.083deg_P1D-m_202311/geoChunked.zarr/vo/4.49.56.224",
+    "sha256": "8b660779b77deff1d47ae8e2fea97a14cc37cd00ed3e67785c1f9fcc291662fa"
+  },
+  "vo/5.42.55.214": {
+    "url": "https://s3.waw3-1.cloudferro.com/mdl-arco-geo-025/arco/GLOBAL_MULTIYEAR_PHY_001_030/cmems_mod_glo_phy_my_0.083deg_P1D-m_202311/geoChunked.zarr/vo/5.42.55.214",
+    "sha256": "5a15bfccec10293c6c2c17e1ee596d80e7f61db1804687b761f6e588e6822b7f"
+  },
+  "vo/5.49.55.214": {
+    "url": "https://s3.waw3-1.cloudferro.com/mdl-arco-geo-025/arco/GLOBAL_MULTIYEAR_PHY_001_030/cmems_mod_glo_phy_my_0.083deg_P1D-m_202311/geoChunked.zarr/vo/5.49.55.214",
+    "sha256": "d69a5ef915622501f4ceec7d6f4d5f7af92de2556454ded34409a6e76b572363"
+  }
+}

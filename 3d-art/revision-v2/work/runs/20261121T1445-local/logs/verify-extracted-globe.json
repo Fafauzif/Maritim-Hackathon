@@ -1,0 +1,57 @@
+{
+  "assetId": "globe",
+  "path": "runtime/globe/globe.glb",
+  "importedObjects": 15,
+  "importedMeshes": 10,
+  "importedMaterials": 4,
+  "importedImages": 1,
+  "unpackedImages": [],
+  "cameras": 0,
+  "lights": 2,
+  "bounds": {
+    "blenderMin": [
+      -10.0,
+      -10.0,
+      -10.0
+    ],
+    "blenderMax": [
+      10.0,
+      10.0,
+      10.0
+    ],
+    "meshes": 10,
+    "gltfMin": [
+      -10.0,
+      -10.0,
+      -10.0
+    ],
+    "gltfMax": [
+      10.0,
+      10.0,
+      10.0
+    ]
+  },
+  "nodeNames": [
+    "ANCHOR_amur",
+    "ANCHOR_kodingareng",
+    "ANCHOR_tunda",
+    "Earth_Surface",
+    "MK_Disc_amur",
+    "MK_Disc_kodingareng",
+    "MK_Disc_tunda",
+    "MK_Ring_amur",
+    "MK_Ring_kodingareng",
+    "MK_Ring_tunda",
+    "MK_Stem_amur",
+    "MK_Stem_kodingareng",
+    "MK_Stem_tunda",
+    "TEST_Fill",
+    "TEST_Sun"
+  ],
+  "requiredMissing": [],
+  "requiredPresent": 4,
+  "boundsMaxDeltaM": 0.0,
+  "boundsAgree": true,
+  "render": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\revision-v2\\work\\runs\\20261121T1445-local\\renders\\import-check\\globe.png",
+  "renderBytes": 579264
+}

@@ -1,0 +1,185 @@
+{
+  "manifest": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\revision-v2\\delivery\\LAUTARA_3D_Art_Handoff_v2\\runtime\\asset-manifest.json",
+  "assets": 8,
+  "sites": 3,
+  "sha256": "70160efbf86b59a8250a896d718fc1c2af1cc1693a29e3be404b7a1abd70a108",
+  "bytes": 34405,
+  "assetStats": {
+    "globe": {
+      "nodes": 13,
+      "triangles": 36996,
+      "materials": 3,
+      "boundsGltf": {
+        "min": [
+          -10,
+          -10,
+          -10
+        ],
+        "max": [
+          10,
+          10,
+          10
+        ],
+        "size": [
+          20,
+          20,
+          20
+        ]
+      }
+    },
+    "kit": {
+      "nodes": 16,
+      "triangles": 5013,
+      "materials": 22,
+      "boundsGltf": {
+        "min": [
+          -25.0,
+          -2.15,
+          -15.57
+        ],
+        "max": [
+          25.84,
+          8.175,
+          21.8872
+        ],
+        "size": [
+          50.84,
+          10.325,
+          37.457
+        ]
+      }
+    },
+    "coast_kodingareng": {
+      "nodes": 333,
+      "triangles": 152276,
+      "materials": 29,
+      "boundsGltf": {
+        "min": [
+          -340,
+          -7.6,
+          -340
+        ],
+        "max": [
+          340,
+          12.943,
+          340
+        ],
+        "size": [
+          680,
+          20.543,
+          680
+        ]
+      }
+    },
+    "section_kodingareng": {
+      "nodes": 43,
+      "triangles": 9646,
+      "materials": 12,
+      "boundsGltf": {
+        "min": [
+          -2.9434,
+          -32.0,
+          -13.5446
+        ],
+        "max": [
+          13.1348,
+          18.8919,
+          176.0556
+        ],
+        "size": [
+          16.078,
+          50.892,
+          189.6
+        ]
+      }
+    },
+    "coast_tunda": {
+      "nodes": 416,
+      "triangles": 179824,
+      "materials": 29,
+      "boundsGltf": {
+        "min": [
+          -360,
+          -8.5607,
+          -360
+        ],
+        "max": [
+          360,
+          12.0962,
+          360
+        ],
+        "size": [
+          720,
+          20.657,
+          720
+        ]
+      }
+    },
+    "section_tunda": {
+      "nodes": 40,
+      "triangles": 9580,
+      "materials": 11,
+      "boundsGltf": {
+        "min": [
+          -149.8784,
+          -34.56,
+          -14.3391
+        ],
+        "max": [
+          -15.6243,
+          13.76,
+          94.117
+        ],
+        "size": [
+          134.254,
+          48.32,
+          108.456
+        ]
+      }
+    },
+    "coast_amur": {
+      "nodes": 549,
+      "triangles": 175349,
+      "materials": 26,
+      "boundsGltf": {
+        "min": [
+          -400,
+          -7.6074,
+          -400
+        ],
+        "max": [
+          400,
+          9.6845,
+          400
+        ],
+        "size": [
+          800,
+          17.292,
+          800
+        ]
+      }
+    },
+    "section_amur": {
+      "nodes": 45,
+      "triangles": 9704,
+      "materials": 13,
+      "boundsGltf": {
+        "min": [
+          12.0425,
+          -27.0031,
+          -64.5875
+        ],
+        "max": [
+          194.0474,
+          26.0705,
+          -47.2118
+        ],
+        "size": [
+          182.005,
+          53.074,
+          17.376
+        ]
+      }
+    }
+  }
+}

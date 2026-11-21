@@ -1,0 +1,52 @@
+﻿[
+    {
+        "rel":  "3d-art\\revision-v2\\ART_DIRECTION.md",
+        "bytes":  9308,
+        "sha256":  "3e58a2c2e861214c1aebe7975ae3f60c4ce276b6df9c08d7d062ee1edbf2a40a"
+    },
+    {
+        "rel":  "3d-art\\revision-v2\\BASELINE_AUDIT.md",
+        "bytes":  6392,
+        "sha256":  "893d6e1ed6ebb9db0d7829544589fffcadbcc6ba31e3f871709c6636794698f2"
+    },
+    {
+        "rel":  "3d-art\\revision-v2\\context\\LAUTARA_Master_AI_Context_Updated.md",
+        "bytes":  206692,
+        "sha256":  "8fbe5be51e53f38390a26e3ba9120f4c39b6bd04960de7321a5fa6859da633be"
+    },
+    {
+        "rel":  "3d-art\\revision-v2\\CONTINUE_PROMPT.md",
+        "bytes":  3569,
+        "sha256":  "9f0a483a8d5245cc0e8f64f6bdd3e5c09f12ff5c364e5e1b97441db763c64d8c"
+    },
+    {
+        "rel":  "3d-art\\revision-v2\\HANDOFF_CONTRACT.md",
+        "bytes":  8905,
+        "sha256":  "c4e163c540872627e9f800e6b01f5b92f1ee84b8b73fe0789e0bc763f9c05826"
+    },
+    {
+        "rel":  "3d-art\\revision-v2\\PRODUCTION_PLAN.md",
+        "bytes":  25426,
+        "sha256":  "6cfda2f75a333f5f07e8b4e9fdd0a504b8ec130a46a89a83993096d028fa9ccb"
+    },
+    {
+        "rel":  "3d-art\\revision-v2\\references\\CityRT_Cartoon_Finish_User_Reference.png",
+        "bytes":  532577,
+        "sha256":  "161ebd8478cd1dd9d0c89b72cba3640afcaad59f6a3e303de7ac4c3947ad86af"
+    },
+    {
+        "rel":  "3d-art\\revision-v2\\references\\Depth_case_verified.json",
+        "bytes":  1291,
+        "sha256":  "94c422d216cd6d379d76f00d1ebb2bb5e366d98528a8bf7266ec832274f3cc81"
+    },
+    {
+        "rel":  "3d-art\\revision-v2\\RESUME_PROMPT.md",
+        "bytes":  3511,
+        "sha256":  "22b5c47e3ed72d4bc130ad66bb2c4ac849b7cf293792bd72e18428f0fe179f1e"
+    },
+    {
+        "rel":  "3d-art\\revision-v2\\START_HERE.md",
+        "bytes":  2912,
+        "sha256":  "45e67e6227ddc1d616462a776bafc100df04107229446d794345572c900cef2f"
+    }
+]

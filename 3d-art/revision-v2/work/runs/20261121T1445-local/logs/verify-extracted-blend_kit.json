@@ -1,0 +1,35 @@
+{
+  "assetId": "blend_kit",
+  "path": "source/kit/common-kit.blend",
+  "scene": "KitScene",
+  "objects": 40,
+  "meshes": 18,
+  "materials": 25,
+  "images": 2,
+  "missingImagePaths": [],
+  "cameras": [
+    "KIT_SHEET_CAM"
+  ],
+  "lights": [
+    "KIT_Top_Softbox",
+    "LGT_Sky_Fill",
+    "LGT_Sun_Key",
+    "LGT_Water_Bounce"
+  ],
+  "collections": [
+    "KIT_Labels",
+    "KIT_Props",
+    "KIT_Rig",
+    "KIT_Stage",
+    "KIT_Structures",
+    "KIT_Survey",
+    "KIT_Vegetation"
+  ],
+  "hasWater": false,
+  "hasSection": false,
+  "world": "WD_Coast",
+  "viewTransform": "Khronos PBR Neutral",
+  "engine": "BLENDER_EEVEE",
+  "render": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\revision-v2\\work\\runs\\20261121T1445-local\\renders\\import-check\\blend_kit.png",
+  "renderBytes": 491709
+}

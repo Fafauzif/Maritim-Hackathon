@@ -1,0 +1,48 @@
+{
+  "assetId": "blend_coast_tunda",
+  "path": "source/coasts/tunda/scene.blend",
+  "scene": "CoastScene",
+  "objects": 449,
+  "meshes": 427,
+  "materials": 41,
+  "images": 2,
+  "missingImagePaths": [],
+  "cameras": [
+    "COAST_APPROACH",
+    "COAST_DETAIL",
+    "COAST_OVERVIEW",
+    "COAST_PLAN",
+    "COAST_SECTION",
+    "TRAVEL_CAM"
+  ],
+  "lights": [
+    "LGT_Sky_Fill",
+    "LGT_Sun_Key",
+    "LGT_Water_Bounce"
+  ],
+  "collections": [
+    "BLD_Village",
+    "CAM_Rigs",
+    "ENV_Land",
+    "ENV_Water",
+    "FX_Water",
+    "GUIDE_Authoring",
+    "LGT_Rig",
+    "PROP_Survey",
+    "SEC_Section",
+    "SEC_Stage",
+    "VEG_Scatter"
+  ],
+  "hasWater": true,
+  "hasSection": true,
+  "world": "WD_Coast",
+  "viewTransform": "Khronos PBR Neutral",
+  "engine": "BLENDER_EEVEE",
+  "travelCamera": "TRAVEL_CAM",
+  "frameRange": [
+    1,
+    168
+  ],
+  "render": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\revision-v2\\work\\runs\\20261121T1445-local\\renders\\import-check\\blend_coast_tunda.png",
+  "renderBytes": 690017
+}

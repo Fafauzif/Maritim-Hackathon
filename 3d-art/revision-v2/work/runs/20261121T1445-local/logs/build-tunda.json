@@ -1,0 +1,1424 @@
+{
+  "site": "tunda",
+  "label": "Pulau Tunda",
+  "objects": 453,
+  "houses": 40,
+  "settlement_slots": {
+    "slots": 98,
+    "limits": 0,
+    "blocked": 30,
+    "terrain": 16,
+    "density": 6,
+    "placed": 40
+  },
+  "vegetation": {
+    "palms": 52,
+    "shrubs": 220,
+    "mangroves": 7
+  },
+  "boats": 4,
+  "boat_clearance": {
+    "max_bed_z": -7.396,
+    "min_bed_z": -7.923,
+    "ok": true
+  },
+  "section": {
+    "axis": [
+      [
+        -148.0,
+        -94.0
+      ],
+      [
+        -16.000000000000014,
+        12.000000000000007
+      ]
+    ],
+    "exag": 3.2,
+    "z_lo": -34.56,
+    "z_hi": 31.664,
+    "ortho_w": 123.48
+  },
+  "ground_detail": {
+    "lanes": [
+      "ENV_Lane_01",
+      "ENV_Lane_03",
+      "ENV_Lane_04",
+      "ENV_Lane_05",
+      "ENV_Lane_06",
+      "ENV_Lane_07",
+      "ENV_Lane_08"
+    ],
+    "plaza": "ENV_Plaza",
+    "crates": []
+  },
+  "water_detail": {
+    "foam": "FX_ShoreFoam",
+    "reefs": 17,
+    "ripples": 10
+  },
+  "cameras": [
+    "COAST_APPROACH",
+    "COAST_DETAIL",
+    "COAST_OVERVIEW",
+    "COAST_PLAN",
+    "COAST_SECTION",
+    "TRAVEL_CAM"
+  ],
+  "travel": {
+    "camera": "TRAVEL_CAM",
+    "target": "TRAVEL_TARGET",
+    "cut_frame": 133,
+    "frame_end": 168
+  },
+  "empty_nodes": [
+    "ANCHOR_JETTY",
+    "ANCHOR_VESSEL",
+    "COAST_ORIGIN",
+    "ORBIT_SITE",
+    "ORBIT_WATERFRONT",
+    "SECTION_A",
+    "SECTION_B",
+    "TARGET_APPROACH",
+    "TARGET_DETAIL",
+    "TARGET_OVERVIEW",
+    "TARGET_SECTION",
+    "TARGET_SURVEY",
+    "TRAVEL_TARGET"
+  ],
+  "terrain_vertices": 49729,
+  "grade": {
+    "ok": true,
+    "reason": "hue/sat",
+    "saturation": 0.96
+  },
+  "look": {
+    "view_transform": "Khronos PBR Neutral",
+    "look": "None",
+    "exposure": -0.56,
+    "grade_sat": 0.96,
+    "sun": 4.3,
+    "fill": 170.0,
+    "world": 0.46,
+    "engine": "BLENDER_EEVEE",
+    "samples_still": 40,
+    "samples_anim": 14
+  },
+  "collections": [
+    "BLD_Village",
+    "CAM_Rigs",
+    "ENV_Land",
+    "ENV_Water",
+    "FX_Water",
+    "GUIDE_Authoring",
+    "LGT_Rig",
+    "PROP_Survey",
+    "SEC_Section",
+    "SEC_Stage",
+    "VEG_Scatter"
+  ],
+  "mesh": {
+    "mesh_objects": 431,
+    "vertices": 128851,
+    "triangles": 189406,
+    "materials": 45
+  },
+  "bounds_all": {
+    "blender_min": [
+      -360.0,
+      -360.0,
+      -140.0
+    ],
+    "blender_max": [
+      360.0,
+      360.0,
+      180.0
+    ],
+    "gltf_min": [
+      -360.0,
+      -140.0,
+      -360.0
+    ],
+    "gltf_max": [
+      360.0,
+      180.0,
+      360.0
+    ],
+    "size_m": [
+      720.0,
+      720.0,
+      320.0
+    ]
+  },
+  "bounds_export": {
+    "blender_min": [
+      -360.0,
+      -360.0,
+      -8.5607
+    ],
+    "blender_max": [
+      360.0,
+      360.0,
+      12.0962
+    ],
+    "gltf_min": [
+      -360.0,
+      -8.5607,
+      -360.0
+    ],
+    "gltf_max": [
+      360.0,
+      12.0962,
+      360.0
+    ],
+    "size_m": [
+      720.0,
+      720.0,
+      20.657
+    ]
+  },
+  "build_seconds": 1.09,
+  "cameras_detail": {
+    "COAST_OVERVIEW": {
+      "blender_pos": [
+        -10.0,
+        -390.0,
+        270.0
+      ],
+      "blender_forward": [
+        0.02183,
+        0.8076,
+        -0.58933
+      ],
+      "lens": 34.0,
+      "type": "PERSP",
+      "ortho_scale": null
+    },
+    "COAST_PLAN": {
+      "blender_pos": [
+        0.0,
+        -5.0,
+        720.0
+      ],
+      "blender_forward": [
+        -0.0,
+        -0.0,
+        -1.0
+      ],
+      "lens": 50.0,
+      "type": "ORTHO",
+      "ortho_scale": 560.0
+    },
+    "COAST_APPROACH": {
+      "blender_pos": [
+        -172.0,
+        -168.0,
+        54.0
+      ],
+      "blender_forward": [
+        0.48238,
+        0.79451,
+        -0.36888
+      ],
+      "lens": 54.0,
+      "type": "PERSP",
+      "ortho_scale": null
+    },
+    "COAST_DETAIL": {
+      "blender_pos": [
+        -160.0,
+        -132.0,
+        30.0
+      ],
+      "blender_forward": [
+        0.56741,
+        0.75655,
+        -0.32508
+      ],
+      "lens": 40.0,
+      "type": "PERSP",
+      "ortho_scale": null
+    },
+    "COAST_SECTION": {
+      "blender_pos": [
+        -199.6086,
+        56.9347,
+        -2.8369
+      ],
+      "blender_forward": [
+        0.62613,
+        -0.77971,
+        -0.0
+      ],
+      "lens": 50.0,
+      "type": "ORTHO",
+      "ortho_scale": 123.478
+    },
+    "TRAVEL_CAM": {
+      "blender_pos": [
+        -159.52,
+        -144.08,
+        40.48
+      ],
+      "blender_forward": [
+        0.47788,
+        0.79466,
+        -0.37437
+      ],
+      "lens": 40.0,
+      "type": "PERSP",
+      "ortho_scale": null
+    }
+  },
+  "frame_audit": {
+    "COAST_OVERVIEW": {
+      "PROP_SurveyBoat": {
+        "bbox_norm": [
+          0.2036,
+          0.3415,
+          0.2314,
+          0.3797
+        ],
+        "bbox_px": [
+          781.7,
+          737.6,
+          107.1,
+          82.6
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 404.502,
+        "depth_max": 414.481
+      },
+      "PROP_Jetty": {
+        "bbox_norm": [
+          0.2022,
+          0.3347,
+          0.3241,
+          0.4665
+        ],
+        "bbox_px": [
+          776.6,
+          722.9,
+          467.9,
+          284.6
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 408.962,
+        "depth_max": 446.55
+      },
+      "BLD_LandingShelter": {
+        "bbox_norm": [
+          0.2846,
+          0.4191,
+          0.3185,
+          0.4708
+        ],
+        "bbox_px": [
+          1093.0,
+          905.2,
+          130.0,
+          111.8
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 426.384,
+        "depth_max": 441.445
+      },
+      "BLD_House_000": {
+        "bbox_norm": [
+          0.5728,
+          0.5604,
+          0.5952,
+          0.5895
+        ],
+        "bbox_px": [
+          2199.6,
+          1210.5,
+          86.1,
+          63.0
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 472.657,
+        "depth_max": 481.714
+      },
+      "BLD_House_001": {
+        "bbox_norm": [
+          0.3622,
+          0.5003,
+          0.39,
+          0.5533
+        ],
+        "bbox_px": [
+          1390.9,
+          1080.6,
+          106.8,
+          114.5
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 449.34,
+        "depth_max": 464.742
+      },
+      "BLD_House_002": {
+        "bbox_norm": [
+          0.5129,
+          0.5781,
+          0.5285,
+          0.6079
+        ],
+        "bbox_px": [
+          1969.4,
+          1248.6,
+          60.1,
+          64.4
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 481.261,
+        "depth_max": 491.319
+      },
+      "BLD_House_003": {
+        "bbox_norm": [
+          0.4169,
+          0.6352,
+          0.431,
+          0.6638
+        ],
+        "bbox_px": [
+          1600.9,
+          1372.1,
+          54.2,
+          61.7
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 503.672,
+        "depth_max": 513.726
+      },
+      "BLD_House_004": {
+        "bbox_norm": [
+          0.6172,
+          0.5532,
+          0.6386,
+          0.5879
+        ],
+        "bbox_px": [
+          2370.1,
+          1194.9,
+          82.0,
+          74.9
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 470.852,
+        "depth_max": 482.319
+      },
+      "BLD_House_005": {
+        "bbox_norm": [
+          0.4218,
+          0.582,
+          0.4371,
+          0.6117
+        ],
+        "bbox_px": [
+          1619.9,
+          1257.1,
+          58.6,
+          64.1
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 482.033,
+        "depth_max": 492.061
+      },
+      "BLD_House_006": {
+        "bbox_norm": [
+          0.5263,
+          0.5716,
+          0.5448,
+          0.6037
+        ],
+        "bbox_px": [
+          2020.9,
+          1234.7,
+          71.0,
+          69.3
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 478.217,
+        "depth_max": 488.878
+      },
+      "BLD_House_007": {
+        "bbox_norm": [
+          0.3835,
+          0.5788,
+          0.4,
+          0.6075
+        ],
+        "bbox_px": [
+          1472.6,
+          1250.1,
+          63.4,
+          62.1
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 480.952,
+        "depth_max": 490.265
+      },
+      "BLD_House_008": {
+        "bbox_norm": [
+          0.3609,
+          0.3982,
+          0.3908,
+          0.4569
+        ],
+        "bbox_px": [
+          1385.7,
+          860.1,
+          115.0,
+          126.7
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 414.271,
+        "depth_max": 429.676
+      }
+    },
+    "COAST_PLAN": {
+      "PROP_SurveyBoat": {
+        "bbox_norm": [
+          0.2692,
+          0.2603,
+          0.2879,
+          0.2889
+        ],
+        "bbox_px": [
+          1033.9,
+          562.3,
+          71.7,
+          61.7
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 716.59,
+        "depth_max": 720.95
+      },
+      "PROP_Jetty": {
+        "bbox_norm": [
+          0.267,
+          0.2799,
+          0.3505,
+          0.3941
+        ],
+        "bbox_px": [
+          1025.5,
+          604.6,
+          320.6,
+          246.8
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 715.83,
+        "depth_max": 728.561
+      },
+      "BLD_LandingShelter": {
+        "bbox_norm": [
+          0.3226,
+          0.3486,
+          0.3493,
+          0.3945
+        ],
+        "bbox_px": [
+          1238.6,
+          753.0,
+          102.8,
+          99.2
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 714.37,
+        "depth_max": 719.95
+      },
+      "BLD_House_000": {
+        "bbox_norm": [
+          0.5668,
+          0.5248,
+          0.5875,
+          0.5501
+        ],
+        "bbox_px": [
+          2176.4,
+          1133.5,
+          79.8,
+          54.6
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 711.576,
+        "depth_max": 716.411
+      },
+      "BLD_House_001": {
+        "bbox_norm": [
+          0.3819,
+          0.4482,
+          0.4046,
+          0.4886
+        ],
+        "bbox_px": [
+          1466.4,
+          968.1,
+          87.3,
+          87.3
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 709.077,
+        "depth_max": 717.762
+      },
+      "BLD_House_002": {
+        "bbox_norm": [
+          0.5135,
+          0.559,
+          0.5283,
+          0.5891
+        ],
+        "bbox_px": [
+          1971.9,
+          1207.4,
+          56.6,
+          65.0
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 712.716,
+        "depth_max": 716.901
+      },
+      "BLD_House_003": {
+        "bbox_norm": [
+          0.4233,
+          0.6561,
+          0.437,
+          0.6844
+        ],
+        "bbox_px": [
+          1625.4,
+          1417.1,
+          52.6,
+          61.3
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 710.887,
+        "depth_max": 715.472
+      },
+      "BLD_House_004": {
+        "bbox_norm": [
+          0.6069,
+          0.5144,
+          0.626,
+          0.5488
+        ],
+        "bbox_px": [
+          2330.6,
+          1111.1,
+          73.3,
+          74.4
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 712.371,
+        "depth_max": 716.956
+      },
+      "BLD_House_005": {
+        "bbox_norm": [
+          0.43,
+          0.5675,
+          0.444,
+          0.5969
+        ],
+        "bbox_px": [
+          1651.0,
+          1225.7,
+          54.0,
+          63.6
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 712.225,
+        "depth_max": 716.41
+      },
+      "BLD_House_006": {
+        "bbox_norm": [
+          0.5256,
+          0.5474,
+          0.5428,
+          0.579
+        ],
+        "bbox_px": [
+          2018.4,
+          1182.4,
+          65.8,
+          68.1
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 712.263,
+        "depth_max": 716.848
+      },
+      "BLD_House_007": {
+        "bbox_norm": [
+          0.3957,
+          0.5647,
+          0.4094,
+          0.5912
+        ],
+        "bbox_px": [
+          1519.3,
+          1219.8,
+          52.8,
+          57.3
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 712.116,
+        "depth_max": 716.701
+      },
+      "BLD_House_008": {
+        "bbox_norm": [
+          0.3878,
+          0.3102,
+          0.4105,
+          0.3506
+        ],
+        "bbox_px": [
+          1489.0,
+          670.0,
+          87.2,
+          87.3
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 709.017,
+        "depth_max": 717.702
+      }
+    },
+    "COAST_APPROACH": {
+      "PROP_SurveyBoat": {
+        "bbox_norm": [
+          0.3618,
+          0.1428,
+          0.46,
+          0.3493
+        ],
+        "bbox_px": [
+          1389.2,
+          308.5,
+          377.4,
+          446.1
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 109.767,
+        "depth_max": 121.662
+      },
+      "PROP_Jetty": {
+        "bbox_norm": [
+          0.163,
+          0.0312,
+          0.7977,
+          0.6865
+        ],
+        "bbox_px": [
+          626.0,
+          67.5,
+          2437.0,
+          1415.4
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 112.84,
+        "depth_max": 168.681
+      },
+      "BLD_LandingShelter": {
+        "bbox_norm": [
+          0.4814,
+          0.5207,
+          0.6114,
+          0.6943
+        ],
+        "bbox_px": [
+          1848.6,
+          1124.7,
+          499.1,
+          375.0
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 147.11,
+        "depth_max": 162.667
+      },
+      "BLD_House_000": {
+        "bbox_norm": [
+          0.9973,
+          0.994,
+          1.0775,
+          1.0639
+        ],
+        "bbox_px": [
+          3829.7,
+          2147.1,
+          307.9,
+          150.9
+        ],
+        "corners_inside": 0,
+        "corners": 8,
+        "fully_inside": false,
+        "depth_min": 254.519,
+        "depth_max": 266.25
+      },
+      "BLD_House_001": {
+        "bbox_norm": [
+          0.5872,
+          0.7757,
+          0.6681,
+          0.9299
+        ],
+        "bbox_px": [
+          2254.9,
+          1675.5,
+          310.6,
+          333.2
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 186.55,
+        "depth_max": 199.883
+      },
+      "BLD_House_002": {
+        "bbox_norm": [
+          0.8289,
+          0.9771,
+          0.8827,
+          1.0389
+        ],
+        "bbox_px": [
+          3182.9,
+          2110.6,
+          206.5,
+          133.3
+        ],
+        "corners_inside": 4,
+        "corners": 8,
+        "fully_inside": false,
+        "depth_min": 249.73,
+        "depth_max": 259.563
+      },
+      "BLD_House_003": {
+        "bbox_norm": [
+          0.4757,
+          0.9893,
+          0.5383,
+          1.0588
+        ],
+        "bbox_px": [
+          1826.6,
+          2136.8,
+          240.4,
+          150.2
+        ],
+        "corners_inside": 2,
+        "corners": 8,
+        "fully_inside": false,
+        "depth_min": 247.73,
+        "depth_max": 259.49
+      },
+      "BLD_House_004": {
+        "bbox_norm": [
+          1.1014,
+          1.0093,
+          1.1563,
+          1.0715
+        ],
+        "bbox_px": [
+          4229.6,
+          2180.2,
+          210.5,
+          134.3
+        ],
+        "corners_inside": 0,
+        "corners": 8,
+        "fully_inside": false,
+        "depth_min": 264.611,
+        "depth_max": 274.992
+      },
+      "BLD_House_005": {
+        "bbox_norm": [
+          0.5889,
+          0.9298,
+          0.6532,
+          1.0001
+        ],
+        "bbox_px": [
+          2261.2,
+          2008.4,
+          246.9,
+          151.8
+        ],
+        "corners_inside": 7,
+        "corners": 8,
+        "fully_inside": false,
+        "depth_min": 228.567,
+        "depth_max": 239.118
+      },
+      "BLD_House_006": {
+        "bbox_norm": [
+          0.8737,
+          0.9804,
+          0.9313,
+          1.0447
+        ],
+        "bbox_px": [
+          3355.0,
+          2117.7,
+          221.2,
+          138.9
+        ],
+        "corners_inside": 4,
+        "corners": 8,
+        "fully_inside": false,
+        "depth_min": 250.747,
+        "depth_max": 260.121
+      },
+      "BLD_House_007": {
+        "bbox_norm": [
+          0.4883,
+          0.8964,
+          0.553,
+          0.9761
+        ],
+        "bbox_px": [
+          1875.3,
+          1936.2,
+          248.2,
+          172.2
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 218.069,
+        "depth_max": 228.955
+      },
+      "BLD_House_008": {
+        "bbox_norm": [
+          0.8422,
+          0.612,
+          0.9407,
+          0.8046
+        ],
+        "bbox_px": [
+          3234.0,
+          1321.9,
+          378.4,
+          416.1
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 153.542,
+        "depth_max": 166.954
+      }
+    },
+    "COAST_DETAIL": {
+      "PROP_SurveyBoat": {
+        "bbox_norm": [
+          0.3696,
+          0.2228,
+          0.4751,
+          0.4548
+        ],
+        "bbox_px": [
+          1419.4,
+          481.2,
+          404.9,
+          501.1
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 66.189,
+        "depth_max": 78.103
+      },
+      "PROP_Jetty": {
+        "bbox_norm": [
+          0.1233,
+          0.0746,
+          0.8082,
+          0.7387
+        ],
+        "bbox_px": [
+          473.4,
+          161.1,
+          2630.2,
+          1434.6
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 68.788,
+        "depth_max": 126.682
+      },
+      "BLD_LandingShelter": {
+        "bbox_norm": [
+          0.4607,
+          0.5955,
+          0.5862,
+          0.7502
+        ],
+        "bbox_px": [
+          1769.1,
+          1286.4,
+          481.8,
+          334.1
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 105.405,
+        "depth_max": 120.522
+      },
+      "BLD_House_000": {
+        "bbox_norm": [
+          0.8535,
+          0.9322,
+          0.9193,
+          0.9853
+        ],
+        "bbox_px": [
+          3277.4,
+          2013.6,
+          252.5,
+          114.7
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 221.95,
+        "depth_max": 234.252
+      },
+      "BLD_House_001": {
+        "bbox_norm": [
+          0.5366,
+          0.7914,
+          0.6067,
+          0.9243
+        ],
+        "bbox_px": [
+          2060.4,
+          1709.5,
+          269.4,
+          287.0
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 146.79,
+        "depth_max": 159.261
+      },
+      "BLD_House_002": {
+        "bbox_norm": [
+          0.7156,
+          0.9183,
+          0.7633,
+          0.9662
+        ],
+        "bbox_px": [
+          2747.9,
+          1983.5,
+          183.2,
+          103.5
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 214.137,
+        "depth_max": 224.283
+      },
+      "BLD_House_003": {
+        "bbox_norm": [
+          0.411,
+          0.9237,
+          0.4671,
+          0.9781
+        ],
+        "bbox_px": [
+          1578.1,
+          1995.2,
+          215.4,
+          117.5
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 206.902,
+        "depth_max": 218.644
+      },
+      "BLD_House_004": {
+        "bbox_norm": [
+          0.9312,
+          0.9405,
+          0.9794,
+          0.9866
+        ],
+        "bbox_px": [
+          3575.7,
+          2031.4,
+          185.3,
+          99.6
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 234.54,
+        "depth_max": 244.321
+      },
+      "BLD_House_005": {
+        "bbox_norm": [
+          0.5177,
+          0.8895,
+          0.5745,
+          0.9447
+        ],
+        "bbox_px": [
+          1987.9,
+          1921.3,
+          218.1,
+          119.2
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 189.183,
+        "depth_max": 199.488
+      },
+      "BLD_House_006": {
+        "bbox_norm": [
+          0.7527,
+          0.921,
+          0.8035,
+          0.9716
+        ],
+        "bbox_px": [
+          2890.2,
+          1989.3,
+          195.3,
+          109.3
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 215.85,
+        "depth_max": 225.694
+      },
+      "BLD_House_007": {
+        "bbox_norm": [
+          0.4299,
+          0.8663,
+          0.4899,
+          0.9313
+        ],
+        "bbox_px": [
+          1651.0,
+          1871.3,
+          230.1,
+          140.3
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 176.871,
+        "depth_max": 187.95
+      },
+      "BLD_House_008": {
+        "bbox_norm": [
+          0.8024,
+          0.6909,
+          0.9071,
+          0.8624
+        ],
+        "bbox_px": [
+          3081.3,
+          1492.2,
+          402.1,
+          370.5
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 115.708,
+        "depth_max": 128.271
+      }
+    },
+    "COAST_SECTION": {
+      "PROP_SurveyBoat": {
+        "bbox_norm": [
+          0.6533,
+          0.5272,
+          0.74,
+          0.5899
+        ],
+        "bbox_px": [
+          2508.7,
+          1138.7,
+          332.9,
+          135.6
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 149.168,
+        "depth_max": 152.817
+      },
+      "PROP_Jetty": {
+        "bbox_norm": [
+          0.2512,
+          0.4176,
+          0.729,
+          0.6009
+        ],
+        "bbox_px": [
+          964.8,
+          902.0,
+          1834.4,
+          395.9
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 117.593,
+        "depth_max": 174.927
+      },
+      "BLD_LandingShelter": {
+        "bbox_norm": [
+          0.2891,
+          0.5416,
+          0.3887,
+          0.6219
+        ],
+        "bbox_px": [
+          1110.0,
+          1169.8,
+          382.5,
+          173.5
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 142.065,
+        "depth_max": 152.514
+      },
+      "BLD_House_000": {
+        "bbox_norm": [
+          -0.8296,
+          0.5925,
+          -0.7284,
+          0.6621
+        ],
+        "bbox_px": [
+          -3185.6,
+          1279.8,
+          388.4,
+          150.4
+        ],
+        "corners_inside": 0,
+        "corners": 8,
+        "fully_inside": false,
+        "depth_min": 184.872,
+        "depth_max": 197.398
+      },
+      "BLD_House_001": {
+        "bbox_norm": [
+          -0.0595,
+          0.5731,
+          0.0227,
+          0.6981
+        ],
+        "bbox_px": [
+          -228.4,
+          1237.8,
+          315.7,
+          270.1
+        ],
+        "corners_inside": 4,
+        "corners": 8,
+        "fully_inside": false,
+        "depth_min": 138.642,
+        "depth_max": 148.553
+      },
+      "BLD_House_002": {
+        "bbox_norm": [
+          -0.6783,
+          0.5855,
+          -0.5987,
+          0.6457
+        ],
+        "bbox_px": [
+          -2604.7,
+          1264.6,
+          305.7,
+          130.1
+        ],
+        "corners_inside": 0,
+        "corners": 8,
+        "fully_inside": false,
+        "depth_min": 157.85,
+        "depth_max": 166.981
+      },
+      "BLD_House_003": {
+        "bbox_norm": [
+          -0.5133,
+          0.606,
+          -0.4292,
+          0.6721
+        ],
+        "bbox_px": [
+          -1971.2,
+          1309.1,
+          323.2,
+          142.6
+        ],
+        "corners_inside": 0,
+        "corners": 8,
+        "fully_inside": false,
+        "depth_min": 101.566,
+        "depth_max": 112.352
+      },
+      "BLD_House_004": {
+        "bbox_norm": [
+          -0.9472,
+          0.5847,
+          -0.8704,
+          0.6507
+        ],
+        "bbox_px": [
+          -3637.2,
+          1262.9,
+          294.9,
+          142.6
+        ],
+        "corners_inside": 0,
+        "corners": 8,
+        "fully_inside": false,
+        "depth_min": 202.163,
+        "depth_max": 210.531
+      },
+      "BLD_House_005": {
+        "bbox_norm": [
+          -0.3891,
+          0.5925,
+          -0.3206,
+          0.6528
+        ],
+        "bbox_px": [
+          -1494.2,
+          1279.9,
+          263.0,
+          130.1
+        ],
+        "corners_inside": 0,
+        "corners": 8,
+        "fully_inside": false,
+        "depth_min": 126.212,
+        "depth_max": 135.788
+      },
+      "BLD_House_006": {
+        "bbox_norm": [
+          -0.7083,
+          0.5862,
+          -0.6282,
+          0.6522
+        ],
+        "bbox_px": [
+          -2719.7,
+          1266.2,
+          307.6,
+          142.6
+        ],
+        "corners_inside": 0,
+        "corners": 8,
+        "fully_inside": false,
+        "depth_min": 164.967,
+        "depth_max": 174.51
+      },
+      "BLD_House_007": {
+        "bbox_norm": [
+          -0.2681,
+          0.5883,
+          -0.1844,
+          0.6544
+        ],
+        "bbox_px": [
+          -1029.4,
+          1270.8,
+          321.1,
+          142.6
+        ],
+        "corners_inside": 0,
+        "corners": 8,
+        "fully_inside": false,
+        "depth_min": 114.785,
+        "depth_max": 125.114
+      },
+      "BLD_House_008": {
+        "bbox_norm": [
+          0.1426,
+          0.5739,
+          0.2199,
+          0.699
+        ],
+        "bbox_px": [
+          547.4,
+          1239.7,
+          297.1,
+          270.1
+        ],
+        "corners_inside": 8,
+        "corners": 8,
+        "fully_inside": true,
+        "depth_min": 174.648,
+        "depth_max": 184.455
+      }
+    }
+  }
+}

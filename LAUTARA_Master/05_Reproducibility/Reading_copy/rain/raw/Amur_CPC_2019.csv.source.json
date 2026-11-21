@@ -1,0 +1,10 @@
+{
+  "url": "https://psl.noaa.gov/thredds/ncss/grid/Datasets/cpc_global_precip/precip.2019.nc?var=precip&latitude=43.64&longitude=131.9&time_start=2019-01-01T00%3A00%3A00Z&time_end=2019-12-31T00%3A00%3A00Z&accept=csv",
+  "sha256": "e1a624a1f912138d07498a0d8d92ac5bd91267116d2439ef4aa3a623ef469576",
+  "point": [
+    131.9,
+    43.64
+  ],
+  "provider": "NOAA Physical Sciences Laboratory",
+  "product": "CPC global unified gauge daily precipitation"
+}

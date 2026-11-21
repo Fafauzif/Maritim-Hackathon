@@ -1,0 +1,61 @@
+{
+  "assetId": "kit",
+  "path": "runtime/kit/common-kit.glb",
+  "importedObjects": 19,
+  "importedMeshes": 16,
+  "importedMaterials": 23,
+  "importedImages": 0,
+  "unpackedImages": [],
+  "cameras": 0,
+  "lights": 2,
+  "bounds": {
+    "blenderMin": [
+      -25.0,
+      -21.8872,
+      -2.15
+    ],
+    "blenderMax": [
+      25.84,
+      15.57,
+      8.175
+    ],
+    "meshes": 16,
+    "gltfMin": [
+      -25.0,
+      -2.15,
+      -15.57
+    ],
+    "gltfMax": [
+      25.84,
+      8.175,
+      21.8872
+    ]
+  },
+  "nodeNames": [
+    "KIT_BARREL",
+    "KIT_BOAT_LOCAL",
+    "KIT_BOAT_SURVEY",
+    "KIT_COMMUNITY_HALL",
+    "KIT_CRATE",
+    "KIT_HOUSE_A",
+    "KIT_HOUSE_B",
+    "KIT_HOUSE_C",
+    "KIT_HOUSE_D",
+    "KIT_JETTY",
+    "KIT_MANGROVE",
+    "KIT_PALM",
+    "KIT_PAVILION",
+    "KIT_REED",
+    "KIT_SHRUB",
+    "KIT_WORKING_LANDING",
+    "TEST_Fill",
+    "TEST_Ground",
+    "TEST_Sun"
+  ],
+  "requiredMissing": [],
+  "requiredPresent": 16,
+  "boundsMaxDeltaM": 0.0,
+  "boundsAgree": true,
+  "render": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\revision-v2\\work\\runs\\20261121T1445-local\\renders\\import-check\\kit.png",
+  "renderBytes": 514191
+}

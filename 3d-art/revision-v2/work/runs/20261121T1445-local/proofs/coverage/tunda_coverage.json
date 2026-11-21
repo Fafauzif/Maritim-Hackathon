@@ -1,0 +1,82 @@
+{
+  "blend": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\revision-v2\\work\\runs\\20261121T1445-local\\checkpoints\\coast-tunda.blend",
+  "shots": [
+    {
+      "camera": "COAST_OVERVIEW",
+      "path": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\revision-v2\\work\\runs\\20261121T1445-local\\proofs\\coverage\\tunda_COAST_OVERVIEW.png"
+    },
+    {
+      "camera": "COAST_PLAN",
+      "path": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\revision-v2\\work\\runs\\20261121T1445-local\\proofs\\coverage\\tunda_COAST_PLAN.png"
+    },
+    {
+      "camera": "COAST_APPROACH",
+      "path": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\revision-v2\\work\\runs\\20261121T1445-local\\proofs\\coverage\\tunda_COAST_APPROACH.png"
+    },
+    {
+      "camera": "COAST_DETAIL",
+      "path": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\revision-v2\\work\\runs\\20261121T1445-local\\proofs\\coverage\\tunda_COAST_DETAIL.png"
+    },
+    {
+      "camera": "COAST_SECTION",
+      "path": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\revision-v2\\work\\runs\\20261121T1445-local\\proofs\\coverage\\tunda_COAST_SECTION.png"
+    }
+  ],
+  "categories": {
+    "terrain": [
+      0.0,
+      0.75,
+      0.0
+    ],
+    "water": [
+      0.0,
+      0.0,
+      0.8
+    ],
+    "building": [
+      0.8,
+      0.0,
+      0.0
+    ],
+    "jetty": [
+      0.9,
+      0.9,
+      0.0
+    ],
+    "boat": [
+      1.0,
+      0.45,
+      0.0
+    ],
+    "vegetation": [
+      0.0,
+      0.35,
+      0.0
+    ],
+    "waterfx": [
+      0.0,
+      0.8,
+      0.8
+    ],
+    "section": [
+      0.55,
+      0.0,
+      0.55
+    ],
+    "backdrop": [
+      0.95,
+      0.95,
+      0.95
+    ],
+    "other": [
+      0.45,
+      0.45,
+      0.45
+    ],
+    "background": [
+      1.0,
+      0.0,
+      1.0
+    ]
+  }
+}

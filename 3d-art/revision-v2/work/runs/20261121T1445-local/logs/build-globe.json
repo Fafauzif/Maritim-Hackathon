@@ -1,0 +1,174 @@
+{
+  "checkpoint": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\revision-v2\\work\\runs\\20261121T1445-local\\checkpoints\\globe.blend",
+  "radius": 10.0,
+  "anchors": {
+    "kodingareng": {
+      "lat": -5.14905,
+      "lon": 119.26473,
+      "label": "Kodingareng Lompo"
+    },
+    "tunda": {
+      "lat": -5.81151,
+      "lon": 106.27811,
+      "label": "Pulau Tunda"
+    },
+    "amur": {
+      "lat": 43.32556,
+      "lon": 131.80778,
+      "label": "Razdolnaya mouth"
+    }
+  },
+  "anchor_nodes": {
+    "kodingareng": [
+      -4.8687,
+      8.6885,
+      -0.8975
+    ],
+    "tunda": [
+      -2.7886,
+      9.5498,
+      -1.0126
+    ],
+    "amur": [
+      -4.8495,
+      5.4224,
+      6.8614
+    ]
+  },
+  "orientation_probes": [
+    {
+      "label": "Sahara land",
+      "lat": 23.0,
+      "lon": 10.0,
+      "expected": "land",
+      "rgb": [
+        0.788,
+        0.718,
+        0.576
+      ],
+      "ok": true
+    },
+    {
+      "label": "Central Pacific",
+      "lat": 0.0,
+      "lon": -140.0,
+      "expected": "ocean",
+      "rgb": [
+        0.11,
+        0.29,
+        0.341
+      ],
+      "ok": true
+    },
+    {
+      "label": "Antarctica painted land",
+      "lat": -80.0,
+      "lon": 0.0,
+      "expected": "land",
+      "rgb": [
+        0.671,
+        0.647,
+        0.514
+      ],
+      "ok": true
+    },
+    {
+      "label": "Indian Ocean",
+      "lat": -10.0,
+      "lon": 80.0,
+      "expected": "ocean",
+      "rgb": [
+        0.122,
+        0.31,
+        0.357
+      ],
+      "ok": true
+    },
+    {
+      "label": "Siberia land",
+      "lat": 60.0,
+      "lon": 100.0,
+      "expected": "land",
+      "rgb": [
+        0.667,
+        0.643,
+        0.51
+      ],
+      "ok": true
+    },
+    {
+      "label": "Australia interior",
+      "lat": -25.0,
+      "lon": 134.0,
+      "expected": "land",
+      "rgb": [
+        0.71,
+        0.671,
+        0.533
+      ],
+      "ok": true
+    },
+    {
+      "label": "North America",
+      "lat": 40.0,
+      "lon": -100.0,
+      "expected": "land",
+      "rgb": [
+        0.694,
+        0.663,
+        0.522
+      ],
+      "ok": true
+    },
+    {
+      "label": "Atlantic Ocean",
+      "lat": 0.0,
+      "lon": -30.0,
+      "expected": "ocean",
+      "rgb": [
+        0.125,
+        0.314,
+        0.361
+      ],
+      "ok": true
+    },
+    {
+      "label": "Atlantic Ocean north",
+      "lat": 40.0,
+      "lon": -40.0,
+      "expected": "ocean",
+      "rgb": [
+        0.141,
+        0.337,
+        0.373
+      ],
+      "ok": true
+    }
+  ],
+  "orientation_ok": true,
+  "cameras": [
+    "GLOBE_HOME",
+    "GLOBE_REGION_kodingareng",
+    "GLOBE_REGION_tunda",
+    "GLOBE_REGION_amur",
+    "GLOBE_REEL"
+  ],
+  "render": {
+    "overview": {
+      "path": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\revision-v2\\work\\runs\\20261121T1445-local\\proofs\\look\\globe_overview.png",
+      "bytes": 7758293
+    },
+    "kodingareng": {
+      "path": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\revision-v2\\work\\runs\\20261121T1445-local\\proofs\\look\\globe_region_kodingareng.png",
+      "bytes": 2150057
+    },
+    "tunda": {
+      "path": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\revision-v2\\work\\runs\\20261121T1445-local\\proofs\\look\\globe_region_tunda.png",
+      "bytes": 2038773
+    },
+    "amur": {
+      "path": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\revision-v2\\work\\runs\\20261121T1445-local\\proofs\\look\\globe_region_amur.png",
+      "bytes": 1976966
+    }
+  }
+}

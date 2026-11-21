@@ -1,0 +1,120 @@
+{
+  "travel": {
+    "kodingareng": {
+      "path": "media/coasts/kodingareng/travel.mp4",
+      "bytes": 3699327,
+      "ffprobe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "24/1",
+            "avg_frame_rate": "24/1",
+            "duration": "7.000000",
+            "nb_frames": "168"
+          }
+        ],
+        "format": {
+          "duration": "7.000000",
+          "size": "3699327"
+        }
+      },
+      "decode_exit": 0
+    },
+    "tunda": {
+      "path": "media/coasts/tunda/travel.mp4",
+      "bytes": 4157618,
+      "ffprobe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "24/1",
+            "avg_frame_rate": "24/1",
+            "duration": "7.000000",
+            "nb_frames": "168"
+          }
+        ],
+        "format": {
+          "duration": "7.000000",
+          "size": "4157618"
+        }
+      },
+      "decode_exit": 0
+    },
+    "amur": {
+      "path": "media/coasts/amur/travel.mp4",
+      "bytes": 2134152,
+      "ffprobe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "pix_fmt": "yuv420p",
+            "r_frame_rate": "24/1",
+            "avg_frame_rate": "24/1",
+            "duration": "7.000000",
+            "nb_frames": "168"
+          }
+        ],
+        "format": {
+          "duration": "7.000000",
+          "size": "2134152"
+        }
+      },
+      "decode_exit": 0
+    }
+  },
+  "reel": {
+    "path": "media/coast-reel.mp4",
+    "frames": 648,
+    "seconds": 27.0,
+    "bytes": 11854620,
+    "ffprobe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "r_frame_rate": "24/1",
+          "avg_frame_rate": "24/1",
+          "duration": "27.000000",
+          "nb_frames": "648"
+        }
+      ],
+      "format": {
+        "duration": "27.000000",
+        "size": "11854620"
+      }
+    },
+    "decode_exit": 0
+  },
+  "frames_checked": {
+    "kodingareng": {
+      "expected": 168,
+      "missing": []
+    },
+    "tunda": {
+      "expected": 168,
+      "missing": []
+    },
+    "amur": {
+      "expected": 168,
+      "missing": []
+    }
+  }
+}

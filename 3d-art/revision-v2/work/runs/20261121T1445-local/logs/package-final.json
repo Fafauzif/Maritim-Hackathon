@@ -1,0 +1,19 @@
+{
+  "staging": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\revision-v2\\delivery\\LAUTARA_3D_Art_Handoff_v2",
+  "out": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\revision-v2\\delivery\\LAUTARA_3D_Art_Handoff_v2.zip",
+  "verifyExtract": "C:\\Users\\fauzi\\AppData\\Local\\Temp\\LAUTARA_v2_extract_delivered_20261121",
+  "removedArtifacts": [],
+  "missingRequired": [],
+  "fileCount": 77,
+  "payloadBytes": 151669660,
+  "zipBytes": 142576153,
+  "zipSha256": "7e2fd1cccb316643ac252bee4b6cabdc0e65b6b4e70b7f745542c5aff06b28b6",
+  "extractProblems": [],
+  "extractedFileCount": 77,
+  "nameSetEqual": true,
+  "badChecksums": [],
+  "manifestAssets": 8,
+  "manifestAbsolutePaths": false,
+  "verdict": "pass",
+  "errors": []
+}

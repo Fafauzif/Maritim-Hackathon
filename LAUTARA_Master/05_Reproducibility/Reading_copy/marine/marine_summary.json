@@ -1,0 +1,333 @@
+{
+  "Tunda": {
+    "num_utc_days": 31,
+    "rain": {
+      "era5_total_mm": 26.7,
+      "merra2_total_mm": 88.04,
+      "spearman": 0.619,
+      "era5_days_ge_5mm": 1,
+      "merra2_days_ge_5mm": 5,
+      "both_days_ge_5mm": 1
+    },
+    "glorys_nearest": {
+      "coord": [
+        -5.833,
+        106.25
+      ],
+      "distance_km": 3.94,
+      "depth_m": 0.494,
+      "days": 31,
+      "eastward_days": 0,
+      "median_speed_m_s": 0.923,
+      "months": {
+        "2023-10": {
+          "days": 20,
+          "mean_east_m_s": -0.974,
+          "mean_north_m_s": 0.014,
+          "median_speed_m_s": 0.97,
+          "eastward_days": 0,
+          "mean_vector_towards_deg": 270.845
+        },
+        "2023-11": {
+          "days": 11,
+          "mean_east_m_s": -0.869,
+          "mean_north_m_s": 0.015,
+          "median_speed_m_s": 0.886,
+          "eastward_days": 0,
+          "mean_vector_towards_deg": 271.009
+        }
+      }
+    },
+    "glorys_3x3_sensitivity": {
+      "0.494_m": {
+        "mixed_direction_days": 0,
+        "utc_days": 31,
+        "eastward_days_range_across_cells": [
+          0,
+          0
+        ]
+      },
+      "9.573_m": {
+        "mixed_direction_days": 0,
+        "utc_days": 31,
+        "eastward_days_range_across_cells": [
+          0,
+          0
+        ]
+      }
+    },
+    "glorys_depth_nearest": {
+      "0.494_m": {
+        "eastward_days": 0,
+        "n": 31
+      },
+      "9.573_m": {
+        "eastward_days": 0,
+        "n": 31
+      }
+    }
+  },
+  "Kodingareng": {
+    "num_utc_days": 274,
+    "rain": {
+      "era5_total_mm": 1834.7,
+      "merra2_total_mm": 1162.04,
+      "spearman": 0.678,
+      "era5_days_ge_5mm": 63,
+      "merra2_days_ge_5mm": 64,
+      "both_days_ge_5mm": 37
+    },
+    "glorys_nearest": {
+      "coord": [
+        -5.167,
+        119.25
+      ],
+      "distance_km": 2.55,
+      "depth_m": 0.494,
+      "days": 274,
+      "eastward_days": 139,
+      "median_speed_m_s": 0.142,
+      "months": {
+        "2020-02": {
+          "days": 29,
+          "mean_east_m_s": 0.122,
+          "mean_north_m_s": 0.089,
+          "median_speed_m_s": 0.161,
+          "eastward_days": 29,
+          "mean_vector_towards_deg": 54.064
+        },
+        "2020-03": {
+          "days": 31,
+          "mean_east_m_s": 0.065,
+          "mean_north_m_s": 0.104,
+          "median_speed_m_s": 0.164,
+          "eastward_days": 25,
+          "mean_vector_towards_deg": 31.9
+        },
+        "2020-04": {
+          "days": 30,
+          "mean_east_m_s": -0.009,
+          "mean_north_m_s": 0.024,
+          "median_speed_m_s": 0.135,
+          "eastward_days": 15,
+          "mean_vector_towards_deg": 340.56
+        },
+        "2020-05": {
+          "days": 31,
+          "mean_east_m_s": -0.007,
+          "mean_north_m_s": 0.004,
+          "median_speed_m_s": 0.137,
+          "eastward_days": 10,
+          "mean_vector_towards_deg": 298.669
+        },
+        "2020-06": {
+          "days": 30,
+          "mean_east_m_s": -0.043,
+          "mean_north_m_s": -0.005,
+          "median_speed_m_s": 0.07,
+          "eastward_days": 4,
+          "mean_vector_towards_deg": 263.292
+        },
+        "2020-07": {
+          "days": 31,
+          "mean_east_m_s": -0.052,
+          "mean_north_m_s": -0.048,
+          "median_speed_m_s": 0.124,
+          "eastward_days": 6,
+          "mean_vector_towards_deg": 227.159
+        },
+        "2020-08": {
+          "days": 31,
+          "mean_east_m_s": 0.009,
+          "mean_north_m_s": 0.02,
+          "median_speed_m_s": 0.146,
+          "eastward_days": 13,
+          "mean_vector_towards_deg": 24.808
+        },
+        "2020-09": {
+          "days": 30,
+          "mean_east_m_s": 0.048,
+          "mean_north_m_s": 0.005,
+          "median_speed_m_s": 0.207,
+          "eastward_days": 15,
+          "mean_vector_towards_deg": 84.263
+        },
+        "2020-10": {
+          "days": 31,
+          "mean_east_m_s": 0.056,
+          "mean_north_m_s": 0.099,
+          "median_speed_m_s": 0.171,
+          "eastward_days": 22,
+          "mean_vector_towards_deg": 29.692
+        }
+      }
+    },
+    "glorys_3x3_sensitivity": {
+      "0.494_m": {
+        "mixed_direction_days": 92,
+        "utc_days": 274,
+        "eastward_days_range_across_cells": [
+          110,
+          189
+        ]
+      },
+      "9.573_m": {
+        "mixed_direction_days": 94,
+        "utc_days": 274,
+        "eastward_days_range_across_cells": [
+          189,
+          239
+        ]
+      }
+    },
+    "glorys_depth_nearest": {
+      "0.494_m": {
+        "eastward_days": 139,
+        "n": 274
+      },
+      "9.573_m": {
+        "eastward_days": 230,
+        "n": 274
+      }
+    }
+  },
+  "Tunda_event_local_day": {
+    "best_match": {
+      "ocean_current_velocity": [
+        0.3,
+        0.575,
+        1.0
+      ],
+      "ocean_current_direction": [
+        273.0,
+        276.0,
+        284.0
+      ],
+      "current_vector_mean_towards_deg": 275.9,
+      "westward_hours": 24,
+      "eastward_hours": 0
+    },
+    "era5": {
+      "wind_speed_10m": [
+        0.36,
+        1.415,
+        2.47
+      ],
+      "precipitation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "era5_ocean": {
+      "wave_height": [
+        0.24,
+        0.26,
+        0.26
+      ],
+      "wave_direction": [
+        83.0,
+        104.0,
+        120.0
+      ],
+      "wave_period": [
+        3.4,
+        3.5,
+        3.6
+      ],
+      "wavelength_deep_water_approx_m_min_median_max": [
+        18.043,
+        19.12,
+        20.228
+      ],
+      "circular_mean_wave_from_deg": 101.4,
+      "event_day_max_wave_height_rank_from_highest": 25,
+      "max_daily_significant_wave_height_range_m": [
+        0.24,
+        0.7
+      ]
+    },
+    "meteofrance_wave": {
+      "wave_height": [
+        0.14,
+        0.16,
+        0.22
+      ],
+      "wave_direction": [
+        109.0,
+        194.0,
+        238.0
+      ],
+      "wave_period": [
+        3.6,
+        4.2,
+        4.5
+      ],
+      "wavelength_deep_water_approx_m_min_median_max": [
+        20.228,
+        27.536,
+        31.606
+      ],
+      "circular_mean_wave_from_deg": 184.1,
+      "event_day_max_wave_height_rank_from_highest": 26,
+      "max_daily_significant_wave_height_range_m": [
+        0.16,
+        0.68
+      ]
+    },
+    "abs_era5_mfwam_wave_from_direction_difference_deg_min_median_max": [
+      24.0,
+      88.0,
+      133.0
+    ],
+    "glorys_2023_10_27_utc_daily_nearest": {
+      "speed_m_s": 0.853,
+      "towards_deg": 271.229,
+      "east_m_s": -0.853,
+      "north_m_s": 0.018
+    },
+    "glorys_spatial": {
+      "event_9cells_speed_min_median_max": [
+        0.565,
+        0.744,
+        0.853
+      ],
+      "event_9cells_towards_bearings": [
+        265.43,
+        275.365,
+        282.661,
+        256.874,
+        271.229,
+        273.716,
+        227.949,
+        253.289,
+        268.786
+      ],
+      "event_9cells_distances_km": [
+        16.992,
+        12.1,
+        13.193,
+        12.565,
+        3.944,
+        6.574,
+        14.099,
+        7.514,
+        9.171
+      ]
+    }
+  },
+  "Tunda_event_rain": {
+    "local_daily_sum": 0.0,
+    "preceding_3_local_days": [
+      0.0,
+      2.0,
+      1.0
+    ],
+    "era5_wind_max_rank": 29
+  },
+  "assumptions": {
+    "rain_big_day_threshold_mm": 5,
+    "glorys_daily_surface_layer_m": 0.4940249919891357,
+    "wave_length": "deep-water heuristic gT^2/(2\u03c0), missing point depth makes nearshore wavelength unresolved"
+  }
+}

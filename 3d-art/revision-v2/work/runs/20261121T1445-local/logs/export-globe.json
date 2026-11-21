@@ -1,0 +1,236 @@
+{
+  "asset_id": "globe",
+  "staging": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\revision-v2\\delivery\\LAUTARA_3D_Art_Handoff_v2",
+  "source": {
+    "path": "source/globe/globe.blend",
+    "bytes": 1525776,
+    "sha256": "1276b0712b10e2fedde81e8ecab7fd0248ae8b5f821e5aa87f32529aaa27532a"
+  },
+  "globe": {
+    "path": "runtime/globe/globe.glb",
+    "bytes": 1784408,
+    "sha256": "1ce709976853daf773ce83737ec740f6de26fc19e88a7ca76abb056fc0a33e89",
+    "glb": {
+      "magic": "glTF",
+      "version": 2,
+      "declared_length": 1784408,
+      "actual_length": 1784408,
+      "generator": "Khronos glTF Blender I/O v5.2.40",
+      "gltf_version": "2.0",
+      "nodes": [
+        "ANCHOR_amur",
+        "ANCHOR_kodingareng",
+        "ANCHOR_tunda",
+        "Earth_Surface",
+        "MK_Disc_amur",
+        "MK_Disc_kodingareng",
+        "MK_Disc_tunda",
+        "MK_Ring_amur",
+        "MK_Ring_kodingareng",
+        "MK_Ring_tunda",
+        "MK_Stem_amur",
+        "MK_Stem_kodingareng",
+        "MK_Stem_tunda"
+      ],
+      "node_count": 13,
+      "mesh_count": 10,
+      "material_count": 3,
+      "image_count": 1,
+      "texture_count": 1,
+      "buffer_uris": [
+        null
+      ],
+      "image_uris": [
+        null
+      ],
+      "extensions_used": [
+        "KHR_materials_emissive_strength"
+      ],
+      "extensions_required": [],
+      "has_cameras": false,
+      "material_alpha_modes": {
+        "Earth_Teal_Sand_Color": "OPAQUE",
+        "MAT_Globe_Marker": "OPAQUE",
+        "MAT_Globe_Marker_Ring": "OPAQUE"
+      }
+    },
+    "anchors": {
+      "kodingareng": {
+        "position": [
+          -4.868729,
+          -0.89747,
+          -8.688499
+        ],
+        "lat": -5.14905,
+        "lon": 119.26473
+      },
+      "tunda": {
+        "position": [
+          -2.788594,
+          -1.012562,
+          -9.549788
+        ],
+        "lat": -5.81151,
+        "lon": 106.27811
+      },
+      "amur": {
+        "position": [
+          -4.849538,
+          6.861429,
+          -5.422431
+        ],
+        "lat": 43.32556,
+        "lon": 131.80778
+      }
+    },
+    "radiusArtUnits": 10.0,
+    "cameras": {
+      "GLOBE_HOME": {
+        "projection": "orthographic",
+        "position": [
+          -13.394819,
+          9.27051,
+          -25.191992
+        ],
+        "target": [
+          22.324701,
+          -15.450838,
+          41.986656
+        ],
+        "up": [
+          0.145075,
+          0.951057,
+          0.272846
+        ],
+        "near": 0.5,
+        "far": 200.0,
+        "aspect": 1.777778,
+        "resolution": [
+          3840,
+          2160
+        ],
+        "sensorFit": "AUTO",
+        "orthoWidthM": 21.4,
+        "orthoHeightM": 12.0375
+      },
+      "GLOBE_REGION_kodingareng": {
+        "projection": "perspective",
+        "position": [
+          -11.868188,
+          3.461952,
+          -18.799229
+        ],
+        "target": [
+          31.050285,
+          -23.268642,
+          43.196579
+        ],
+        "up": [
+          0.190186,
+          0.942526,
+          0.274725
+        ],
+        "near": 0.5,
+        "far": 200.0,
+        "aspect": 1.777778,
+        "resolution": [
+          3840,
+          2160
+        ],
+        "sensorFit": "AUTO",
+        "lensMm": 62.0,
+        "verticalFovDeg": 18.5498,
+        "horizontalFovDeg": 32.3784,
+        "fitGuidance": "Render at 16:9. For a narrower container keep the vertical FOV and crop horizontally; for a wider container keep vertical FOV and add side margin."
+      },
+      "GLOBE_REGION_tunda": {
+        "projection": "perspective",
+        "position": [
+          -7.352726,
+          3.204677,
+          -21.021833
+        ],
+        "target": [
+          20.633068,
+          -22.654066,
+          49.321045
+        ],
+        "up": [
+          0.119489,
+          0.946319,
+          0.300338
+        ],
+        "near": 0.5,
+        "far": 200.0,
+        "aspect": 1.777778,
+        "resolution": [
+          3840,
+          2160
+        ],
+        "sensorFit": "AUTO",
+        "lensMm": 62.0,
+        "verticalFovDeg": 18.5498,
+        "horizontalFovDeg": 32.3784,
+        "fitGuidance": "Render at 16:9. For a narrower container keep the vertical FOV and crop horizontally; for a wider container keep vertical FOV and add side margin."
+      },
+      "GLOBE_REGION_amur": {
+        "projection": "perspective",
+        "position": [
+          -8.560334,
+          18.939413,
+          -8.617965
+        ],
+        "target": [
+          14.217513,
+          -55.198433,
+          10.997071
+        ],
+        "up": [
+          0.70223,
+          0.375745,
+          0.604722
+        ],
+        "near": 0.5,
+        "far": 200.0,
+        "aspect": 1.777778,
+        "resolution": [
+          3840,
+          2160
+        ],
+        "sensorFit": "AUTO",
+        "lensMm": 62.0,
+        "verticalFovDeg": 18.5498,
+        "horizontalFovDeg": 32.3784,
+        "fitGuidance": "Render at 16:9. For a narrower container keep the vertical FOV and crop horizontally; for a wider container keep vertical FOV and add side margin."
+      },
+      "GLOBE_REEL": {
+        "projection": "orthographic",
+        "position": [
+          -9.758414,
+          9.27051,
+          -26.811024
+        ],
+        "target": [
+          16.264023,
+          -15.45085,
+          44.68504
+        ],
+        "up": [
+          0.10569,
+          0.951056,
+          0.290381
+        ],
+        "near": 0.5,
+        "far": 200.0,
+        "aspect": 1.777778,
+        "resolution": [
+          3840,
+          2160
+        ],
+        "sensorFit": "AUTO",
+        "orthoWidthM": 21.6,
+        "orthoHeightM": 12.15
+      }
+    }
+  }
+}

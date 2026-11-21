@@ -1,0 +1,7 @@
+# Reading the revisions
+
+1. v0_game_reconstructed.pdf recreates the initial explanation framed as a coastal planning game. Its hero and bottle storyboard made the idea memorable but could easily be mistaken for the operator interface.
+2. v1_case_reconstructed.pdf recreates the first government-workspace revision. It added case ownership and a reviewed field brief. The distinction between art and an operator screen still needed work.
+3. 01_Product/The_Ocean_Has_Floors.pdf is the current delivered seven-page PDF. It opens on the overhead case, compares two depth states with the same camera and uses A–B for a secondary section. It separates viewing depth from the depth requested of a crew.
+
+The two historical PDFs were rendered anew from the surviving older layout and the reversible text-revision record. They are historical reconstructions, not byte-identical recovered originals. Original working artifacts include build.py, reframe.py, proof thumbnails (review.jpg and new.jpg), final-review.jpg, operator-review.jpg, reader-screens.pdf and key.png. The current renderer, editable flowchart and compiled flowchart sit in 01_Product/production. Reader-style checks were internal AI critique; no usability study with government personnel is documented. A later reviewer should test whether a cold reader can explain the user's role, which control changes the evidence, what is modeled and what goes to the boat.

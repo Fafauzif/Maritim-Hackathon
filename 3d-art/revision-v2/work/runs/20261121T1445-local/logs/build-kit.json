@@ -1,0 +1,36 @@
+{
+  "checkpoint": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\revision-v2\\work\\runs\\20261121T1445-local\\checkpoints\\kit.blend",
+  "objects": 40,
+  "meshes": 18,
+  "components": [
+    "KIT_BARREL",
+    "KIT_BOAT_LOCAL",
+    "KIT_BOAT_SURVEY",
+    "KIT_Backdrop",
+    "KIT_COMMUNITY_HALL",
+    "KIT_CRATE",
+    "KIT_Ground",
+    "KIT_HOUSE_A",
+    "KIT_HOUSE_B",
+    "KIT_HOUSE_C",
+    "KIT_HOUSE_D",
+    "KIT_JETTY",
+    "KIT_MANGROVE",
+    "KIT_PALM",
+    "KIT_PAVILION",
+    "KIT_REED",
+    "KIT_SHRUB",
+    "KIT_WORKING_LANDING"
+  ],
+  "render": {
+    "path": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\revision-v2\\work\\runs\\20261121T1445-local\\proofs\\look\\kit_asset-sheet.png",
+    "exists": true,
+    "bytes": 3214383,
+    "resolution": [
+      2560,
+      1440
+    ],
+    "camera": "KIT_SHEET_CAM",
+    "engine": "BLENDER_EEVEE"
+  }
+}

@@ -1,0 +1,13 @@
+﻿{
+    "ramGB":  32,
+    "runId":  "20261121T1445-local",
+    "pythonPath":  "C:\\Users\\fauzi\\.dsh\\dsh-runtimes\\dsh-primary-runtime\\dependencies\\python\\python.exe",
+    "cpu":  "Intel i7-13700HX 16C/24T",
+    "ffmpegPath":  "C:\\Users\\fauzi\\AppData\\Local\\Microsoft\\WinGet\\Links\\ffmpeg.exe",
+    "freeDiskCGB":  192.7,
+    "gitDirty":  1,
+    "gitCommit":  "e07093ef34118bc3e686257accbbfe6246595153",
+    "gpu":  "NVIDIA GeForce RTX 4060 Laptop GPU 8GB (4GB reported WMI, driver 32.0.15.8180)",
+    "blenderPath":  "C:\\Program Files\\Blender Foundation\\Blender 5.2\\blender.exe",
+    "repoRoot":  "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon"
+}

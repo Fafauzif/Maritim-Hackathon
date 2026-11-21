@@ -1,0 +1,324 @@
+{
+  "schemaVersion": 1,
+  "revision": "v2",
+  "auditDate": "2026-11-21",
+  "bundleRootName": "LAUTARA_3D_Art_Handoff_v2",
+  "blenderVersion": "5.2.2 LTS",
+  "items": [
+    {
+      "id": "doc-start_here.md",
+      "state": "pass",
+      "evidencePaths": [
+        "START_HERE.md"
+      ],
+      "notes": "required handoff document"
+    },
+    {
+      "id": "doc-handoff.md",
+      "state": "pass",
+      "evidencePaths": [
+        "HANDOFF.md"
+      ],
+      "notes": "required handoff document"
+    },
+    {
+      "id": "doc-attribution.md",
+      "state": "pass",
+      "evidencePaths": [
+        "ATTRIBUTION.md"
+      ],
+      "notes": "required handoff document"
+    },
+    {
+      "id": "inventory-sums",
+      "state": "pass",
+      "evidencePaths": [
+        "SHA256SUMS.txt"
+      ],
+      "notes": "archive checksum list"
+    },
+    {
+      "id": "inventory-clean",
+      "state": "pass",
+      "evidencePaths": [],
+      "notes": "no backups, caches or temporary files"
+    },
+    {
+      "id": "manifest",
+      "state": "pass",
+      "evidencePaths": [
+        "runtime/asset-manifest.json"
+      ],
+      "notes": "schemaVersion 1, revision v2, metres, not georeferenced; 8 assets"
+    },
+    {
+      "id": "manifest-no-private-paths",
+      "state": "pass",
+      "evidencePaths": [
+        "runtime/asset-manifest.json"
+      ],
+      "notes": "no absolute workstation paths in runtime manifest"
+    },
+    {
+      "id": "glb-runtime/globe/globe.glb",
+      "state": "pass",
+      "evidencePaths": [
+        "runtime/globe/globe.glb"
+      ],
+      "notes": "glTF 2.0 binary, embedded, no cameras/lights; 36996 tris; core only"
+    },
+    {
+      "id": "glb-runtime/kit/common-kit.glb",
+      "state": "pass",
+      "evidencePaths": [
+        "runtime/kit/common-kit.glb"
+      ],
+      "notes": "glTF 2.0 binary, embedded, no cameras/lights; 5013 tris; core only"
+    },
+    {
+      "id": "glb-runtime/coasts/kodingareng/coast.glb",
+      "state": "pass",
+      "evidencePaths": [
+        "runtime/coasts/kodingareng/coast.glb"
+      ],
+      "notes": "glTF 2.0 binary, embedded, no cameras/lights; 152276 tris; core only"
+    },
+    {
+      "id": "glb-runtime/coasts/kodingareng/section.glb",
+      "state": "pass",
+      "evidencePaths": [
+        "runtime/coasts/kodingareng/section.glb"
+      ],
+      "notes": "glTF 2.0 binary, embedded, no cameras/lights; 9646 tris; core only"
+    },
+    {
+      "id": "glb-runtime/coasts/tunda/coast.glb",
+      "state": "pass",
+      "evidencePaths": [
+        "runtime/coasts/tunda/coast.glb"
+      ],
+      "notes": "glTF 2.0 binary, embedded, no cameras/lights; 179824 tris; core only"
+    },
+    {
+      "id": "glb-runtime/coasts/tunda/section.glb",
+      "state": "pass",
+      "evidencePaths": [
+        "runtime/coasts/tunda/section.glb"
+      ],
+      "notes": "glTF 2.0 binary, embedded, no cameras/lights; 9580 tris; core only"
+    },
+    {
+      "id": "glb-runtime/coasts/amur/coast.glb",
+      "state": "pass",
+      "evidencePaths": [
+        "runtime/coasts/amur/coast.glb"
+      ],
+      "notes": "glTF 2.0 binary, embedded, no cameras/lights; 175349 tris; core only"
+    },
+    {
+      "id": "glb-runtime/coasts/amur/section.glb",
+      "state": "pass",
+      "evidencePaths": [
+        "runtime/coasts/amur/section.glb"
+      ],
+      "notes": "glTF 2.0 binary, embedded, no cameras/lights; 9704 tris; core only"
+    },
+    {
+      "id": "asset-globe",
+      "state": "pass",
+      "evidencePaths": [
+        "runtime/globe/globe.glb"
+      ],
+      "notes": "bytes and sha256 match manifest"
+    },
+    {
+      "id": "asset-kit",
+      "state": "pass",
+      "evidencePaths": [
+        "runtime/kit/common-kit.glb"
+      ],
+      "notes": "bytes and sha256 match manifest"
+    },
+    {
+      "id": "asset-coast_kodingareng",
+      "state": "pass",
+      "evidencePaths": [
+        "runtime/coasts/kodingareng/coast.glb"
+      ],
+      "notes": "bytes and sha256 match manifest"
+    },
+    {
+      "id": "asset-section_kodingareng",
+      "state": "pass",
+      "evidencePaths": [
+        "runtime/coasts/kodingareng/section.glb"
+      ],
+      "notes": "bytes and sha256 match manifest"
+    },
+    {
+      "id": "asset-coast_tunda",
+      "state": "pass",
+      "evidencePaths": [
+        "runtime/coasts/tunda/coast.glb"
+      ],
+      "notes": "bytes and sha256 match manifest"
+    },
+    {
+      "id": "asset-section_tunda",
+      "state": "pass",
+      "evidencePaths": [
+        "runtime/coasts/tunda/section.glb"
+      ],
+      "notes": "bytes and sha256 match manifest"
+    },
+    {
+      "id": "asset-coast_amur",
+      "state": "pass",
+      "evidencePaths": [
+        "runtime/coasts/amur/coast.glb"
+      ],
+      "notes": "bytes and sha256 match manifest"
+    },
+    {
+      "id": "asset-section_amur",
+      "state": "pass",
+      "evidencePaths": [
+        "runtime/coasts/amur/section.glb"
+      ],
+      "notes": "bytes and sha256 match manifest"
+    },
+    {
+      "id": "anchors-kodingareng",
+      "state": "pass",
+      "evidencePaths": [
+        "runtime/coasts/kodingareng/coast.glb",
+        "runtime/coasts/kodingareng/section.glb"
+      ],
+      "notes": "required anchors and shared A/B transforms; ok"
+    },
+    {
+      "id": "anchors-tunda",
+      "state": "pass",
+      "evidencePaths": [
+        "runtime/coasts/tunda/coast.glb",
+        "runtime/coasts/tunda/section.glb"
+      ],
+      "notes": "required anchors and shared A/B transforms; ok"
+    },
+    {
+      "id": "anchors-amur",
+      "state": "pass",
+      "evidencePaths": [
+        "runtime/coasts/amur/coast.glb",
+        "runtime/coasts/amur/section.glb"
+      ],
+      "notes": "required anchors and shared A/B transforms; ok"
+    },
+    {
+      "id": "camera-presets",
+      "state": "pass",
+      "evidencePaths": [
+        "runtime/asset-manifest.json"
+      ],
+      "notes": "five required coast presets with position/target/up/near/far/aspect and projection-specific FOV"
+    },
+    {
+      "id": "clean-stills",
+      "state": "pass",
+      "evidencePaths": [
+        "media/coasts"
+      ],
+      "notes": "15 coast PNGs at 3840x2160"
+    },
+    {
+      "id": "image-media/globe/globe-overview.png",
+      "state": "pass",
+      "evidencePaths": [
+        "media/globe/globe-overview.png"
+      ],
+      "notes": "required clean art; (3840, 2160)"
+    },
+    {
+      "id": "image-media/kit/asset-sheet.png",
+      "state": "pass",
+      "evidencePaths": [
+        "media/kit/asset-sheet.png"
+      ],
+      "notes": "required clean art; (2560, 1440)"
+    },
+    {
+      "id": "motion",
+      "state": "pass",
+      "evidencePaths": [
+        "media/coasts",
+        "media/coast-reel.mp4"
+      ],
+      "notes": "three 7 s 1080p H.264 travel films and one 27 s reel; ffprobe verified"
+    },
+    {
+      "id": "pitch-plates",
+      "state": "pass",
+      "evidencePaths": [
+        "media/pitch"
+      ],
+      "notes": "three annotated pitch plates; comparison pair identical outside its data inset"
+    },
+    {
+      "id": "evidence",
+      "state": "pass",
+      "evidencePaths": [
+        "evidence/depth-case-verified.json"
+      ],
+      "notes": "verified fixture present; 6 keys"
+    },
+    {
+      "id": "review-review/before-after.png",
+      "state": "pass",
+      "evidencePaths": [
+        "review/before-after.png"
+      ],
+      "notes": "required review evidence"
+    },
+    {
+      "id": "review-review/parity-sheet.png",
+      "state": "pass",
+      "evidencePaths": [
+        "review/parity-sheet.png"
+      ],
+      "notes": "required review evidence"
+    },
+    {
+      "id": "review-review/runtime-parity.png",
+      "state": "pass",
+      "evidencePaths": [
+        "review/runtime-parity.png"
+      ],
+      "notes": "required review evidence"
+    },
+    {
+      "id": "review-review/review-report.md",
+      "state": "pass",
+      "evidencePaths": [
+        "review/review-report.md"
+      ],
+      "notes": "required review evidence"
+    },
+    {
+      "id": "editable-sources",
+      "state": "pass",
+      "evidencePaths": [
+        "source"
+      ],
+      "notes": "five packed primary scenes plus build instructions"
+    }
+  ],
+  "summary": {
+    "total": 38,
+    "pass": 38,
+    "fail": 0,
+    "blocked": 0,
+    "notApplicable": 0
+  },
+  "errors": [],
+  "verdict": "pass"
+}

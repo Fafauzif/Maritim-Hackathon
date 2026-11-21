@@ -1,0 +1,6 @@
+{
+  "url": "https://climateserv.servirglobal.net/api/submitDataRequest/?datatype=0&begintime=09%2F01%2F2023&endtime=11%2F30%2F2023&intervaltype=0&operationtype=5&dateType_Category=default&geometry=%7B%22type%22%3A%22Polygon%22%2C%22coordinates%22%3A%5B%5B%5B106.1%2C-6.47%5D%2C%5B106.45%2C-6.47%5D%2C%5B106.45%2C-6.07%5D%2C%5B106.1%2C-6.07%5D%2C%5B106.1%2C-6.47%5D%5D%5D%7D",
+  "sha256": "b1cd2d3168a766391cf444433b27b32236336d6a41fc1dbf0b80e7100cc8051f",
+  "provider": "SERVIR ClimateSERV",
+  "product": "UCSB CHIRPS"
+}

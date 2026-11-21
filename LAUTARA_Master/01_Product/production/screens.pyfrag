@@ -1,0 +1,103 @@
+import math
+back=next((P.parent/'generated_images').glob('exec-4fe3d289*'))
+def dot(x,y,r,col):
+ c.setFillColor(HexColor(col));c.circle(x,H-y,r,stroke=0,fill=1)
+def arr(x,y,angle,length,col=ink,weight=2.5):
+ a=math.radians(angle);dx=math.sin(a);dy=-math.cos(a);ex=x+dx*length;ey=y+dy*length
+ c.setLineWidth(weight);c.setStrokeColor(HexColor(col));c.line(x,H-y,ex,H-ey)
+ for sign in (-1,1):
+  c.line(ex,H-ey,ex-dx*length*.30+sign*dy*length*.15,H-(ey-dy*length*.30-sign*dx*length*.15))
+def mapview(x,y,w,h,depth=0,section=False):
+ c.drawImage(str(back),x,H-y-h,w,h)
+ def xy(a,b):return x+a*w,y+b*h
+ def loop(points,col):
+  c.setStrokeColor(HexColor(col));c.setLineWidth(1.3);c.setDash(3,2)
+  ss=c.beginPath();xx,yy=xy(*points[0]);ss.moveTo(xx,H-yy)
+  for a,b in points[1:]:
+   xx,yy=xy(a,b);ss.lineTo(xx,H-yy)
+  ss.close();c.drawPath(ss);c.setDash()
+ loop([(.45,.86),(.64,.54),(.69,.34),(.60,.4),(.42,.79)],'#FFF8D6')
+ loop([(.74,.23),(.91,.25),(.90,.42),(.76,.39)],'#FFC081')
+ sx,sy=xy(.57,.59);dot(sx,sy,5.5,'#FFFFFF');dot(sx,sy,3,orange)
+ rect(sx+7,sy-6,25,13,ink);label(sx+10,sy-5,'S-01',7,'#FFFFFF')
+ if section:
+  ax,ay=xy(.3,.66);bx,by=xy(.78,.52)
+  line(ax,ay,bx,by,'#FFFFFF')
+  for x1,y1,l in [(ax,ay,'A'),(bx,by,'B')]:
+   dot(x1,y1,7.5,ink);label(x1-2.5,y1-4.8,l,7.5,'#FFFFFF')
+ else:
+  ax,ay=xy(.76,.73);dot(ax,ay,16,'#DFEFEB');arr(ax,ay,[264,45][depth],14,teal,2)
+ label(x+w-21,y+4,'N',8,'#FFFFFF');arr(x+w-15,y+29,0,11,'#FFFFFF',1)
+def btn(x,y,w,txt,on=True):
+ rect(x,y,w,19,teal if on else mist);label(x+6,y+4,txt,8,'#FFFFFF' if on else ink)
+start(2,'Proposed operator interface');title('The case opens on the coast')
+p(42,141,'The officer opens a proposed works case and sees the whole area from above. Select a station, change the viewing depth, then decide what to ask the field crew to measure.',size=13,lead=18)
+rect(34,211,544,332,'#E0E8E4');rect(35,212,542,31,ink)
+label(46,221,'COASTAL MONITORING    /    Kodingareng',10,'#FFFFFF')
+label(439,223,'Draft case  ·  KR-01',8.4,'#FFFFFF')
+mapview(35,243,379,222)
+rect(414,243,163,222,'#F2F4ED');label(424,252,'STATION  S-01',9)
+label(424,274,'Viewing depth',11,ink,'Bold');btn(424,296,61,'0.5 m',True);btn(489,296,72,'9.6 m',False)
+label(424,325,'14',1,'#F2F4ED');label(424,324,'Model date',8,quiet);label(424,339,'16 Apr 2020  ·  UTC',10,ink)
+label(424,363,'GLORYS12  /  daily mean',8,quiet);label(424,380,'0.093 m/s   ·   264°',11,ink)
+label(424,402,'Regional cell  ·  ~9 km',8,quiet)
+btn(424,427,138,'+ Add proposed sample')
+rect(35,465,542,77,'#F5F4EE')
+label(45,474,'MAP KEY',8,quiet);dot(112,481,3,orange);label(120,475,'Station',8,ink)
+line(175,481,192,481,'#CA9551');label(197,475,'Proposed works',8,ink)
+line(290,481,307,481,'#90AD78');label(312,475,'Reef outline',8,ink)
+arr(397,483,45,9,teal,1.5);label(409,475,'Modeled current',8,ink)
+label(45,507,'Overhead view',10,teal);label(157,507,'Draw section A–B',10,ink);label(303,507,'Compare depths',10,ink)
+p(42,551,'Design mockup. The island, reef, station and work boundary illustrate the interface. The dated current reading is from the archived regional model.',528,9,13,col=quiet)
+p(42,604,'What does “viewing depth” change?',size=21,lead=26,font='Title')
+p(42,642,'The coast stays in place. Selecting a deeper layer shows how the water there was estimated to move on the chosen date. An officer can compare layers from above, then draw a section wherever the shape of the seabed matters to the sampling plan.',size=12,lead=17)
+end()
+start(3,'Two states of the same operator screen');title('Change the depth. Keep the date.')
+p(42,141,'Kodingareng  ·  16 April 2020. Both views use the same camera, proposed station and regional model cell. The selected depth changes the current reading.',size=12.6,lead=18)
+for i,x in enumerate((42,312)):
+ rect(x,211,258,28,ink);label(x+9,219,'VIEWING DEPTH     '+['0.5 m','9.6 m'][i],9.4,'#FFFFFF')
+ mapview(x,239,258,148,i)
+ rect(x,387,258,98,mist)
+ label(x+10,397,'MODELED CURRENT   /   DAILY MEAN',8,teal)
+ label(x+10,417,['0.093 m/s   ·   264°','0.074 m/s   ·   045°'][i],17,ink,'Bold')
+ label(x+10,448,['Toward the west','Toward the northeast'][i],11,ink)
+p(42,506,'The surface estimate would point the officer west. At 9.6 m the estimate points northeast. To check whether this change occurs locally, the officer can add a request for a current profile at S-01.',size=13,lead=19)
+rect(42,598,528,107,'#E7EEEA')
+# true geographic cell inset schematic, locate demo station relative to cell bounds
+gx,gy=57,618;side=67
+rect(gx,gy,side,side,'#CADCD5')
+line(gx,gy+side/2,gx+side,gy+side/2,'#A0B4AB');line(gx+side/2,gy,gx+side/2,gy+side,'#A0B4AB')
+dot(gx+side*(.5+.012/.083333),gy+side*(.5-.011667/.083333),3,orange)
+label(60,688,'~9 km cell',8,quiet)
+p(140,609,'How local is the arrow?',410,13,18,'Bold')
+p(140,635,'One arrow summarizes the whole grid cell, centered at 5.1667° S, 119.2500° E. The dot marks the illustrative station inside it. A current profiler can test the model at the station.',410,10.6,15)
+p(42,717,anchor('https://chatgpt.com/library?file_id=libfile_b8704091df1c819189fa17cf61011304&amp;account_id=personal','Source archive')+' · marine/glorys_daily.csv. Bearings are clockwise from north.',528,8.9,12,col=quiet)
+end()
+start(4,'Section view and field request');title('Take a slice through the station')
+p(42,143,'Draw A–B through S-01. The camera turns along that line and keeps the jetty on the left. In section view, the officer sets a proposed sampling depth and saves it in the case.',size=12,lead=17)
+mapview(42,210,256,146,section=True)
+img('hero',311,210,259,146)
+for xx,lett in [(320,'A'),(555,'B')]:
+ dot(xx,290,7.5,ink);label(xx-2.5,285,lett,7.5,'#FFFFFF')
+label(42,365,'Overhead   /   Select section A–B',9)
+label(311,365,'Section A–B   /   Set target depth',9)
+p(42,391,'The two drawings show the proposed interaction. The section in the working app would use the selected line and a bathymetry grid to draw the seabed.',528,9,13,col=quiet)
+p(42,442,'From model evidence to a field action',size=19,lead=23,font='Title')
+p(42,699,'A current profiler records motion at depth. A bottle supplies water for sediment analysis. The requested instrument follows the question the officer needs to answer.',528,10.3,14,col=quiet)
+end()
+start(5,'Case handoff');title('What goes to the field crew?')
+p(42,145,'A supervisor reviews the proposed station and issues a versioned brief. When the boat returns, the field lead attaches the readings and sample IDs to the same case.',size=12.5,lead=18)
+rect(42,209,528,316,mist);label(57,224,'EXAMPLE FIELD BRIEF    /    DRAFT FOR REVIEW',9,teal)
+p(57,248,'KR-01     Kodingareng baseline survey',491,18,23,'Title')
+for yy,key,val in [
+(288,'Station','S-01 · 5.1550° S, 119.2620° E (illustrative WGS84 waypoint).'),
+(321,'When','Proposed pre-work visit, 08:00–10:00 WITA. Field lead confirms the date and local water depth before deployment.'),
+(372,'Current check','Run a current profiler at S-01. Compare readings near 0.5 m and 9.6 m below surface where both depths are submerged.'),
+(424,'Sediment baseline','Collect paired water bottles at the two target depths if feasible. Log actual depth, time and sample ID for each bottle.'),
+(475,'Review and return','Coastal monitoring supervisor reviews the plan. Field lead returns the profile and lab results to case KR-01.')]:
+ p(57,yy,key,104,10.2,14,'Bold');p(168,yy,val,385,10.2,14)
+p(42,539,'Planning example only. Coordinates and field instructions illustrate the handoff. Model evidence attached: GLORYS12 daily mean, 16 April 2020, reference cell on page 3.',528,9,13,col=quiet)
+p(42,599,'How two offices could use the same workflow',size=19,lead=24,font='Title')
+p(42,638,'An Indonesian reviewer could share the Kodingareng plan. An Amur Bay reviewer could compare its depth choices with a published local survey that sampled near the surface and above the bed. Each office records what it would change and why. Tunda offers a further case for planning a reef baseline before proposed work.',528,11.2,16)
+p(42,721,anchor(tunda,'Tunda reef survey')+'  ·  '+anchor(amur,'Amur Bay sampling methods'),528,8.8,12)
+end()

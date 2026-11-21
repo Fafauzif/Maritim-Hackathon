@@ -1,0 +1,29 @@
+Archive CRC: PASS (239 entries)
+Internal SHA-256: PASS (238 listed hashes)
+Pack-time rerun of original verify.py from an unmodified extracted working copy:
+Verified optical inventory, mission gains, calendar horizons, receptor disagreement, higher-rain observations, Tunda clocks, Amur contrast and transport scenarios.
+
+Diagnostic embedded acquisitions — PASS
+Tunda, strict 90% local vs 20% tile: {'2025 Jun–Sep': {'days': 30, 'tile': 10, 'local': 17, 'local_only': 7, 'tile_only': 0, 'longest_pass_interval_days': (20, 20)}, '2025 Nov–2026 Feb': {'days': 27, 'tile': 0, 'local': 1, 'local_only': 1, 'tile_only': 0, 'longest_pass_interval_days': (None, None)}, '2026 Mar–May': {'days': 22, 'tile': 6, 'local': 8, 'local_only': 2, 'tile_only': 0, 'longest_pass_interval_days': (20, 25)}, '2026 Jun–Sep': {'days': 31, 'tile': 13, 'local': 26, 'local_only': 13, 'tile_only': 0, 'longest_pass_interval_days': (10, 18)}}
+Tunda at 95% local: {'2025 Jun–Sep': {'days': 30, 'tile': 10, 'local': 11, 'local_only': 4, 'tile_only': 3, 'longest_pass_interval_days': (20, 20)}, '2025 Nov–2026 Feb': {'days': 27, 'tile': 0, 'local': 1, 'local_only': 1, 'tile_only': 0, 'longest_pass_interval_days': (None, None)}, '2026 Mar–May': {'days': 22, 'tile': 6, 'local': 6, 'local_only': 1, 'tile_only': 1, 'longest_pass_interval_days': (20, 25)}, '2026 Jun–Sep': {'days': 31, 'tile': 13, 'local': 21, 'local_only': 9, 'tile_only': 1, 'longest_pass_interval_days': (13, 18)}}
+Tunda at 40% tile: {'2025 Jun–Sep': {'days': 30, 'tile': 15, 'local': 17, 'local_only': 3, 'tile_only': 1, 'longest_pass_interval_days': (20, 10)}, '2025 Nov–2026 Feb': {'days': 27, 'tile': 1, 'local': 1, 'local_only': 0, 'tile_only': 0, 'longest_pass_interval_days': (None, None)}, '2026 Mar–May': {'days': 22, 'tile': 10, 'local': 8, 'local_only': 0, 'tile_only': 2, 'longest_pass_interval_days': (20, 20)}, '2026 Jun–Sep': {'days': 31, 'tile': 26, 'local': 26, 'local_only': 2, 'tile_only': 2, 'longest_pass_interval_days': (10, 15)}}
+Kodingareng, strict 90% local vs 20% tile: {'2025 Jun–Sep': {'days': 31, 'tile': 11, 'local': 10, 'local_only': 1, 'tile_only': 2, 'longest_pass_interval_days': (38, 23)}, '2025 Nov–2026 Feb': {'days': 28, 'tile': 0, 'local': 0, 'local_only': 0, 'tile_only': 0, 'longest_pass_interval_days': (None, None)}}
+Oct–Nov archive dates: ['2023-10-16', '2023-10-21', '2023-10-26', '2023-10-31', '2023-11-05', '2023-11-10', '2023-11-15', '2023-11-20', '2023-11-25']
+19 Dec 2025: {'primary_clear_percent': '38.68467211105034', 'NE': '91.66100671647422', 'NW': '61.18475873039921', 'SE': '2.1642744420229953', 'SW': '0.0'}
+Original diagnostic anchors reproduced.
+
+Expanded calendar and rain — PASS
+Kodingareng Lompo catalog and readable Sentinel-2 site-dates 591 590
+Kodingareng Lompo 63 30 88 25 662 ((162, 0.4818731117824773), (158, 0.5558912386706949))
+Tunda catalog and readable Sentinel-2 site-dates 587 587
+Tunda 62 23 77 15 662 ((132, 0.5120845921450151), (131, 0.5770392749244713))
+reef compared: Tunda 587 {(False, False): 388, (True, True): 165, (False, True): 24, (True, False): 10}
+Higher rain optical decomposition (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12) (257, 13, 68, 176)
+Higher rain optical decomposition (11, 12) (72, 1, 22, 49)
+Expanded sensor gain, gap, and weather claims reproduced.
+
+Amur two-sensor replay — PASS
+Amur results passed source-table checks.
+
+Kodingareng daily depth pairs: PASS. See Depth_case_verified.json and check_depth_case.py.
+Current product brief: portable rebuild raster-equivalent at 72 dpi on all seven pages.

@@ -1,0 +1,38 @@
+{
+  "blender": "5.2.2 LTS",
+  "source": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\output\\coasts\\kodingareng\\scene.blend",
+  "open_seconds": 0.09,
+  "scene": "CoastScene",
+  "objects": 179,
+  "collections": [
+    "BLD_Village",
+    "CAM_Rigs",
+    "ENV_Land",
+    "ENV_Water",
+    "GUIDE_Authoring",
+    "LGT_Rig",
+    "PROP_Survey",
+    "SEC_Section",
+    "VEG_Scatter"
+  ],
+  "cameras": [
+    "COAST_OVERVIEW",
+    "COAST_PLAN",
+    "COAST_APPROACH",
+    "COAST_SECTION",
+    "COAST_DETAIL"
+  ],
+  "engine": "BLENDER_EEVEE",
+  "dirty": false,
+  "render_seconds": 5.03,
+  "render_bytes": 199159,
+  "export_seconds": 1.78,
+  "glb_bytes": 2966900,
+  "import_seconds": 0.51,
+  "import_meshes": 159,
+  "import_materials": 13,
+  "import_cameras": 0,
+  "import_lights": 0,
+  "import_has_water": true,
+  "import_view_transform": "AgX"
+}

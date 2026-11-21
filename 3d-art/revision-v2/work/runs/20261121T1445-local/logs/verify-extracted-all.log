@@ -1,0 +1,15 @@
+﻿VERIFY EXTRACTED START 2026-11-21T15:38:52.6488170+07:00
+VERIFY {"asset": "globe", "ok": true, "missing": []}
+VERIFY {"asset": "kit", "ok": true, "missing": []}
+VERIFY {"asset": "coast_kodingareng", "ok": true, "missing": []}
+VERIFY {"asset": "section_kodingareng", "ok": true, "missing": []}
+VERIFY {"asset": "coast_tunda", "ok": true, "missing": []}
+VERIFY {"asset": "section_tunda", "ok": true, "missing": []}
+VERIFY {"asset": "coast_amur", "ok": true, "missing": []}
+VERIFY {"asset": "section_amur", "ok": true, "missing": []}
+VERIFY {"asset": "blend_globe", "ok": true, "missing": []}
+VERIFY {"asset": "blend_kit", "ok": true, "missing": []}
+VERIFY {"asset": "blend_coast_kodingareng", "ok": true, "missing": []}
+VERIFY {"asset": "blend_coast_tunda", "ok": true, "missing": []}
+VERIFY {"asset": "blend_coast_amur", "ok": true, "missing": []}
+VERIFY EXTRACTED DONE 2026-11-21T15:40:16.2990076+07:00

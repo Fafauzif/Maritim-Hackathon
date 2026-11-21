@@ -1,0 +1,13 @@
+# Claim-to-data crosswalk
+
+| Claim | Files and calculations | Interpretation |
+|---|---|---|
+| Matched mission gains at Tunda and Kodingareng | `optical/multisensor_summary.csv`, all_matched, 90, clear_pct. Union = Sentinel + Landsat minus common pass. Compare inclusive no-pass calendar runs. | Optical opportunities after a deliberately defined QA threshold. |
+| 1 of 72 higher-rain site-days in Nov–Dec 2025 passed either mission | `rain/rainfall_multisensor_summary.csv`; 10 mm threshold. `rain/rainfall_multisensor_days.csv` where available. | Sampled proxy associations, not proof of clouds or extraction activity. Distinguish no acquired view from acquired but failed screen. |
+| Rain products disagree around Tunda inspection | `rain/rainfall_events.csv`, Tunda event, preceding one-day and preceding three-day amounts. Independent `review/rain_observation_decomposition.csv` treats observation opportunity by site-month. | Regionally averaged precipitation proxies with varied grid and date conventions. Neither measures Tunda runoff. |
+| Receptor geometry changes screening | `root/tunda_habitat_scl.csv`, `root/kodingareng_habitat_scl.csv`, and `root/habitat_summary.json`. Prior 26 Oct Tunda result documented in the prior diagnostic, reference 38. | Archived outline and data-readable work sample. Raster cell fractions do not establish modern reef extent. |
+| Scoped Tunda mission observations and product lineage | `review/tunda_event_sensor_clocks.csv`, `review/tunda_product_lineage.csv`, and archived catalog responses. | Current item publications and available version metadata cannot establish observer receipt. |
+| Kodingareng location conflict | `events/coordinate_conflict.json`, `events/event_register.csv`, official police report. | A comparison of public descriptions from the island anchor. Neither the printed coordinate nor narrative distance was adopted as borrow-area geometry. |
+| Kodingareng currents differ by depth and model cell | `marine/marine_summary.json`, `marine/marine_baseline_summary.json`, and underlying normalized tables. | Daily regional model estimates. The current direction thresholds are comparative, not permit or reef-exposure rules. |
+| Amur multi-mission optical confirmation and pre-flood counterexample | `amur/amur_daily_2023.csv`, `amur/amur_landsat_daily_2023.csv`, `amur/verify_amur.py`. | Same-sign west–east red band contrasts are optical evidence. Later and earlier differences do not quantify sediment or attribute a source. |
+| Hypothetical straight-line distance at different speeds | `root/travel_scenarios.csv`, speed times hours times 3.6. | An analytic sensitivity calculation with no mixing, settling, route boundaries or source-specific inference. |

@@ -1,0 +1,171 @@
+[
+  {
+    "site": "Tunda",
+    "model": "era5",
+    "url": "https://archive-api.open-meteo.com/v1/archive?longitude=106.27811&latitude=-5.81151&start_date=2023-10-11&end_date=2023-11-11&timezone=GMT&wind_speed_unit=ms&models=era5&hourly=precipitation%2Cwind_speed_10m%2Cwind_direction_10m&cell_selection=nearest",
+    "sha256": "14bceb7dc132b32ebd3e02540ea422ab9492898c95479a449a7fa574896cc804",
+    "grid_lat": -5.75,
+    "grid_lon": 106.25,
+    "fields": {
+      "time": "iso8601",
+      "precipitation": "mm",
+      "wind_speed_10m": "m/s",
+      "wind_direction_10m": "\u00b0"
+    }
+  },
+  {
+    "site": "Tunda",
+    "model": "era5_ocean",
+    "url": "https://marine-api.open-meteo.com/v1/marine?longitude=106.27811&latitude=-5.81151&start_date=2023-10-11&end_date=2023-11-11&timezone=GMT&wind_speed_unit=ms&models=era5_ocean&hourly=wave_height%2Cwave_direction%2Cwave_period&cell_selection=sea",
+    "sha256": "04fc1c343153b2c57e94e42057288327e5aea67ae9fa375a4cf1b1ece53c9ca1",
+    "grid_lat": -5.5,
+    "grid_lon": 106.5,
+    "fields": {
+      "time": "iso8601",
+      "wave_height": "m",
+      "wave_direction": "\u00b0",
+      "wave_period": "s"
+    }
+  },
+  {
+    "site": "Tunda",
+    "model": "merra2",
+    "url": "https://power.larc.nasa.gov/api/temporal/daily/point?longitude=106.27811&latitude=-5.81151&start=20231012&end=20231111&parameters=PRECTOTCORR%2CWS10M%2CWD10M&community=AG&format=JSON&time-standard=UTC",
+    "sha256": "c759151417358572e11ffb104fdee07d2e6272d00c1c4fd7da83904015bc9d43",
+    "header": {
+      "title": "NASA/POWER Source Native Resolution Daily Data",
+      "api": {
+        "version": "v2.10.5",
+        "name": "POWER Daily API"
+      },
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "fill_value": -999.0,
+      "time_standard": "UTC",
+      "start": "20231012",
+      "end": "20231111"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        106.278,
+        -5.812,
+        38.76
+      ]
+    },
+    "fields": {
+      "PRECTOTCORR": {
+        "units": "mm/day",
+        "longname": "Precipitation Corrected"
+      },
+      "WS10M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 10 Meters"
+      },
+      "WD10M": {
+        "units": "Degrees",
+        "longname": "Wind Direction at 10 Meters"
+      }
+    }
+  },
+  {
+    "site": "Tunda",
+    "model": "meteofrance_wave",
+    "url": "https://marine-api.open-meteo.com/v1/marine?longitude=106.27811&latitude=-5.81151&start_date=2023-10-11&end_date=2023-11-11&timezone=GMT&wind_speed_unit=ms&models=meteofrance_wave&hourly=wave_height%2Cwave_direction%2Cwave_period&cell_selection=sea",
+    "sha256": "cf628df1b13e5844017a312947c0b5c18061f02e76bd885c8c9e632561c8db6a",
+    "grid_lat": -5.791664,
+    "grid_lon": 106.29167,
+    "fields": {
+      "time": "iso8601",
+      "wave_height": "m",
+      "wave_direction": "\u00b0",
+      "wave_period": "s"
+    }
+  },
+  {
+    "site": "Tunda",
+    "model": "best_match",
+    "url": "https://marine-api.open-meteo.com/v1/marine?longitude=106.27811&latitude=-5.81151&start_date=2023-10-11&end_date=2023-11-11&timezone=GMT&wind_speed_unit=ms&models=best_match&hourly=ocean_current_velocity%2Cocean_current_direction&cell_selection=sea",
+    "sha256": "3b77d632ec6ee76bec8084c0d20c764d1bc5dc506e7de815c64a69ff057c30a6",
+    "grid_lat": -5.791664,
+    "grid_lon": 106.29167,
+    "fields": {
+      "time": "iso8601",
+      "ocean_current_velocity": "m/s",
+      "ocean_current_direction": "\u00b0"
+    }
+  },
+  {
+    "site": "Kodingareng",
+    "model": "era5",
+    "url": "https://archive-api.open-meteo.com/v1/archive?longitude=119.26473&latitude=-5.14905&start_date=2020-01-31&end_date=2020-10-31&timezone=GMT&wind_speed_unit=ms&models=era5&hourly=precipitation%2Cwind_speed_10m%2Cwind_direction_10m&cell_selection=nearest",
+    "sha256": "9bb6950e9aed4bdbb20a54abcd044241df16a4b7c00d850c6d1cb7102e9069ad",
+    "grid_lat": -5.25,
+    "grid_lon": 119.25,
+    "fields": {
+      "time": "iso8601",
+      "precipitation": "mm",
+      "wind_speed_10m": "m/s",
+      "wind_direction_10m": "\u00b0"
+    }
+  },
+  {
+    "site": "Kodingareng",
+    "model": "era5_ocean",
+    "url": "https://marine-api.open-meteo.com/v1/marine?longitude=119.26473&latitude=-5.14905&start_date=2020-01-31&end_date=2020-10-31&timezone=GMT&wind_speed_unit=ms&models=era5_ocean&hourly=wave_height%2Cwave_direction%2Cwave_period&cell_selection=sea",
+    "sha256": "ce16dffd884520f8eba63c4c12053d833e9ef32134fa7228fbc607b3c5ff5131",
+    "grid_lat": -5.0,
+    "grid_lon": 119.0,
+    "fields": {
+      "time": "iso8601",
+      "wave_height": "m",
+      "wave_direction": "\u00b0",
+      "wave_period": "s"
+    }
+  },
+  {
+    "site": "Kodingareng",
+    "model": "merra2",
+    "url": "https://power.larc.nasa.gov/api/temporal/daily/point?longitude=119.26473&latitude=-5.14905&start=20200201&end=20201031&parameters=PRECTOTCORR%2CWS10M%2CWD10M&community=AG&format=JSON&time-standard=UTC",
+    "sha256": "201daee11c879f9cd7bcdd5f88c4933e5dda591cfc187fe4a01912928b496b0a",
+    "header": {
+      "title": "NASA/POWER Source Native Resolution Daily Data",
+      "api": {
+        "version": "v2.10.5",
+        "name": "POWER Daily API"
+      },
+      "sources": [
+        "MERRA2",
+        "POWER"
+      ],
+      "fill_value": -999.0,
+      "time_standard": "UTC",
+      "start": "20200201",
+      "end": "20201031"
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        119.265,
+        -5.149,
+        100.99
+      ]
+    },
+    "fields": {
+      "PRECTOTCORR": {
+        "units": "mm/day",
+        "longname": "Precipitation Corrected"
+      },
+      "WS10M": {
+        "units": "m/s",
+        "longname": "Wind Speed at 10 Meters"
+      },
+      "WD10M": {
+        "units": "Degrees",
+        "longname": "Wind Direction at 10 Meters"
+      }
+    }
+  }
+]

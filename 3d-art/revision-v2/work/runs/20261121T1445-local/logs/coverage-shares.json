@@ -1,0 +1,138 @@
+{
+ "amur_COAST_APPROACH.png": {
+  "terrain": 0.0727,
+  "water": 0.8282,
+  "building": 0.044,
+  "jetty": 0.0118,
+  "boat": 0.0087,
+  "vegetation": 0.0131,
+  "waterfx": 0.002,
+  "other": 0.0191
+ },
+ "amur_COAST_DETAIL.png": {
+  "terrain": 0.0808,
+  "water": 0.7874,
+  "building": 0.0599,
+  "jetty": 0.0159,
+  "boat": 0.0156,
+  "vegetation": 0.0169,
+  "waterfx": 0.0027,
+  "other": 0.0202
+ },
+ "amur_COAST_OVERVIEW.png": {
+  "terrain": 0.1771,
+  "water": 0.7546,
+  "building": 0.0312,
+  "jetty": 0.0033,
+  "boat": 0.0032,
+  "vegetation": 0.0152,
+  "waterfx": 0.0028,
+  "other": 0.0122
+ },
+ "amur_COAST_PLAN.png": {
+  "terrain": 0.4415,
+  "water": 0.5334,
+  "building": 0.0092,
+  "boat": 0.0015,
+  "vegetation": 0.0036,
+  "waterfx": 0.0036,
+  "other": 0.0059
+ },
+ "amur_COAST_SECTION.png": {
+  "section": 0.5663,
+  "backdrop": 0.4313,
+  "other": 0.0024
+ },
+ "kodingareng_COAST_APPROACH.png": {
+  "terrain": 0.0879,
+  "water": 0.8095,
+  "building": 0.0544,
+  "jetty": 0.0137,
+  "boat": 0.0122,
+  "vegetation": 0.0035,
+  "waterfx": 0.0028,
+  "other": 0.0152
+ },
+ "kodingareng_COAST_DETAIL.png": {
+  "terrain": 0.0452,
+  "water": 0.6876,
+  "building": 0.0742,
+  "jetty": 0.0195,
+  "boat": 0.0252,
+  "vegetation": 0.0162,
+  "waterfx": 0.0018,
+  "section": 0.0027,
+  "other": 0.0123,
+  "background": 0.1152
+ },
+ "kodingareng_COAST_OVERVIEW.png": {
+  "terrain": 0.165,
+  "water": 0.7511,
+  "building": 0.0453,
+  "jetty": 0.0095,
+  "boat": 0.0057,
+  "vegetation": 0.0034,
+  "waterfx": 0.0046,
+  "other": 0.0151
+ },
+ "kodingareng_COAST_PLAN.png": {
+  "terrain": 0.1251,
+  "water": 0.8379,
+  "building": 0.0126,
+  "jetty": 0.0011,
+  "boat": 0.0023,
+  "vegetation": 0.0111,
+  "waterfx": 0.0029,
+  "other": 0.0068
+ },
+ "kodingareng_COAST_SECTION.png": {
+  "section": 0.5517,
+  "backdrop": 0.4458,
+  "other": 0.0024
+ },
+ "tunda_COAST_APPROACH.png": {
+  "terrain": 0.169,
+  "water": 0.6721,
+  "building": 0.0969,
+  "jetty": 0.0124,
+  "boat": 0.0151,
+  "vegetation": 0.0177,
+  "waterfx": 0.0044,
+  "other": 0.0114
+ },
+ "tunda_COAST_DETAIL.png": {
+  "terrain": 0.1256,
+  "water": 0.7085,
+  "building": 0.0976,
+  "jetty": 0.0131,
+  "boat": 0.0199,
+  "vegetation": 0.0218,
+  "waterfx": 0.0039,
+  "section": 0.0013,
+  "other": 0.0083
+ },
+ "tunda_COAST_OVERVIEW.png": {
+  "terrain": 0.3163,
+  "water": 0.6188,
+  "building": 0.0301,
+  "jetty": 0.0014,
+  "boat": 0.0035,
+  "vegetation": 0.0186,
+  "waterfx": 0.005,
+  "other": 0.0059
+ },
+ "tunda_COAST_PLAN.png": {
+  "terrain": 0.2093,
+  "water": 0.7576,
+  "building": 0.0115,
+  "boat": 0.0023,
+  "vegetation": 0.0101,
+  "waterfx": 0.0034,
+  "other": 0.0051
+ },
+ "tunda_COAST_SECTION.png": {
+  "section": 0.5215,
+  "backdrop": 0.4743,
+  "other": 0.0042
+ }
+}

@@ -1,0 +1,8 @@
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11
+matplotlib>=3.8
+Pillow>=10
+reportlab>=4.0
+numcodecs>=0.12
+PyMuPDF>=1.24

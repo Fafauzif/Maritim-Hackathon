@@ -1,0 +1,145 @@
+site,period,rain_threshold_mm,horizon_days_including_day_zero,mission_set,eligible_site_days,site_days_with_view
+Tunda,Full year,5,0,sentinel,202,6
+Tunda,Full year,5,0,either,202,9
+Tunda,Full year,5,1,sentinel,201,14
+Tunda,Full year,5,1,either,201,19
+Tunda,Full year,5,3,sentinel,199,35
+Tunda,Full year,5,3,either,199,42
+Tunda,Full year,5,7,sentinel,196,69
+Tunda,Full year,5,7,either,196,82
+Tunda,Full year,10,0,sentinel,131,5
+Tunda,Full year,10,0,either,131,8
+Tunda,Full year,10,1,sentinel,130,10
+Tunda,Full year,10,1,either,130,15
+Tunda,Full year,10,3,sentinel,129,20
+Tunda,Full year,10,3,either,129,26
+Tunda,Full year,10,7,sentinel,126,37
+Tunda,Full year,10,7,either,126,48
+Tunda,Full year,20,0,sentinel,46,1
+Tunda,Full year,20,0,either,46,2
+Tunda,Full year,20,1,sentinel,46,3
+Tunda,Full year,20,1,either,46,4
+Tunda,Full year,20,3,sentinel,45,6
+Tunda,Full year,20,3,either,45,7
+Tunda,Full year,20,7,sentinel,44,12
+Tunda,Full year,20,7,either,44,14
+Tunda,Nov–Dec,5,0,sentinel,47,1
+Tunda,Nov–Dec,5,0,either,47,1
+Tunda,Nov–Dec,5,1,sentinel,46,1
+Tunda,Nov–Dec,5,1,either,46,1
+Tunda,Nov–Dec,5,3,sentinel,44,1
+Tunda,Nov–Dec,5,3,either,44,1
+Tunda,Nov–Dec,5,7,sentinel,41,1
+Tunda,Nov–Dec,5,7,either,41,1
+Tunda,Nov–Dec,10,0,sentinel,34,1
+Tunda,Nov–Dec,10,0,either,34,1
+Tunda,Nov–Dec,10,1,sentinel,33,1
+Tunda,Nov–Dec,10,1,either,33,1
+Tunda,Nov–Dec,10,3,sentinel,32,1
+Tunda,Nov–Dec,10,3,either,32,1
+Tunda,Nov–Dec,10,7,sentinel,29,1
+Tunda,Nov–Dec,10,7,either,29,1
+Tunda,Nov–Dec,20,0,sentinel,16,0
+Tunda,Nov–Dec,20,0,either,16,0
+Tunda,Nov–Dec,20,1,sentinel,16,0
+Tunda,Nov–Dec,20,1,either,16,0
+Tunda,Nov–Dec,20,3,sentinel,15,0
+Tunda,Nov–Dec,20,3,either,15,0
+Tunda,Nov–Dec,20,7,sentinel,14,0
+Tunda,Nov–Dec,20,7,either,14,0
+Kodingareng,Full year,5,0,sentinel,175,7
+Kodingareng,Full year,5,0,either,175,9
+Kodingareng,Full year,5,1,sentinel,174,16
+Kodingareng,Full year,5,1,either,174,21
+Kodingareng,Full year,5,3,sentinel,172,32
+Kodingareng,Full year,5,3,either,172,42
+Kodingareng,Full year,5,7,sentinel,169,50
+Kodingareng,Full year,5,7,either,169,61
+Kodingareng,Full year,10,0,sentinel,126,4
+Kodingareng,Full year,10,0,either,126,5
+Kodingareng,Full year,10,1,sentinel,125,10
+Kodingareng,Full year,10,1,either,125,13
+Kodingareng,Full year,10,3,sentinel,123,17
+Kodingareng,Full year,10,3,either,123,25
+Kodingareng,Full year,10,7,sentinel,121,31
+Kodingareng,Full year,10,7,either,121,40
+Kodingareng,Full year,20,0,sentinel,54,2
+Kodingareng,Full year,20,0,either,54,3
+Kodingareng,Full year,20,1,sentinel,54,5
+Kodingareng,Full year,20,1,either,54,6
+Kodingareng,Full year,20,3,sentinel,53,10
+Kodingareng,Full year,20,3,either,53,13
+Kodingareng,Full year,20,7,sentinel,52,16
+Kodingareng,Full year,20,7,either,52,20
+Kodingareng,Nov–Dec,5,0,sentinel,45,0
+Kodingareng,Nov–Dec,5,0,either,45,0
+Kodingareng,Nov–Dec,5,1,sentinel,44,0
+Kodingareng,Nov–Dec,5,1,either,44,0
+Kodingareng,Nov–Dec,5,3,sentinel,42,0
+Kodingareng,Nov–Dec,5,3,either,42,0
+Kodingareng,Nov–Dec,5,7,sentinel,39,0
+Kodingareng,Nov–Dec,5,7,either,39,0
+Kodingareng,Nov–Dec,10,0,sentinel,38,0
+Kodingareng,Nov–Dec,10,0,either,38,0
+Kodingareng,Nov–Dec,10,1,sentinel,37,0
+Kodingareng,Nov–Dec,10,1,either,37,0
+Kodingareng,Nov–Dec,10,3,sentinel,35,0
+Kodingareng,Nov–Dec,10,3,either,35,0
+Kodingareng,Nov–Dec,10,7,sentinel,33,0
+Kodingareng,Nov–Dec,10,7,either,33,0
+Kodingareng,Nov–Dec,20,0,sentinel,14,0
+Kodingareng,Nov–Dec,20,0,either,14,0
+Kodingareng,Nov–Dec,20,1,sentinel,14,0
+Kodingareng,Nov–Dec,20,1,either,14,0
+Kodingareng,Nov–Dec,20,3,sentinel,13,0
+Kodingareng,Nov–Dec,20,3,either,13,0
+Kodingareng,Nov–Dec,20,7,sentinel,12,0
+Kodingareng,Nov–Dec,20,7,either,12,0
+Both,Full year,5,0,sentinel,377,13
+Both,Full year,5,0,either,377,18
+Both,Full year,5,1,sentinel,375,30
+Both,Full year,5,1,either,375,40
+Both,Full year,5,3,sentinel,371,67
+Both,Full year,5,3,either,371,84
+Both,Full year,5,7,sentinel,365,119
+Both,Full year,5,7,either,365,143
+Both,Full year,10,0,sentinel,257,9
+Both,Full year,10,0,either,257,13
+Both,Full year,10,1,sentinel,255,20
+Both,Full year,10,1,either,255,28
+Both,Full year,10,3,sentinel,252,37
+Both,Full year,10,3,either,252,51
+Both,Full year,10,7,sentinel,247,68
+Both,Full year,10,7,either,247,88
+Both,Full year,20,0,sentinel,100,3
+Both,Full year,20,0,either,100,5
+Both,Full year,20,1,sentinel,100,8
+Both,Full year,20,1,either,100,10
+Both,Full year,20,3,sentinel,98,16
+Both,Full year,20,3,either,98,20
+Both,Full year,20,7,sentinel,96,28
+Both,Full year,20,7,either,96,34
+Both,Nov–Dec,5,0,sentinel,92,1
+Both,Nov–Dec,5,0,either,92,1
+Both,Nov–Dec,5,1,sentinel,90,1
+Both,Nov–Dec,5,1,either,90,1
+Both,Nov–Dec,5,3,sentinel,86,1
+Both,Nov–Dec,5,3,either,86,1
+Both,Nov–Dec,5,7,sentinel,80,1
+Both,Nov–Dec,5,7,either,80,1
+Both,Nov–Dec,10,0,sentinel,72,1
+Both,Nov–Dec,10,0,either,72,1
+Both,Nov–Dec,10,1,sentinel,70,1
+Both,Nov–Dec,10,1,either,70,1
+Both,Nov–Dec,10,3,sentinel,67,1
+Both,Nov–Dec,10,3,either,67,1
+Both,Nov–Dec,10,7,sentinel,62,1
+Both,Nov–Dec,10,7,either,62,1
+Both,Nov–Dec,20,0,sentinel,30,0
+Both,Nov–Dec,20,0,either,30,0
+Both,Nov–Dec,20,1,sentinel,30,0
+Both,Nov–Dec,20,1,either,30,0
+Both,Nov–Dec,20,3,sentinel,28,0
+Both,Nov–Dec,20,3,either,28,0
+Both,Nov–Dec,20,7,sentinel,26,0
+Both,Nov–Dec,20,7,either,26,0

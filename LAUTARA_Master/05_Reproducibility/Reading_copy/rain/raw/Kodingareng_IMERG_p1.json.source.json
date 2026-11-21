@@ -1,0 +1,10 @@
+{
+  "url": "https://power.larc.nasa.gov/api/temporal/daily/point?parameters=IMERG_PRECTOT&community=AG&longitude=119.6&latitude=-5.15&start=20190101&end=20251231&format=JSON&time-standard=UTC",
+  "sha256": "4cecb64058d1ee75e6726eba72f53ef00c46b9009bc7cc3ad91aa3dc799ae8d2",
+  "point": [
+    119.6,
+    -5.15
+  ],
+  "provider": "NASA POWER",
+  "product": "IMERG_PRECTOT"
+}

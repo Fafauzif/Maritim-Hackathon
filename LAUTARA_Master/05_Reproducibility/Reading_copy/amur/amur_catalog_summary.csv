@@ -1,0 +1,9 @@
+year,dates,tile_cloud_leq_20_pct,tile_cloud_median_pct,source
+2019,18,5,71.37,Earth Search C1
+2020,18,3,69.54,Earth Search C1
+2021,18,4,77.09,Earth Search C1
+2022,18,3,81.47,"Earth Search legacy L2A, C1 empty"
+2023,18,2,85.39,Earth Search C1
+2024,19,2,93.11,Earth Search C1
+2025,24,8,68.91,Earth Search C1
+2026,23,6,54.77,Earth Search C1

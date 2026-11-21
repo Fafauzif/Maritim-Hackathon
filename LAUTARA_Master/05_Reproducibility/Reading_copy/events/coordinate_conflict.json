@@ -1,0 +1,19 @@
+{
+  "island_anchor_lat_lon": [
+    -5.14905,
+    119.26473
+  ],
+  "police_report_coordinate_lat_lon": [
+    -5.1578333333333335,
+    119.24648333333333
+  ],
+  "haversine_distance_km": 2.2443826832991167,
+  "nautical_miles_1852m": 1.2118696994055704,
+  "bearing_degrees": 244.20376531768443,
+  "narrative_distance_police_mil": 11,
+  "narrative_distance_walhi_mil": 9,
+  "include_as_source_geometry": false,
+  "police_source": "https://tribratanews.polri.go.id/article/polda-sulsel-amankan-12-orang-diduga-pelaku-pengrusakan-kapal-boskalis-int-15716",
+  "walhi_source": "https://www.greenpeace.org/static/planet4-indonesia-stateless/2021/03/17185db9-gp-spermonde-report-v8.pdf",
+  "island_anchor_source": "https://mapcarta.com/16118912"
+}

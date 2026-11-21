@@ -1,0 +1,167 @@
+[
+  {
+    "rel": "3d-art/output/coast-reel.mp4",
+    "bytes": 10560243,
+    "sha256": "94030f4b3878663b244538cdc61bfe8cf17693a37dd7cefb6d907092dcf3ca2f"
+  },
+  {
+    "rel": "3d-art/output/coasts/amur/coast.glb",
+    "bytes": 3310308,
+    "sha256": "30f6bc0e2408d3137e58cc6244899b0ad9292747854c5d3b2d4db3268791a178"
+  },
+  {
+    "rel": "3d-art/output/coasts/amur/godview.png",
+    "bytes": 8763048,
+    "sha256": "3ecda55a2359ee6499dace67f4d6c84bce458a5dabe192180ef06a037f574cd3"
+  },
+  {
+    "rel": "3d-art/output/coasts/amur/mapview.png",
+    "bytes": 8434535,
+    "sha256": "ffcf61d473bf0c746b9be16305076084a9ba812c6c6c76afb747c18f3e915cb3"
+  },
+  {
+    "rel": "3d-art/output/coasts/amur/review.md",
+    "bytes": 2850,
+    "sha256": "ccb97937df407c53c2b8feefd3a854677f4b85c6813f990e3bad86b887e2619b"
+  },
+  {
+    "rel": "3d-art/output/coasts/amur/scene.blend",
+    "bytes": 2246990,
+    "sha256": "92c4fa431128ba5dc01d613be4fdb866db54121ab044eb35e92c961f91b4450a"
+  },
+  {
+    "rel": "3d-art/output/coasts/amur/section.png",
+    "bytes": 7213615,
+    "sha256": "24afc06451559a00034acb772f59f9012af1bc67f3945973675051cd6c3ab6cd"
+  },
+  {
+    "rel": "3d-art/output/coasts/amur/travel.mp4",
+    "bytes": 1680062,
+    "sha256": "cb8116547f0cca3d7946dd7fdaafd465c9c917a6ebbbdabff84525eefb61ae91"
+  },
+  {
+    "rel": "3d-art/output/coasts/kodingareng/coast.glb",
+    "bytes": 2966900,
+    "sha256": "40a5671f12d9ec951eb9d15bcf5975c8f02747cc3632fd68d362eea565e33585"
+  },
+  {
+    "rel": "3d-art/output/coasts/kodingareng/godview.png",
+    "bytes": 9370815,
+    "sha256": "5613fbb3f4164042e490ae50903ae630dc0f127e1b3e96eabfe9e548b9e14af4"
+  },
+  {
+    "rel": "3d-art/output/coasts/kodingareng/mapview.png",
+    "bytes": 9163483,
+    "sha256": "c38cd53aaecf001f8dec8d6bcea317b3458cd3dec56054adfe7e555ff711a44e"
+  },
+  {
+    "rel": "3d-art/output/coasts/kodingareng/review.md",
+    "bytes": 3061,
+    "sha256": "7d3192bf7bd97db837057db5ac0d4e2c6a2e9ebf8d4465a0cf41ab5f8992a884"
+  },
+  {
+    "rel": "3d-art/output/coasts/kodingareng/scene.blend",
+    "bytes": 1714165,
+    "sha256": "0d75fade2de129cf80f53901290731af2db7c6ab3af5eb897d689f428af01cd6"
+  },
+  {
+    "rel": "3d-art/output/coasts/kodingareng/section.png",
+    "bytes": 7509489,
+    "sha256": "91f64c4cc0808f3058e6aa682fd8131017a271b804abcd195840e0ececaa21d3"
+  },
+  {
+    "rel": "3d-art/output/coasts/kodingareng/travel.mp4",
+    "bytes": 4863348,
+    "sha256": "cf2588e3bfb2b1e3057e041bcd6e17f80315ca1a660366a5c08092b7078ba013"
+  },
+  {
+    "rel": "3d-art/output/coasts/tunda/coast.glb",
+    "bytes": 4551040,
+    "sha256": "67e081b33470582d238808ff84110ce024580834e7925e0a666b475aea456402"
+  },
+  {
+    "rel": "3d-art/output/coasts/tunda/godview.png",
+    "bytes": 8746038,
+    "sha256": "5c055e695d459512135b75ca6906c6a371b1f8add7c72cb32f8b3ab9ee786dc2"
+  },
+  {
+    "rel": "3d-art/output/coasts/tunda/mapview.png",
+    "bytes": 8972542,
+    "sha256": "5e0f81d50dc2f5bab2b655dd73296782892dfe77de61bd7e708dc8dffb30a74e"
+  },
+  {
+    "rel": "3d-art/output/coasts/tunda/review.md",
+    "bytes": 2647,
+    "sha256": "3ad9a7f946febd5414e1f525cbbe93e76be3e0a58bd6dcb0a84e953ff72b8f46"
+  },
+  {
+    "rel": "3d-art/output/coasts/tunda/scene.blend",
+    "bytes": 2153109,
+    "sha256": "d91e37facb7d872dc1e9e543acadc77c830817a83608b9df9f60fec85fd35296"
+  },
+  {
+    "rel": "3d-art/output/coasts/tunda/section.png",
+    "bytes": 7371819,
+    "sha256": "b4bd373dbc870d4e1a3c79f0f2eb3e374f1f584aa23bbb919ff853f877b5f0ba"
+  },
+  {
+    "rel": "3d-art/output/coasts/tunda/travel.mp4",
+    "bytes": 3596237,
+    "sha256": "2e9c8efc09b8edb6f795c7bca53b4c00a25a82bea5262711b50eba2675b78e8e"
+  },
+  {
+    "rel": "3d-art/output/globe/globe-overview.png",
+    "bytes": 8529335,
+    "sha256": "556caf588cc1b646ffe5d783000b49d6de8f6fd0eaf55bec9220966735d95714"
+  },
+  {
+    "rel": "3d-art/output/globe/globe.blend",
+    "bytes": 1606420,
+    "sha256": "3931a15cd6053b3f5168eac7e1fa1fca4636e7042c04fc8dc27e43bf96452954"
+  },
+  {
+    "rel": "3d-art/output/globe/globe.glb",
+    "bytes": 1770092,
+    "sha256": "d20a69db4db9f0ad66e3f4a5f0b84484a6666c8efa0ea00f576eb319393c9286"
+  },
+  {
+    "rel": "3d-art/output/kit/asset-sheet.png",
+    "bytes": 2161259,
+    "sha256": "75a7da8eca2b7b78cff4938463415e95b40a54969775eba2dccec5f7d43de23f"
+  },
+  {
+    "rel": "3d-art/output/kit/common-kit.blend",
+    "bytes": 181493,
+    "sha256": "9a55e9671d6503a724eabd798e66ddfab8ead26a0c43e6d48f3033031f77d4e6"
+  },
+  {
+    "rel": "3d-art/output/kit/common-kit.glb",
+    "bytes": 82664,
+    "sha256": "60b8780f09a21c72c520ef0630a9657c22a92071519f49325029a6e56e6c0fed"
+  },
+  {
+    "rel": "3d-art/output/review/audit-intake.md",
+    "bytes": 6035,
+    "sha256": "75976a851d66c3fb61746cc3c2d5fda5da45965335455f78e510ee45c777bf14"
+  },
+  {
+    "rel": "3d-art/output/review/deviations.md",
+    "bytes": 5225,
+    "sha256": "3cce0c197d6387274351463514652d486411b1a2f8579706d7bd5e26d282a095"
+  },
+  {
+    "rel": "3d-art/output/review/export-check.md",
+    "bytes": 3289,
+    "sha256": "0ad40f549377e5412f317917d42d39c2a62bfab366fff15e263e45a344f33859"
+  },
+  {
+    "rel": "3d-art/output/review/handoff.md",
+    "bytes": 6127,
+    "sha256": "555d8ee9a015f4c1bdde4a01f81f806830aa3298f4bb98892e0c93ab32e9b7c8"
+  },
+  {
+    "rel": "3d-art/output/review/parity-sheet.png",
+    "bytes": 4132044,
+    "sha256": "cf5c4900fdfad24a5af14671339a4c735c2d8f5ad61dacdc5161f2be6b0ec451"
+  }
+]

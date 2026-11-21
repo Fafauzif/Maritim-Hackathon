@@ -1,0 +1,11 @@
+event_id,site,sensor,first,last,context,window_catalog_dates,window_read_dates,window_pass_dates,preceding_pass_date,following_pass_date,preceding_pass_days,following_pass_days
+T3,Tunda,Sentinel-2,2023-10-27,2023-10-27,KKP patrol stop; public release October 29,0,0,0,2023-10-26,2023-10-31,1,4
+T3,Tunda,Landsat 8/9,2023-10-27,2023-10-27,KKP patrol stop; public release October 29,0,0,0,2023-10-23,2023-10-31,4,4
+T5,Tunda,Sentinel-2,2023-11-18,2023-11-22,Coalition fishers' passage accounts; observed near Pulau Pari,1,1,0,2023-10-31,2023-12-20,18,28
+T5,Tunda,Landsat 8/9,2023-11-18,2023-11-22,Coalition fishers' passage accounts; observed near Pulau Pari,0,0,0,2023-11-16,2023-12-18,2,26
+K3,Kodingareng Lompo,Sentinel-2,2020-02-13,2020-02-13,Coalition account of reported operation onset,0,0,0,2020-01-30,2020-02-14,14,1
+K3,Kodingareng Lompo,Landsat 8/9,2020-02-13,2020-02-13,Coalition account of reported operation onset,0,0,0,2020-01-25,2020-03-13,19,29
+K4,Kodingareng Lompo,Sentinel-2,2020-09-12,2020-09-12,Police numeric date for vessel/confrontation account,0,0,0,2020-09-11,2020-09-16,1,4
+K4,Kodingareng Lompo,Landsat 8/9,2020-09-12,2020-09-12,Police numeric date for vessel/confrontation account,0,0,0,2020-09-05,2020-09-21,7,9
+K1,Kodingareng Lompo,Sentinel-2,2020-02-01,2020-10-31,Contractor month-precision envelope; not a daily work log,54,54,26,2020-01-30,2020-11-25,2,25
+K1,Kodingareng Lompo,Landsat 8/9,2020-02-01,2020-10-31,Contractor month-precision envelope; not a daily work log,17,17,10,2020-01-25,2021-04-17,7,168

@@ -1,0 +1,80 @@
+{
+  "assetId": "section_amur",
+  "path": "runtime/coasts/amur/section.glb",
+  "importedObjects": 38,
+  "importedMeshes": 23,
+  "importedMaterials": 12,
+  "importedImages": 0,
+  "unpackedImages": [],
+  "cameras": 0,
+  "lights": 2,
+  "bounds": {
+    "blenderMin": [
+      12.0425,
+      47.2118,
+      -27.0031
+    ],
+    "blenderMax": [
+      194.0474,
+      64.5875,
+      17.4706
+    ],
+    "meshes": 23,
+    "gltfMin": [
+      12.0425,
+      -27.0031,
+      -64.5875
+    ],
+    "gltfMax": [
+      194.0474,
+      17.4706,
+      -47.2118
+    ]
+  },
+  "nodeNames": [
+    "ANCHOR_JETTY",
+    "ANCHOR_VESSEL",
+    "COAST_ORIGIN",
+    "ORBIT_SITE",
+    "ORBIT_WATERFRONT",
+    "SECTION_A",
+    "SECTION_B",
+    "SECTION_Bed",
+    "SECTION_Boat",
+    "SECTION_BoatCabin",
+    "SECTION_BoatMast",
+    "SECTION_HouseRoof_0",
+    "SECTION_HouseRoof_1",
+    "SECTION_HouseRoof_2",
+    "SECTION_House_0",
+    "SECTION_House_1",
+    "SECTION_House_2",
+    "SECTION_JettyDeck",
+    "SECTION_JettyPile_15",
+    "SECTION_JettyPile_45",
+    "SECTION_JettyPile_78",
+    "SECTION_JettyPile_98",
+    "SECTION_Land",
+    "SECTION_ProfileLine",
+    "SECTION_Soil",
+    "SECTION_Strata_A",
+    "SECTION_Topsoil",
+    "SECTION_Water",
+    "SECTION_Waterline",
+    "SECTION_WaterlineInk",
+    "TARGET_APPROACH",
+    "TARGET_DETAIL",
+    "TARGET_OVERVIEW",
+    "TARGET_SECTION",
+    "TARGET_SURVEY",
+    "TEST_Fill",
+    "TEST_Sun",
+    "TRAVEL_TARGET"
+  ],
+  "requiredMissing": [],
+  "requiredPresent": 11,
+  "boundsMaxDeltaM": 0.0,
+  "boundsAgree": true,
+  "render": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\revision-v2\\work\\runs\\20261121T1445-local\\renders\\import-check\\section_amur.png",
+  "renderBytes": 416073
+}

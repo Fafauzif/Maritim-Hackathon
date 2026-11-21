@@ -1,0 +1,48 @@
+{
+  "source": "marine/glorys_daily.csv",
+  "days": 274,
+  "start": "2020-02-01",
+  "end": "2020-10-31",
+  "eastward_component_sign_surface_then_deeper": {
+    "E / E": 133,
+    "E / W": 6,
+    "W / W": 34,
+    "W / E": 96,
+    "W / zero": 4,
+    "zero / E": 1
+  },
+  "example": {
+    "0.494": {
+      "site": "Kodingareng",
+      "utc_day": "2020-04-16",
+      "depth_m": "0.49402499198913574",
+      "lat": "-5.166666507720947",
+      "lon": "119.25",
+      "distance_km_from_island": "2.5494338809682118",
+      "east_m_s": "-0.09216589853167534",
+      "north_m_s": "-0.009765923023223877",
+      "speed_m_s": "0.09268185423612654",
+      "towards_deg": "263.9514933389994",
+      "time_index": "9967",
+      "depth_index": "49",
+      "lat_index": "898",
+      "lon_index": "3591"
+    },
+    "9.573": {
+      "site": "Kodingareng",
+      "utc_day": "2020-04-16",
+      "depth_m": "9.572997093200684",
+      "lat": "-5.166666507720947",
+      "lon": "119.25",
+      "distance_km_from_island": "2.5494338809682118",
+      "east_m_s": "0.05249183624982834",
+      "north_m_s": "0.05249183624982834",
+      "speed_m_s": "0.07423466673837491",
+      "towards_deg": "45.0",
+      "time_index": "9967",
+      "depth_index": "42",
+      "lat_index": "898",
+      "lon_index": "3591"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+﻿VERIFY STAGING 2026-11-21T15:54:27.7648499+07:00
+VERIFY {"asset": "globe", "ok": true, "missing": []}
+VERIFY {"asset": "kit", "ok": true, "missing": []}
+VERIFY {"asset": "coast_kodingareng", "ok": true, "missing": []}
+VERIFY {"asset": "section_kodingareng", "ok": true, "missing": []}
+VERIFY {"asset": "coast_tunda", "ok": true, "missing": []}
+VERIFY {"asset": "section_tunda", "ok": true, "missing": []}
+VERIFY {"asset": "coast_amur", "ok": true, "missing": []}
+VERIFY {"asset": "section_amur", "ok": true, "missing": []}
+VERIFY {"asset": "blend_globe", "ok": true, "missing": []}
+VERIFY {"asset": "blend_kit", "ok": true, "missing": []}
+VERIFY {"asset": "blend_coast_kodingareng", "ok": true, "missing": []}
+VERIFY {"asset": "blend_coast_tunda", "ok": true, "missing": []}
+VERIFY {"asset": "blend_coast_amur", "ok": true, "missing": []}

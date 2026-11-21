@@ -18,8 +18,11 @@ function buildGlb(json) {
 test('reads meshes, triangle count and union bounds', () => {
   const glb = buildGlb({
     asset: { version: '2.0', generator: 'CityRT-Test' },
-    meshes: [{ primitives: [{ indices: { count: 36 }, attributes: { POSITION: 0 } }] }],
-    accessors: [{ type: 'VEC3', min: [-2, 0, -2], max: [2, 6, 2] }],
+    meshes: [{ primitives: [{ indices: 0, attributes: { POSITION: 1 } }] }],
+    accessors: [
+      { type: 'SCALAR', count: 36 },
+      { type: 'VEC3', count: 24, min: [-2, 0, -2], max: [2, 6, 2] },
+    ],
     materials: [{}, {}],
     textures: [{}],
   });

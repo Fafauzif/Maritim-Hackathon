@@ -1,0 +1,23 @@
+{
+  "name": "@local/blender-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Bridges Blender's official MCP extension (TCP 127.0.0.1:9876) into DeepSeek Harness as MCP tools.",
+  "exports": {
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "cordis.patch.yml",
+    "server.js",
+    "locale/*.json",
+    "docs",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

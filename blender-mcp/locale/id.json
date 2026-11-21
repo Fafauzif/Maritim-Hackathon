@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Blender",
+    "description": "Menghubungkan sesi Blender yang sedang terbuka, sehingga agen dapat memeriksa scene, menjalankan Python di dalam Blender, dan memeriksa hasilnya lewat render viewport. Perkakas tersedia sebagai mcp__blender__*.",
+    "detail": "docs/DETAIL.md"
+  }
+}

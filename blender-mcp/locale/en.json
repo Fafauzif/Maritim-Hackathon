@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Blender",
+    "description": "Connects the Blender session that is already open, so the agent can inspect the scene, run Python inside Blender, and check the result with viewport renders. Tools are exposed as mcp__blender__*.",
+    "detail": "docs/DETAIL.md"
+  }
+}

@@ -4,3 +4,6 @@ CityRT-Windows.exe
 cityrt-audit/.profile/
 cityrt-audit/evidence/**/*.har
 cityrt-audit/evidence/models/
+cityrt-audit/evidence/catalog/img/
+cityrt-audit/evidence/catalog/*.json
+

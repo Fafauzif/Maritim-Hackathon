@@ -1,0 +1,993 @@
+{
+  "generatedAt": "2026-11-21T05:08:44.088Z",
+  "method": "WebP decoded in Chrome at 300px wide; radially symmetric background modelled from outer 38% of pixels and masked at RGB distance >14; 5-colour k-means over building pixels only",
+  "counts": {
+    "catalog": 824,
+    "measured": 824,
+    "failed": 0
+  },
+  "byStyle": {
+    "american": {
+      "count": 112,
+      "meanLuma": 142.4,
+      "meanSaturation": 0.26,
+      "meanCoverage": 0.237,
+      "meanSilhouetteAspect": 1.38,
+      "topColors": [
+        {
+          "hex": "#e1d0b7",
+          "count": 3
+        },
+        {
+          "hex": "#e1d0b5",
+          "count": 3
+        },
+        {
+          "hex": "#b3ab99",
+          "count": 2
+        },
+        {
+          "hex": "#e8d4b7",
+          "count": 2
+        },
+        {
+          "hex": "#e7d4b6",
+          "count": 2
+        },
+        {
+          "hex": "#616265",
+          "count": 1
+        },
+        {
+          "hex": "#c4c196",
+          "count": 1
+        },
+        {
+          "hex": "#4e4736",
+          "count": 1
+        },
+        {
+          "hex": "#687846",
+          "count": 1
+        },
+        {
+          "hex": "#9a7357",
+          "count": 1
+        }
+      ]
+    },
+    "scandinavian": {
+      "count": 72,
+      "meanLuma": 137.9,
+      "meanSaturation": 0.29,
+      "meanCoverage": 0.24,
+      "meanSilhouetteAspect": 1.27,
+      "topColors": [
+        {
+          "hex": "#e4d2b6",
+          "count": 2
+        },
+        {
+          "hex": "#5e5544",
+          "count": 1
+        },
+        {
+          "hex": "#b2bd9b",
+          "count": 1
+        },
+        {
+          "hex": "#ab845d",
+          "count": 1
+        },
+        {
+          "hex": "#493b2b",
+          "count": 1
+        },
+        {
+          "hex": "#e7d5ba",
+          "count": 1
+        },
+        {
+          "hex": "#50473f",
+          "count": 1
+        },
+        {
+          "hex": "#b3af79",
+          "count": 1
+        },
+        {
+          "hex": "#362e29",
+          "count": 1
+        },
+        {
+          "hex": "#afb8b7",
+          "count": 1
+        }
+      ]
+    },
+    "european": {
+      "count": 139,
+      "meanLuma": 142.7,
+      "meanSaturation": 0.28,
+      "meanCoverage": 0.239,
+      "meanSilhouetteAspect": 1.19,
+      "topColors": [
+        {
+          "hex": "#e5d2b4",
+          "count": 3
+        },
+        {
+          "hex": "#e8d4b6",
+          "count": 3
+        },
+        {
+          "hex": "#e0ccae",
+          "count": 2
+        },
+        {
+          "hex": "#dccaac",
+          "count": 2
+        },
+        {
+          "hex": "#d5c6b1",
+          "count": 2
+        },
+        {
+          "hex": "#a96146",
+          "count": 1
+        },
+        {
+          "hex": "#b5aea2",
+          "count": 1
+        },
+        {
+          "hex": "#614839",
+          "count": 1
+        },
+        {
+          "hex": "#827c67",
+          "count": 1
+        },
+        {
+          "hex": "#e8d8c3",
+          "count": 1
+        }
+      ]
+    },
+    "shared": {
+      "count": 28,
+      "meanLuma": 145.1,
+      "meanSaturation": 0.25,
+      "meanCoverage": 0.216,
+      "meanSilhouetteAspect": 1.28,
+      "topColors": [
+        {
+          "hex": "#4b4138",
+          "count": 2
+        },
+        {
+          "hex": "#ebd6b9",
+          "count": 1
+        },
+        {
+          "hex": "#b7bcb3",
+          "count": 1
+        },
+        {
+          "hex": "#cf704d",
+          "count": 1
+        },
+        {
+          "hex": "#8c8671",
+          "count": 1
+        },
+        {
+          "hex": "#664b39",
+          "count": 1
+        },
+        {
+          "hex": "#ccc1aa",
+          "count": 1
+        },
+        {
+          "hex": "#6a8094",
+          "count": 1
+        },
+        {
+          "hex": "#777958",
+          "count": 1
+        },
+        {
+          "hex": "#494739",
+          "count": 1
+        }
+      ]
+    },
+    "italian": {
+      "count": 59,
+      "meanLuma": 153,
+      "meanSaturation": 0.34,
+      "meanCoverage": 0.245,
+      "meanSilhouetteAspect": 1.25,
+      "topColors": [
+        {
+          "hex": "#bf533a",
+          "count": 2
+        },
+        {
+          "hex": "#d5896e",
+          "count": 1
+        },
+        {
+          "hex": "#7b5239",
+          "count": 1
+        },
+        {
+          "hex": "#d1c4b2",
+          "count": 1
+        },
+        {
+          "hex": "#947f6e",
+          "count": 1
+        },
+        {
+          "hex": "#453328",
+          "count": 1
+        },
+        {
+          "hex": "#e3c9a3",
+          "count": 1
+        },
+        {
+          "hex": "#d89a6d",
+          "count": 1
+        },
+        {
+          "hex": "#826f58",
+          "count": 1
+        },
+        {
+          "hex": "#5c4731",
+          "count": 1
+        }
+      ]
+    },
+    "slavic": {
+      "count": 116,
+      "meanLuma": 153.8,
+      "meanSaturation": 0.25,
+      "meanCoverage": 0.233,
+      "meanSilhouetteAspect": 1.3,
+      "topColors": [
+        {
+          "hex": "#e3d2ba",
+          "count": 2
+        },
+        {
+          "hex": "#e3d0b3",
+          "count": 2
+        },
+        {
+          "hex": "#e7d5ba",
+          "count": 2
+        },
+        {
+          "hex": "#e4d1b8",
+          "count": 2
+        },
+        {
+          "hex": "#ddceb7",
+          "count": 2
+        },
+        {
+          "hex": "#e8d4b7",
+          "count": 2
+        },
+        {
+          "hex": "#dfd0bb",
+          "count": 2
+        },
+        {
+          "hex": "#9c8b70",
+          "count": 1
+        },
+        {
+          "hex": "#a8a07e",
+          "count": 1
+        },
+        {
+          "hex": "#77684f",
+          "count": 1
+        }
+      ]
+    },
+    "japanese": {
+      "count": 50,
+      "meanLuma": 153.8,
+      "meanSaturation": 0.21,
+      "meanCoverage": 0.24,
+      "meanSilhouetteAspect": 1.25,
+      "topColors": [
+        {
+          "hex": "#e2d1b8",
+          "count": 2
+        },
+        {
+          "hex": "#848488",
+          "count": 1
+        },
+        {
+          "hex": "#cec4b4",
+          "count": 1
+        },
+        {
+          "hex": "#b0b384",
+          "count": 1
+        },
+        {
+          "hex": "#4c4940",
+          "count": 1
+        },
+        {
+          "hex": "#73755d",
+          "count": 1
+        },
+        {
+          "hex": "#8b6a56",
+          "count": 1
+        },
+        {
+          "hex": "#e1cdb6",
+          "count": 1
+        },
+        {
+          "hex": "#aba59b",
+          "count": 1
+        },
+        {
+          "hex": "#d5c0ac",
+          "count": 1
+        }
+      ]
+    },
+    "arabic": {
+      "count": 47,
+      "meanLuma": 169.6,
+      "meanSaturation": 0.27,
+      "meanCoverage": 0.256,
+      "meanSilhouetteAspect": 1.24,
+      "topColors": [
+        {
+          "hex": "#e0caaa",
+          "count": 1
+        },
+        {
+          "hex": "#746551",
+          "count": 1
+        },
+        {
+          "hex": "#bca98e",
+          "count": 1
+        },
+        {
+          "hex": "#594230",
+          "count": 1
+        },
+        {
+          "hex": "#95856d",
+          "count": 1
+        },
+        {
+          "hex": "#ead9bf",
+          "count": 1
+        },
+        {
+          "hex": "#666156",
+          "count": 1
+        },
+        {
+          "hex": "#bfab8e",
+          "count": 1
+        },
+        {
+          "hex": "#947d6d",
+          "count": 1
+        },
+        {
+          "hex": "#493a2f",
+          "count": 1
+        }
+      ]
+    },
+    "futurist": {
+      "count": 50,
+      "meanLuma": 184.4,
+      "meanSaturation": 0.17,
+      "meanCoverage": 0.21,
+      "meanSilhouetteAspect": 1.23,
+      "topColors": [
+        {
+          "hex": "#a9be8d",
+          "count": 1
+        },
+        {
+          "hex": "#e7ddca",
+          "count": 1
+        },
+        {
+          "hex": "#575b3f",
+          "count": 1
+        },
+        {
+          "hex": "#5a6c78",
+          "count": 1
+        },
+        {
+          "hex": "#858966",
+          "count": 1
+        },
+        {
+          "hex": "#ece1cf",
+          "count": 1
+        },
+        {
+          "hex": "#8eb4ad",
+          "count": 1
+        },
+        {
+          "hex": "#b5bb89",
+          "count": 1
+        },
+        {
+          "hex": "#818174",
+          "count": 1
+        },
+        {
+          "hex": "#5a5749",
+          "count": 1
+        }
+      ]
+    },
+    "cyberpunk": {
+      "count": 52,
+      "meanLuma": 99.9,
+      "meanSaturation": 0.21,
+      "meanCoverage": 0.241,
+      "meanSilhouetteAspect": 1.16,
+      "topColors": [
+        {
+          "hex": "#e7d4b6",
+          "count": 4
+        },
+        {
+          "hex": "#625e58",
+          "count": 2
+        },
+        {
+          "hex": "#e7d4b8",
+          "count": 2
+        },
+        {
+          "hex": "#e0d0b6",
+          "count": 2
+        },
+        {
+          "hex": "#2f292a",
+          "count": 2
+        },
+        {
+          "hex": "#6b604e",
+          "count": 1
+        },
+        {
+          "hex": "#413c33",
+          "count": 1
+        },
+        {
+          "hex": "#6d7878",
+          "count": 1
+        },
+        {
+          "hex": "#c8bfa8",
+          "count": 1
+        },
+        {
+          "hex": "#d45573",
+          "count": 1
+        }
+      ]
+    },
+    "fantasy": {
+      "count": 38,
+      "meanLuma": 135.4,
+      "meanSaturation": 0.32,
+      "meanCoverage": 0.219,
+      "meanSilhouetteAspect": 1.05,
+      "topColors": [
+        {
+          "hex": "#e9d5b8",
+          "count": 2
+        },
+        {
+          "hex": "#4f5a76",
+          "count": 1
+        },
+        {
+          "hex": "#a7ae7e",
+          "count": 1
+        },
+        {
+          "hex": "#dcc7ab",
+          "count": 1
+        },
+        {
+          "hex": "#47382d",
+          "count": 1
+        },
+        {
+          "hex": "#7b745a",
+          "count": 1
+        },
+        {
+          "hex": "#e5d2b2",
+          "count": 1
+        },
+        {
+          "hex": "#45606d",
+          "count": 1
+        },
+        {
+          "hex": "#3f322a",
+          "count": 1
+        },
+        {
+          "hex": "#a09f81",
+          "count": 1
+        }
+      ]
+    },
+    "medieval": {
+      "count": 61,
+      "meanLuma": 130.4,
+      "meanSaturation": 0.36,
+      "meanCoverage": 0.217,
+      "meanSilhouetteAspect": 1.04,
+      "topColors": [
+        {
+          "hex": "#e8d4b7",
+          "count": 5
+        },
+        {
+          "hex": "#e8d4b6",
+          "count": 4
+        },
+        {
+          "hex": "#e8d5b7",
+          "count": 3
+        },
+        {
+          "hex": "#dec9ab",
+          "count": 2
+        },
+        {
+          "hex": "#e7d4b6",
+          "count": 2
+        },
+        {
+          "hex": "#887a67",
+          "count": 2
+        },
+        {
+          "hex": "#54483b",
+          "count": 2
+        },
+        {
+          "hex": "#e8d5b8",
+          "count": 2
+        },
+        {
+          "hex": "#6d4838",
+          "count": 1
+        },
+        {
+          "hex": "#bfb088",
+          "count": 1
+        }
+      ]
+    }
+  },
+  "byCategory": {
+    "res": {
+      "count": 153,
+      "meanLuma": 142.2,
+      "meanSaturation": 0.29,
+      "meanCoverage": 0.229,
+      "meanSilhouetteAspect": 1.16,
+      "topColors": [
+        {
+          "hex": "#e7d4b6",
+          "count": 3
+        },
+        {
+          "hex": "#e4d5bf",
+          "count": 2
+        },
+        {
+          "hex": "#746551",
+          "count": 2
+        },
+        {
+          "hex": "#e0ccae",
+          "count": 2
+        },
+        {
+          "hex": "#a7ada8",
+          "count": 2
+        },
+        {
+          "hex": "#616265",
+          "count": 1
+        },
+        {
+          "hex": "#c4c196",
+          "count": 1
+        },
+        {
+          "hex": "#4e4736",
+          "count": 1
+        },
+        {
+          "hex": "#687846",
+          "count": 1
+        },
+        {
+          "hex": "#9a7357",
+          "count": 1
+        }
+      ]
+    },
+    "com": {
+      "count": 235,
+      "meanLuma": 142.9,
+      "meanSaturation": 0.26,
+      "meanCoverage": 0.26,
+      "meanSilhouetteAspect": 1.36,
+      "topColors": [
+        {
+          "hex": "#e5d2b4",
+          "count": 3
+        },
+        {
+          "hex": "#e3d1b6",
+          "count": 2
+        },
+        {
+          "hex": "#e5d2b5",
+          "count": 2
+        },
+        {
+          "hex": "#453c34",
+          "count": 2
+        },
+        {
+          "hex": "#e9d5b7",
+          "count": 2
+        },
+        {
+          "hex": "#e5d2b6",
+          "count": 2
+        },
+        {
+          "hex": "#d6ccbc",
+          "count": 2
+        },
+        {
+          "hex": "#e2d1b8",
+          "count": 2
+        },
+        {
+          "hex": "#e3d5c0",
+          "count": 2
+        },
+        {
+          "hex": "#817a6c",
+          "count": 2
+        }
+      ]
+    },
+    "off": {
+      "count": 65,
+      "meanLuma": 149.7,
+      "meanSaturation": 0.22,
+      "meanCoverage": 0.214,
+      "meanSilhouetteAspect": 0.79,
+      "topColors": [
+        {
+          "hex": "#e1d0b7",
+          "count": 2
+        },
+        {
+          "hex": "#e7d5b9",
+          "count": 2
+        },
+        {
+          "hex": "#dbcebb",
+          "count": 2
+        },
+        {
+          "hex": "#e1d0b5",
+          "count": 2
+        },
+        {
+          "hex": "#e6d3b6",
+          "count": 2
+        },
+        {
+          "hex": "#e7d4b6",
+          "count": 2
+        },
+        {
+          "hex": "#914e38",
+          "count": 1
+        },
+        {
+          "hex": "#8a9393",
+          "count": 1
+        },
+        {
+          "hex": "#483630",
+          "count": 1
+        },
+        {
+          "hex": "#64625d",
+          "count": 1
+        }
+      ]
+    },
+    "ind": {
+      "count": 100,
+      "meanLuma": 140.5,
+      "meanSaturation": 0.28,
+      "meanCoverage": 0.231,
+      "meanSilhouetteAspect": 1.28,
+      "topColors": [
+        {
+          "hex": "#e8d4b7",
+          "count": 3
+        },
+        {
+          "hex": "#e7d4b6",
+          "count": 2
+        },
+        {
+          "hex": "#e8d5b7",
+          "count": 2
+        },
+        {
+          "hex": "#e1cfb6",
+          "count": 2
+        },
+        {
+          "hex": "#e8d4b6",
+          "count": 2
+        },
+        {
+          "hex": "#a1a08d",
+          "count": 2
+        },
+        {
+          "hex": "#e7d4b7",
+          "count": 2
+        },
+        {
+          "hex": "#958874",
+          "count": 2
+        },
+        {
+          "hex": "#dabc98",
+          "count": 2
+        },
+        {
+          "hex": "#ccc1aa",
+          "count": 1
+        }
+      ]
+    },
+    "parks": {
+      "count": 66,
+      "meanLuma": 152.5,
+      "meanSaturation": 0.29,
+      "meanCoverage": 0.243,
+      "meanSilhouetteAspect": 1.62,
+      "topColors": [
+        {
+          "hex": "#ddcaac",
+          "count": 2
+        },
+        {
+          "hex": "#b3ba81",
+          "count": 1
+        },
+        {
+          "hex": "#e4cdaf",
+          "count": 1
+        },
+        {
+          "hex": "#696b49",
+          "count": 1
+        },
+        {
+          "hex": "#8f965d",
+          "count": 1
+        },
+        {
+          "hex": "#423b29",
+          "count": 1
+        },
+        {
+          "hex": "#adb481",
+          "count": 1
+        },
+        {
+          "hex": "#decbab",
+          "count": 1
+        },
+        {
+          "hex": "#7d845a",
+          "count": 1
+        },
+        {
+          "hex": "#616643",
+          "count": 1
+        }
+      ]
+    },
+    "util": {
+      "count": 17,
+      "meanLuma": 142.7,
+      "meanSaturation": 0.22,
+      "meanCoverage": 0.201,
+      "meanSilhouetteAspect": 1.23,
+      "topColors": [
+        {
+          "hex": "#4b4138",
+          "count": 2
+        },
+        {
+          "hex": "#48433c",
+          "count": 1
+        },
+        {
+          "hex": "#767068",
+          "count": 1
+        },
+        {
+          "hex": "#b8b8a0",
+          "count": 1
+        },
+        {
+          "hex": "#cf6e4e",
+          "count": 1
+        },
+        {
+          "hex": "#eddfcb",
+          "count": 1
+        },
+        {
+          "hex": "#f4e6d3",
+          "count": 1
+        },
+        {
+          "hex": "#7a7067",
+          "count": 1
+        },
+        {
+          "hex": "#c7bfa3",
+          "count": 1
+        },
+        {
+          "hex": "#a98c76",
+          "count": 1
+        }
+      ]
+    },
+    "land": {
+      "count": 91,
+      "meanLuma": 152.4,
+      "meanSaturation": 0.27,
+      "meanCoverage": 0.197,
+      "meanSilhouetteAspect": 1,
+      "topColors": [
+        {
+          "hex": "#e8d4b7",
+          "count": 5
+        },
+        {
+          "hex": "#e8d5b7",
+          "count": 3
+        },
+        {
+          "hex": "#e8d4b6",
+          "count": 2
+        },
+        {
+          "hex": "#e9d5b8",
+          "count": 2
+        },
+        {
+          "hex": "#e7d4b6",
+          "count": 2
+        },
+        {
+          "hex": "#e2d3bb",
+          "count": 2
+        },
+        {
+          "hex": "#e7d4b7",
+          "count": 2
+        },
+        {
+          "hex": "#d0cb9d",
+          "count": 1
+        },
+        {
+          "hex": "#707d54",
+          "count": 1
+        },
+        {
+          "hex": "#4c4a34",
+          "count": 1
+        }
+      ]
+    },
+    "svc": {
+      "count": 97,
+      "meanLuma": 147.8,
+      "meanSaturation": 0.27,
+      "meanCoverage": 0.234,
+      "meanSilhouetteAspect": 1.26,
+      "topColors": [
+        {
+          "hex": "#e5d4b9",
+          "count": 2
+        },
+        {
+          "hex": "#e3d1b4",
+          "count": 2
+        },
+        {
+          "hex": "#e4d2b6",
+          "count": 2
+        },
+        {
+          "hex": "#514234",
+          "count": 2
+        },
+        {
+          "hex": "#858786",
+          "count": 1
+        },
+        {
+          "hex": "#e0ceb4",
+          "count": 1
+        },
+        {
+          "hex": "#bdb19a",
+          "count": 1
+        },
+        {
+          "hex": "#6f6559",
+          "count": 1
+        },
+        {
+          "hex": "#45403b",
+          "count": 1
+        },
+        {
+          "hex": "#924332",
+          "count": 1
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "generatedAt": "2026-11-21T05:20:00.000Z",
+  "scope": "unauthenticated public client only; authenticated game assets unavailable",
+  "counts": {
+    "publicScriptChunks": 25,
+    "publicStylesheets": 3,
+    "publicBytes": 412000,
+    "stylePreviews": 14,
+    "stylePreviewBytes": 3363800,
+    "styleRecords": 14,
+    "mapSkins": 10,
+    "gltfOrGlbModels": 0,
+    "ktx2OrTexturePayloads": 14,
+    "wasmModules": 0
+  },
+  "kinds": {
+    "script": { "count": 22, "note": "marketing shell, router, styles, skins, pass UI" },
+    "stylesheet": { "count": 3, "note": "shell.css 80 KB, main.css 79 KB, social.css 2 KB" },
+    "image": { "count": 14, "note": "style preview WebP renders, 1200x800 or 1500x1000" }
+  },
+  "notableAbsences": [
+    "no WebGL renderer code in any public chunk",
+    "no glTF/GLB or binary model payload",
+    "no ktx2/basis textures",
+    "no wasm module"
+  ],
+  "conclusion": "The 3D client and its assets are gated behind authentication. Public material supports art-direction and palette work only."
+}

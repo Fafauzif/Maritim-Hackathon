@@ -1,7 +1,8 @@
 ﻿const fs = require('node:fs');
 const path = require('node:path');
-const { addEvidence, writeManifest } = require('./manifest.js');
+const { addEvidence, writeManifest } = require('./cityrt-audit/tools/manifest.js');
 const root = 'cityrt-audit';
+const dirs = ['evidence/pages', 'evidence/catalog', 'analysis', 'docs', 'evidence/installer'];
 function walk(dir) {
   const out = [];
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
@@ -11,15 +12,16 @@ function walk(dir) {
   }
   return out;
 }
-for (const dir of ['evidence/scripts/public', 'evidence/style-previews', 'analysis/palette', 'analysis/styles', 'analysis/skins-static.json']) {
+let count = 0;
+for (const dir of dirs) {
   const target = path.join(root, dir);
   if (!fs.existsSync(target)) continue;
-  const files = fs.statSync(target).isDirectory() ? walk(target) : [target];
-  for (const file of files) {
-    addEvidence({ root, path: file, kind: 'derived-evidence', producedBy: 'public-crawl', proves: 'CityRT public client data' });
+  for (const file of fs.statSync(target).isDirectory() ? walk(target) : [target]) {
+    if (file.endsWith('manifest.json')) continue;
+    addEvidence({ root, path: file, kind: 'derived-evidence', producedBy: 'cityrt-audit', proves: 'CityRT audit artefact' });
+    count += 1;
   }
 }
 const written = writeManifest(root);
 const manifest = JSON.parse(fs.readFileSync(written, 'utf8'));
-console.log('manifest entries:', manifest.entries.length);
-
+console.log('registered', count, 'files; manifest entries', manifest.entries.length);

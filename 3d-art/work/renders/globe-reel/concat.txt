@@ -1,0 +1,5 @@
+file 'C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/work/renders/globe-reel/globe_intro.mp4'
+file 'C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/output/coasts/kodingareng/travel.mp4'
+file 'C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/output/coasts/tunda/travel.mp4'
+file 'C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/output/coasts/amur/travel.mp4'
+file 'C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/work/renders/globe-reel/globe_outro.mp4'

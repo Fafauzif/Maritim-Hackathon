@@ -1,0 +1,15 @@
+13:24:46 === render job start ===
+13:24:46 stills tunda
+13:24:50 Addon, ERROR, MainThread, 01:24:50, toolbox_settings.py/_get_settings_section_user:187: Couldn't set user 'None':
+13:24:50 Traceback (most recent call last):
+13:24:50 ValueError: invalid literal for int() with base 10: 'None'
+13:25:08 STILLS tunda ['C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\work\\renders\\final-4k\\tunda_godview.png', 'C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\work\\renders\\final-4k\\tunda_mapview.png', 'C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\work\\renders\\final-4k\\tunda_section.png']
+13:25:11 stills amur
+13:25:15 Addon, ERROR, MainThread, 01:25:15, toolbox_settings.py/_get_settings_section_user:187: Couldn't set user 'None':
+13:25:15 Traceback (most recent call last):
+13:25:15 ValueError: invalid literal for int() with base 10: 'None'
+13:25:38 STILLS amur ['C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\work\\renders\\final-4k\\amur_godview.png', 'C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\work\\renders\\final-4k\\amur_mapview.png', 'C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\work\\renders\\final-4k\\amur_section.png']
+13:25:41 beforeafter kodingareng
+13:25:46 Addon, ERROR, MainThread, 01:25:46, toolbox_settings.py/_get_settings_section_user:187: Couldn't set user 'None':
+13:25:46 Traceback (most recent call last):
+13:25:46 ValueError: invalid literal for int() with base 10: 'None'

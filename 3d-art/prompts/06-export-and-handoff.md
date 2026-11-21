@@ -1,0 +1,8 @@
+# DSH prompt 06 · Export, re-import and deliver
+
+Read `brief/OUTPUT_CONTRACT.md` and `brief/DELIVERY_CHECK.md`. Work from verified checkpoints and final renders. Keep every output below this run root.
+
+1. Promote editable scenes. Pack required texture images. Use named collections and an explicit export selection. Exclude reference artwork, cameras, guide meshes and lights from GLBs. Export globe, three coasts and the common kit. Use a portable water material and confirm any render-only look difference. Preserve local pivots/axes and distinct water/seabed nodes where useful. Keep stable anchor transforms for later app work.
+2. Open every final `.blend`. Re-import every GLB into a clean temporary Blender scene and compare bounds, orientation, scale, water material, object separation, links and missing texture warnings. Save shaded screenshots in work if the model or import behaves unexpectedly. Investigate and re-export recoverable issues before accepting the file.
+3. Run `python 3d-art/tools/check_delivery.py 3d-art/output`, or pass this run’s actual versioned path. Read the errors and review thumbnails before reporting completion. A file-presence check alone cannot verify the visual look, render motion or correct axes.
+4. Write the handoff with the Earth-to-coast preview order, how to orbit from Blender, view and section camera names, editable anchors, source and attribution, GLB material limitations, actual render timings/settings, honest audit state and any deviations. Update the progress record. Report what exists with precise file paths and how to open the finished camera views and reel.

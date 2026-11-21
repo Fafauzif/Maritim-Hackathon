@@ -1,0 +1,130 @@
+{
+  "shots": {
+    "kodingareng/COAST_OVERVIEW": {
+      "thumb": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/work/renders/blockout/320/kodingareng_overview_320.png",
+      "boat_box_320": [
+        182.7,
+        137.2,
+        197.0,
+        156.6
+      ],
+      "boat_contrast": {
+        "inner_mean": 0.2846,
+        "ring_mean": 0.3227,
+        "abs_delta": 0.0382,
+        "inner_span": 0.4235
+      },
+      "boat_reads": true,
+      "thumbnail": {
+        "threshold": 0.3203,
+        "dark_frac": 0.4382,
+        "split_ok": true
+      }
+    },
+    "kodingareng/COAST_SECTION": {
+      "thumb": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/work/renders/blockout/320/kodingareng_section_320.png",
+      "boat_box_320": [
+        138.3,
+        82.7,
+        181.6,
+        96.4
+      ],
+      "boat_contrast": {
+        "inner_mean": 0.2383,
+        "ring_mean": 0.2553,
+        "abs_delta": 0.0171,
+        "inner_span": 0.5216
+      },
+      "boat_reads": true,
+      "thumbnail": {
+        "threshold": 0.3047,
+        "dark_frac": 0.6887,
+        "split_ok": true
+      }
+    },
+    "tunda/COAST_OVERVIEW": {
+      "thumb": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/work/renders/blockout/320/tunda_overview_320.png",
+      "boat_box_320": [
+        35.1,
+        123.3,
+        44.6,
+        139.2
+      ],
+      "boat_contrast": {
+        "inner_mean": 0.199,
+        "ring_mean": 0.2546,
+        "abs_delta": 0.0555,
+        "inner_span": 0.3373
+      },
+      "boat_reads": true,
+      "thumbnail": {
+        "threshold": 0.2891,
+        "dark_frac": 0.5959,
+        "split_ok": true
+      }
+    },
+    "tunda/COAST_SECTION": {
+      "thumb": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/work/renders/blockout/320/tunda_section_320.png",
+      "boat_box_320": [
+        152.1,
+        78.7,
+        167.9,
+        91.9
+      ],
+      "boat_contrast": {
+        "inner_mean": 0.1865,
+        "ring_mean": 0.1655,
+        "abs_delta": 0.021,
+        "inner_span": 0.6627
+      },
+      "boat_reads": true,
+      "thumbnail": {
+        "threshold": 0.2109,
+        "dark_frac": 0.4842,
+        "split_ok": true
+      }
+    },
+    "amur/COAST_OVERVIEW": {
+      "thumb": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/work/renders/blockout/320/amur_overview_320.png",
+      "boat_box_320": [
+        158.9,
+        63.5,
+        170.3,
+        77.3
+      ],
+      "boat_contrast": {
+        "inner_mean": 0.1748,
+        "ring_mean": 0.2231,
+        "abs_delta": 0.0483,
+        "inner_span": 0.298
+      },
+      "boat_reads": true,
+      "thumbnail": {
+        "threshold": 0.2422,
+        "dark_frac": 0.0997,
+        "split_ok": true
+      }
+    },
+    "amur/COAST_SECTION": {
+      "thumb": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/work/renders/blockout/320/amur_section_320.png",
+      "boat_box_320": [
+        144.7,
+        20.5,
+        175.3,
+        35.2
+      ],
+      "boat_contrast": {
+        "inner_mean": 0.0971,
+        "ring_mean": 0.1272,
+        "abs_delta": 0.0301,
+        "inner_span": 0.5412
+      },
+      "boat_reads": true,
+      "thumbnail": {
+        "threshold": 0.1641,
+        "dark_frac": 0.7236,
+        "split_ok": true
+      }
+    }
+  }
+}

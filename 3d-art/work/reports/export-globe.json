@@ -1,0 +1,34 @@
+{
+  "kind": "globe",
+  "packed": true,
+  "blend": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\output\\globe\\globe.blend",
+  "glb": {
+    "path": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\output\\globe\\globe.glb",
+    "bytes": 1770092
+  },
+  "exported_objects": 10,
+  "scene_stats": {
+    "objects": 18,
+    "mesh_objects": 7,
+    "triangles_est": 37026,
+    "materials": 61,
+    "images": 3,
+    "has_water_object": false,
+    "cameras": [
+      "GLOBE_HOME",
+      "GLOBE_REEL",
+      "GLOBE_REGION_amur",
+      "GLOBE_REGION_kodingareng",
+      "GLOBE_REGION_tunda"
+    ],
+    "lights": [
+      "GLOBE_Key_Sun",
+      "GLOBE_Rim_Sun"
+    ]
+  },
+  "anchors": [
+    "ANCHOR_amur",
+    "ANCHOR_kodingareng",
+    "ANCHOR_tunda"
+  ]
+}

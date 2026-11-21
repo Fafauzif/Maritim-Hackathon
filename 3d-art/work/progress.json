@@ -1,0 +1,100 @@
+{
+  "run_id": "2026-11-21-ocean-has-floors-run1",
+  "audit_root": "cityrt-audit",
+  "production_root": "3d-art/output",
+  "audit_status": "complete-with-path-deviations",
+  "phase": "06",
+  "last_completed_phase": "06",
+  "site_status": {
+    "kodingareng": "delivered",
+    "tunda": "delivered",
+    "amur": "delivered"
+  },
+  "delivery": {
+    "checker": "3d-art/tools/check_delivery.py",
+    "result": "33/33 required artifacts passed file checks",
+    "artifacts": {
+      "globe": [
+        "globe.blend",
+        "globe.glb",
+        "globe-overview.png 3840x2160"
+      ],
+      "kit": [
+        "common-kit.blend",
+        "common-kit.glb",
+        "asset-sheet.png"
+      ],
+      "coasts": {
+        "kodingareng": [
+          "scene.blend",
+          "coast.glb",
+          "godview.png",
+          "mapview.png",
+          "section.png",
+          "travel.mp4",
+          "review.md"
+        ],
+        "tunda": [
+          "scene.blend",
+          "coast.glb",
+          "godview.png",
+          "mapview.png",
+          "section.png",
+          "travel.mp4",
+          "review.md"
+        ],
+        "amur": [
+          "scene.blend",
+          "coast.glb",
+          "godview.png",
+          "mapview.png",
+          "section.png",
+          "travel.mp4",
+          "review.md"
+        ]
+      },
+      "review": [
+        "parity-sheet.png",
+        "audit-intake.md",
+        "handoff.md",
+        "export-check.md",
+        "deviations.md"
+      ],
+      "reel": [
+        "coast-reel.mp4 1920x1080 24fps 20.5s"
+      ]
+    }
+  },
+  "look_rig": {
+    "source": "work/scripts/look_rig.py",
+    "view_transform": "Khronos PBR Neutral",
+    "exposure": -0.35,
+    "sun": 5.4,
+    "fill": 150.0,
+    "world": 0.28,
+    "grade_sat": 1.2,
+    "measured": "overview luma 0.586-0.609 vs audit ref 0.554; saturation 0.294-0.362 vs ref 0.362; weighted dE 11.46-13.84 vs 6.0 target (documented landscape-vs-city content deviation)"
+  },
+  "verification": {
+    "shot_framing": "work/verification/shot-verify.json (ray-cast coverage + boat pixel projection)",
+    "thumb_legibility": "work/verification/verify-320.json",
+    "palette": "work/verification/palette-coast.json",
+    "imports": "work/reports/import-check.json (5 blends reopened, 5 GLBs re-imported)",
+    "media": "work/reports/media.json (ffprobe: 3 travel films + reel, 1920x1080 24fps)",
+    "exports": "work/reports/export-*.json"
+  },
+  "image_count_attached": 0,
+  "image_policy": "no images in conversation; all renders measured from PNG bytes on disk; hard stop at 15 of 20 (never reached 1)",
+  "checkpoints": {
+    "00-preflight": "work/checkpoints/00-preflight.blend",
+    "01-blockout": "work/checkpoints/01-kodingareng.blend",
+    "02-kit": "work/checkpoints/02-kit.blend",
+    "03-kodingareng": "work/checkpoints/03-kodingareng.blend",
+    "03-tunda": "work/checkpoints/03-tunda.blend",
+    "03-amur": "work/checkpoints/03-amur.blend",
+    "04-globe": "work/checkpoints/04-globe.blend",
+    "04-travelA/B per site": "work/checkpoints/04-travel{A,B}-{kodingareng,tunda,amur}.blend"
+  },
+  "blockers": [],
+  "next_action": "None required for delivery. Optional polish: raise Amur village density around the landing, add a 1K texture set for the hero jetty/boat, and replace the two-shot travel edit with a continuous camera if the owner wants it."
+}

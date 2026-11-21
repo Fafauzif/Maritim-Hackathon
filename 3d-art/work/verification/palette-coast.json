@@ -1,0 +1,350 @@
+{
+  "ref": "cityrt-audit\\analysis\\palette\\italian.json",
+  "renders": [
+    {
+      "file": "3d-art/work/renders/coast/kodingareng_overview.png",
+      "size": [
+        960,
+        540
+      ],
+      "mean_luma": 0.6088,
+      "luma_std": 0.1212,
+      "mean_saturation": 0.3618,
+      "palette": [
+        {
+          "hex": "#8eab75",
+          "srgb": [
+            0.558,
+            0.67,
+            0.458
+          ],
+          "weight": 0.4615
+        },
+        {
+          "hex": "#77bdb9",
+          "srgb": [
+            0.468,
+            0.739,
+            0.726
+          ],
+          "weight": 0.363
+        },
+        {
+          "hex": "#5d7052",
+          "srgb": [
+            0.364,
+            0.438,
+            0.322
+          ],
+          "weight": 0.0525
+        },
+        {
+          "hex": "#2d472b",
+          "srgb": [
+            0.178,
+            0.279,
+            0.168
+          ],
+          "weight": 0.0512
+        },
+        {
+          "hex": "#a05428",
+          "srgb": [
+            0.629,
+            0.329,
+            0.155
+          ],
+          "weight": 0.048
+        },
+        {
+          "hex": "#c1c39c",
+          "srgb": [
+            0.756,
+            0.765,
+            0.613
+          ],
+          "weight": 0.0239
+        }
+      ],
+      "vs_ref": {
+        "reference": "cityrt-audit/analysis/palette/italian.json",
+        "ref_mean_luma": 0.554,
+        "ref_luma_std": 0.1584,
+        "ref_mean_saturation": 0.3619,
+        "luma_delta": 0.0548,
+        "sat_delta": -0.0001,
+        "weighted_mean_dE": 13.84,
+        "target_dE": 6.0,
+        "pass": false,
+        "pairs": [
+          {
+            "ref": "#adb477",
+            "ref_weight": 0.443,
+            "render": "#8eab75",
+            "dE": 10.59
+          },
+          {
+            "ref": "#726658",
+            "ref_weight": 0.156,
+            "render": "#5d7052",
+            "dE": 16.0
+          },
+          {
+            "ref": "#b86346",
+            "ref_weight": 0.147,
+            "render": "#a05428",
+            "dE": 10.89
+          },
+          {
+            "ref": "#534134",
+            "ref_weight": 0.114,
+            "render": "#2d472b",
+            "dE": 22.32
+          },
+          {
+            "ref": "#d5b491",
+            "ref_weight": 0.086,
+            "render": "#c1c39c",
+            "dE": 14.65
+          },
+          {
+            "ref": "#a28970",
+            "ref_weight": 0.054,
+            "render": "#c1c39c",
+            "dE": 23.07
+          }
+        ]
+      }
+    },
+    {
+      "file": "3d-art/work/renders/coast/tunda_overview.png",
+      "size": [
+        960,
+        540
+      ],
+      "mean_luma": 0.5862,
+      "luma_std": 0.0818,
+      "mean_saturation": 0.3574,
+      "palette": [
+        {
+          "hex": "#77a16a",
+          "srgb": [
+            0.466,
+            0.629,
+            0.417
+          ],
+          "weight": 0.6385
+        },
+        {
+          "hex": "#71b5b3",
+          "srgb": [
+            0.445,
+            0.71,
+            0.703
+          ],
+          "weight": 0.2584
+        },
+        {
+          "hex": "#a6714a",
+          "srgb": [
+            0.653,
+            0.442,
+            0.29
+          ],
+          "weight": 0.0421
+        },
+        {
+          "hex": "#5b5841",
+          "srgb": [
+            0.357,
+            0.347,
+            0.255
+          ],
+          "weight": 0.0252
+        },
+        {
+          "hex": "#c2c7a0",
+          "srgb": [
+            0.759,
+            0.78,
+            0.626
+          ],
+          "weight": 0.0206
+        },
+        {
+          "hex": "#1e3b24",
+          "srgb": [
+            0.12,
+            0.232,
+            0.14
+          ],
+          "weight": 0.0152
+        }
+      ],
+      "vs_ref": {
+        "reference": "cityrt-audit/analysis/palette/italian.json",
+        "ref_mean_luma": 0.554,
+        "ref_luma_std": 0.1584,
+        "ref_mean_saturation": 0.3619,
+        "luma_delta": 0.0322,
+        "sat_delta": -0.0045,
+        "weighted_mean_dE": 13.7,
+        "target_dE": 6.0,
+        "pass": false,
+        "pairs": [
+          {
+            "ref": "#adb477",
+            "ref_weight": 0.443,
+            "render": "#c2c7a0",
+            "dE": 14.02
+          },
+          {
+            "ref": "#726658",
+            "ref_weight": 0.156,
+            "render": "#5b5841",
+            "dE": 9.74
+          },
+          {
+            "ref": "#b86346",
+            "ref_weight": 0.147,
+            "render": "#a6714a",
+            "dE": 14.77
+          },
+          {
+            "ref": "#534134",
+            "ref_weight": 0.114,
+            "render": "#5b5841",
+            "dE": 12.45
+          },
+          {
+            "ref": "#d5b491",
+            "ref_weight": 0.086,
+            "render": "#c2c7a0",
+            "dE": 16.01
+          },
+          {
+            "ref": "#a28970",
+            "ref_weight": 0.054,
+            "render": "#a6714a",
+            "dE": 18.45
+          }
+        ]
+      }
+    },
+    {
+      "file": "3d-art/work/renders/coast/amur_overview.png",
+      "size": [
+        960,
+        540
+      ],
+      "mean_luma": 0.5977,
+      "luma_std": 0.083,
+      "mean_saturation": 0.2935,
+      "palette": [
+        {
+          "hex": "#6f9ba2",
+          "srgb": [
+            0.437,
+            0.606,
+            0.634
+          ],
+          "weight": 0.662
+        },
+        {
+          "hex": "#b4b285",
+          "srgb": [
+            0.707,
+            0.699,
+            0.523
+          ],
+          "weight": 0.2256
+        },
+        {
+          "hex": "#cac39f",
+          "srgb": [
+            0.792,
+            0.764,
+            0.623
+          ],
+          "weight": 0.0496
+        },
+        {
+          "hex": "#736353",
+          "srgb": [
+            0.45,
+            0.389,
+            0.327
+          ],
+          "weight": 0.0237
+        },
+        {
+          "hex": "#9f8b75",
+          "srgb": [
+            0.625,
+            0.544,
+            0.457
+          ],
+          "weight": 0.0222
+        },
+        {
+          "hex": "#3e4031",
+          "srgb": [
+            0.244,
+            0.251,
+            0.194
+          ],
+          "weight": 0.0168
+        }
+      ],
+      "vs_ref": {
+        "reference": "cityrt-audit/analysis/palette/italian.json",
+        "ref_mean_luma": 0.554,
+        "ref_luma_std": 0.1584,
+        "ref_mean_saturation": 0.3619,
+        "luma_delta": 0.0437,
+        "sat_delta": -0.0684,
+        "weighted_mean_dE": 11.46,
+        "target_dE": 6.0,
+        "pass": false,
+        "pairs": [
+          {
+            "ref": "#adb477",
+            "ref_weight": 0.443,
+            "render": "#b4b285",
+            "dE": 9.11
+          },
+          {
+            "ref": "#726658",
+            "ref_weight": 0.156,
+            "render": "#736353",
+            "dE": 2.22
+          },
+          {
+            "ref": "#b86346",
+            "ref_weight": 0.147,
+            "render": "#9f8b75",
+            "dE": 32.99
+          },
+          {
+            "ref": "#534134",
+            "ref_weight": 0.114,
+            "render": "#3e4031",
+            "dE": 9.94
+          },
+          {
+            "ref": "#d5b491",
+            "ref_weight": 0.086,
+            "render": "#cac39f",
+            "dE": 11.13
+          },
+          {
+            "ref": "#a28970",
+            "ref_weight": 0.054,
+            "render": "#9f8b75",
+            "dE": 2.64
+          }
+        ]
+      }
+    }
+  ]
+}

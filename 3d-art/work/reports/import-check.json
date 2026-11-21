@@ -1,0 +1,349 @@
+{
+  "blends": [
+    {
+      "kind": "blend",
+      "label": "globe",
+      "path": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/output/globe/globe.blend",
+      "bytes": 1606420,
+      "scene": "Earth_Globe",
+      "objects": 18,
+      "mesh_objects": 7,
+      "materials": 35,
+      "images": 1,
+      "images_packed": 1,
+      "all_file_images_packed": true,
+      "water_objects": [],
+      "cameras": [
+        "GLOBE_HOME",
+        "GLOBE_REEL",
+        "GLOBE_REGION_amur",
+        "GLOBE_REGION_kodingareng",
+        "GLOBE_REGION_tunda"
+      ],
+      "lights": [
+        "GLOBE_Key_Sun",
+        "GLOBE_Rim_Sun"
+      ],
+      "has_section_mesh": false
+    },
+    {
+      "kind": "blend",
+      "label": "kit",
+      "path": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/output/kit/common-kit.blend",
+      "bytes": 181493,
+      "scene": "KitScene",
+      "objects": 55,
+      "mesh_objects": 28,
+      "materials": 32,
+      "images": 0,
+      "images_packed": 0,
+      "all_file_images_packed": true,
+      "water_objects": [],
+      "cameras": [
+        "KIT_MAT_CAM_0",
+        "KIT_MAT_CAM_1",
+        "KIT_MAT_CAM_2",
+        "KIT_MAT_CAM_3",
+        "KIT_SHEET_CAM"
+      ],
+      "lights": [
+        "KIT_Top_Softbox",
+        "LGT_Sky_Fill",
+        "LGT_Sun_Key"
+      ],
+      "has_section_mesh": false
+    },
+    {
+      "kind": "blend",
+      "label": "kodingareng",
+      "path": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/output/coasts/kodingareng/scene.blend",
+      "bytes": 1714165,
+      "scene": "CoastScene",
+      "objects": 179,
+      "mesh_objects": 165,
+      "materials": 21,
+      "images": 0,
+      "images_packed": 0,
+      "all_file_images_packed": true,
+      "water_objects": [
+        "ENV_Water"
+      ],
+      "cameras": [
+        "COAST_APPROACH",
+        "COAST_DETAIL",
+        "COAST_OVERVIEW",
+        "COAST_PLAN",
+        "COAST_SECTION"
+      ],
+      "lights": [
+        "LGT_Sky_Fill",
+        "LGT_Sun_Key"
+      ],
+      "has_section_mesh": true
+    },
+    {
+      "kind": "blend",
+      "label": "tunda",
+      "path": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/output/coasts/tunda/scene.blend",
+      "bytes": 2153109,
+      "scene": "CoastScene",
+      "objects": 243,
+      "mesh_objects": 229,
+      "materials": 21,
+      "images": 0,
+      "images_packed": 0,
+      "all_file_images_packed": true,
+      "water_objects": [
+        "ENV_Water"
+      ],
+      "cameras": [
+        "COAST_APPROACH",
+        "COAST_DETAIL",
+        "COAST_OVERVIEW",
+        "COAST_PLAN",
+        "COAST_SECTION"
+      ],
+      "lights": [
+        "LGT_Sky_Fill",
+        "LGT_Sun_Key"
+      ],
+      "has_section_mesh": true
+    },
+    {
+      "kind": "blend",
+      "label": "amur",
+      "path": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/output/coasts/amur/scene.blend",
+      "bytes": 2246990,
+      "scene": "CoastScene",
+      "objects": 468,
+      "mesh_objects": 454,
+      "materials": 20,
+      "images": 0,
+      "images_packed": 0,
+      "all_file_images_packed": true,
+      "water_objects": [
+        "ENV_Water"
+      ],
+      "cameras": [
+        "COAST_APPROACH",
+        "COAST_DETAIL",
+        "COAST_OVERVIEW",
+        "COAST_PLAN",
+        "COAST_SECTION"
+      ],
+      "lights": [
+        "LGT_Sky_Fill",
+        "LGT_Sun_Key"
+      ],
+      "has_section_mesh": true
+    }
+  ],
+  "glbs": [
+    {
+      "kind": "glb",
+      "label": "globe",
+      "path": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/output/globe/globe.glb",
+      "bytes": 1770092,
+      "json_cameras": 0,
+      "json_lights": 0,
+      "json_meshes": 7,
+      "json_nodes": 10,
+      "json_images": 1,
+      "imported_objects": 10,
+      "imported_meshes": 7,
+      "materials": 3,
+      "material_names": [
+        "Earth_Teal_Sand_Color.002",
+        "MAT_Globe_Marker",
+        "MAT_Globe_Marker_Ring"
+      ],
+      "dimensions_m": [
+        20.0,
+        20.185,
+        20.0
+      ],
+      "min": [
+        -10.0,
+        -10.0,
+        -10.0
+      ],
+      "max": [
+        10.0,
+        10.18,
+        10.0
+      ],
+      "water_objects": [],
+      "missing_images": [],
+      "shot": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\work\\renders\\import-check\\globe_import.png"
+    },
+    {
+      "kind": "glb",
+      "label": "kit",
+      "path": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/output/kit/common-kit.glb",
+      "bytes": 82664,
+      "json_cameras": 0,
+      "json_lights": 0,
+      "json_meshes": 10,
+      "json_nodes": 10,
+      "json_images": 0,
+      "imported_objects": 10,
+      "imported_meshes": 10,
+      "materials": 6,
+      "material_names": [
+        "MAT_Bush",
+        "MAT_Deck",
+        "MAT_Hull",
+        "MAT_Leaf",
+        "MAT_Trunk",
+        "MAT_Wall_A"
+      ],
+      "dimensions_m": [
+        38.22,
+        25.25,
+        11.35
+      ],
+      "min": [
+        -20.36,
+        -11.89,
+        -3.8
+      ],
+      "max": [
+        17.86,
+        13.36,
+        7.55
+      ],
+      "water_objects": [],
+      "missing_images": [],
+      "shot": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\work\\renders\\import-check\\kit_import.png"
+    },
+    {
+      "kind": "glb",
+      "label": "kodingareng",
+      "path": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/output/coasts/kodingareng/coast.glb",
+      "bytes": 2966900,
+      "json_cameras": 0,
+      "json_lights": 0,
+      "json_meshes": 11,
+      "json_nodes": 166,
+      "json_images": 0,
+      "imported_objects": 166,
+      "imported_meshes": 159,
+      "materials": 7,
+      "material_names": [
+        "ENV_Water_Mat",
+        "MAT_Bush",
+        "MAT_Deck",
+        "MAT_Hull",
+        "MAT_Terrain_VCol",
+        "MAT_Trunk",
+        "MAT_Wall_A"
+      ],
+      "dimensions_m": [
+        560.0,
+        560.0,
+        20.501
+      ],
+      "min": [
+        -280.0,
+        -280.0,
+        -7.6
+      ],
+      "max": [
+        280.0,
+        280.0,
+        12.9
+      ],
+      "water_objects": [
+        "ENV_Water"
+      ],
+      "missing_images": [],
+      "shot": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\work\\renders\\import-check\\kodingareng_import.png"
+    },
+    {
+      "kind": "glb",
+      "label": "tunda",
+      "path": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/output/coasts/tunda/coast.glb",
+      "bytes": 4551040,
+      "json_cameras": 0,
+      "json_lights": 0,
+      "json_meshes": 11,
+      "json_nodes": 230,
+      "json_images": 0,
+      "imported_objects": 230,
+      "imported_meshes": 223,
+      "materials": 7,
+      "material_names": [
+        "ENV_Water_Mat",
+        "MAT_Bush",
+        "MAT_Deck",
+        "MAT_Hull",
+        "MAT_Terrain_VCol",
+        "MAT_Trunk",
+        "MAT_Wall_A"
+      ],
+      "dimensions_m": [
+        600.0,
+        600.0,
+        20.795
+      ],
+      "min": [
+        -300.0,
+        -300.0,
+        -8.2
+      ],
+      "max": [
+        300.0,
+        300.0,
+        12.59
+      ],
+      "water_objects": [
+        "ENV_Water"
+      ],
+      "missing_images": [],
+      "shot": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\work\\renders\\import-check\\tunda_import.png"
+    },
+    {
+      "kind": "glb",
+      "label": "amur",
+      "path": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/output/coasts/amur/coast.glb",
+      "bytes": 3310308,
+      "json_cameras": 0,
+      "json_lights": 0,
+      "json_meshes": 9,
+      "json_nodes": 455,
+      "json_images": 0,
+      "imported_objects": 455,
+      "imported_meshes": 448,
+      "materials": 7,
+      "material_names": [
+        "ENV_Water_Mat",
+        "MAT_Bush",
+        "MAT_Deck",
+        "MAT_Hull",
+        "MAT_Leaf",
+        "MAT_Terrain_VCol",
+        "MAT_Wall_A"
+      ],
+      "dimensions_m": [
+        680.0,
+        680.0,
+        18.353
+      ],
+      "min": [
+        -340.0,
+        -340.0,
+        -12.03
+      ],
+      "max": [
+        340.0,
+        340.0,
+        6.32
+      ],
+      "water_objects": [
+        "ENV_Water"
+      ],
+      "missing_images": [],
+      "shot": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\work\\renders\\import-check\\amur_import.png"
+    }
+  ]
+}

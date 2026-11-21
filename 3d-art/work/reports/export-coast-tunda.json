@@ -1,0 +1,45 @@
+{
+  "kind": "coast",
+  "site": "tunda",
+  "packed": true,
+  "blend": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\output\\coasts\\tunda\\scene.blend",
+  "glb": {
+    "path": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\output\\coasts\\tunda\\coast.glb",
+    "bytes": 4551040
+  },
+  "outline_modifiers_removed": 1,
+  "exported_objects": 230,
+  "scene_stats": {
+    "objects": 243,
+    "mesh_objects": 229,
+    "triangles_est": 166416,
+    "materials": 21,
+    "images": 2,
+    "has_water_object": true,
+    "cameras": [
+      "COAST_APPROACH",
+      "COAST_DETAIL",
+      "COAST_OVERVIEW",
+      "COAST_PLAN",
+      "COAST_SECTION"
+    ],
+    "lights": [
+      "LGT_Sky_Fill",
+      "LGT_Sun_Key"
+    ]
+  },
+  "export": {
+    "cameras": false,
+    "lights": false,
+    "yup": true,
+    "apply": true,
+    "collections": [
+      "ENV_Land",
+      "ENV_Water",
+      "BLD_Village",
+      "PROP_Survey",
+      "VEG_Scatter",
+      "CAM_Rigs"
+    ]
+  }
+}

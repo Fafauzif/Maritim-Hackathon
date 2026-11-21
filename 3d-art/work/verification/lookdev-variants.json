@@ -1,0 +1,925 @@
+{
+  "ref": "cityrt-audit\\analysis\\palette\\italian.json",
+  "renders": [
+    {
+      "file": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/work/renders/lookdev/kodingareng_A_baseline.png",
+      "size": [
+        960,
+        540
+      ],
+      "mean_luma": 0.7181,
+      "luma_std": 0.066,
+      "mean_saturation": 0.1364,
+      "palette": [
+        {
+          "hex": "#b0bda6",
+          "srgb": [
+            0.692,
+            0.739,
+            0.652
+          ],
+          "weight": 0.4776
+        },
+        {
+          "hex": "#b1c8c8",
+          "srgb": [
+            0.692,
+            0.784,
+            0.782
+          ],
+          "weight": 0.3831
+        },
+        {
+          "hex": "#92a28e",
+          "srgb": [
+            0.574,
+            0.634,
+            0.557
+          ],
+          "weight": 0.0498
+        },
+        {
+          "hex": "#71876d",
+          "srgb": [
+            0.442,
+            0.531,
+            0.426
+          ],
+          "weight": 0.0388
+        },
+        {
+          "hex": "#b6836f",
+          "srgb": [
+            0.713,
+            0.514,
+            0.436
+          ],
+          "weight": 0.0331
+        },
+        {
+          "hex": "#c9a192",
+          "srgb": [
+            0.789,
+            0.633,
+            0.571
+          ],
+          "weight": 0.0175
+        }
+      ],
+      "vs_ref": {
+        "reference": "cityrt-audit/analysis/palette/italian.json",
+        "ref_mean_luma": 0.554,
+        "ref_luma_std": 0.1584,
+        "ref_mean_saturation": 0.3619,
+        "luma_delta": 0.1641,
+        "sat_delta": -0.2255,
+        "weighted_mean_dE": 20.66,
+        "target_dE": 6.0,
+        "pass": false,
+        "pairs": [
+          {
+            "ref": "#adb477",
+            "ref_weight": 0.443,
+            "render": "#b0bda6",
+            "dE": 21.23
+          },
+          {
+            "ref": "#726658",
+            "ref_weight": 0.156,
+            "render": "#71876d",
+            "dE": 18.87
+          },
+          {
+            "ref": "#b86346",
+            "ref_weight": 0.147,
+            "render": "#b6836f",
+            "dE": 21.12
+          },
+          {
+            "ref": "#534134",
+            "ref_weight": 0.114,
+            "render": "#71876d",
+            "dE": 31.48
+          },
+          {
+            "ref": "#d5b491",
+            "ref_weight": 0.086,
+            "render": "#c9a192",
+            "dE": 11.62
+          },
+          {
+            "ref": "#a28970",
+            "ref_weight": 0.054,
+            "render": "#b6836f",
+            "dE": 11.41
+          }
+        ]
+      }
+    },
+    {
+      "file": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/work/renders/lookdev/kodingareng_B_punch.png",
+      "size": [
+        960,
+        540
+      ],
+      "mean_luma": 0.5558,
+      "luma_std": 0.0824,
+      "mean_saturation": 0.1896,
+      "palette": [
+        {
+          "hex": "#8b957c",
+          "srgb": [
+            0.543,
+            0.585,
+            0.486
+          ],
+          "weight": 0.4572
+        },
+        {
+          "hex": "#86a2a1",
+          "srgb": [
+            0.526,
+            0.634,
+            0.63
+          ],
+          "weight": 0.3759
+        },
+        {
+          "hex": "#5f695a",
+          "srgb": [
+            0.374,
+            0.412,
+            0.354
+          ],
+          "weight": 0.0473
+        },
+        {
+          "hex": "#3f4e3d",
+          "srgb": [
+            0.249,
+            0.304,
+            0.239
+          ],
+          "weight": 0.0417
+        },
+        {
+          "hex": "#79856f",
+          "srgb": [
+            0.474,
+            0.523,
+            0.434
+          ],
+          "weight": 0.0401
+        },
+        {
+          "hex": "#885c4a",
+          "srgb": [
+            0.534,
+            0.36,
+            0.291
+          ],
+          "weight": 0.0378
+        }
+      ],
+      "vs_ref": {
+        "reference": "cityrt-audit/analysis/palette/italian.json",
+        "ref_mean_luma": 0.554,
+        "ref_luma_std": 0.1584,
+        "ref_mean_saturation": 0.3619,
+        "luma_delta": 0.0018,
+        "sat_delta": -0.1723,
+        "weighted_mean_dE": 18.99,
+        "target_dE": 6.0,
+        "pass": false,
+        "pairs": [
+          {
+            "ref": "#adb477",
+            "ref_weight": 0.443,
+            "render": "#8b957c",
+            "dE": 21.65
+          },
+          {
+            "ref": "#726658",
+            "ref_weight": 0.156,
+            "render": "#5f695a",
+            "dE": 9.41
+          },
+          {
+            "ref": "#b86346",
+            "ref_weight": 0.147,
+            "render": "#885c4a",
+            "dE": 22.46
+          },
+          {
+            "ref": "#534134",
+            "ref_weight": 0.114,
+            "render": "#3f4e3d",
+            "dE": 15.44
+          },
+          {
+            "ref": "#d5b491",
+            "ref_weight": 0.086,
+            "render": "#8b957c",
+            "dE": 23.85
+          },
+          {
+            "ref": "#a28970",
+            "ref_weight": 0.054,
+            "render": "#8b957c",
+            "dE": 15.13
+          }
+        ]
+      }
+    },
+    {
+      "file": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/work/renders/lookdev/kodingareng_C_punch_deep.png",
+      "size": [
+        960,
+        540
+      ],
+      "mean_luma": 0.5271,
+      "luma_std": 0.0904,
+      "mean_saturation": 0.206,
+      "palette": [
+        {
+          "hex": "#848f74",
+          "srgb": [
+            0.517,
+            0.56,
+            0.455
+          ],
+          "weight": 0.4705
+        },
+        {
+          "hex": "#7f9b9a",
+          "srgb": [
+            0.497,
+            0.609,
+            0.603
+          ],
+          "weight": 0.3752
+        },
+        {
+          "hex": "#50584a",
+          "srgb": [
+            0.313,
+            0.345,
+            0.291
+          ],
+          "weight": 0.0444
+        },
+        {
+          "hex": "#313e2f",
+          "srgb": [
+            0.192,
+            0.242,
+            0.183
+          ],
+          "weight": 0.0395
+        },
+        {
+          "hex": "#7f5442",
+          "srgb": [
+            0.499,
+            0.33,
+            0.261
+          ],
+          "weight": 0.0376
+        },
+        {
+          "hex": "#6b7761",
+          "srgb": [
+            0.418,
+            0.468,
+            0.379
+          ],
+          "weight": 0.0327
+        }
+      ],
+      "vs_ref": {
+        "reference": "cityrt-audit/analysis/palette/italian.json",
+        "ref_mean_luma": 0.554,
+        "ref_luma_std": 0.1584,
+        "ref_mean_saturation": 0.3619,
+        "luma_delta": -0.0269,
+        "sat_delta": -0.1559,
+        "weighted_mean_dE": 19.92,
+        "target_dE": 6.0,
+        "pass": false,
+        "pairs": [
+          {
+            "ref": "#adb477",
+            "ref_weight": 0.443,
+            "render": "#848f74",
+            "dE": 22.45
+          },
+          {
+            "ref": "#726658",
+            "ref_weight": 0.156,
+            "render": "#50584a",
+            "dE": 11.66
+          },
+          {
+            "ref": "#b86346",
+            "ref_weight": 0.147,
+            "render": "#7f5442",
+            "dE": 23.93
+          },
+          {
+            "ref": "#534134",
+            "ref_weight": 0.114,
+            "render": "#50584a",
+            "dE": 14.4
+          },
+          {
+            "ref": "#d5b491",
+            "ref_weight": 0.086,
+            "render": "#848f74",
+            "dE": 25.42
+          },
+          {
+            "ref": "#a28970",
+            "ref_weight": 0.054,
+            "render": "#848f74",
+            "dE": 15.12
+          }
+        ]
+      }
+    },
+    {
+      "file": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/work/renders/lookdev/kodingareng_D_high_contrast.png",
+      "size": [
+        960,
+        540
+      ],
+      "mean_luma": 0.7057,
+      "luma_std": 0.1035,
+      "mean_saturation": 0.1564,
+      "palette": [
+        {
+          "hex": "#b1bda3",
+          "srgb": [
+            0.695,
+            0.739,
+            0.639
+          ],
+          "weight": 0.4708
+        },
+        {
+          "hex": "#afc9c8",
+          "srgb": [
+            0.685,
+            0.789,
+            0.786
+          ],
+          "weight": 0.3622
+        },
+        {
+          "hex": "#828f7b",
+          "srgb": [
+            0.511,
+            0.56,
+            0.481
+          ],
+          "weight": 0.0548
+        },
+        {
+          "hex": "#4f624b",
+          "srgb": [
+            0.308,
+            0.384,
+            0.295
+          ],
+          "weight": 0.047
+        },
+        {
+          "hex": "#b1765e",
+          "srgb": [
+            0.693,
+            0.462,
+            0.369
+          ],
+          "weight": 0.0367
+        },
+        {
+          "hex": "#cacabb",
+          "srgb": [
+            0.792,
+            0.792,
+            0.735
+          ],
+          "weight": 0.0286
+        }
+      ],
+      "vs_ref": {
+        "reference": "cityrt-audit/analysis/palette/italian.json",
+        "ref_mean_luma": 0.554,
+        "ref_luma_std": 0.1584,
+        "ref_mean_saturation": 0.3619,
+        "luma_delta": 0.1517,
+        "sat_delta": -0.2055,
+        "weighted_mean_dE": 17.97,
+        "target_dE": 6.0,
+        "pass": false,
+        "pairs": [
+          {
+            "ref": "#adb477",
+            "ref_weight": 0.443,
+            "render": "#b1bda3",
+            "dE": 19.37
+          },
+          {
+            "ref": "#726658",
+            "ref_weight": 0.156,
+            "render": "#4f624b",
+            "dE": 15.28
+          },
+          {
+            "ref": "#b86346",
+            "ref_weight": 0.147,
+            "render": "#b1765e",
+            "dE": 14.81
+          },
+          {
+            "ref": "#534134",
+            "ref_weight": 0.114,
+            "render": "#4f624b",
+            "dE": 20.7
+          },
+          {
+            "ref": "#d5b491",
+            "ref_weight": 0.086,
+            "render": "#cacabb",
+            "dE": 18.59
+          },
+          {
+            "ref": "#a28970",
+            "ref_weight": 0.054,
+            "render": "#828f7b",
+            "dE": 16.09
+          }
+        ]
+      }
+    },
+    {
+      "file": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/work/renders/lookdev/kodingareng_E_pbr_neutral.png",
+      "size": [
+        960,
+        540
+      ],
+      "mean_luma": 0.6971,
+      "luma_std": 0.1182,
+      "mean_saturation": 0.2678,
+      "palette": [
+        {
+          "hex": "#a6bf92",
+          "srgb": [
+            0.649,
+            0.749,
+            0.572
+          ],
+          "weight": 0.4736
+        },
+        {
+          "hex": "#98d2d0",
+          "srgb": [
+            0.598,
+            0.825,
+            0.814
+          ],
+          "weight": 0.372
+        },
+        {
+          "hex": "#76876e",
+          "srgb": [
+            0.464,
+            0.53,
+            0.433
+          ],
+          "weight": 0.0549
+        },
+        {
+          "hex": "#465c45",
+          "srgb": [
+            0.276,
+            0.362,
+            0.27
+          ],
+          "weight": 0.0496
+        },
+        {
+          "hex": "#a26850",
+          "srgb": [
+            0.636,
+            0.407,
+            0.314
+          ],
+          "weight": 0.0346
+        },
+        {
+          "hex": "#d89376",
+          "srgb": [
+            0.849,
+            0.576,
+            0.462
+          ],
+          "weight": 0.0153
+        }
+      ],
+      "vs_ref": {
+        "reference": "cityrt-audit/analysis/palette/italian.json",
+        "ref_mean_luma": 0.554,
+        "ref_luma_std": 0.1584,
+        "ref_mean_saturation": 0.3619,
+        "luma_delta": 0.1431,
+        "sat_delta": -0.0941,
+        "weighted_mean_dE": 14.83,
+        "target_dE": 6.0,
+        "pass": false,
+        "pairs": [
+          {
+            "ref": "#adb477",
+            "ref_weight": 0.443,
+            "render": "#a6bf92",
+            "dE": 11.72
+          },
+          {
+            "ref": "#726658",
+            "ref_weight": 0.156,
+            "render": "#76876e",
+            "dE": 17.04
+          },
+          {
+            "ref": "#b86346",
+            "ref_weight": 0.147,
+            "render": "#a26850",
+            "dE": 13.89
+          },
+          {
+            "ref": "#534134",
+            "ref_weight": 0.114,
+            "render": "#465c45",
+            "dE": 20.76
+          },
+          {
+            "ref": "#d5b491",
+            "ref_weight": 0.086,
+            "render": "#d89376",
+            "dE": 18.43
+          },
+          {
+            "ref": "#a28970",
+            "ref_weight": 0.054,
+            "render": "#76876e",
+            "dE": 18.14
+          }
+        ]
+      }
+    },
+    {
+      "file": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/work/renders/lookdev/kodingareng_F_pbr_neutral_dk.png",
+      "size": [
+        960,
+        540
+      ],
+      "mean_luma": 0.6655,
+      "luma_std": 0.1254,
+      "mean_saturation": 0.2757,
+      "palette": [
+        {
+          "hex": "#9fb78a",
+          "srgb": [
+            0.622,
+            0.717,
+            0.542
+          ],
+          "weight": 0.4659
+        },
+        {
+          "hex": "#91cac7",
+          "srgb": [
+            0.567,
+            0.792,
+            0.78
+          ],
+          "weight": 0.3623
+        },
+        {
+          "hex": "#697860",
+          "srgb": [
+            0.41,
+            0.469,
+            0.375
+          ],
+          "weight": 0.0537
+        },
+        {
+          "hex": "#384c36",
+          "srgb": [
+            0.219,
+            0.299,
+            0.211
+          ],
+          "weight": 0.0496
+        },
+        {
+          "hex": "#a96b52",
+          "srgb": [
+            0.663,
+            0.421,
+            0.322
+          ],
+          "weight": 0.0455
+        },
+        {
+          "hex": "#cfd0af",
+          "srgb": [
+            0.812,
+            0.816,
+            0.687
+          ],
+          "weight": 0.0231
+        }
+      ],
+      "vs_ref": {
+        "reference": "cityrt-audit/analysis/palette/italian.json",
+        "ref_mean_luma": 0.554,
+        "ref_luma_std": 0.1584,
+        "ref_mean_saturation": 0.3619,
+        "luma_delta": 0.1115,
+        "sat_delta": -0.0862,
+        "weighted_mean_dE": 13.4,
+        "target_dE": 6.0,
+        "pass": false,
+        "pairs": [
+          {
+            "ref": "#adb477",
+            "ref_weight": 0.443,
+            "render": "#9fb78a",
+            "dE": 11.16
+          },
+          {
+            "ref": "#726658",
+            "ref_weight": 0.156,
+            "render": "#697860",
+            "dE": 13.6
+          },
+          {
+            "ref": "#b86346",
+            "ref_weight": 0.147,
+            "render": "#a96b52",
+            "dE": 12.18
+          },
+          {
+            "ref": "#534134",
+            "ref_weight": 0.114,
+            "render": "#384c36",
+            "dE": 18.81
+          },
+          {
+            "ref": "#d5b491",
+            "ref_weight": 0.086,
+            "render": "#cfd0af",
+            "dE": 15.83
+          },
+          {
+            "ref": "#a28970",
+            "ref_weight": 0.054,
+            "render": "#a96b52",
+            "dE": 19.19
+          }
+        ]
+      }
+    },
+    {
+      "file": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/work/renders/lookdev/kodingareng_G_base_contrast.png",
+      "size": [
+        960,
+        540
+      ],
+      "mean_luma": 0.6707,
+      "luma_std": 0.0744,
+      "mean_saturation": 0.133,
+      "palette": [
+        {
+          "hex": "#a9b19d",
+          "srgb": [
+            0.661,
+            0.696,
+            0.615
+          ],
+          "weight": 0.4768
+        },
+        {
+          "hex": "#a6bcbb",
+          "srgb": [
+            0.651,
+            0.736,
+            0.733
+          ],
+          "weight": 0.3777
+        },
+        {
+          "hex": "#8f9888",
+          "srgb": [
+            0.562,
+            0.595,
+            0.533
+          ],
+          "weight": 0.044
+        },
+        {
+          "hex": "#aa7e6c",
+          "srgb": [
+            0.667,
+            0.493,
+            0.423
+          ],
+          "weight": 0.0369
+        },
+        {
+          "hex": "#748271",
+          "srgb": [
+            0.456,
+            0.511,
+            0.443
+          ],
+          "weight": 0.0353
+        },
+        {
+          "hex": "#5a6b57",
+          "srgb": [
+            0.352,
+            0.419,
+            0.34
+          ],
+          "weight": 0.0293
+        }
+      ],
+      "vs_ref": {
+        "reference": "cityrt-audit/analysis/palette/italian.json",
+        "ref_mean_luma": 0.554,
+        "ref_luma_std": 0.1584,
+        "ref_mean_saturation": 0.3619,
+        "luma_delta": 0.1167,
+        "sat_delta": -0.2289,
+        "weighted_mean_dE": 19.62,
+        "target_dE": 6.0,
+        "pass": false,
+        "pairs": [
+          {
+            "ref": "#adb477",
+            "ref_weight": 0.443,
+            "render": "#a9b19d",
+            "dE": 21.58
+          },
+          {
+            "ref": "#726658",
+            "ref_weight": 0.156,
+            "render": "#5a6b57",
+            "dE": 12.98
+          },
+          {
+            "ref": "#b86346",
+            "ref_weight": 0.147,
+            "render": "#aa7e6c",
+            "dE": 23.21
+          },
+          {
+            "ref": "#534134",
+            "ref_weight": 0.114,
+            "render": "#5a6b57",
+            "dE": 21.66
+          },
+          {
+            "ref": "#d5b491",
+            "ref_weight": 0.086,
+            "render": "#a9b19d",
+            "dE": 19.22
+          },
+          {
+            "ref": "#a28970",
+            "ref_weight": 0.054,
+            "render": "#aa7e6c",
+            "dE": 9.38
+          }
+        ]
+      }
+    },
+    {
+      "file": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/work/renders/lookdev/kodingareng_H_standard.png",
+      "size": [
+        960,
+        540
+      ],
+      "mean_luma": 0.6124,
+      "luma_std": 0.0927,
+      "mean_saturation": 0.2437,
+      "palette": [
+        {
+          "hex": "#90a681",
+          "srgb": [
+            0.566,
+            0.65,
+            0.507
+          ],
+          "weight": 0.4617
+        },
+        {
+          "hex": "#86b6b4",
+          "srgb": [
+            0.525,
+            0.714,
+            0.706
+          ],
+          "weight": 0.3626
+        },
+        {
+          "hex": "#7c705e",
+          "srgb": [
+            0.487,
+            0.438,
+            0.367
+          ],
+          "weight": 0.0794
+        },
+        {
+          "hex": "#4d5c4c",
+          "srgb": [
+            0.302,
+            0.36,
+            0.299
+          ],
+          "weight": 0.0555
+        },
+        {
+          "hex": "#bcbea3",
+          "srgb": [
+            0.736,
+            0.745,
+            0.638
+          ],
+          "weight": 0.0226
+        },
+        {
+          "hex": "#b9856e",
+          "srgb": [
+            0.725,
+            0.52,
+            0.43
+          ],
+          "weight": 0.0181
+        }
+      ],
+      "vs_ref": {
+        "reference": "cityrt-audit/analysis/palette/italian.json",
+        "ref_mean_luma": 0.554,
+        "ref_luma_std": 0.1584,
+        "ref_mean_saturation": 0.3619,
+        "luma_delta": 0.0584,
+        "sat_delta": -0.1182,
+        "weighted_mean_dE": 14.33,
+        "target_dE": 6.0,
+        "pass": false,
+        "pairs": [
+          {
+            "ref": "#adb477",
+            "ref_weight": 0.443,
+            "render": "#90a681",
+            "dE": 15.15
+          },
+          {
+            "ref": "#726658",
+            "ref_weight": 0.156,
+            "render": "#7c705e",
+            "dE": 4.5
+          },
+          {
+            "ref": "#b86346",
+            "ref_weight": 0.147,
+            "render": "#b9856e",
+            "dE": 20.19
+          },
+          {
+            "ref": "#534134",
+            "ref_weight": 0.114,
+            "render": "#4d5c4c",
+            "dE": 17.4
+          },
+          {
+            "ref": "#d5b491",
+            "ref_weight": 0.086,
+            "render": "#bcbea3",
+            "dE": 15.25
+          },
+          {
+            "ref": "#a28970",
+            "ref_weight": 0.054,
+            "render": "#b9856e",
+            "dE": 12.08
+          }
+        ]
+      }
+    }
+  ]
+}

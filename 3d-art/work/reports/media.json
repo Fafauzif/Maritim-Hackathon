@@ -1,0 +1,45 @@
+{
+  "clips": [
+    {
+      "path": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/output/coasts/kodingareng/travel.mp4",
+      "width": 1920,
+      "height": 1080,
+      "fps": 24.0,
+      "codec": "h264",
+      "frames": 132,
+      "duration_s": 5.5,
+      "bytes": 4863348
+    },
+    {
+      "path": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/output/coasts/tunda/travel.mp4",
+      "width": 1920,
+      "height": 1080,
+      "fps": 24.0,
+      "codec": "h264",
+      "frames": 132,
+      "duration_s": 5.5,
+      "bytes": 3596237
+    },
+    {
+      "path": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/output/coasts/amur/travel.mp4",
+      "width": 1920,
+      "height": 1080,
+      "fps": 24.0,
+      "codec": "h264",
+      "frames": 132,
+      "duration_s": 5.5,
+      "bytes": 1680062
+    }
+  ],
+  "failures": [],
+  "reel": {
+    "path": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/output/coast-reel.mp4",
+    "width": 1920,
+    "height": 1080,
+    "fps": 24.0,
+    "codec": "h264",
+    "frames": 492,
+    "duration_s": 20.5,
+    "bytes": 10560243
+  }
+}

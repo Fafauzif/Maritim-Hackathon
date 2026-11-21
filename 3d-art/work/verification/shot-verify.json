@@ -1,0 +1,876 @@
+{
+  "sites": {
+    "kodingareng": {
+      "site": "kodingareng",
+      "checkpoint": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\work\\checkpoints\\03-kodingareng.blend",
+      "shots": {
+        "COAST_OVERVIEW": {
+          "hide": [
+            "SEC_Section"
+          ],
+          "coverage": {
+            "water": 0.372,
+            "vegetation": 0.0456,
+            "land": 0.5117,
+            "building": 0.0651,
+            "survey": 0.0056,
+            "background": 0.0
+          },
+          "PROP_SurveyBoat": {
+            "name": "PROP_SurveyBoat",
+            "px_bbox": [
+              548.0,
+              70.3,
+              590.9,
+              128.4
+            ],
+            "px_size": [
+              42.9,
+              58.1
+            ],
+            "in_frame": true,
+            "frame_edges": []
+          },
+          "PROP_Jetty": {
+            "name": "PROP_Jetty",
+            "px_bbox": [
+              393.8,
+              -19.1,
+              692.8,
+              218.1
+            ],
+            "px_size": [
+              299.0,
+              237.1
+            ],
+            "in_frame": true,
+            "frame_edges": [
+              "bottom"
+            ]
+          },
+          "SEC_LandCut": {
+            "hidden": true
+          },
+          "SEC_WaterBody": {
+            "hidden": true
+          }
+        },
+        "COAST_PLAN": {
+          "hide": [
+            "SEC_Section"
+          ],
+          "coverage": {
+            "water": 0.6493,
+            "land": 0.3134,
+            "vegetation": 0.0208,
+            "building": 0.0156,
+            "survey": 0.0009,
+            "background": 0.0
+          },
+          "PROP_SurveyBoat": {
+            "name": "PROP_SurveyBoat",
+            "px_bbox": [
+              528.7,
+              28.6,
+              547.7,
+              57.5
+            ],
+            "px_size": [
+              19.0,
+              28.8
+            ],
+            "in_frame": true,
+            "frame_edges": []
+          },
+          "PROP_Jetty": {
+            "name": "PROP_Jetty",
+            "px_bbox": [
+              455.0,
+              -15.1,
+              590.8,
+              119.6
+            ],
+            "px_size": [
+              135.8,
+              134.7
+            ],
+            "in_frame": true,
+            "frame_edges": [
+              "bottom"
+            ]
+          },
+          "SEC_LandCut": {
+            "hidden": true
+          },
+          "SEC_WaterBody": {
+            "hidden": true
+          }
+        },
+        "COAST_APPROACH": {
+          "hide": [
+            "SEC_Section"
+          ],
+          "coverage": {
+            "water": 0.4605,
+            "vegetation": 0.0595,
+            "land": 0.3958,
+            "building": 0.0716,
+            "survey": 0.0126,
+            "background": 0.0
+          },
+          "PROP_SurveyBoat": {
+            "name": "PROP_SurveyBoat",
+            "px_bbox": [
+              569.2,
+              89.2,
+              616.7,
+              172.3
+            ],
+            "px_size": [
+              47.5,
+              83.1
+            ],
+            "in_frame": true,
+            "frame_edges": []
+          },
+          "PROP_Jetty": {
+            "name": "PROP_Jetty",
+            "px_bbox": [
+              208.5,
+              -98.2,
+              895.3,
+              294.2
+            ],
+            "px_size": [
+              686.9,
+              392.4
+            ],
+            "in_frame": true,
+            "frame_edges": [
+              "bottom"
+            ]
+          },
+          "SEC_LandCut": {
+            "hidden": true
+          },
+          "SEC_WaterBody": {
+            "hidden": true
+          }
+        },
+        "COAST_DETAIL": {
+          "hide": [
+            "SEC_Section"
+          ],
+          "coverage": {
+            "vegetation": 0.0673,
+            "water": 0.3793,
+            "building": 0.0495,
+            "land": 0.2604,
+            "survey": 0.0317,
+            "background": 0.2118
+          },
+          "PROP_SurveyBoat": {
+            "name": "PROP_SurveyBoat",
+            "px_bbox": [
+              518.1,
+              114.5,
+              622.6,
+              223.5
+            ],
+            "px_size": [
+              104.5,
+              109.0
+            ],
+            "in_frame": true,
+            "frame_edges": []
+          },
+          "PROP_Jetty": {
+            "name": "PROP_Jetty",
+            "px_bbox": [
+              -24.9,
+              -234.4,
+              1106.6,
+              301.3
+            ],
+            "px_size": [
+              1131.4,
+              535.7
+            ],
+            "in_frame": true,
+            "frame_edges": [
+              "left",
+              "right",
+              "bottom"
+            ]
+          },
+          "SEC_LandCut": {
+            "hidden": true
+          },
+          "SEC_WaterBody": {
+            "hidden": true
+          }
+        },
+        "COAST_SECTION": {
+          "hide": [
+            "ENV_Land",
+            "ENV_Water",
+            "BLD_Village",
+            "VEG_Scatter"
+          ],
+          "coverage": {
+            "section": 0.5777,
+            "survey": 0.0082,
+            "background": 0.4141
+          },
+          "PROP_SurveyBoat": {
+            "name": "PROP_SurveyBoat",
+            "px_bbox": [
+              414.9,
+              250.9,
+              544.8,
+              291.9
+            ],
+            "px_size": [
+              129.9,
+              41.0
+            ],
+            "in_frame": true,
+            "frame_edges": []
+          },
+          "PROP_Jetty": {
+            "name": "PROP_Jetty",
+            "px_bbox": [
+              218.1,
+              211.0,
+              824.8,
+              282.6
+            ],
+            "px_size": [
+              606.7,
+              71.7
+            ],
+            "in_frame": true,
+            "frame_edges": []
+          },
+          "SEC_LandCut": {
+            "name": "SEC_LandCut",
+            "px_bbox": [
+              60.7,
+              -153.3,
+              1816.5,
+              507.6
+            ],
+            "px_size": [
+              1755.7,
+              660.9
+            ],
+            "in_frame": true,
+            "frame_edges": [
+              "right",
+              "bottom"
+            ]
+          },
+          "SEC_WaterBody": {
+            "name": "SEC_WaterBody",
+            "px_bbox": [
+              60.7,
+              -137.6,
+              1816.5,
+              260.7
+            ],
+            "px_size": [
+              1755.7,
+              398.3
+            ],
+            "in_frame": true,
+            "frame_edges": [
+              "right",
+              "bottom"
+            ]
+          }
+        }
+      },
+      "objects": 179,
+      "triangles_est": 136946
+    },
+    "tunda": {
+      "site": "tunda",
+      "checkpoint": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\work\\checkpoints\\03-tunda.blend",
+      "shots": {
+        "COAST_OVERVIEW": {
+          "hide": [
+            "SEC_Section"
+          ],
+          "coverage": {
+            "water": 0.2609,
+            "land": 0.6654,
+            "vegetation": 0.0091,
+            "building": 0.0599,
+            "survey": 0.0048,
+            "background": 0.0
+          },
+          "PROP_SurveyBoat": {
+            "name": "PROP_SurveyBoat",
+            "px_bbox": [
+              105.3,
+              122.5,
+              133.8,
+              170.2
+            ],
+            "px_size": [
+              28.5,
+              47.8
+            ],
+            "in_frame": true,
+            "frame_edges": []
+          },
+          "PROP_Jetty": {
+            "name": "PROP_Jetty",
+            "px_bbox": [
+              76.9,
+              106.8,
+              285.7,
+              248.5
+            ],
+            "px_size": [
+              208.8,
+              141.7
+            ],
+            "in_frame": true,
+            "frame_edges": []
+          },
+          "SEC_LandCut": {
+            "hidden": true
+          },
+          "SEC_WaterBody": {
+            "hidden": true
+          }
+        },
+        "COAST_PLAN": {
+          "hide": [
+            "SEC_Section"
+          ],
+          "coverage": {
+            "water": 0.4978,
+            "land": 0.4718,
+            "vegetation": 0.0109,
+            "building": 0.0178,
+            "survey": 0.0017,
+            "background": 0.0
+          },
+          "PROP_SurveyBoat": {
+            "name": "PROP_SurveyBoat",
+            "px_bbox": [
+              178.7,
+              126.1,
+              195.2,
+              151.1
+            ],
+            "px_size": [
+              16.5,
+              25.0
+            ],
+            "in_frame": true,
+            "frame_edges": []
+          },
+          "PROP_Jetty": {
+            "name": "PROP_Jetty",
+            "px_bbox": [
+              169.6,
+              123.5,
+              260.0,
+              211.5
+            ],
+            "px_size": [
+              90.3,
+              88.0
+            ],
+            "in_frame": true,
+            "frame_edges": []
+          },
+          "SEC_LandCut": {
+            "hidden": true
+          },
+          "SEC_WaterBody": {
+            "hidden": true
+          }
+        },
+        "COAST_APPROACH": {
+          "hide": [
+            "SEC_Section"
+          ],
+          "coverage": {
+            "land": 0.1059,
+            "building": 0.2856,
+            "vegetation": 0.0065,
+            "water": 0.5521,
+            "survey": 0.0499,
+            "background": 0.0
+          },
+          "PROP_SurveyBoat": {
+            "name": "PROP_SurveyBoat",
+            "px_bbox": [
+              317.5,
+              108.1,
+              508.7,
+              212.3
+            ],
+            "px_size": [
+              191.2,
+              104.1
+            ],
+            "in_frame": true,
+            "frame_edges": []
+          },
+          "PROP_Jetty": {
+            "name": "PROP_Jetty",
+            "px_bbox": [
+              -20.0,
+              -10.1,
+              812.0,
+              443.7
+            ],
+            "px_size": [
+              832.1,
+              453.8
+            ],
+            "in_frame": true,
+            "frame_edges": [
+              "left",
+              "bottom"
+            ]
+          },
+          "SEC_LandCut": {
+            "hidden": true
+          },
+          "SEC_WaterBody": {
+            "hidden": true
+          }
+        },
+        "COAST_DETAIL": {
+          "hide": [
+            "SEC_Section"
+          ],
+          "coverage": {
+            "vegetation": 0.0135,
+            "water": 0.4948,
+            "land": 0.0929,
+            "building": 0.1641,
+            "survey": 0.0365,
+            "background": 0.1984
+          },
+          "PROP_SurveyBoat": {
+            "name": "PROP_SurveyBoat",
+            "px_bbox": [
+              357.5,
+              146.1,
+              543.9,
+              235.9
+            ],
+            "px_size": [
+              186.5,
+              89.8
+            ],
+            "in_frame": true,
+            "frame_edges": []
+          },
+          "PROP_Jetty": {
+            "name": "PROP_Jetty",
+            "px_bbox": [
+              112.1,
+              45.1,
+              851.0,
+              315.9
+            ],
+            "px_size": [
+              739.0,
+              270.8
+            ],
+            "in_frame": true,
+            "frame_edges": []
+          },
+          "SEC_LandCut": {
+            "hidden": true
+          },
+          "SEC_WaterBody": {
+            "hidden": true
+          }
+        },
+        "COAST_SECTION": {
+          "hide": [
+            "ENV_Land",
+            "ENV_Water",
+            "BLD_Village",
+            "VEG_Scatter"
+          ],
+          "coverage": {
+            "section": 0.5477,
+            "survey": 0.0074,
+            "background": 0.4449
+          },
+          "PROP_SurveyBoat": {
+            "name": "PROP_SurveyBoat",
+            "px_bbox": [
+              456.3,
+              264.4,
+              503.7,
+              304.0
+            ],
+            "px_size": [
+              47.4,
+              39.6
+            ],
+            "in_frame": true,
+            "frame_edges": []
+          },
+          "PROP_Jetty": {
+            "name": "PROP_Jetty",
+            "px_bbox": [
+              367.3,
+              225.8,
+              977.4,
+              295.1
+            ],
+            "px_size": [
+              610.2,
+              69.2
+            ],
+            "in_frame": true,
+            "frame_edges": [
+              "right"
+            ]
+          },
+          "SEC_LandCut": {
+            "name": "SEC_LandCut",
+            "px_bbox": [
+              -102.8,
+              -156.3,
+              1640.5,
+              507.6
+            ],
+            "px_size": [
+              1743.4,
+              663.9
+            ],
+            "in_frame": true,
+            "frame_edges": [
+              "left",
+              "right",
+              "bottom"
+            ]
+          },
+          "SEC_WaterBody": {
+            "name": "SEC_WaterBody",
+            "px_bbox": [
+              -102.8,
+              -141.2,
+              1640.5,
+              273.9
+            ],
+            "px_size": [
+              1743.4,
+              415.1
+            ],
+            "in_frame": true,
+            "frame_edges": [
+              "left",
+              "right",
+              "bottom"
+            ]
+          }
+        }
+      },
+      "objects": 243,
+      "triangles_est": 166416
+    },
+    "amur": {
+      "site": "amur",
+      "checkpoint": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\work\\checkpoints\\03-amur.blend",
+      "shots": {
+        "COAST_OVERVIEW": {
+          "hide": [
+            "SEC_Section"
+          ],
+          "coverage": {
+            "land": 0.2799,
+            "water": 0.6667,
+            "building": 0.0482,
+            "survey": 0.0048,
+            "vegetation": 0.0004,
+            "background": 0.0
+          },
+          "PROP_SurveyBoat": {
+            "name": "PROP_SurveyBoat",
+            "px_bbox": [
+              476.6,
+              308.0,
+              511.0,
+              349.4
+            ],
+            "px_size": [
+              34.4,
+              41.4
+            ],
+            "in_frame": true,
+            "frame_edges": []
+          },
+          "PROP_Jetty": {
+            "name": "PROP_Jetty",
+            "px_bbox": [
+              438.6,
+              253.5,
+              673.3,
+              413.7
+            ],
+            "px_size": [
+              234.7,
+              160.2
+            ],
+            "in_frame": true,
+            "frame_edges": []
+          },
+          "SEC_LandCut": {
+            "hidden": true
+          },
+          "SEC_WaterBody": {
+            "hidden": true
+          }
+        },
+        "COAST_PLAN": {
+          "hide": [
+            "SEC_Section"
+          ],
+          "coverage": {
+            "land": 0.6602,
+            "water": 0.3251,
+            "building": 0.0113,
+            "vegetation": 0.0026,
+            "survey": 0.0009,
+            "background": 0.0
+          },
+          "PROP_SurveyBoat": {
+            "name": "PROP_SurveyBoat",
+            "px_bbox": [
+              531.6,
+              447.5,
+              545.3,
+              468.1
+            ],
+            "px_size": [
+              13.6,
+              20.7
+            ],
+            "in_frame": true,
+            "frame_edges": []
+          },
+          "PROP_Jetty": {
+            "name": "PROP_Jetty",
+            "px_bbox": [
+              517.3,
+              420.7,
+              609.9,
+              514.5
+            ],
+            "px_size": [
+              92.6,
+              93.8
+            ],
+            "in_frame": true,
+            "frame_edges": []
+          },
+          "SEC_LandCut": {
+            "hidden": true
+          },
+          "SEC_WaterBody": {
+            "hidden": true
+          }
+        },
+        "COAST_APPROACH": {
+          "hide": [
+            "SEC_Section"
+          ],
+          "coverage": {
+            "water": 0.8108,
+            "land": 0.1016,
+            "vegetation": 0.0004,
+            "building": 0.026,
+            "survey": 0.0126,
+            "background": 0.0486
+          },
+          "PROP_SurveyBoat": {
+            "name": "PROP_SurveyBoat",
+            "px_bbox": [
+              378.4,
+              239.5,
+              477.7,
+              298.3
+            ],
+            "px_size": [
+              99.3,
+              58.7
+            ],
+            "in_frame": true,
+            "frame_edges": []
+          },
+          "PROP_Jetty": {
+            "name": "PROP_Jetty",
+            "px_bbox": [
+              249.3,
+              154.5,
+              899.2,
+              349.2
+            ],
+            "px_size": [
+              649.9,
+              194.6
+            ],
+            "in_frame": true,
+            "frame_edges": []
+          },
+          "SEC_LandCut": {
+            "hidden": true
+          },
+          "SEC_WaterBody": {
+            "hidden": true
+          }
+        },
+        "COAST_DETAIL": {
+          "hide": [
+            "SEC_Section"
+          ],
+          "coverage": {
+            "water": 0.5786,
+            "land": 0.0582,
+            "vegetation": 0.0004,
+            "building": 0.0386,
+            "survey": 0.0282,
+            "background": 0.296
+          },
+          "PROP_SurveyBoat": {
+            "name": "PROP_SurveyBoat",
+            "px_bbox": [
+              149.2,
+              163.0,
+              286.1,
+              253.0
+            ],
+            "px_size": [
+              136.9,
+              90.0
+            ],
+            "in_frame": true,
+            "frame_edges": []
+          },
+          "PROP_Jetty": {
+            "name": "PROP_Jetty",
+            "px_bbox": [
+              -45.1,
+              -30.1,
+              964.0,
+              303.2
+            ],
+            "px_size": [
+              1009.1,
+              333.3
+            ],
+            "in_frame": true,
+            "frame_edges": [
+              "left",
+              "right",
+              "bottom"
+            ]
+          },
+          "SEC_LandCut": {
+            "hidden": true
+          },
+          "SEC_WaterBody": {
+            "hidden": true
+          }
+        },
+        "COAST_SECTION": {
+          "hide": [
+            "ENV_Land",
+            "ENV_Water",
+            "BLD_Village",
+            "VEG_Scatter"
+          ],
+          "coverage": {
+            "survey": 0.0056,
+            "section": 0.8316,
+            "background": 0.1628
+          },
+          "PROP_SurveyBoat": {
+            "name": "PROP_SurveyBoat",
+            "px_bbox": [
+              434.2,
+              434.5,
+              526.0,
+              478.4
+            ],
+            "px_size": [
+              91.7,
+              43.9
+            ],
+            "in_frame": true,
+            "frame_edges": []
+          },
+          "PROP_Jetty": {
+            "name": "PROP_Jetty",
+            "px_bbox": [
+              337.4,
+              391.6,
+              961.0,
+              468.5
+            ],
+            "px_size": [
+              623.6,
+              76.9
+            ],
+            "in_frame": true,
+            "frame_edges": [
+              "right"
+            ]
+          },
+          "SEC_LandCut": {
+            "name": "SEC_LandCut",
+            "px_bbox": [
+              -756.6,
+              20.4,
+              1632.3,
+              507.6
+            ],
+            "px_size": [
+              2388.9,
+              487.2
+            ],
+            "in_frame": true,
+            "frame_edges": [
+              "left",
+              "right"
+            ]
+          },
+          "SEC_WaterBody": {
+            "name": "SEC_WaterBody",
+            "px_bbox": [
+              -756.6,
+              34.7,
+              1632.3,
+              445.0
+            ],
+            "px_size": [
+              2388.9,
+              410.3
+            ],
+            "in_frame": true,
+            "frame_edges": [
+              "left",
+              "right"
+            ]
+          }
+        }
+      },
+      "objects": 468,
+      "triangles_est": 146300
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "kit",
+  "packed": true,
+  "blend": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\output\\kit\\common-kit.blend",
+  "glb": {
+    "path": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\output\\kit\\common-kit.glb",
+    "bytes": 82664
+  },
+  "outline_modifiers_removed": 5,
+  "exported_objects": 10,
+  "scene_stats": {
+    "objects": 55,
+    "mesh_objects": 28,
+    "triangles_est": 8890,
+    "materials": 56,
+    "images": 2,
+    "has_water_object": false,
+    "cameras": [
+      "KIT_MAT_CAM_0",
+      "KIT_MAT_CAM_1",
+      "KIT_MAT_CAM_2",
+      "KIT_MAT_CAM_3",
+      "KIT_SHEET_CAM"
+    ],
+    "lights": [
+      "KIT_Top_Softbox",
+      "LGT_Sky_Fill",
+      "LGT_Sun_Key"
+    ]
+  }
+}

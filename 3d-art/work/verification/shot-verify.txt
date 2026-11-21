@@ -1,0 +1,18 @@
+kodingareng  objects=179 tris~136946
+  COAST_OVERVIEW   water= 37.2% land= 51.2% bld= 6.5% veg= 4.6% kit= 0.6% sec= 0.0% bg=  0.0% boat=42x58px @(548,70) frame=yes
+  COAST_PLAN       water= 64.9% land= 31.3% bld= 1.6% veg= 2.1% kit= 0.1% sec= 0.0% bg=  0.0% boat=19x28px @(529,29) frame=yes
+  COAST_APPROACH   water= 46.1% land= 39.6% bld= 7.2% veg= 5.9% kit= 1.3% sec= 0.0% bg=  0.0% boat=47x83px @(569,89) frame=yes
+  COAST_DETAIL     water= 37.9% land= 26.0% bld= 5.0% veg= 6.7% kit= 3.2% sec= 0.0% bg= 21.2% boat=104x109px @(518,114) frame=yes
+  COAST_SECTION    water=  0.0% land=  0.0% bld= 0.0% veg= 0.0% kit= 0.8% sec=57.8% bg= 41.4% boat=129x41px @(415,251) frame=yes
+tunda  objects=243 tris~166416
+  COAST_OVERVIEW   water= 26.1% land= 66.5% bld= 6.0% veg= 0.9% kit= 0.5% sec= 0.0% bg=  0.0% boat=28x47px @(105,122) frame=yes
+  COAST_PLAN       water= 49.8% land= 47.2% bld= 1.8% veg= 1.1% kit= 0.2% sec= 0.0% bg=  0.0% boat=16x25px @(179,126) frame=yes
+  COAST_APPROACH   water= 55.2% land= 10.6% bld=28.6% veg= 0.7% kit= 5.0% sec= 0.0% bg=  0.0% boat=191x104px @(318,108) frame=yes
+  COAST_DETAIL     water= 49.5% land=  9.3% bld=16.4% veg= 1.4% kit= 3.6% sec= 0.0% bg= 19.8% boat=186x89px @(358,146) frame=yes
+  COAST_SECTION    water=  0.0% land=  0.0% bld= 0.0% veg= 0.0% kit= 0.7% sec=54.8% bg= 44.5% boat=47x39px @(456,264) frame=yes
+amur  objects=468 tris~146300
+  COAST_OVERVIEW   water= 66.7% land= 28.0% bld= 4.8% veg= 0.0% kit= 0.5% sec= 0.0% bg=  0.0% boat=34x41px @(477,308) frame=yes
+  COAST_PLAN       water= 32.5% land= 66.0% bld= 1.1% veg= 0.3% kit= 0.1% sec= 0.0% bg=  0.0% boat=13x20px @(532,448) frame=yes
+  COAST_APPROACH   water= 81.1% land= 10.2% bld= 2.6% veg= 0.0% kit= 1.3% sec= 0.0% bg=  4.9% boat=99x58px @(378,240) frame=yes
+  COAST_DETAIL     water= 57.9% land=  5.8% bld= 3.9% veg= 0.0% kit= 2.8% sec= 0.0% bg= 29.6% boat=136x90px @(149,163) frame=yes
+  COAST_SECTION    water=  0.0% land=  0.0% bld= 0.0% veg= 0.0% kit= 0.6% sec=83.2% bg= 16.3% boat=91x43px @(434,434) frame=yes

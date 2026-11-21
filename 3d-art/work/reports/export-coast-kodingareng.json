@@ -1,0 +1,45 @@
+{
+  "kind": "coast",
+  "site": "kodingareng",
+  "packed": true,
+  "blend": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\output\\coasts\\kodingareng\\scene.blend",
+  "glb": {
+    "path": "C:\\Users\\fauzi\\OneDrive\\Desktop\\DSH\\Maritim Hackathon\\3d-art\\output\\coasts\\kodingareng\\coast.glb",
+    "bytes": 2966900
+  },
+  "outline_modifiers_removed": 1,
+  "exported_objects": 166,
+  "scene_stats": {
+    "objects": 179,
+    "mesh_objects": 165,
+    "triangles_est": 136946,
+    "materials": 21,
+    "images": 2,
+    "has_water_object": true,
+    "cameras": [
+      "COAST_APPROACH",
+      "COAST_DETAIL",
+      "COAST_OVERVIEW",
+      "COAST_PLAN",
+      "COAST_SECTION"
+    ],
+    "lights": [
+      "LGT_Sky_Fill",
+      "LGT_Sun_Key"
+    ]
+  },
+  "export": {
+    "cameras": false,
+    "lights": false,
+    "yup": true,
+    "apply": true,
+    "collections": [
+      "ENV_Land",
+      "ENV_Water",
+      "BLD_Village",
+      "PROP_Survey",
+      "VEG_Scatter",
+      "CAM_Rigs"
+    ]
+  }
+}

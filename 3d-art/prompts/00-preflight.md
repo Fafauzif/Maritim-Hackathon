@@ -1,0 +1,9 @@
+# DSH prompt 00 · Preflight and audit intake
+
+Execute this within the completed REA project. Read `3d-art/DSH_START_PROMPT.md`, `brief/REA_HANDOFF.md`, `brief/OUTPUT_CONTRACT.md`, and `brief/WORKFLOW_AND_BUDGET.md`. Paths under `brief/` are relative to `3d-art/`.
+
+1. Resolve project, package, work and output roots. Inspect any existing scene or outputs without modifying them. Write the initial work progress record and select a versioned output folder if an earlier delivery exists.
+2. Discover the actual Blender MCP tool/schema and summarize the active scene. Verify Blender sees the same full paths as your harness. Work in a saved disposable scene. If the connected window has unsaved work, use a separate project instance or routine recovery before issuing any potentially destructive operation. Log bpy and GPU information actually available. My intended system is Blender 5.2.2 / RTX 4060 Laptop 8 GB.
+3. Create a visibly asymmetric test object, e.g. a sloped block, ochre sphere and teal floor, with a camera and sun. Save a smoke `.blend` and render a small PNG. Open the PNG via the actual image-return channel. Describe where the ochre sphere appears and how you obtained the result. Remove nothing from my file tree. If images cannot be opened, follow `91-recover.md`.
+4. Find the actual REA result folder. The optional `python 3d-art/tools/inspect_audit.py cityrt-audit` reports the expected files and observed discovery only. Read the outputs directly. Verify evidence for the style, camera, silhouette, water, light and motion. Specify one primary observed style family and write `review/audit-intake.md`. Do not run REA or use its scripts to create anything. Proceed with provisional art where audit evidence is incomplete, and preserve that status for final review.
+5. Confirm one sample output path from Blender and a reproducible saved file. Log what succeeded, checkpoints, and next phase. Continue to 01.

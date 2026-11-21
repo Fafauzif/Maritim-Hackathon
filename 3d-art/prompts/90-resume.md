@@ -1,0 +1,3 @@
+# DSH resume prompt
+
+Read `3d-art/DSH_START_PROMPT.md` and `3d-art/work/progress.json`. Find the last real checkpoint and open or verify its `.blend` path before editing. Compare the progress claim against files on disk and audit-intake status. Pick the earliest phase with incomplete output, then run its numbered prompt and continue. Preserve previously accepted files and a rollback checkpoint. Reuse rendered frame sequences and complete only missing or invalid frames. Run 06 at the end. If the progress file is missing, reconstruct a minimal ledger from actual files before deciding what to skip.

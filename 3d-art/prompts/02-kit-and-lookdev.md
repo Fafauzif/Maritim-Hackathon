@@ -1,0 +1,8 @@
+# DSH prompt 02 · Original asset kit and look development
+
+Read the audit intake, the place boards, the visual direction, and the Blender workstation brief. Inspect all blockout proofs and the audit’s supported style examples. Make actual editable Blender assets, using the real photos to design silhouettes and CityRT observations for abstraction and legibility.
+
+1. Author a small shared library of modular roof/wall components, shore edge pieces, jetty and approach pieces, rocks, vegetation, survey boat, sampling hardware, mooring/markers. Focus on silhouette before micro-detail. Build distinct asset variants where local evidence warrants them. A roof or dock shape that identifies a village deserves time before repeated distant decoration.
+2. Define a shared light rig and a coordinated set of materials. Derive an original palette and shape grammar from the audit intake. Test material values under production lighting and at camera distance. Keep dark water edges or soft shallows consistent with the particular coast. Avoid treating painted depth color as data. Use visual contrast to show shoreline transitions and maintain open water.
+3. Make three comparable material/lighting proofs beside the relevant reference crops. Compare observed rule to output and log how it translated. Review individual assets for pivot, faces, normals, UV and material ID. Keep render-only embellishments in their own collection.
+4. Write the kit scene at a working checkpoint, put screenshots and render data in work, and build the editable kit and GLB for output during the export phase. Commit to a look recipe after comparing three equally strong samples. If you change the shared rig later, re-evaluate all three coasts. Continue to 03.

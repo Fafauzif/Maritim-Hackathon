@@ -1,0 +1,8 @@
+# DSH prompt 03 · Finish all three environments
+
+Continue from the recorded checkpoints. Read the place boards and the visual and camera briefs. Work on equivalent features in rounds across the three locations so strong assets, lighting and navigation survive at all sites.
+
+1. Finish each coastal ground plane and the shoreline transitions, seam treatment and build-out beyond the default frame. Place source-supported landmark masses and sensible supporting modules; use scale, spacing and roof rhythm to differentiate the scenes. At Kodingareng and Tunda make sure local features reflect the correct island. At Amur emphasize the broad river entrance and low banks from the references.
+2. Place a clear survey boat/waterfront anchor for all scenes. Give boat scale and shadows a reality check at mid-distance. Preserve world positions and the waterline through the overhead and section variants. Separate water, bottom, surface land, buildings, lights, art-only guide objects and export allowlist in Blender. Verify the section actually cuts the same scene.
+3. Curate composition and negative space: obvious shore-to-water reading from high oblique, legible north-up plans, a middle range that reveals parallax, and nothing obviously repeated in the foreground. Moderate glare, shadow contrast and noisy motion. Use 960–1440 px camera proofs and stills of framing extremes before final resolutions.
+4. Inspect all scenes at like sizes. Check boat scale, continuity, palette family, sufficient open water and landmark identity. Fix one or more visible flaws on each coast. Update site reviews with actual before-and-after paths. Rebuild proofs and continue to 04 with all three sites at equivalent finish.

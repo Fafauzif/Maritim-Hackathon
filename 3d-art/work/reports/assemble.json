@@ -1,0 +1,104 @@
+{
+  "stills": [
+    {
+      "path": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/output/globe/globe-overview.png",
+      "bytes": 8529335,
+      "size": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/output/coasts/kodingareng/godview.png",
+      "bytes": 9370815,
+      "size": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/output/coasts/kodingareng/mapview.png",
+      "bytes": 9163483,
+      "size": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/output/coasts/kodingareng/section.png",
+      "bytes": 7509489,
+      "size": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/output/coasts/tunda/godview.png",
+      "bytes": 8746038,
+      "size": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/output/coasts/tunda/mapview.png",
+      "bytes": 8972542,
+      "size": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/output/coasts/tunda/section.png",
+      "bytes": 7371819,
+      "size": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/output/coasts/amur/godview.png",
+      "bytes": 8763048,
+      "size": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/output/coasts/amur/mapview.png",
+      "bytes": 8434535,
+      "size": [
+        3840,
+        2160
+      ]
+    },
+    {
+      "path": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/output/coasts/amur/section.png",
+      "bytes": 7213615,
+      "size": [
+        3840,
+        2160
+      ]
+    }
+  ],
+  "sheets": [
+    {
+      "path": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/output/kit/asset-sheet.png",
+      "bytes": 2161259,
+      "size": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "path": "C:/Users/fauzi/OneDrive/Desktop/DSH/Maritim Hackathon/3d-art/output/review/parity-sheet.png",
+      "bytes": 4132044,
+      "size": [
+        3648,
+        2249
+      ],
+      "tiles": 9
+    }
+  ],
+  "missing": []
+}

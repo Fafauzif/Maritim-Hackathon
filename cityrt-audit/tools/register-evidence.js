@@ -1,6 +1,6 @@
 ﻿const fs = require('node:fs');
 const path = require('node:path');
-const { addEvidence, writeManifest } = require('./cityrt-audit/tools/manifest.js');
+const { addEvidence, writeManifest } = require('./manifest.js');
 const root = 'cityrt-audit';
 function walk(dir) {
   const out = [];
@@ -22,3 +22,4 @@ for (const dir of ['evidence/scripts/public', 'evidence/style-previews', 'analys
 const written = writeManifest(root);
 const manifest = JSON.parse(fs.readFileSync(written, 'utf8'));
 console.log('manifest entries:', manifest.entries.length);
+

@@ -1,0 +1,469 @@
+{
+  "generatedAt": "2026-11-21T05:00:11.715Z",
+  "entries": [
+    {
+      "path": "analysis/palette/american.json",
+      "sha256": "239b803239ce0725136b7a97ddacfc7e2f84ce7de5adc5460d7430deb1d4fcd5",
+      "bytes": 1282,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "analysis/palette/arabic.json",
+      "sha256": "620bb76741f2bd8f6a4f053d07d63e40e12fb2591c5823a1b2aa7da3ac9ca007",
+      "bytes": 1278,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "analysis/palette/brazil.json",
+      "sha256": "156eb795f0b6247038809dfa2a0865ffdd43b6c9437c7cbd08c17beb80c2a330",
+      "bytes": 1276,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "analysis/palette/british.json",
+      "sha256": "2a938b261eba0a804b0b1fe65ff8709f7d037912e2827d9aa3d79da0b0c36c1a",
+      "bytes": 1281,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "analysis/palette/cyberpunk.json",
+      "sha256": "b79055d4bd3bdfceea1ff5e8c0cf689e828f4d907bb03fd567d210fbba0a3f35",
+      "bytes": 1283,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "analysis/palette/european.json",
+      "sha256": "824b4d95f353d0243a644cbc8f52fedd4f52d258b1f4d6a7cd0a1a20ab4cdec0",
+      "bytes": 1277,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "analysis/palette/fantasy.json",
+      "sha256": "a7d19ccd23e763eef29c0ee5d27abebf2b9d8eab78f86a3ec8b5c411b9837b0b",
+      "bytes": 1275,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "analysis/palette/futurist.json",
+      "sha256": "4d2452d936198ccb048b5edf213b6d62aba9ef54137a836a65f231f598d2f2f9",
+      "bytes": 1282,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "analysis/palette/italian.json",
+      "sha256": "42bd0d598da668cec573928ebc9b040ea4adfa02df448a029737c3ff22e34587",
+      "bytes": 1283,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "analysis/palette/japanese.json",
+      "sha256": "7f1a85768e46c67c768511b0b92f915026732338cb2af1f04da7327a901b0147",
+      "bytes": 1284,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "analysis/palette/medieval.json",
+      "sha256": "7c8717ece8844b72036fd96f365db9885730f8d5389bc708dcbadc54bbe751f8",
+      "bytes": 1281,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "analysis/palette/metropolis.json",
+      "sha256": "53fcbcd9f4b0fd9be6029021d4b19cde7845eef5a7668accd11e56956f3ea285",
+      "bytes": 1287,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "analysis/palette/previews-summary.json",
+      "sha256": "166b68526596b1922d25e1c46daf536470ad92840d15c2078f930aa9441e5e76",
+      "bytes": 22437,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "analysis/palette/scandinavian.json",
+      "sha256": "b2c82b30176c59931db41acec0cb1fea7efaa977b4cd51a6b403d84caebdbcec",
+      "bytes": 1285,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "analysis/palette/slavic.json",
+      "sha256": "d1919505ea0be776075ca5478da579bfee876c31807165b125a3887b8bc1c022",
+      "bytes": 1281,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "analysis/skins-static.json",
+      "sha256": "771fd070559470a8a4e47732052715da100a09d129240cc90648102918dface0",
+      "bytes": 5397,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "analysis/styles/styles-static.json",
+      "sha256": "0e0ee8518e9dfe6d623265faa739852039ab5f030eefa41299210864d13875a2",
+      "bytes": 7672,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/scripts/public/_skins-DJrChhsr.js",
+      "sha256": "7534d6c048a55033db37e837432109cf3621ef7b222d4d82b179a33c57edb21f",
+      "bytes": 4014,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/scripts/public/device-DEKz-aKi.js",
+      "sha256": "0277bb1638a3fb5641b27688e28ceafb4c7549c31b1f89544521eb4783c7df79",
+      "bytes": 903,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/scripts/public/dom-BMNW3ltG.js",
+      "sha256": "be78ff0610bd620bc77a244f724d909f32166c1ba62b755950a22a9bfa741983",
+      "bytes": 1945,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/scripts/public/download-report.json",
+      "sha256": "bece0b3490082caa93d23627b4838db0647c5c9cce1cee6d91027a2920a85380",
+      "bytes": 1336,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/scripts/public/i18n-BA15IvVx.js",
+      "sha256": "53b5e1b1b41e4189c4293483ccb2cce29c1c9d30c70ca81ee2457c5ee9766b86",
+      "bytes": 6467,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/scripts/public/index-BOyK8tfh.js",
+      "sha256": "719778c9de28fe55245421f2be2ca184c7ed66d0b28351eac0fdad4738f5e73d",
+      "bytes": 1789,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/scripts/public/langpick-flAl7aDs.js",
+      "sha256": "d7f43ec1fbe473067a0c35e0435d7d797f27f3c70ff45aadc944a2b9aee67aa4",
+      "bytes": 674,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/scripts/public/langurl-NxnbJT_r.js",
+      "sha256": "caedddf1e82e82f07d1957f65c16f2820d2fc12d5eb5887a97247e291d681441",
+      "bytes": 407,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/scripts/public/logo-yd5kcls4.js",
+      "sha256": "60a45b14138305aed8e437c2cd4a942cf246c6e857e9897d2c2cba886730b00c",
+      "bytes": 5080,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/scripts/public/main-B5x1aucL.js",
+      "sha256": "1e3e51dc5ab68c66f88c5099f969863a2623b879f617d139adb8fb562b522924",
+      "bytes": 148271,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/scripts/public/main-BVd7pFVX.css",
+      "sha256": "a76fad35fe86b943bbf83e5e41f27a092a02bf1b2a2db9f4130d8fb8c1e9b8ac",
+      "bytes": 78875,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/scripts/public/pass-BHqdzxDi.css",
+      "sha256": "0e90a9828faf16d3c76fd1ffb187f3b7e7e3b18adbbaac7d98f631efcfb78202",
+      "bytes": 10854,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/scripts/public/pass-DAnnP83v.js",
+      "sha256": "e6821edffc70adb7fcc05f0bfd6ae657cb1f8426e306210519111fa19dc6c8fb",
+      "bytes": 1770,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/scripts/public/pass-wvGd6ts_.js",
+      "sha256": "2ef8700a006b1d5b567e7ac9f26ba5147068ea1d229eb9aa07a502d5d8b8d6bd",
+      "bytes": 4381,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/scripts/public/passui-DieUA56E.js",
+      "sha256": "8b1caf01d77a81d2e7a9d933b4fdfdf7c871c700de2f7dcd4525927f33d99cee",
+      "bytes": 4952,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/scripts/public/registry-DDDDnwVQ.js",
+      "sha256": "b503f6bbeb964d9db4fee4509a9e48081ce8d5f22082d61aeb6e5f23c869a935",
+      "bytes": 1299,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/scripts/public/rolldown-runtime-DK3Fl9T5.js",
+      "sha256": "a526d1bb3288ef04d001028843220a24b0867a4edf8c685b69506d6525af36ff",
+      "bytes": 158,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/scripts/public/router-Bed9KjqP.js",
+      "sha256": "74156baf1e7064a783f53d3aa715e96e937882f38f5fd1ae279eeed0355d343e",
+      "bytes": 1187,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/scripts/public/shell-BNGTHLAV.js",
+      "sha256": "703ba2c8806fad06f2a44bd656f9a7fc33a73e833121d0db67bd67a8f120f823",
+      "bytes": 29380,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/scripts/public/shell-Dx6HvG7A.css",
+      "sha256": "40b9761d22ed91043da5d68c44d5289b31970de9bd1f23ae972192551303801b",
+      "bytes": 80344,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/scripts/public/sketch-D_KSaPDP.js",
+      "sha256": "71692897accfdd85e661eef8bdee0c558a632395cde7d1223a0240e6f09e9962",
+      "bytes": 33176,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/scripts/public/social-Cy9a70eq.js",
+      "sha256": "ffe28dae9f92e06ee7a8d4a34c3c749dfc17d4a6594ac41253470774c4036850",
+      "bytes": 3405,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/scripts/public/social-Nt8kQFcB.css",
+      "sha256": "75f096884314b4fbbe7dd454280d0d1a8614bbaef8d3c203ba5aae7917bf63e8",
+      "bytes": 2330,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/scripts/public/styles-DATr6XE2.js",
+      "sha256": "8ec0af5a12d64b3aabba277ac04808bb69b27b69bde5ef14a73ce0868f533506",
+      "bytes": 1054,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/scripts/public/styles-EE7sSX4o.js",
+      "sha256": "8f57af5717f05288b08d5f64acba3e77b4679fac04ba38af154acbdda1be1108",
+      "bytes": 9161,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/scripts/public/touch-C0zf5WJO.js",
+      "sha256": "8350f8964179bf89417178db5f9762b94d01a2724755ac02121e5c1c1a2ba40b",
+      "bytes": 6203,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/scripts/public/track-Bq1FCsJd.js",
+      "sha256": "589c8a8dc991f2ea82b93b2047ddb0783b6f65c7a8222cc3676dacd8e85a3d55",
+      "bytes": 2818,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/style-previews/american.webp",
+      "sha256": "8eaba1cfe25b5a1d47b68e1b8c5aa795bd14d3f68f8af8ad28caa4907b73c7d7",
+      "bytes": 257452,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/style-previews/arabic.webp",
+      "sha256": "4ca93d02583d59d2705ab8a873f77f5d4fe2ae69c4af7bbf2b57af77e0c5e838",
+      "bytes": 255134,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/style-previews/brazil.webp",
+      "sha256": "1c08f33ef2d14c1eb45c91d2495a062eedb5a0d39f8c60a060589a906b77848d",
+      "bytes": 189092,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/style-previews/british.webp",
+      "sha256": "1765cc30f70a7f23c5df7a98953c9657f0a1ad51097240b99aafd5fd75b91cf7",
+      "bytes": 252500,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/style-previews/cyberpunk.webp",
+      "sha256": "ee8895aca7e2c083caa3e8c4cc8b7a03c350bca9e8e57f93331bd1c6625db9eb",
+      "bytes": 226138,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/style-previews/european.webp",
+      "sha256": "5ed1da5c2a8cf662c9bca63d394fc18e0ff1bde5fd60439ff99cbb8c4befe631",
+      "bytes": 269148,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/style-previews/fantasy.webp",
+      "sha256": "e1b37b0e2bb680bd03756331099abf24dfb8c9fb6c5ddd67a4ff6278a23b5f03",
+      "bytes": 224176,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/style-previews/futurist.webp",
+      "sha256": "992f8e262c919f098b6540d4c68d8277d86130e1514ae96daab75ccc1868f37b",
+      "bytes": 277714,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/style-previews/italian.webp",
+      "sha256": "b4d6ccf16f33691d0517bde47a3d9cfa011cdd590e2898b3e4f54166cdcd7141",
+      "bytes": 173832,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/style-previews/japanese.webp",
+      "sha256": "2ef11583de434750b4f97a54f86edb600af585d5994ac028098c9a9bd0c8a292",
+      "bytes": 246820,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/style-previews/medieval.webp",
+      "sha256": "042f50efe075e31104b04bdf7f4c8b4be27fecb122989e14e0873e3245cf21bd",
+      "bytes": 238954,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/style-previews/metropolis.webp",
+      "sha256": "b34f0fe4a7778dedb84361efca065d5778805c320ada586858936793addfb119",
+      "bytes": 286622,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/style-previews/scandinavian.webp",
+      "sha256": "d51205133644f1989128bdf0e9bd4085e8f6108b586c6ad51aa69c182aeeb90a",
+      "bytes": 215394,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    },
+    {
+      "path": "evidence/style-previews/slavic.webp",
+      "sha256": "b23f26d3fda670e872431263698a8a194ab833d5c32a0fea6524552c9e932171",
+      "bytes": 201722,
+      "kind": "derived-evidence",
+      "producedBy": "public-crawl",
+      "proves": "CityRT public client data"
+    }
+  ]
+}

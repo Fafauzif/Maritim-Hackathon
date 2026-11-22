@@ -1,0 +1,12 @@
+.venv/
+out/
+fonts/
+audio/seg/
+audio/*.wav
+assets/countries50.geojson
+tools/real-sfx/
+sfx/result/
+sfx/candidates/*.mp3
+sfx/candidates/*.flac
+sfx/candidates/*.aif
+sfx/work/moments/frames/

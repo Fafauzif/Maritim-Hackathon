@@ -1,0 +1,252 @@
+{
+ "video": "/Users/danferdiansyah/Development/Maritim-Hackathon/video/out/picture_with_voice.mp4",
+ "keep_audio": "yes",
+ "cues": [
+  {
+   "t": 0.3,
+   "label": "scan sweeps across the globe",
+   "file": "/Users/danferdiansyah/Development/Maritim-Hackathon/video/sfx/candidates/whoosh_3.wav",
+   "role": "whoosh",
+   "gain_db": -7,
+   "anchor": "start"
+  },
+  {
+   "t": 9.8,
+   "label": "scan wipe: globe to Pulau Tunda",
+   "file": "/Users/danferdiansyah/Development/Maritim-Hackathon/video/sfx/candidates/whoosh_5.wav",
+   "role": "whoosh",
+   "gain_db": -3
+  },
+  {
+   "t": 23.625,
+   "label": "inspection marker appears (warm)",
+   "file": "/Users/danferdiansyah/Development/Maritim-Hackathon/video/sfx/candidates/ping_0.wav",
+   "role": "chime",
+   "gain_db": -4,
+   "anchor": "start"
+  },
+  {
+   "t": 28.45,
+   "label": "26 Oct scene frame",
+   "file": "/Users/danferdiansyah/Development/Maritim-Hackathon/video/sfx/candidates/tick_4.wav",
+   "role": "click",
+   "gain_db": 0
+  },
+  {
+   "t": 30.05,
+   "label": "31 Oct scene frame",
+   "file": "/Users/danferdiansyah/Development/Maritim-Hackathon/video/sfx/candidates/tick_2.wav",
+   "role": "click",
+   "gain_db": -2
+  },
+  {
+   "t": 32.65,
+   "label": "empty 27 Oct frame (hero)",
+   "file": "/Users/danferdiansyah/Development/Maritim-Hackathon/video/sfx/generated/syn_hollow.wav",
+   "role": "hit",
+   "gain_db": -9,
+   "anchor": "start"
+  },
+  {
+   "t": 37.69,
+   "label": "camera move to the title and team",
+   "file": "/Users/danferdiansyah/Development/Maritim-Hackathon/video/sfx/candidates/whoosh_4.wav",
+   "role": "whoosh",
+   "gain_db": -4
+  },
+  {
+   "t": 45.8,
+   "label": "the answer frame opens (hero)",
+   "file": "/Users/danferdiansyah/Development/Maritim-Hackathon/video/sfx/generated/gen_swell_pad.wav",
+   "role": "riser",
+   "gain_db": -4,
+   "anchor": "start",
+   "max_dur": 4.0
+  },
+  {
+   "t": 77.965,
+   "label": "scan rewrites the frame to the globe figure",
+   "file": "/Users/danferdiansyah/Development/Maritim-Hackathon/video/sfx/candidates/ping_1.wav",
+   "role": "chime",
+   "gain_db": -9,
+   "anchor": "start",
+   "max_dur": 1.4
+  },
+  {
+   "t": 98.975,
+   "label": "the one clear Tunda date lights",
+   "file": "/Users/danferdiansyah/Development/Maritim-Hackathon/video/sfx/candidates/rain_0.wav",
+   "role": "pop",
+   "gain_db": 0,
+   "anchor": "start"
+  },
+  {
+   "t": 111.43,
+   "label": "the one usable rainy day lights",
+   "file": "/Users/danferdiansyah/Development/Maritim-Hackathon/video/sfx/candidates/rain_3.wav",
+   "role": "pop",
+   "gain_db": 4,
+   "anchor": "start",
+   "pitch": -2
+  },
+  {
+   "t": 118.015,
+   "label": "descent to Kodingareng Lompo",
+   "file": "/Users/danferdiansyah/Development/Maritim-Hackathon/video/sfx/candidates/whoosh_3.wav",
+   "role": "whoosh",
+   "gain_db": -8,
+   "anchor": "start",
+   "pitch": -3
+  },
+  {
+   "t": 130.55,
+   "label": "scan wipe to the overhead view",
+   "file": "/Users/danferdiansyah/Development/Maritim-Hackathon/video/sfx/candidates/ping_2.wav",
+   "role": "chime",
+   "gain_db": -12,
+   "anchor": "start",
+   "max_dur": 1.8
+  },
+  {
+   "t": 133.15,
+   "label": "current dial appears",
+   "file": "/Users/danferdiansyah/Development/Maritim-Hackathon/video/sfx/candidates/ping_3.wav",
+   "role": "chime",
+   "gain_db": -8,
+   "anchor": "start",
+   "max_dur": 1.6
+  },
+  {
+   "t": 144.125,
+   "label": "depth slider; arrow turns W to NE (hero)",
+   "file": "/Users/danferdiansyah/Development/Maritim-Hackathon/video/sfx/generated/syn_riser.wav",
+   "role": "riser",
+   "gain_db": 1,
+   "anchor": "start"
+  },
+  {
+   "t": 152.025,
+   "label": "96/274 reading",
+   "file": "/Users/danferdiansyah/Development/Maritim-Hackathon/video/sfx/candidates/tick_0.wav",
+   "role": "click",
+   "gain_db": -1,
+   "max_dur": 0.2
+  },
+  {
+   "t": 168.69,
+   "label": "orbit into section A-B",
+   "file": "/Users/danferdiansyah/Development/Maritim-Hackathon/video/sfx/candidates/whoosh_2.wav",
+   "role": "whoosh",
+   "gain_db": -6,
+   "pitch": -4,
+   "fit_dur": 0.8
+  },
+  {
+   "t": 184.0,
+   "label": "sample-depth marker drops to 9.6 m",
+   "file": "/Users/danferdiansyah/Development/Maritim-Hackathon/video/sfx/candidates/rain_3.wav",
+   "role": "pop",
+   "gain_db": 3,
+   "anchor": "start",
+   "pitch": -5
+  },
+  {
+   "t": 192.95,
+   "label": "+ Request field check (hero)",
+   "file": "/Users/danferdiansyah/Development/Maritim-Hackathon/video/sfx/candidates/click_3.wav",
+   "role": "click",
+   "gain_db": 6,
+   "slice": "first"
+  },
+  {
+   "t": 193.55,
+   "label": "field brief opens",
+   "file": "/Users/danferdiansyah/Development/Maritim-Hackathon/video/sfx/candidates/paper_0.wav",
+   "role": "paper",
+   "gain_db": 3
+  },
+  {
+   "t": 199.55,
+   "label": "supervisor signs",
+   "file": "/Users/danferdiansyah/Development/Maritim-Hackathon/video/sfx/generated/gen_chime.wav",
+   "role": "chime",
+   "gain_db": -6
+  },
+  {
+   "t": 201.55,
+   "label": "readings return to the case (hero)",
+   "file": "/Users/danferdiansyah/Development/Maritim-Hackathon/video/sfx/candidates/water_1.wav",
+   "role": "foley",
+   "gain_db": 3
+  },
+  {
+   "t": 206.04,
+   "label": "descent to Amur Bay",
+   "file": "/Users/danferdiansyah/Development/Maritim-Hackathon/video/sfx/candidates/whoosh2_5.wav",
+   "role": "whoosh",
+   "gain_db": -7,
+   "pitch": -3
+  },
+  {
+   "t": 214.75,
+   "label": "scan wipe to the archive scene",
+   "file": "/Users/danferdiansyah/Development/Maritim-Hackathon/video/sfx/candidates/ping_1.wav",
+   "role": "chime",
+   "gain_db": -8,
+   "anchor": "start",
+   "max_dur": 1.4,
+   "pitch": -2
+  },
+  {
+   "t": 223.45,
+   "label": "Sentinel-2 bar grows",
+   "file": "/Users/danferdiansyah/Development/Maritim-Hackathon/video/sfx/candidates/tick_4.wav",
+   "role": "click",
+   "gain_db": -1
+  },
+  {
+   "t": 223.95,
+   "label": "Landsat 9 bar grows",
+   "file": "/Users/danferdiansyah/Development/Maritim-Hackathon/video/sfx/candidates/tick_2.wav",
+   "role": "click",
+   "gain_db": -3,
+   "pitch": -2
+  },
+  {
+   "t": 228.575,
+   "label": "12 Jul bar grows",
+   "file": "/Users/danferdiansyah/Development/Maritim-Hackathon/video/sfx/candidates/tick_0.wav",
+   "role": "click",
+   "gain_db": 4,
+   "pitch": -2,
+   "max_dur": 0.2
+  },
+  {
+   "t": 238.775,
+   "label": "three branches link the coasts (hero)",
+   "file": "/Users/danferdiansyah/Development/Maritim-Hackathon/video/sfx/generated/gen_swell_pad.wav",
+   "role": "riser",
+   "gain_db": -6,
+   "anchor": "start",
+   "max_dur": 3.5,
+   "pitch": 2
+  },
+  {
+   "t": 247.965,
+   "label": "pull back to the planet",
+   "file": "/Users/danferdiansyah/Development/Maritim-Hackathon/video/sfx/generated/syn_swell.wav",
+   "role": "riser",
+   "gain_db": -1,
+   "anchor": "start",
+   "max_dur": 3.2
+  },
+  {
+   "t": 271.65,
+   "label": "title written on (hero)",
+   "file": "/Users/danferdiansyah/Development/Maritim-Hackathon/video/sfx/candidates/ping_0.wav",
+   "role": "chime",
+   "gain_db": -6,
+   "anchor": "start"
+  }
+ ]
+}

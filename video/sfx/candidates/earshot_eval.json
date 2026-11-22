@@ -1,0 +1,7049 @@
+{
+ "whoosh_0": {
+  "kind": "whoosh",
+  "title": "digital_whoosh_soft.wav",
+  "summary": "0.95 s short swell, tonal, pitch ~68 Hz (C#2) (attack 288 ms, decays in 340 ms). Sounds most like: an error buzz (z +3.1), a quick swipe (z +2.5), a deep cinematic whoosh (z +2.4) [clear reading]. Other readings: a sustained glass harp tone (chimes, z +2.3). AudioSet: Music 0.42, Sound effect 0.28, Musical instrument 0.10. peak -5.3 dBFS, -17.0 LUFS, brightness 720 Hz, bandwidth 10.2 kHz, side/mid",
+  "match": {
+   "summary": "whoosh_0.wav: 'a soft airy whoosh transition' -> weak (z +2.0; would rank #13 among 322 vocabulary descriptions; cosine 0.14). Forced choice vs your alternatives: 'a soft airy whoosh transition' 2%, 'an error buzz' 98%, 'a harsh noise burst' <1%. It sounds most like: 'an error buzz' (z +3.1), 'a quick swipe' (z +2.5), 'a deep cinematic whoosh' (z +2.4), 'a reverse cymbal swell' (z +2.4). Evidence for 'weak' (held-out library search, ~3% of candidate pairs true): the right kind of sound 28% of the time, the exact variant 17% (a close variant such as an Enter key for a spacebar counts as wrong then).",
+   "path": "sfx/candidates/whoosh_0.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -5.3,
+   "query": "a soft airy whoosh transition",
+   "cosine": 0.145,
+   "z": 2.04,
+   "percentile": 96.3,
+   "rank_in_vocab": 13,
+   "p_vs_alts": 0.02,
+   "verdict": "weak",
+   "validated": true,
+   "alts": [
+    {
+     "query": "an error buzz",
+     "p": 0.98,
+     "z": 3.1,
+     "cosine": 0.245
+    },
+    {
+     "query": "a harsh noise burst",
+     "p": 0.0,
+     "z": -0.07,
+     "cosine": -0.103
+    }
+   ],
+   "results": [
+    {
+     "query": "a soft airy whoosh transition",
+     "cosine": 0.145,
+     "z": 2.04,
+     "percentile": 96.3,
+     "rank_in_vocab": 13,
+     "vocab_size": 322,
+     "verdict": "weak",
+     "validated": true,
+     "p_vs_alts": 0.02,
+     "alts": [
+      {
+       "query": "an error buzz",
+       "p": 0.98,
+       "z": 3.1,
+       "cosine": 0.245
+      },
+      {
+       "query": "a harsh noise burst",
+       "p": 0.0,
+       "z": -0.07,
+       "cosine": -0.103
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "an error buzz",
+     "category": "ui",
+     "z": 3.1,
+     "cosine": 0.245
+    },
+    {
+     "term": "a quick swipe",
+     "category": "transitions",
+     "z": 2.58,
+     "cosine": 0.233
+    },
+    {
+     "term": "a deep cinematic whoosh",
+     "category": "transitions",
+     "z": 2.46,
+     "cosine": 0.174
+    },
+    {
+     "term": "a reverse cymbal swell",
+     "category": "transitions",
+     "z": 2.42,
+     "cosine": 0.197
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 0.953,
+   "peak_dbfs": -5.3,
+   "true_peak_dbtp": -5.3,
+   "rms_dbfs": -20.8,
+   "lufs": -17.0,
+   "attack_ms": 288.0,
+   "decay_ms": 340.0,
+   "brightness_hz": 720,
+   "bandwidth_hz": 10240,
+   "flatness": 0.0,
+   "harmonic_ratio": 0.984,
+   "f0_hz": 67.7,
+   "onset_count": 3,
+   "onsets_per_s": 3.15,
+   "width": "side/mid 0 dB",
+   "digital_silence_frac": 0.018
+  }
+ },
+ "whoosh_1": {
+  "kind": "whoosh",
+  "title": "Swing 1_5",
+  "summary": "0.91 s short one-shot (attack 17 ms, decays in 107 ms). Sounds most like: a fast whoosh (z +3.3), a stick swung fast through the air (z +3.1), a short swish (z +3.0) [clear reading]. Other readings: a punchy impact hit (impacts, z +2.3). AudioSet tagger unsure (Slap, smack 0.18, Whip 0.09). peak -28.6 dBFS, -45.3 LUFS, brightness 4.4 kHz, bandwidth 20.5 kHz, side/mid -12 dB.",
+  "match": {
+   "summary": "whoosh_1.wav: 'a soft airy whoosh transition' -> plausible (z +2.7; would rank #5 among 322 vocabulary descriptions; cosine 0.23). Forced choice vs your alternatives: 'a soft airy whoosh transition' >99%, 'an error buzz' <1%, 'a harsh noise burst' <1%. It sounds most like: 'a fast whoosh' (z +3.3), 'a stick swung fast through the air' (z +3.1), 'a short swish' (z +3.0), 'a soft air whoosh' (z +2.9). Evidence for 'plausible' (held-out library search, ~3% of candidate pairs true): the right kind of sound 41% of the time, the exact variant 22% (a close variant such as an Enter key for a spacebar counts as wrong then).",
+   "path": "sfx/candidates/whoosh_1.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -28.6,
+   "query": "a soft airy whoosh transition",
+   "cosine": 0.231,
+   "z": 2.76,
+   "percentile": 98.8,
+   "rank_in_vocab": 5,
+   "p_vs_alts": 1.0,
+   "verdict": "plausible",
+   "validated": true,
+   "alts": [
+    {
+     "query": "an error buzz",
+     "p": 0.0,
+     "z": -0.27,
+     "cosine": -0.035
+    },
+    {
+     "query": "a harsh noise burst",
+     "p": 0.0,
+     "z": 0.36,
+     "cosine": 0.006
+    }
+   ],
+   "results": [
+    {
+     "query": "a soft airy whoosh transition",
+     "cosine": 0.231,
+     "z": 2.76,
+     "percentile": 98.8,
+     "rank_in_vocab": 5,
+     "vocab_size": 322,
+     "verdict": "plausible",
+     "validated": true,
+     "p_vs_alts": 1.0,
+     "alts": [
+      {
+       "query": "an error buzz",
+       "p": 0.0,
+       "z": -0.27,
+       "cosine": -0.035
+      },
+      {
+       "query": "a harsh noise burst",
+       "p": 0.0,
+       "z": 0.36,
+       "cosine": 0.006
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "a fast whoosh",
+     "category": "transitions",
+     "z": 3.36,
+     "cosine": 0.273
+    },
+    {
+     "term": "a stick swung fast through the air",
+     "category": "transitions",
+     "z": 3.18,
+     "cosine": 0.257
+    },
+    {
+     "term": "a short swish",
+     "category": "transitions",
+     "z": 3.04,
+     "cosine": 0.3
+    },
+    {
+     "term": "a soft air whoosh",
+     "category": "transitions",
+     "z": 2.9,
+     "cosine": 0.225
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 0.906,
+   "peak_dbfs": -28.6,
+   "true_peak_dbtp": -28.5,
+   "rms_dbfs": -53.2,
+   "lufs": -45.3,
+   "attack_ms": 17.0,
+   "decay_ms": 107.0,
+   "brightness_hz": 4407,
+   "bandwidth_hz": 20480,
+   "flatness": 0.0358,
+   "harmonic_ratio": 0.001,
+   "onset_count": 1,
+   "onsets_per_s": 1.1,
+   "width": "side/mid -12 dB",
+   "digital_silence_frac": 0.2341
+  }
+ },
+ "whoosh_2": {
+  "kind": "whoosh",
+  "title": "whip03.wav",
+  "summary": "0.42 s short one-shot (attack 36 ms, decays in 235 ms). Sounds most like: a fast whoosh (z +4.6), a stick swung fast through the air (z +4.0), a swoosh passing by (z +3.5) [clear reading]. Other readings: a punchy impact hit (impacts, z +2.5). AudioSet tagger unsure (Whoosh, swoosh, swish 0.18, Whack, thwack 0.08, Sound effect 0.06). peak -0.9 dBFS, -16.1 LUFS, brightness 2.2 kHz, bandwidth 20.5 k",
+  "match": {
+   "summary": "whoosh_2.wav: 'a soft airy whoosh transition' -> plausible (z +2.9; would rank #7 among 322 vocabulary descriptions; cosine 0.27). Forced choice vs your alternatives: 'a soft airy whoosh transition' >99%, 'an error buzz' <1%, 'a harsh noise burst' <1%. It sounds most like: 'a fast whoosh' (z +4.6), 'a stick swung fast through the air' (z +4.0), 'a swoosh passing by' (z +3.5), 'cloth whipping through the air' (z +3.4). Evidence for 'plausible' (held-out library search, ~3% of candidate pairs true): the right kind of sound 41% of the time, the exact variant 22% (a close variant such as an Enter key for a spacebar counts as wrong then).",
+   "path": "sfx/candidates/whoosh_2.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -0.9,
+   "query": "a soft airy whoosh transition",
+   "cosine": 0.269,
+   "z": 2.97,
+   "percentile": 98.1,
+   "rank_in_vocab": 7,
+   "p_vs_alts": 0.999,
+   "verdict": "plausible",
+   "validated": true,
+   "alts": [
+    {
+     "query": "an error buzz",
+     "p": 0.0,
+     "z": -0.03,
+     "cosine": -0.072
+    },
+    {
+     "query": "a harsh noise burst",
+     "p": 0.001,
+     "z": 1.46,
+     "cosine": 0.08
+    }
+   ],
+   "results": [
+    {
+     "query": "a soft airy whoosh transition",
+     "cosine": 0.269,
+     "z": 2.97,
+     "percentile": 98.1,
+     "rank_in_vocab": 7,
+     "vocab_size": 322,
+     "verdict": "plausible",
+     "validated": true,
+     "p_vs_alts": 0.999,
+     "alts": [
+      {
+       "query": "an error buzz",
+       "p": 0.0,
+       "z": -0.03,
+       "cosine": -0.072
+      },
+      {
+       "query": "a harsh noise burst",
+       "p": 0.001,
+       "z": 1.46,
+       "cosine": 0.08
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "a fast whoosh",
+     "category": "transitions",
+     "z": 4.67,
+     "cosine": 0.447
+    },
+    {
+     "term": "a stick swung fast through the air",
+     "category": "transitions",
+     "z": 4.0,
+     "cosine": 0.374
+    },
+    {
+     "term": "a swoosh passing by",
+     "category": "transitions",
+     "z": 3.54,
+     "cosine": 0.321
+    },
+    {
+     "term": "cloth whipping through the air",
+     "category": "transitions",
+     "z": 3.44,
+     "cosine": 0.302
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 0.42,
+   "peak_dbfs": -0.9,
+   "true_peak_dbtp": -0.8,
+   "rms_dbfs": -19.0,
+   "lufs": -16.1,
+   "attack_ms": 36.0,
+   "decay_ms": 235.0,
+   "brightness_hz": 2176,
+   "bandwidth_hz": 20480,
+   "flatness": 0.0002,
+   "harmonic_ratio": 0.025,
+   "onset_count": 1,
+   "onsets_per_s": 2.38,
+   "width": "side/mid -20 dB",
+   "digital_silence_frac": 0.0098
+  }
+ },
+ "whoosh_3": {
+  "kind": "whoosh",
+  "title": "Deep Whoosh #1",
+  "summary": "3.16 s sustained (attack 170 ms, decays in 789 ms). Sounds most like: a fast whoosh (z +4.5), a deep cinematic whoosh (z +3.4), a short swish (z +3.3) [clear reading]. AudioSet: Whoosh, swoosh, swish 0.82, Sound effect 0.21. peak -1.9 dBFS, -15.5 LUFS, brightness 311 Hz, bandwidth 16.3 kHz, noise floor -82 dBFS, side/mid -0 dB.",
+  "match": {
+   "summary": "whoosh_3.wav: 'a soft airy whoosh transition' -> strong (z +3.5; would rank #2 among 322 vocabulary descriptions; cosine 0.35). Forced choice vs your alternatives: 'a soft airy whoosh transition' >99%, 'an error buzz' <1%, 'a harsh noise burst' <1%. It sounds most like: 'a fast whoosh' (z +4.5), 'a deep cinematic whoosh' (z +3.4), 'a short swish' (z +3.3), 'a swoosh passing by' (z +3.1). Evidence for 'strong' (held-out library search, ~3% of candidate pairs true): the right kind of sound 98% of the time, the exact variant 61% (a close variant such as an Enter key for a spacebar counts as wrong then).",
+   "path": "sfx/candidates/whoosh_3.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -1.9,
+   "query": "a soft airy whoosh transition",
+   "cosine": 0.354,
+   "z": 3.59,
+   "percentile": 99.7,
+   "rank_in_vocab": 2,
+   "p_vs_alts": 1.0,
+   "verdict": "strong",
+   "validated": true,
+   "alts": [
+    {
+     "query": "an error buzz",
+     "p": 0.0,
+     "z": -0.07,
+     "cosine": -0.059
+    },
+    {
+     "query": "a harsh noise burst",
+     "p": 0.0,
+     "z": 0.84,
+     "cosine": 0.029
+    }
+   ],
+   "results": [
+    {
+     "query": "a soft airy whoosh transition",
+     "cosine": 0.354,
+     "z": 3.59,
+     "percentile": 99.7,
+     "rank_in_vocab": 2,
+     "vocab_size": 322,
+     "verdict": "strong",
+     "validated": true,
+     "p_vs_alts": 1.0,
+     "alts": [
+      {
+       "query": "an error buzz",
+       "p": 0.0,
+       "z": -0.07,
+       "cosine": -0.059
+      },
+      {
+       "query": "a harsh noise burst",
+       "p": 0.0,
+       "z": 0.84,
+       "cosine": 0.029
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "a fast whoosh",
+     "category": "transitions",
+     "z": 4.54,
+     "cosine": 0.451
+    },
+    {
+     "term": "a deep cinematic whoosh",
+     "category": "transitions",
+     "z": 3.45,
+     "cosine": 0.323
+    },
+    {
+     "term": "a short swish",
+     "category": "transitions",
+     "z": 3.38,
+     "cosine": 0.377
+    },
+    {
+     "term": "a swoosh passing by",
+     "category": "transitions",
+     "z": 3.13,
+     "cosine": 0.293
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 3.156,
+   "peak_dbfs": -1.9,
+   "true_peak_dbtp": -1.9,
+   "rms_dbfs": -21.8,
+   "lufs": -15.5,
+   "attack_ms": 170.0,
+   "decay_ms": 789.0,
+   "brightness_hz": 311,
+   "bandwidth_hz": 16254,
+   "noise_floor_dbfs": -82.5,
+   "flatness": 0.0001,
+   "harmonic_ratio": 0.256,
+   "onset_count": 1,
+   "onsets_per_s": 0.32,
+   "width": "side/mid -0 dB",
+   "digital_silence_frac": 0.0522
+  }
+ },
+ "whoosh_4": {
+  "kind": "whoosh",
+  "title": "Swosh swoosh whoosh air sound, free, high quality",
+  "summary": "0.49 s short one-shot (attack 34 ms, decays in 322 ms). Sounds most like: a stick swung fast through the air (z +4.2), a fast whoosh (z +4.1), a swoosh passing by (z +3.1) [clear reading]. AudioSet tagger unsure (Sound effect 0.17, Zipper (clothing) 0.06). peak -7.3 dBFS, -19.1 LUFS, brightness 2.1 kHz, bandwidth 16.3 kHz, side/mid -10 dB.",
+  "match": {
+   "summary": "whoosh_4.wav: 'a soft airy whoosh transition' -> plausible (z +2.9; would rank #4 among 322 vocabulary descriptions; cosine 0.26). Forced choice vs your alternatives: 'a soft airy whoosh transition' >99%, 'an error buzz' <1%, 'a harsh noise burst' <1%. It sounds most like: 'a stick swung fast through the air' (z +4.2), 'a fast whoosh' (z +4.1), 'a swoosh passing by' (z +3.1), 'a whip pan transition' (z +2.8). Evidence for 'plausible' (held-out library search, ~3% of candidate pairs true): the right kind of sound 41% of the time, the exact variant 22% (a close variant such as an Enter key for a spacebar counts as wrong then).",
+   "path": "sfx/candidates/whoosh_4.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -7.3,
+   "query": "a soft airy whoosh transition",
+   "cosine": 0.255,
+   "z": 2.95,
+   "percentile": 99.1,
+   "rank_in_vocab": 4,
+   "p_vs_alts": 0.999,
+   "verdict": "plausible",
+   "validated": true,
+   "alts": [
+    {
+     "query": "an error buzz",
+     "p": 0.0,
+     "z": 0.22,
+     "cosine": -0.032
+    },
+    {
+     "query": "a harsh noise burst",
+     "p": 0.001,
+     "z": 1.4,
+     "cosine": 0.076
+    }
+   ],
+   "results": [
+    {
+     "query": "a soft airy whoosh transition",
+     "cosine": 0.255,
+     "z": 2.95,
+     "percentile": 99.1,
+     "rank_in_vocab": 4,
+     "vocab_size": 322,
+     "verdict": "plausible",
+     "validated": true,
+     "p_vs_alts": 0.999,
+     "alts": [
+      {
+       "query": "an error buzz",
+       "p": 0.0,
+       "z": 0.22,
+       "cosine": -0.032
+      },
+      {
+       "query": "a harsh noise burst",
+       "p": 0.001,
+       "z": 1.4,
+       "cosine": 0.076
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "a stick swung fast through the air",
+     "category": "transitions",
+     "z": 4.25,
+     "cosine": 0.377
+    },
+    {
+     "term": "a fast whoosh",
+     "category": "transitions",
+     "z": 4.12,
+     "cosine": 0.364
+    },
+    {
+     "term": "a swoosh passing by",
+     "category": "transitions",
+     "z": 3.12,
+     "cosine": 0.262
+    },
+    {
+     "term": "a whip pan transition",
+     "category": "transitions",
+     "z": 2.85,
+     "cosine": 0.293
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 0.49,
+   "peak_dbfs": -7.3,
+   "true_peak_dbtp": -7.3,
+   "rms_dbfs": -22.1,
+   "lufs": -19.1,
+   "attack_ms": 34.0,
+   "decay_ms": 322.0,
+   "brightness_hz": 2106,
+   "bandwidth_hz": 16254,
+   "flatness": 0.0001,
+   "harmonic_ratio": 0.658,
+   "onset_count": 2,
+   "onsets_per_s": 4.08,
+   "width": "side/mid -10 dB",
+   "digital_silence_frac": 0.0
+  }
+ },
+ "whoosh_5": {
+  "kind": "whoosh",
+  "title": "Swipe Whoosh",
+  "summary": "0.45 s short one-shot (attack 25 ms, decays in 180 ms). Sounds most like: a fast whoosh (z +4.7), a stick swung fast through the air (z +4.0), a swoosh passing by (z +3.5) [clear reading]. AudioSet: Sound effect 0.22, Whack, thwack 0.09, Bang 0.09. peak -0.3 dBFS, -17.8 LUFS, brightness 1.7 kHz, bandwidth 16.3 kHz, side/mid -11 dB.",
+  "match": {
+   "summary": "whoosh_5.wav: 'a soft airy whoosh transition' -> strong (z +3.1; would rank #4 among 322 vocabulary descriptions; cosine 0.25). Forced choice vs your alternatives: 'a soft airy whoosh transition' >99%, 'an error buzz' <1%, 'a harsh noise burst' <1%. It sounds most like: 'a fast whoosh' (z +4.7), 'a stick swung fast through the air' (z +4.0), 'a swoosh passing by' (z +3.5), 'a whip pan transition' (z +2.8). Evidence for 'strong' (held-out library search, ~3% of candidate pairs true): the right kind of sound 98% of the time, the exact variant 61% (a close variant such as an Enter key for a spacebar counts as wrong then).",
+   "path": "sfx/candidates/whoosh_5.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -0.3,
+   "query": "a soft airy whoosh transition",
+   "cosine": 0.254,
+   "z": 3.1,
+   "percentile": 99.1,
+   "rank_in_vocab": 4,
+   "p_vs_alts": 0.999,
+   "verdict": "strong",
+   "validated": true,
+   "alts": [
+    {
+     "query": "an error buzz",
+     "p": 0.0,
+     "z": 0.05,
+     "cosine": -0.064
+    },
+    {
+     "query": "a harsh noise burst",
+     "p": 0.001,
+     "z": 1.55,
+     "cosine": 0.075
+    }
+   ],
+   "results": [
+    {
+     "query": "a soft airy whoosh transition",
+     "cosine": 0.254,
+     "z": 3.1,
+     "percentile": 99.1,
+     "rank_in_vocab": 4,
+     "vocab_size": 322,
+     "verdict": "strong",
+     "validated": true,
+     "p_vs_alts": 0.999,
+     "alts": [
+      {
+       "query": "an error buzz",
+       "p": 0.0,
+       "z": 0.05,
+       "cosine": -0.064
+      },
+      {
+       "query": "a harsh noise burst",
+       "p": 0.001,
+       "z": 1.55,
+       "cosine": 0.075
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "a fast whoosh",
+     "category": "transitions",
+     "z": 4.71,
+     "cosine": 0.408
+    },
+    {
+     "term": "a stick swung fast through the air",
+     "category": "transitions",
+     "z": 4.0,
+     "cosine": 0.336
+    },
+    {
+     "term": "a swoosh passing by",
+     "category": "transitions",
+     "z": 3.5,
+     "cosine": 0.284
+    },
+    {
+     "term": "a whip pan transition",
+     "category": "transitions",
+     "z": 2.82,
+     "cosine": 0.274
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 0.448,
+   "peak_dbfs": -0.3,
+   "true_peak_dbtp": -0.2,
+   "rms_dbfs": -20.4,
+   "lufs": -17.8,
+   "attack_ms": 25.0,
+   "decay_ms": 180.0,
+   "brightness_hz": 1684,
+   "bandwidth_hz": 16254,
+   "flatness": 0.0001,
+   "harmonic_ratio": 0.035,
+   "onset_count": 1,
+   "onsets_per_s": 2.23,
+   "width": "side/mid -11 dB",
+   "digital_silence_frac": 0.0
+  }
+ },
+ "ping_0": {
+  "kind": "ping",
+  "title": "jsyd_ping.wav",
+  "summary": "2.00 s busy, 13.0 onsets/s, tonal, pitch ~1543 Hz (G6) (attack 84 ms, decays in 1408 ms). Sounds most like: a sustained glass harp tone (z +3.4), a glissando on bar chimes (z +3.3), a singing bowl (z +3.0) [clear reading]. Other readings: bubbles underwater (water, z +2.5), a success chime (ui, z +2.3). AudioSet tagger unsure (Sound effect 0.15, Sonar 0.14, Beep, bleep 0.08). peak -6.8 dBFS, -18.7",
+  "match": {
+   "summary": "ping_0.wav: 'a sonar ping with a soft echo' -> strong (z +3.7; would rank #1 among 322 vocabulary descriptions; cosine 0.31). Forced choice vs your alternatives: 'a sonar ping with a soft echo' >99%, 'an alarm beep' <1%, 'a phone ringtone' <1%. It sounds most like: 'a sustained glass harp tone' (z +3.4), 'a glissando on bar chimes' (z +3.3), 'a singing bowl' (z +3.0), 'a triangle hit' (z +2.6). Evidence for 'strong' (held-out library search, ~3% of candidate pairs true): the right kind of sound 98% of the time, the exact variant 61% (a close variant such as an Enter key for a spacebar counts as wrong then).",
+   "path": "sfx/candidates/ping_0.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -6.8,
+   "query": "a sonar ping with a soft echo",
+   "cosine": 0.307,
+   "z": 3.71,
+   "percentile": 100.0,
+   "rank_in_vocab": 1,
+   "p_vs_alts": 1.0,
+   "verdict": "strong",
+   "validated": true,
+   "alts": [
+    {
+     "query": "an alarm beep",
+     "p": 0.0,
+     "z": 1.54,
+     "cosine": 0.06
+    },
+    {
+     "query": "a phone ringtone",
+     "p": 0.0,
+     "z": 0.19,
+     "cosine": 0.049
+    }
+   ],
+   "results": [
+    {
+     "query": "a sonar ping with a soft echo",
+     "cosine": 0.307,
+     "z": 3.71,
+     "percentile": 100.0,
+     "rank_in_vocab": 1,
+     "vocab_size": 322,
+     "verdict": "strong",
+     "validated": true,
+     "p_vs_alts": 1.0,
+     "alts": [
+      {
+       "query": "an alarm beep",
+       "p": 0.0,
+       "z": 1.54,
+       "cosine": 0.06
+      },
+      {
+       "query": "a phone ringtone",
+       "p": 0.0,
+       "z": 0.19,
+       "cosine": 0.049
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "a sustained glass harp tone",
+     "category": "chimes",
+     "z": 3.4,
+     "cosine": 0.221
+    },
+    {
+     "term": "a glissando on bar chimes",
+     "category": "chimes",
+     "z": 3.34,
+     "cosine": 0.297
+    },
+    {
+     "term": "a singing bowl",
+     "category": "chimes",
+     "z": 3.09,
+     "cosine": 0.19
+    },
+    {
+     "term": "a triangle hit",
+     "category": "chimes",
+     "z": 2.66,
+     "cosine": 0.168
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 2.0,
+   "peak_dbfs": -6.8,
+   "true_peak_dbtp": -6.8,
+   "rms_dbfs": -23.4,
+   "lufs": -18.7,
+   "attack_ms": 84.0,
+   "decay_ms": 1408.0,
+   "brightness_hz": 1568,
+   "bandwidth_hz": 1612,
+   "noise_floor_dbfs": -54.3,
+   "flatness": 0.0,
+   "harmonic_ratio": 1.0,
+   "f0_hz": 1542.8,
+   "onset_count": 26,
+   "onsets_per_s": 13.0,
+   "width": "mono",
+   "digital_silence_frac": 0.0123
+  }
+ },
+ "ping_1": {
+  "kind": "ping",
+  "title": "Sonar sweep beep",
+  "summary": "1.54 s short one-shot, tonal, pitch ~701 Hz (F5) (attack 115 ms, decays in 796 ms). Sounds most like: bubbles underwater (z +2.8), a cork pop (z +2.6), a bubble pop (z +2.6) [plausible reading]. AudioSet: Sonar 0.79, Sound effect 0.29, Whoosh, swoosh, swish 0.05. peak -3.2 dBFS, -15.8 LUFS, brightness 1.5 kHz, bandwidth 16.3 kHz, noise floor -55 dBFS, mono.",
+  "match": {
+   "summary": "ping_1.wav: 'a sonar ping with a soft echo' -> strong (z +3.2; would rank #1 among 322 vocabulary descriptions; cosine 0.30). Forced choice vs your alternatives: 'a sonar ping with a soft echo' >99%, 'an alarm beep' <1%, 'a phone ringtone' <1%. It sounds most like: 'bubbles underwater' (z +2.8), 'a cork pop' (z +2.6), 'a bubble pop' (z +2.6), 'a liquid bloop' (z +2.3). Evidence for 'strong' (held-out library search, ~3% of candidate pairs true): the right kind of sound 98% of the time, the exact variant 61% (a close variant such as an Enter key for a spacebar counts as wrong then).",
+   "path": "sfx/candidates/ping_1.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -3.2,
+   "query": "a sonar ping with a soft echo",
+   "cosine": 0.302,
+   "z": 3.24,
+   "percentile": 100.0,
+   "rank_in_vocab": 1,
+   "p_vs_alts": 0.999,
+   "verdict": "strong",
+   "validated": true,
+   "alts": [
+    {
+     "query": "an alarm beep",
+     "p": 0.001,
+     "z": 2.02,
+     "cosine": 0.126
+    },
+    {
+     "query": "a phone ringtone",
+     "p": 0.0,
+     "z": 0.05,
+     "cosine": 0.035
+    }
+   ],
+   "results": [
+    {
+     "query": "a sonar ping with a soft echo",
+     "cosine": 0.302,
+     "z": 3.24,
+     "percentile": 100.0,
+     "rank_in_vocab": 1,
+     "vocab_size": 322,
+     "verdict": "strong",
+     "validated": true,
+     "p_vs_alts": 0.999,
+     "alts": [
+      {
+       "query": "an alarm beep",
+       "p": 0.001,
+       "z": 2.02,
+       "cosine": 0.126
+      },
+      {
+       "query": "a phone ringtone",
+       "p": 0.0,
+       "z": 0.05,
+       "cosine": 0.035
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "bubbles underwater",
+     "category": "water",
+     "z": 2.89,
+     "cosine": 0.244
+    },
+    {
+     "term": "a cork pop",
+     "category": "foley",
+     "z": 2.67,
+     "cosine": 0.287
+    },
+    {
+     "term": "a bubble pop",
+     "category": "foley",
+     "z": 2.6,
+     "cosine": 0.298
+    },
+    {
+     "term": "a liquid bloop",
+     "category": "water",
+     "z": 2.39,
+     "cosine": 0.248
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 1.536,
+   "peak_dbfs": -3.2,
+   "true_peak_dbtp": -3.2,
+   "rms_dbfs": -18.3,
+   "lufs": -15.8,
+   "attack_ms": 115.0,
+   "decay_ms": 796.0,
+   "brightness_hz": 1451,
+   "bandwidth_hz": 16254,
+   "noise_floor_dbfs": -55.2,
+   "flatness": 0.0,
+   "harmonic_ratio": 0.985,
+   "f0_hz": 700.9,
+   "onset_count": 3,
+   "onsets_per_s": 1.95,
+   "width": "mono",
+   "digital_silence_frac": 0.0036
+  }
+ },
+ "ping_2": {
+  "kind": "ping",
+  "title": "Dirty_Sonar.wav",
+  "summary": "3.29 s busy, 11.3 onsets/s (attack 78 ms, decays in 1534 ms). Sounds most like: a triangle hit (z +2.9), a cinematic hit with a long tail (z +2.4), an error buzz (z +2.4) [plausible reading]. Other readings: a creaking door (foley, z +2.2). AudioSet: Sound effect 0.73, Whoosh, swoosh, swish 0.18, Sonar 0.16. peak -10.7 dBFS, -23.9 LUFS, brightness 4.8 kHz, bandwidth 20.5 kHz, noise floor -73 dBFS,",
+  "match": {
+   "summary": "ping_2.wav: 'a sonar ping with a soft echo' -> plausible (z +2.9; would rank #2 among 322 vocabulary descriptions; cosine 0.21). Forced choice vs your alternatives: 'a sonar ping with a soft echo' >99%, 'an alarm beep' <1%, 'a phone ringtone' <1%. It sounds most like: 'a triangle hit' (z +2.9), 'a cinematic hit with a long tail' (z +2.4), 'an error buzz' (z +2.4), 'a snare roll' (z +2.2). Evidence for 'plausible' (held-out library search, ~3% of candidate pairs true): the right kind of sound 41% of the time, the exact variant 22% (a close variant such as an Enter key for a spacebar counts as wrong then).",
+   "path": "sfx/candidates/ping_2.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -10.7,
+   "query": "a sonar ping with a soft echo",
+   "cosine": 0.215,
+   "z": 2.97,
+   "percentile": 99.7,
+   "rank_in_vocab": 2,
+   "p_vs_alts": 0.997,
+   "verdict": "plausible",
+   "validated": true,
+   "alts": [
+    {
+     "query": "an alarm beep",
+     "p": 0.001,
+     "z": 1.68,
+     "cosine": 0.042
+    },
+    {
+     "query": "a phone ringtone",
+     "p": 0.001,
+     "z": 0.55,
+     "cosine": 0.046
+    }
+   ],
+   "results": [
+    {
+     "query": "a sonar ping with a soft echo",
+     "cosine": 0.215,
+     "z": 2.97,
+     "percentile": 99.7,
+     "rank_in_vocab": 2,
+     "vocab_size": 322,
+     "verdict": "plausible",
+     "validated": true,
+     "p_vs_alts": 0.997,
+     "alts": [
+      {
+       "query": "an alarm beep",
+       "p": 0.001,
+       "z": 1.68,
+       "cosine": 0.042
+      },
+      {
+       "query": "a phone ringtone",
+       "p": 0.001,
+       "z": 0.55,
+       "cosine": 0.046
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "a triangle hit",
+     "category": "chimes",
+     "z": 2.91,
+     "cosine": 0.165
+    },
+    {
+     "term": "a cinematic hit with a long tail",
+     "category": "impacts",
+     "z": 2.49,
+     "cosine": 0.119
+    },
+    {
+     "term": "an error buzz",
+     "category": "ui",
+     "z": 2.44,
+     "cosine": 0.145
+    },
+    {
+     "term": "a snare roll",
+     "category": "instruments",
+     "z": 2.28,
+     "cosine": 0.108
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 3.286,
+   "peak_dbfs": -10.7,
+   "true_peak_dbtp": -10.3,
+   "rms_dbfs": -31.6,
+   "lufs": -23.9,
+   "attack_ms": 78.0,
+   "decay_ms": 1534.0,
+   "brightness_hz": 4772,
+   "bandwidth_hz": 20480,
+   "noise_floor_dbfs": -73.4,
+   "flatness": 0.0006,
+   "harmonic_ratio": 0.693,
+   "onset_count": 37,
+   "onsets_per_s": 11.26,
+   "width": "mono",
+   "digital_silence_frac": 0.0254
+  }
+ },
+ "ping_3": {
+  "kind": "ping",
+  "title": "Sonar.wav",
+  "summary": "3.41 s 4 separate events, tonal, pitch ~1062 Hz (C6) (attack 21 ms, decays in 1121 ms). Sounds most like: an explosion (z +2.6), a cinematic hit with a long tail (z +2.6), a deep cinematic boom (z +2.5) [plausible reading]. Other readings: a success chime (ui, z +1.9). AudioSet tagger unsure (Sound effect 0.17, Sonar 0.10, Whoosh, swoosh, swish 0.07). peak -1.9 dBFS, -14.2 LUFS, brightness 1.0 kHz",
+  "match": {
+   "summary": "ping_3.wav: 'a sonar ping with a soft echo' -> strong (z +3.4; would rank #1 among 322 vocabulary descriptions; cosine 0.31). Forced choice vs your alternatives: 'a sonar ping with a soft echo' >99%, 'an alarm beep' <1%, 'a phone ringtone' <1%. It sounds most like: 'an explosion' (z +2.6), 'a cinematic hit with a long tail' (z +2.6), 'a deep cinematic boom' (z +2.5), 'a snare hit' (z +2.5). Evidence for 'strong' (held-out library search, ~3% of candidate pairs true): the right kind of sound 98% of the time, the exact variant 61% (a close variant such as an Enter key for a spacebar counts as wrong then).",
+   "path": "sfx/candidates/ping_3.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -1.9,
+   "query": "a sonar ping with a soft echo",
+   "cosine": 0.313,
+   "z": 3.49,
+   "percentile": 100.0,
+   "rank_in_vocab": 1,
+   "p_vs_alts": 0.999,
+   "verdict": "strong",
+   "validated": true,
+   "alts": [
+    {
+     "query": "an alarm beep",
+     "p": 0.0,
+     "z": 1.64,
+     "cosine": 0.099
+    },
+    {
+     "query": "a phone ringtone",
+     "p": 0.001,
+     "z": 0.75,
+     "cosine": 0.132
+    }
+   ],
+   "results": [
+    {
+     "query": "a sonar ping with a soft echo",
+     "cosine": 0.313,
+     "z": 3.49,
+     "percentile": 100.0,
+     "rank_in_vocab": 1,
+     "vocab_size": 322,
+     "verdict": "strong",
+     "validated": true,
+     "p_vs_alts": 0.999,
+     "alts": [
+      {
+       "query": "an alarm beep",
+       "p": 0.0,
+       "z": 1.64,
+       "cosine": 0.099
+      },
+      {
+       "query": "a phone ringtone",
+       "p": 0.001,
+       "z": 0.75,
+       "cosine": 0.132
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "an explosion",
+     "category": "impacts",
+     "z": 2.68,
+     "cosine": 0.179
+    },
+    {
+     "term": "a cinematic hit with a long tail",
+     "category": "impacts",
+     "z": 2.64,
+     "cosine": 0.187
+    },
+    {
+     "term": "a deep cinematic boom",
+     "category": "impacts",
+     "z": 2.52,
+     "cosine": 0.189
+    },
+    {
+     "term": "a snare hit",
+     "category": "impacts",
+     "z": 2.51,
+     "cosine": 0.169
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 3.413,
+   "peak_dbfs": -1.9,
+   "true_peak_dbtp": -1.9,
+   "rms_dbfs": -20.7,
+   "lufs": -14.2,
+   "attack_ms": 21.0,
+   "decay_ms": 1121.0,
+   "brightness_hz": 1041,
+   "bandwidth_hz": 4063,
+   "noise_floor_dbfs": -93.7,
+   "flatness": 0.0,
+   "harmonic_ratio": 0.963,
+   "f0_hz": 1062.4,
+   "onset_count": 4,
+   "onsets_per_s": 1.17,
+   "width": "mono",
+   "digital_silence_frac": 0.1529
+  }
+ },
+ "tick_0": {
+  "kind": "tick",
+  "title": "Soft UI Button Click",
+  "summary": "0.24 s short transient (attack 0 ms, decays in 69 ms). Sounds most like: an error buzz (z +2.6), a glass ting (z +2.6), a finger squeaking on glass (z +2.4) [plausible reading]. Other readings: ice cubes in a glass (water, z +2.1), an enter key press (keyboard, z +2.0). AudioSet: Beep, bleep 0.22. peak -15.2 dBFS, brightness 3.8 kHz, bandwidth 20.5 kHz, mono.",
+  "match": {
+   "summary": "tick_0.wav: 'a soft short UI tick' -> plausible (z +2.6; would rank #7 among 322 vocabulary descriptions; cosine 0.20). Forced choice vs your alternatives: 'a soft short UI tick' >99%, 'a loud clap' <1%, 'a mechanical rattle' <1%. It sounds most like: 'an error buzz' (z +2.6), 'a glass ting' (z +2.6), 'a finger squeaking on glass' (z +2.4), 'a digital glitch' (z +2.4). Evidence for 'plausible' (held-out library search, ~3% of candidate pairs true): the right kind of sound 41% of the time, the exact variant 22% (a close variant such as an Enter key for a spacebar counts as wrong then).",
+   "path": "sfx/candidates/tick_0.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -15.2,
+   "query": "a soft short UI tick",
+   "cosine": 0.199,
+   "z": 2.62,
+   "percentile": 98.1,
+   "rank_in_vocab": 7,
+   "p_vs_alts": 1.0,
+   "verdict": "plausible",
+   "validated": true,
+   "alts": [
+    {
+     "query": "a loud clap",
+     "p": 0.0,
+     "z": -0.55,
+     "cosine": -0.141
+    },
+    {
+     "query": "a mechanical rattle",
+     "p": 0.0,
+     "z": -0.55,
+     "cosine": -0.139
+    }
+   ],
+   "results": [
+    {
+     "query": "a soft short UI tick",
+     "cosine": 0.199,
+     "z": 2.62,
+     "percentile": 98.1,
+     "rank_in_vocab": 7,
+     "vocab_size": 322,
+     "verdict": "plausible",
+     "validated": true,
+     "p_vs_alts": 1.0,
+     "alts": [
+      {
+       "query": "a loud clap",
+       "p": 0.0,
+       "z": -0.55,
+       "cosine": -0.141
+      },
+      {
+       "query": "a mechanical rattle",
+       "p": 0.0,
+       "z": -0.55,
+       "cosine": -0.139
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "an error buzz",
+     "category": "ui",
+     "z": 2.69,
+     "cosine": 0.2
+    },
+    {
+     "term": "a glass ting",
+     "category": "chimes",
+     "z": 2.67,
+     "cosine": 0.236
+    },
+    {
+     "term": "a finger squeaking on glass",
+     "category": "foley",
+     "z": 2.41,
+     "cosine": 0.133
+    },
+    {
+     "term": "a digital glitch",
+     "category": "ui",
+     "z": 2.4,
+     "cosine": 0.217
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 0.238,
+   "peak_dbfs": -15.2,
+   "true_peak_dbtp": -14.9,
+   "rms_dbfs": -34.9,
+   "attack_ms": 0.0,
+   "decay_ms": 69.0,
+   "brightness_hz": 3772,
+   "bandwidth_hz": 20480,
+   "flatness": 0.0001,
+   "harmonic_ratio": 0.0,
+   "onset_count": 3,
+   "onsets_per_s": 12.58,
+   "width": "mono",
+   "digital_silence_frac": 0.295
+  }
+ },
+ "tick_1": {
+  "kind": "tick",
+  "title": "Mentos soft rattle one shot - perc.wav",
+  "summary": "1.25 s short one-shot (attack 36 ms, decays in 149 ms). Sounds most like: ice cubes in a glass (z +4.5), dominoes falling (z +3.9), lego bricks clicking (z +3.3) [clear reading]. Other readings: a glass ting (chimes, z +2.7), keys jingling (everyday, z +2.3). AudioSet: Coin (dropping) 0.60, Bicycle bell 0.15, Sound effect 0.07. peak -9.0 dBFS, -28.0 LUFS, brightness 5.2 kHz, bandwidth 20.5 kHz, di",
+  "match": {
+   "summary": "tick_1.wav: 'a soft short UI tick' -> no match (z +1.8; would rank #17 among 322 vocabulary descriptions; cosine 0.11). Forced choice vs your alternatives: 'a soft short UI tick' 73%, 'a loud clap' <1%, 'a mechanical rattle' 27%. It sounds most like: 'ice cubes in a glass' (z +4.5), 'dominoes falling' (z +3.9), 'lego bricks clicking' (z +3.3), 'coins dropping' (z +3.1).",
+   "path": "sfx/candidates/tick_1.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -9.0,
+   "query": "a soft short UI tick",
+   "cosine": 0.111,
+   "z": 1.83,
+   "percentile": 95.0,
+   "rank_in_vocab": 17,
+   "p_vs_alts": 0.733,
+   "verdict": "no match",
+   "validated": true,
+   "alts": [
+    {
+     "query": "a loud clap",
+     "p": 0.0,
+     "z": -2.23,
+     "cosine": -0.187
+    },
+    {
+     "query": "a mechanical rattle",
+     "p": 0.267,
+     "z": 1.29,
+     "cosine": 0.085
+    }
+   ],
+   "results": [
+    {
+     "query": "a soft short UI tick",
+     "cosine": 0.111,
+     "z": 1.83,
+     "percentile": 95.0,
+     "rank_in_vocab": 17,
+     "vocab_size": 322,
+     "verdict": "no match",
+     "validated": true,
+     "p_vs_alts": 0.733,
+     "alts": [
+      {
+       "query": "a loud clap",
+       "p": 0.0,
+       "z": -2.23,
+       "cosine": -0.187
+      },
+      {
+       "query": "a mechanical rattle",
+       "p": 0.267,
+       "z": 1.29,
+       "cosine": 0.085
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "ice cubes in a glass",
+     "category": "water",
+     "z": 4.55,
+     "cosine": 0.321
+    },
+    {
+     "term": "dominoes falling",
+     "category": "foley",
+     "z": 3.91,
+     "cosine": 0.271
+    },
+    {
+     "term": "lego bricks clicking",
+     "category": "foley",
+     "z": 3.35,
+     "cosine": 0.253
+    },
+    {
+     "term": "coins dropping",
+     "category": "foley",
+     "z": 3.12,
+     "cosine": 0.207
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 1.25,
+   "peak_dbfs": -9.0,
+   "true_peak_dbtp": -8.8,
+   "rms_dbfs": -38.5,
+   "lufs": -28.0,
+   "attack_ms": 36.0,
+   "decay_ms": 149.0,
+   "brightness_hz": 5250,
+   "bandwidth_hz": 20480,
+   "noise_floor_dbfs": -200.0,
+   "flatness": 0.0009,
+   "harmonic_ratio": 0.001,
+   "onset_count": 3,
+   "onsets_per_s": 2.4,
+   "width": "side/mid -23 dB",
+   "digital_silence_frac": 0.5697
+  }
+ },
+ "tick_2": {
+  "kind": "tick",
+  "title": "Click Tick.wav",
+  "summary": "0.15 s short transient (attack 4 ms, decays in 47 ms). Sounds most like: a soft key release click (z +3.4), a mouth pop (z +2.9), a single mechanical keyboard key press (z +2.8) [clear reading]. Other readings: a toggle switch click (ui, z +2.5). AudioSet: Finger snapping 0.41, Computer keyboard 0.16, Typing 0.09. peak -11.8 dBFS, brightness 5.0 kHz, bandwidth 20.5 kHz, side/mid -35 dB.",
+  "match": {
+   "summary": "tick_2.wav: 'a soft short UI tick' -> plausible (z +2.9; would rank #2 among 322 vocabulary descriptions; cosine 0.36). Forced choice vs your alternatives: 'a soft short UI tick' >99%, 'a loud clap' <1%, 'a mechanical rattle' <1%. It sounds most like: 'a soft key release click' (z +3.4), 'a mouth pop' (z +2.9), 'a single mechanical keyboard key press' (z +2.8), 'a toggle switch click' (z +2.5). Evidence for 'plausible' (held-out library search, ~3% of candidate pairs true): the right kind of sound 41% of the time, the exact variant 22% (a close variant such as an Enter key for a spacebar counts as wrong then).",
+   "path": "sfx/candidates/tick_2.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -11.8,
+   "query": "a soft short UI tick",
+   "cosine": 0.356,
+   "z": 2.98,
+   "percentile": 99.7,
+   "rank_in_vocab": 2,
+   "p_vs_alts": 1.0,
+   "verdict": "plausible",
+   "validated": true,
+   "alts": [
+    {
+     "query": "a loud clap",
+     "p": 0.0,
+     "z": 0.69,
+     "cosine": 0.1
+    },
+    {
+     "query": "a mechanical rattle",
+     "p": 0.0,
+     "z": -0.12,
+     "cosine": 0.007
+    }
+   ],
+   "results": [
+    {
+     "query": "a soft short UI tick",
+     "cosine": 0.356,
+     "z": 2.98,
+     "percentile": 99.7,
+     "rank_in_vocab": 2,
+     "vocab_size": 322,
+     "verdict": "plausible",
+     "validated": true,
+     "p_vs_alts": 1.0,
+     "alts": [
+      {
+       "query": "a loud clap",
+       "p": 0.0,
+       "z": 0.69,
+       "cosine": 0.1
+      },
+      {
+       "query": "a mechanical rattle",
+       "p": 0.0,
+       "z": -0.12,
+       "cosine": 0.007
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "a soft key release click",
+     "category": "keyboard",
+     "z": 3.46,
+     "cosine": 0.417
+    },
+    {
+     "term": "a mouth pop",
+     "category": "foley",
+     "z": 2.92,
+     "cosine": 0.392
+    },
+    {
+     "term": "a single mechanical keyboard key press",
+     "category": "keyboard",
+     "z": 2.8,
+     "cosine": 0.382
+    },
+    {
+     "term": "a toggle switch click",
+     "category": "ui",
+     "z": 2.56,
+     "cosine": 0.364
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 0.15,
+   "peak_dbfs": -11.8,
+   "true_peak_dbtp": -11.8,
+   "rms_dbfs": -31.3,
+   "attack_ms": 4.0,
+   "decay_ms": 47.0,
+   "brightness_hz": 4992,
+   "bandwidth_hz": 20480,
+   "flatness": 0.0033,
+   "harmonic_ratio": 0.018,
+   "onset_count": 1,
+   "onsets_per_s": 6.67,
+   "width": "side/mid -35 dB",
+   "digital_silence_frac": 0.0651
+  }
+ },
+ "tick_3": {
+  "kind": "tick",
+  "title": "Click Tick 2.wav",
+  "summary": "0.47 s short transient (attack 4 ms, decays in 60 ms). Sounds most like: a single mechanical keyboard key press (z +3.6), a soft key release click (z +3.4), a scroll wheel tick (z +2.9) [clear reading]. AudioSet tagger unsure (Sound effect 0.07). peak -10.8 dBFS, -36.3 LUFS, brightness 3.1 kHz, bandwidth 12.9 kHz, mono.",
+  "match": {
+   "summary": "tick_3.wav: 'a soft short UI tick' -> plausible (z +2.6; would rank #5 among 322 vocabulary descriptions; cosine 0.28). Forced choice vs your alternatives: 'a soft short UI tick' >99%, 'a loud clap' <1%, 'a mechanical rattle' <1%. It sounds most like: 'a single mechanical keyboard key press' (z +3.6), 'a soft key release click' (z +3.4), 'a scroll wheel tick' (z +2.9), 'an enter key press' (z +2.7). Evidence for 'plausible' (held-out library search, ~3% of candidate pairs true): the right kind of sound 41% of the time, the exact variant 22% (a close variant such as an Enter key for a spacebar counts as wrong then).",
+   "path": "sfx/candidates/tick_3.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -10.8,
+   "query": "a soft short UI tick",
+   "cosine": 0.275,
+   "z": 2.69,
+   "percentile": 98.8,
+   "rank_in_vocab": 5,
+   "p_vs_alts": 1.0,
+   "verdict": "plausible",
+   "validated": true,
+   "alts": [
+    {
+     "query": "a loud clap",
+     "p": 0.0,
+     "z": 0.54,
+     "cosine": 0.052
+    },
+    {
+     "query": "a mechanical rattle",
+     "p": 0.0,
+     "z": 0.05,
+     "cosine": -0.001
+    }
+   ],
+   "results": [
+    {
+     "query": "a soft short UI tick",
+     "cosine": 0.275,
+     "z": 2.69,
+     "percentile": 98.8,
+     "rank_in_vocab": 5,
+     "vocab_size": 322,
+     "verdict": "plausible",
+     "validated": true,
+     "p_vs_alts": 1.0,
+     "alts": [
+      {
+       "query": "a loud clap",
+       "p": 0.0,
+       "z": 0.54,
+       "cosine": 0.052
+      },
+      {
+       "query": "a mechanical rattle",
+       "p": 0.0,
+       "z": 0.05,
+       "cosine": -0.001
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "a single mechanical keyboard key press",
+     "category": "keyboard",
+     "z": 3.69,
+     "cosine": 0.431
+    },
+    {
+     "term": "a soft key release click",
+     "category": "keyboard",
+     "z": 3.41,
+     "cosine": 0.359
+    },
+    {
+     "term": "a scroll wheel tick",
+     "category": "ui",
+     "z": 2.99,
+     "cosine": 0.357
+    },
+    {
+     "term": "an enter key press",
+     "category": "keyboard",
+     "z": 2.72,
+     "cosine": 0.356
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 0.466,
+   "peak_dbfs": -10.8,
+   "true_peak_dbtp": -10.8,
+   "rms_dbfs": -41.6,
+   "lufs": -36.3,
+   "attack_ms": 4.0,
+   "decay_ms": 60.0,
+   "brightness_hz": 3086,
+   "bandwidth_hz": 12901,
+   "flatness": 0.0001,
+   "harmonic_ratio": 0.0,
+   "onset_count": 2,
+   "onsets_per_s": 4.29,
+   "width": "mono",
+   "digital_silence_frac": 0.8226
+  }
+ },
+ "tick_4": {
+  "kind": "tick",
+  "title": "Click / Tick",
+  "summary": "0.03 s short transient (attack 1 ms, decays in 22 ms). Sounds most like: a soft key release click (z +2.8), glass clinking (z +2.7), a soft UI button tap (z +2.3) [plausible reading]. Other readings: ice cubes in a glass (water, z +2.1), a wine glass ring (chimes, z +2.0). AudioSet tagger unsure (Sound effect 0.07). peak -23.3 dBFS, brightness 5.1 kHz, bandwidth 20.5 kHz, mono.",
+  "match": {
+   "summary": "tick_4.wav: 'a soft short UI tick' -> strong (z +3.3; would rank #1 among 322 vocabulary descriptions; cosine 0.34). Forced choice vs your alternatives: 'a soft short UI tick' >99%, 'a loud clap' <1%, 'a mechanical rattle' <1%. It sounds most like: 'a soft key release click' (z +2.8), 'glass clinking' (z +2.7), 'a soft UI button tap' (z +2.3), 'a single mechanical keyboard key press' (z +2.2). Evidence for 'strong' (held-out library search, ~3% of candidate pairs true): the right kind of sound 98% of the time, the exact variant 61% (a close variant such as an Enter key for a spacebar counts as wrong then).",
+   "path": "sfx/candidates/tick_4.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -23.3,
+   "query": "a soft short UI tick",
+   "cosine": 0.344,
+   "z": 3.36,
+   "percentile": 100.0,
+   "rank_in_vocab": 1,
+   "p_vs_alts": 1.0,
+   "verdict": "strong",
+   "validated": true,
+   "alts": [
+    {
+     "query": "a loud clap",
+     "p": 0.0,
+     "z": -1.27,
+     "cosine": -0.059
+    },
+    {
+     "query": "a mechanical rattle",
+     "p": 0.0,
+     "z": 0.94,
+     "cosine": 0.142
+    }
+   ],
+   "results": [
+    {
+     "query": "a soft short UI tick",
+     "cosine": 0.344,
+     "z": 3.36,
+     "percentile": 100.0,
+     "rank_in_vocab": 1,
+     "vocab_size": 322,
+     "verdict": "strong",
+     "validated": true,
+     "p_vs_alts": 1.0,
+     "alts": [
+      {
+       "query": "a loud clap",
+       "p": 0.0,
+       "z": -1.27,
+       "cosine": -0.059
+      },
+      {
+       "query": "a mechanical rattle",
+       "p": 0.0,
+       "z": 0.94,
+       "cosine": 0.142
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "a soft key release click",
+     "category": "keyboard",
+     "z": 2.88,
+     "cosine": 0.305
+    },
+    {
+     "term": "glass clinking",
+     "category": "foley",
+     "z": 2.73,
+     "cosine": 0.259
+    },
+    {
+     "term": "a soft UI button tap",
+     "category": "ui",
+     "z": 2.33,
+     "cosine": 0.257
+    },
+    {
+     "term": "a single mechanical keyboard key press",
+     "category": "keyboard",
+     "z": 2.26,
+     "cosine": 0.291
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 0.026,
+   "peak_dbfs": -23.3,
+   "true_peak_dbtp": -23.1,
+   "rms_dbfs": -41.3,
+   "attack_ms": 1.0,
+   "decay_ms": 22.0,
+   "brightness_hz": 5078,
+   "bandwidth_hz": 20480,
+   "flatness": 0.0002,
+   "onset_count": 0,
+   "onsets_per_s": 0.0,
+   "width": "mono",
+   "digital_silence_frac": 0.0064
+  }
+ },
+ "tick_5": {
+  "kind": "tick",
+  "title": "wooden button",
+  "summary": "1.99 s busy, 2.0 onsets/s (attack 2 ms, decays in 61 ms). Sounds most like: a single mechanical keyboard key press (z +3.2), a scroll wheel tick (z +3.0), a clock ticking (z +3.0) [clear reading]. Other readings: a wooden block hit (foley, z +2.5). AudioSet: Tick 0.30, Tick-tock 0.28, Sound effect 0.13. peak -14.7 dBFS, -41.7 LUFS, brightness 4.0 kHz, bandwidth 20.5 kHz, noise floor -89 dBFS, mono",
+  "match": {
+   "summary": "tick_5.wav: 'a soft short UI tick' -> plausible (z +2.6; would rank #5 among 322 vocabulary descriptions; cosine 0.26). Forced choice vs your alternatives: 'a soft short UI tick' >99%, 'a loud clap' <1%, 'a mechanical rattle' <1%. It sounds most like: 'a single mechanical keyboard key press' (z +3.2), 'a scroll wheel tick' (z +3.0), 'a clock ticking' (z +3.0), 'an enter key press' (z +2.9). Evidence for 'plausible' (held-out library search, ~3% of candidate pairs true): the right kind of sound 41% of the time, the exact variant 22% (a close variant such as an Enter key for a spacebar counts as wrong then).",
+   "path": "sfx/candidates/tick_5.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -14.7,
+   "query": "a soft short UI tick",
+   "cosine": 0.255,
+   "z": 2.62,
+   "percentile": 98.8,
+   "rank_in_vocab": 5,
+   "p_vs_alts": 1.0,
+   "verdict": "plausible",
+   "validated": true,
+   "alts": [
+    {
+     "query": "a loud clap",
+     "p": 0.0,
+     "z": 0.23,
+     "cosine": 0.04
+    },
+    {
+     "query": "a mechanical rattle",
+     "p": 0.0,
+     "z": -0.2,
+     "cosine": 0.001
+    }
+   ],
+   "results": [
+    {
+     "query": "a soft short UI tick",
+     "cosine": 0.255,
+     "z": 2.62,
+     "percentile": 98.8,
+     "rank_in_vocab": 5,
+     "vocab_size": 322,
+     "verdict": "plausible",
+     "validated": true,
+     "p_vs_alts": 1.0,
+     "alts": [
+      {
+       "query": "a loud clap",
+       "p": 0.0,
+       "z": 0.23,
+       "cosine": 0.04
+      },
+      {
+       "query": "a mechanical rattle",
+       "p": 0.0,
+       "z": -0.2,
+       "cosine": 0.001
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "a single mechanical keyboard key press",
+     "category": "keyboard",
+     "z": 3.23,
+     "cosine": 0.36
+    },
+    {
+     "term": "a scroll wheel tick",
+     "category": "ui",
+     "z": 3.08,
+     "cosine": 0.349
+    },
+    {
+     "term": "a clock ticking",
+     "category": "everyday",
+     "z": 3.01,
+     "cosine": 0.3
+    },
+    {
+     "term": "an enter key press",
+     "category": "keyboard",
+     "z": 2.92,
+     "cosine": 0.361
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 1.995,
+   "peak_dbfs": -14.7,
+   "true_peak_dbtp": -14.7,
+   "rms_dbfs": -49.0,
+   "lufs": -41.7,
+   "attack_ms": 2.0,
+   "decay_ms": 61.0,
+   "brightness_hz": 3983,
+   "bandwidth_hz": 20480,
+   "noise_floor_dbfs": -89.2,
+   "flatness": 0.0033,
+   "harmonic_ratio": 0.0,
+   "onset_count": 4,
+   "onsets_per_s": 2.01,
+   "width": "mono",
+   "digital_silence_frac": 0.2896
+  }
+ },
+ "hollow_0": {
+  "kind": "hollow",
+  "title": "Booms.wav",
+  "summary": "7.49 s busy, 1.6 onsets/s (attack 77 ms, decays in 1195 ms). Sounds most like: an explosion (z +4.1), a deep cinematic boom (z +4.0), a big drum hit (z +3.4) [clear reading]. Other readings: a deep cinematic whoosh (transitions, z +2.6). Character: punchy. AudioSet: Explosion 0.24, Sound effect 0.20, Burst, pop 0.12. peak -7.4 dBFS, -18.6 LUFS, brightness 926 Hz, bandwidth 8.1 kHz, digital silence",
+  "match": {
+   "summary": "hollow_0.wav: 'a low soft hollow impact' -> weak (z +2.4; would rank #11 among 322 vocabulary descriptions; cosine 0.19). Forced choice vs your alternatives: 'a low soft hollow impact' <1%, 'an explosion' 99%, 'a gunshot' <1%. It sounds most like: 'an explosion' (z +4.1), 'a deep cinematic boom' (z +4.0), 'a big drum hit' (z +3.4), 'a heavy thud' (z +3.4). Evidence for 'weak' (held-out library search, ~3% of candidate pairs true): the right kind of sound 28% of the time, the exact variant 17% (a close variant such as an Enter key for a spacebar counts as wrong then).",
+   "path": "sfx/candidates/hollow_0.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -7.4,
+   "query": "a low soft hollow impact",
+   "cosine": 0.187,
+   "z": 2.46,
+   "percentile": 96.9,
+   "rank_in_vocab": 11,
+   "p_vs_alts": 0.003,
+   "verdict": "weak",
+   "validated": true,
+   "alts": [
+    {
+     "query": "an explosion",
+     "p": 0.994,
+     "z": 4.19,
+     "cosine": 0.34
+    },
+    {
+     "query": "a gunshot",
+     "p": 0.003,
+     "z": 2.17,
+     "cosine": 0.189
+    }
+   ],
+   "results": [
+    {
+     "query": "a low soft hollow impact",
+     "cosine": 0.187,
+     "z": 2.46,
+     "percentile": 96.9,
+     "rank_in_vocab": 11,
+     "vocab_size": 322,
+     "verdict": "weak",
+     "validated": true,
+     "p_vs_alts": 0.003,
+     "alts": [
+      {
+       "query": "an explosion",
+       "p": 0.994,
+       "z": 4.19,
+       "cosine": 0.34
+      },
+      {
+       "query": "a gunshot",
+       "p": 0.003,
+       "z": 2.17,
+       "cosine": 0.189
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "an explosion",
+     "category": "impacts",
+     "z": 4.19,
+     "cosine": 0.34
+    },
+    {
+     "term": "a deep cinematic boom",
+     "category": "impacts",
+     "z": 4.05,
+     "cosine": 0.35
+    },
+    {
+     "term": "a big drum hit",
+     "category": "impacts",
+     "z": 3.41,
+     "cosine": 0.284
+    },
+    {
+     "term": "a heavy thud",
+     "category": "impacts",
+     "z": 3.4,
+     "cosine": 0.279
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 7.485,
+   "peak_dbfs": -7.4,
+   "true_peak_dbtp": -7.3,
+   "rms_dbfs": -21.4,
+   "lufs": -18.6,
+   "lra_lu": 7.0,
+   "attack_ms": 77.0,
+   "decay_ms": 1195.0,
+   "brightness_hz": 926,
+   "bandwidth_hz": 8127,
+   "noise_floor_dbfs": -200.0,
+   "flatness": 0.0,
+   "harmonic_ratio": 0.725,
+   "onset_count": 12,
+   "onsets_per_s": 1.6,
+   "width": "mono",
+   "digital_silence_frac": 0.4048
+  }
+ },
+ "hollow_1": {
+  "kind": "hollow",
+  "title": "low mid afar explosion 1.wav",
+  "summary": "7.21 s 4 separate events, tonal, pitch ~178 Hz (F3) (attack 14 ms, decays in 2.4 s). Sounds most like: an explosion (z +4.1), a big drum hit (z +2.8), a gunshot (z +2.8) [clear reading]. Other readings: fireworks exploding (everyday, z +2.3). AudioSet: Explosion 0.77, Burst, pop 0.58. peak -1.5 dBFS, -10.3 LUFS, brightness 934 Hz, bandwidth 8.1 kHz, noise floor -109 dBFS, side/mid 1 dB.",
+  "match": {
+   "summary": "hollow_1.wav: 'a low soft hollow impact' -> no match (z +0.9; would rank #48 among 322 vocabulary descriptions; cosine 0.07). Forced choice vs your alternatives: 'a low soft hollow impact' <1%, 'an explosion' 97%, 'a gunshot' 3%. It sounds most like: 'an explosion' (z +4.1), 'a big drum hit' (z +2.8), 'a gunshot' (z +2.8), 'a deep cinematic boom' (z +2.7).",
+   "path": "sfx/candidates/hollow_1.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -1.5,
+   "query": "a low soft hollow impact",
+   "cosine": 0.066,
+   "z": 0.99,
+   "percentile": 85.4,
+   "rank_in_vocab": 48,
+   "p_vs_alts": 0.0,
+   "verdict": "no match",
+   "validated": true,
+   "alts": [
+    {
+     "query": "an explosion",
+     "p": 0.969,
+     "z": 4.13,
+     "cosine": 0.366
+    },
+    {
+     "query": "a gunshot",
+     "p": 0.031,
+     "z": 2.82,
+     "cosine": 0.277
+    }
+   ],
+   "results": [
+    {
+     "query": "a low soft hollow impact",
+     "cosine": 0.066,
+     "z": 0.99,
+     "percentile": 85.4,
+     "rank_in_vocab": 48,
+     "vocab_size": 322,
+     "verdict": "no match",
+     "validated": true,
+     "p_vs_alts": 0.0,
+     "alts": [
+      {
+       "query": "an explosion",
+       "p": 0.969,
+       "z": 4.13,
+       "cosine": 0.366
+      },
+      {
+       "query": "a gunshot",
+       "p": 0.031,
+       "z": 2.82,
+       "cosine": 0.277
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "an explosion",
+     "category": "impacts",
+     "z": 4.13,
+     "cosine": 0.366
+    },
+    {
+     "term": "a big drum hit",
+     "category": "impacts",
+     "z": 2.88,
+     "cosine": 0.261
+    },
+    {
+     "term": "a gunshot",
+     "category": "impacts",
+     "z": 2.82,
+     "cosine": 0.277
+    },
+    {
+     "term": "a deep cinematic boom",
+     "category": "impacts",
+     "z": 2.75,
+     "cosine": 0.254
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 7.212,
+   "peak_dbfs": -1.5,
+   "true_peak_dbtp": -1.5,
+   "rms_dbfs": -17.0,
+   "lufs": -10.3,
+   "lra_lu": 25.5,
+   "attack_ms": 14.0,
+   "decay_ms": 2354.0,
+   "brightness_hz": 934,
+   "bandwidth_hz": 8127,
+   "noise_floor_dbfs": -108.9,
+   "flatness": 0.0,
+   "harmonic_ratio": 0.958,
+   "f0_hz": 177.8,
+   "onset_count": 4,
+   "onsets_per_s": 0.55,
+   "width": "side/mid 1 dB",
+   "digital_silence_frac": 0.1081
+  }
+ },
+ "hollow_2": {
+  "kind": "hollow",
+  "title": "48.wav",
+  "summary": "0.47 s short transient (attack 4 ms, decays in 158 ms). Sounds most like: a punchy impact hit (z +4.4), a heavy thud (z +3.8), a kick drum (z +3.3) [clear reading]. Other readings: a knife chopping on a board (foley, z +2.6). Unvalidated hint: a punchy kick drum pattern (z +3.0). Character: punchy. AudioSet tagger unsure (Thunk 0.13, Door 0.06). peak -2.9 dBFS, -16.4 LUFS, brightness 1.6 kHz, band",
+  "match": {
+   "summary": "hollow_2.wav: 'a low soft hollow impact' -> no match (z +1.9; would rank #15 among 322 vocabulary descriptions; cosine 0.10). Forced choice vs your alternatives: 'a low soft hollow impact' 96%, 'an explosion' 2%, 'a gunshot' 3%. It sounds most like: 'a punchy impact hit' (z +4.4), 'a heavy thud' (z +3.8), 'a kick drum' (z +3.3), 'a punchy kick drum pattern' (z +3.0).",
+   "path": "sfx/candidates/hollow_2.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -2.9,
+   "query": "a low soft hollow impact",
+   "cosine": 0.103,
+   "z": 1.93,
+   "percentile": 95.7,
+   "rank_in_vocab": 15,
+   "p_vs_alts": 0.955,
+   "verdict": "no match",
+   "validated": true,
+   "alts": [
+    {
+     "query": "an explosion",
+     "p": 0.015,
+     "z": 1.08,
+     "cosine": -0.004
+    },
+    {
+     "query": "a gunshot",
+     "p": 0.03,
+     "z": 0.88,
+     "cosine": 0.014
+    }
+   ],
+   "results": [
+    {
+     "query": "a low soft hollow impact",
+     "cosine": 0.103,
+     "z": 1.93,
+     "percentile": 95.7,
+     "rank_in_vocab": 15,
+     "vocab_size": 322,
+     "verdict": "no match",
+     "validated": true,
+     "p_vs_alts": 0.955,
+     "alts": [
+      {
+       "query": "an explosion",
+       "p": 0.015,
+       "z": 1.08,
+       "cosine": -0.004
+      },
+      {
+       "query": "a gunshot",
+       "p": 0.03,
+       "z": 0.88,
+       "cosine": 0.014
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "a punchy impact hit",
+     "category": "impacts",
+     "z": 4.41,
+     "cosine": 0.357
+    },
+    {
+     "term": "a heavy thud",
+     "category": "impacts",
+     "z": 3.86,
+     "cosine": 0.324
+    },
+    {
+     "term": "a kick drum",
+     "category": "impacts",
+     "z": 3.31,
+     "cosine": 0.275
+    },
+    {
+     "term": "a punchy kick drum pattern",
+     "category": "instruments",
+     "z": 3.08,
+     "cosine": 0.223
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 0.47,
+   "peak_dbfs": -2.9,
+   "true_peak_dbtp": -2.7,
+   "rms_dbfs": -18.6,
+   "lufs": -16.4,
+   "attack_ms": 4.0,
+   "decay_ms": 158.0,
+   "brightness_hz": 1578,
+   "bandwidth_hz": 12901,
+   "flatness": 0.0004,
+   "harmonic_ratio": 0.005,
+   "onset_count": 3,
+   "onsets_per_s": 6.38,
+   "width": "mono",
+   "digital_silence_frac": 0.0018
+  }
+ },
+ "hollow_3": {
+  "kind": "hollow",
+  "title": "28.wav",
+  "summary": "0.62 s short one-shot (attack 17 ms, decays in 200 ms). Sounds most like: a punchy impact hit (z +4.2), a heavy thud (z +3.2), a kick drum (z +3.0) [clear reading]. Other readings: a knife chopping on a board (foley, z +2.9). Character: punchy. AudioSet: Door 0.23, Knock 0.19, Slam 0.10. peak -3.1 dBFS, -12.7 LUFS, brightness 793 Hz, bandwidth 8.1 kHz, mono.",
+  "match": {
+   "summary": "hollow_3.wav: 'a low soft hollow impact' -> no match (z +1.6; would rank #20 among 322 vocabulary descriptions; cosine 0.04). Forced choice vs your alternatives: 'a low soft hollow impact' 90%, 'an explosion' 5%, 'a gunshot' 5%. It sounds most like: 'a punchy impact hit' (z +4.2), 'a heavy thud' (z +3.2), 'a kick drum' (z +3.0), 'a punchy kick drum pattern' (z +2.9).",
+   "path": "sfx/candidates/hollow_3.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -3.1,
+   "query": "a low soft hollow impact",
+   "cosine": 0.042,
+   "z": 1.63,
+   "percentile": 94.1,
+   "rank_in_vocab": 20,
+   "p_vs_alts": 0.9,
+   "verdict": "no match",
+   "validated": true,
+   "alts": [
+    {
+     "query": "an explosion",
+     "p": 0.049,
+     "z": 1.01,
+     "cosine": -0.033
+    },
+    {
+     "query": "a gunshot",
+     "p": 0.051,
+     "z": 0.64,
+     "cosine": -0.032
+    }
+   ],
+   "results": [
+    {
+     "query": "a low soft hollow impact",
+     "cosine": 0.042,
+     "z": 1.63,
+     "percentile": 94.1,
+     "rank_in_vocab": 20,
+     "vocab_size": 322,
+     "verdict": "no match",
+     "validated": true,
+     "p_vs_alts": 0.9,
+     "alts": [
+      {
+       "query": "an explosion",
+       "p": 0.049,
+       "z": 1.01,
+       "cosine": -0.033
+      },
+      {
+       "query": "a gunshot",
+       "p": 0.051,
+       "z": 0.64,
+       "cosine": -0.032
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "a punchy impact hit",
+     "category": "impacts",
+     "z": 4.22,
+     "cosine": 0.29
+    },
+    {
+     "term": "a heavy thud",
+     "category": "impacts",
+     "z": 3.26,
+     "cosine": 0.217
+    },
+    {
+     "term": "a kick drum",
+     "category": "impacts",
+     "z": 3.02,
+     "cosine": 0.205
+    },
+    {
+     "term": "a punchy kick drum pattern",
+     "category": "instruments",
+     "z": 2.97,
+     "cosine": 0.173
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 0.624,
+   "peak_dbfs": -3.1,
+   "true_peak_dbtp": -3.1,
+   "rms_dbfs": -16.0,
+   "lufs": -12.7,
+   "attack_ms": 17.0,
+   "decay_ms": 200.0,
+   "brightness_hz": 793,
+   "bandwidth_hz": 8127,
+   "flatness": 0.0,
+   "harmonic_ratio": 0.111,
+   "onset_count": 1,
+   "onsets_per_s": 1.6,
+   "width": "mono",
+   "digital_silence_frac": 0.0008
+  }
+ },
+ "click_0": {
+  "kind": "click",
+  "title": "Mouse click sounds",
+  "summary": "2.31 s busy, 3.5 onsets/s (attack 1 ms, decays in 28 ms). Sounds most like: a scroll wheel tick (z +3.3), an enter key press (z +3.2), a mouse click (z +3.1) [clear reading]. AudioSet: Computer keyboard 0.50, Typing 0.26, Clicking 0.08. peak 0.0 dBFS, -20.0 LUFS, brightness 8.6 kHz, bandwidth 20.5 kHz, noise floor -66 dBFS, mono.",
+  "match": {
+   "summary": "click_0.wav: 'a single mouse click' -> strong (z +3.6; would rank #1 among 322 vocabulary descriptions; cosine 0.45). Forced choice vs your alternatives: 'a single mouse click' 98%, 'a double click' 2%, 'a keyboard typing run' <1%. It sounds most like: 'a scroll wheel tick' (z +3.3), 'an enter key press' (z +3.2), 'a mouse click' (z +3.1), 'a soft key release click' (z +2.9). Evidence for 'strong' (held-out library search, ~3% of candidate pairs true): the right kind of sound 98% of the time, the exact variant 61% (a close variant such as an Enter key for a spacebar counts as wrong then).",
+   "path": "sfx/candidates/click_0.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": 0.0,
+   "query": "a single mouse click",
+   "cosine": 0.451,
+   "z": 3.64,
+   "percentile": 100.0,
+   "rank_in_vocab": 1,
+   "p_vs_alts": 0.98,
+   "verdict": "strong",
+   "validated": true,
+   "alts": [
+    {
+     "query": "a double click",
+     "p": 0.02,
+     "z": 2.26,
+     "cosine": 0.35
+    },
+    {
+     "query": "a keyboard typing run",
+     "p": 0.0,
+     "z": 1.5,
+     "cosine": 0.229
+    }
+   ],
+   "results": [
+    {
+     "query": "a single mouse click",
+     "cosine": 0.451,
+     "z": 3.64,
+     "percentile": 100.0,
+     "rank_in_vocab": 1,
+     "vocab_size": 322,
+     "verdict": "strong",
+     "validated": true,
+     "p_vs_alts": 0.98,
+     "alts": [
+      {
+       "query": "a double click",
+       "p": 0.02,
+       "z": 2.26,
+       "cosine": 0.35
+      },
+      {
+       "query": "a keyboard typing run",
+       "p": 0.0,
+       "z": 1.5,
+       "cosine": 0.229
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "a scroll wheel tick",
+     "category": "ui",
+     "z": 3.31,
+     "cosine": 0.435
+    },
+    {
+     "term": "an enter key press",
+     "category": "keyboard",
+     "z": 3.24,
+     "cosine": 0.455
+    },
+    {
+     "term": "a mouse click",
+     "category": "ui",
+     "z": 3.13,
+     "cosine": 0.394
+    },
+    {
+     "term": "a soft key release click",
+     "category": "keyboard",
+     "z": 2.93,
+     "cosine": 0.349
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 2.31,
+   "peak_dbfs": 0.0,
+   "true_peak_dbtp": 1.1,
+   "rms_dbfs": -29.0,
+   "lufs": -20.0,
+   "attack_ms": 1.0,
+   "decay_ms": 28.0,
+   "brightness_hz": 8625,
+   "bandwidth_hz": 20480,
+   "noise_floor_dbfs": -65.8,
+   "flatness": 0.0398,
+   "harmonic_ratio": 0.0,
+   "onset_count": 8,
+   "onsets_per_s": 3.46,
+   "width": "mono",
+   "digital_silence_frac": 0.002
+  }
+ },
+ "click_1": {
+  "kind": "click",
+  "title": "mouse-click-double-00.flac",
+  "summary": "0.47 s busy, 8.5 onsets/s (attack 1 ms, decays in 30 ms). Sounds most like: a soft key release click (z +3.4), an enter key press (z +3.3), a mouse click (z +3.1) [clear reading]. Other readings: a pen click (foley, z +2.7). AudioSet: Computer keyboard 0.28, Finger snapping 0.18, Typing 0.17. peak -3.5 dBFS, -23.4 LUFS, brightness 7.6 kHz, bandwidth 20.5 kHz, mono.",
+  "match": {
+   "summary": "click_1.wav: 'a single mouse click' -> strong (z +3.9; would rank #1 among 322 vocabulary descriptions; cosine 0.47). Forced choice vs your alternatives: 'a single mouse click' 75%, 'a double click' 25%, 'a keyboard typing run' <1%. It sounds most like: 'a soft key release click' (z +3.4), 'an enter key press' (z +3.3), 'a mouse click' (z +3.1), 'a scroll wheel tick' (z +3.0). Evidence for 'strong' (held-out library search, ~3% of candidate pairs true): the right kind of sound 98% of the time, the exact variant 61% (a close variant such as an Enter key for a spacebar counts as wrong then).",
+   "path": "sfx/candidates/click_1.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -3.5,
+   "query": "a single mouse click",
+   "cosine": 0.471,
+   "z": 3.93,
+   "percentile": 100.0,
+   "rank_in_vocab": 1,
+   "p_vs_alts": 0.747,
+   "verdict": "strong",
+   "validated": true,
+   "alts": [
+    {
+     "query": "a double click",
+     "p": 0.253,
+     "z": 3.24,
+     "cosine": 0.443
+    },
+    {
+     "query": "a keyboard typing run",
+     "p": 0.0,
+     "z": 1.56,
+     "cosine": 0.223
+    }
+   ],
+   "results": [
+    {
+     "query": "a single mouse click",
+     "cosine": 0.471,
+     "z": 3.93,
+     "percentile": 100.0,
+     "rank_in_vocab": 1,
+     "vocab_size": 322,
+     "verdict": "strong",
+     "validated": true,
+     "p_vs_alts": 0.747,
+     "alts": [
+      {
+       "query": "a double click",
+       "p": 0.253,
+       "z": 3.24,
+       "cosine": 0.443
+      },
+      {
+       "query": "a keyboard typing run",
+       "p": 0.0,
+       "z": 1.56,
+       "cosine": 0.223
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "a soft key release click",
+     "category": "keyboard",
+     "z": 3.44,
+     "cosine": 0.392
+    },
+    {
+     "term": "an enter key press",
+     "category": "keyboard",
+     "z": 3.35,
+     "cosine": 0.456
+    },
+    {
+     "term": "a mouse click",
+     "category": "ui",
+     "z": 3.12,
+     "cosine": 0.381
+    },
+    {
+     "term": "a scroll wheel tick",
+     "category": "ui",
+     "z": 3.04,
+     "cosine": 0.394
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 0.47,
+   "peak_dbfs": -3.5,
+   "true_peak_dbtp": -3.1,
+   "rms_dbfs": -30.0,
+   "lufs": -23.4,
+   "attack_ms": 1.0,
+   "decay_ms": 30.0,
+   "brightness_hz": 7568,
+   "bandwidth_hz": 20480,
+   "flatness": 0.0071,
+   "harmonic_ratio": 0.037,
+   "onset_count": 4,
+   "onsets_per_s": 8.5,
+   "width": "mono",
+   "digital_silence_frac": 0.0065
+  }
+ },
+ "click_2": {
+  "kind": "click",
+  "title": "Mouse clicks",
+  "summary": "1.87 s busy, 8.0 onsets/s (attack 100 ms). Sounds most like: a scroll wheel tick (z +3.4), a mouse click (z +3.0), a ratchet clicking (z +2.9) [clear reading]. Other readings: a soft key release click (keyboard, z +2.7), ice cubes in a glass (water, z +2.5). AudioSet tagger unsure (Scissors 0.17, Computer keyboard 0.09, Typing 0.07). peak -13.3 dBFS, -35.4 LUFS, brightness 5.7 kHz, bandwidth 20.5 ",
+  "match": {
+   "summary": "click_2.wav: 'a single mouse click' -> strong (z +3.5; would rank #1 among 322 vocabulary descriptions; cosine 0.44). Forced choice vs your alternatives: 'a single mouse click' 99%, 'a double click' 0%, 'a keyboard typing run' <1%. It sounds most like: 'a scroll wheel tick' (z +3.4), 'a mouse click' (z +3.0), 'a ratchet clicking' (z +2.9), 'a finger squeaking on glass' (z +2.8). Evidence for 'strong' (held-out library search, ~3% of candidate pairs true): the right kind of sound 98% of the time, the exact variant 61% (a close variant such as an Enter key for a spacebar counts as wrong then).",
+   "path": "sfx/candidates/click_2.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -13.3,
+   "query": "a single mouse click",
+   "cosine": 0.441,
+   "z": 3.53,
+   "percentile": 100.0,
+   "rank_in_vocab": 1,
+   "p_vs_alts": 0.994,
+   "verdict": "strong",
+   "validated": true,
+   "alts": [
+    {
+     "query": "a double click",
+     "p": 0.005,
+     "z": 1.79,
+     "cosine": 0.303
+    },
+    {
+     "query": "a keyboard typing run",
+     "p": 0.001,
+     "z": 1.88,
+     "cosine": 0.273
+    }
+   ],
+   "results": [
+    {
+     "query": "a single mouse click",
+     "cosine": 0.441,
+     "z": 3.53,
+     "percentile": 100.0,
+     "rank_in_vocab": 1,
+     "vocab_size": 322,
+     "verdict": "strong",
+     "validated": true,
+     "p_vs_alts": 0.994,
+     "alts": [
+      {
+       "query": "a double click",
+       "p": 0.005,
+       "z": 1.79,
+       "cosine": 0.303
+      },
+      {
+       "query": "a keyboard typing run",
+       "p": 0.001,
+       "z": 1.88,
+       "cosine": 0.273
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "a scroll wheel tick",
+     "category": "ui",
+     "z": 3.49,
+     "cosine": 0.457
+    },
+    {
+     "term": "a mouse click",
+     "category": "ui",
+     "z": 3.06,
+     "cosine": 0.39
+    },
+    {
+     "term": "a ratchet clicking",
+     "category": "foley",
+     "z": 2.93,
+     "cosine": 0.367
+    },
+    {
+     "term": "a finger squeaking on glass",
+     "category": "foley",
+     "z": 2.8,
+     "cosine": 0.291
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 1.874,
+   "peak_dbfs": -13.3,
+   "true_peak_dbtp": -12.6,
+   "rms_dbfs": -41.8,
+   "lufs": -35.4,
+   "attack_ms": 100.0,
+   "brightness_hz": 5739,
+   "bandwidth_hz": 20480,
+   "noise_floor_dbfs": -54.4,
+   "flatness": 0.0065,
+   "harmonic_ratio": 0.127,
+   "onset_count": 15,
+   "onsets_per_s": 8.0,
+   "width": "mono",
+   "digital_silence_frac": 0.0012
+  }
+ },
+ "click_3": {
+  "kind": "click",
+  "title": "Mouse Click",
+  "summary": "0.33 s short transient (attack 4 ms). Sounds most like: a single mechanical keyboard key press (z +3.6), a laptop keyboard typing (z +3.3), a clicky mechanical keyboard (z +3.3) [clear reading]. Other readings: a typing cursor blip (ui, z +3.1). AudioSet tagger unsure (Coin (dropping) 0.17, Computer keyboard 0.15, Finger snapping 0.13). peak -7.3 dBFS, brightness 5.6 kHz, bandwidth 16.3 kHz, side/",
+  "match": {
+   "summary": "click_3.wav: 'a single mouse click' -> plausible (z +2.8; would rank #10 among 322 vocabulary descriptions; cosine 0.32). Forced choice vs your alternatives: 'a single mouse click' 12%, 'a double click' <1%, 'a keyboard typing run' 87%. It sounds most like: 'a single mechanical keyboard key press' (z +3.6), 'a laptop keyboard typing' (z +3.3), 'a clicky mechanical keyboard' (z +3.3), 'a deep thocky mechanical keyboard' (z +3.2). Evidence for 'plausible' (held-out library search, ~3% of candidate pairs true): the right kind of sound 41% of the time, the exact variant 22% (a close variant such as an Enter key for a spacebar counts as wrong then).",
+   "path": "sfx/candidates/click_3.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -7.3,
+   "query": "a single mouse click",
+   "cosine": 0.315,
+   "z": 2.8,
+   "percentile": 97.2,
+   "rank_in_vocab": 10,
+   "p_vs_alts": 0.121,
+   "verdict": "plausible",
+   "validated": true,
+   "alts": [
+    {
+     "query": "a double click",
+     "p": 0.004,
+     "z": 1.48,
+     "cosine": 0.229
+    },
+    {
+     "query": "a keyboard typing run",
+     "p": 0.874,
+     "z": 3.22,
+     "cosine": 0.366
+    }
+   ],
+   "results": [
+    {
+     "query": "a single mouse click",
+     "cosine": 0.315,
+     "z": 2.8,
+     "percentile": 97.2,
+     "rank_in_vocab": 10,
+     "vocab_size": 322,
+     "verdict": "plausible",
+     "validated": true,
+     "p_vs_alts": 0.121,
+     "alts": [
+      {
+       "query": "a double click",
+       "p": 0.004,
+       "z": 1.48,
+       "cosine": 0.229
+      },
+      {
+       "query": "a keyboard typing run",
+       "p": 0.874,
+       "z": 3.22,
+       "cosine": 0.366
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "a single mechanical keyboard key press",
+     "category": "keyboard",
+     "z": 3.64,
+     "cosine": 0.416
+    },
+    {
+     "term": "a laptop keyboard typing",
+     "category": "keyboard",
+     "z": 3.33,
+     "cosine": 0.379
+    },
+    {
+     "term": "a clicky mechanical keyboard",
+     "category": "keyboard",
+     "z": 3.32,
+     "cosine": 0.365
+    },
+    {
+     "term": "a deep thocky mechanical keyboard",
+     "category": "keyboard",
+     "z": 3.28,
+     "cosine": 0.395
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 0.325,
+   "peak_dbfs": -7.3,
+   "true_peak_dbtp": -7.1,
+   "rms_dbfs": -36.9,
+   "attack_ms": 4.0,
+   "brightness_hz": 5570,
+   "bandwidth_hz": 16254,
+   "flatness": 0.0031,
+   "harmonic_ratio": 0.092,
+   "onset_count": 3,
+   "onsets_per_s": 9.23,
+   "width": "side/mid -19 dB",
+   "digital_silence_frac": 0.0
+  }
+ },
+ "paper_0": {
+  "kind": "paper",
+  "title": "Paper slide",
+  "summary": "1.18 s busy, 5.1 onsets/s (attack 293 ms, decays in 719 ms). Sounds most like: a spray can hissing (z +3.5), a match being struck (z +2.9), a printer printing (z +2.6) [clear reading]. Other readings: a quick swipe (transitions, z +2.2), a page turning (foley, z +2.0). AudioSet tagger unsure (Biting 0.08, Speech 0.06, Chewing, mastication 0.05). peak -15.6 dBFS, -42.3 LUFS, brightness 6.9 kHz, ban",
+  "match": {
+   "summary": "paper_0.wav: 'a paper sheet sliding on a desk' -> strong (z +3.0; would rank #2 among 322 vocabulary descriptions; cosine 0.33). Forced choice vs your alternatives: 'a paper sheet sliding on a desk' >99%, 'tearing paper' <1%, 'a plastic bag rustle' <1%. It sounds most like: 'a spray can hissing' (z +3.5), 'a match being struck' (z +2.9), 'a printer printing' (z +2.6), 'a sword being drawn' (z +2.3). Evidence for 'strong' (held-out library search, ~3% of candidate pairs true): the right kind of sound 98% of the time, the exact variant 61% (a close variant such as an Enter key for a spacebar counts as wrong then).",
+   "path": "sfx/candidates/paper_0.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -15.6,
+   "query": "a paper sheet sliding on a desk",
+   "cosine": 0.326,
+   "z": 3.05,
+   "percentile": 99.7,
+   "rank_in_vocab": 2,
+   "p_vs_alts": 0.998,
+   "verdict": "strong",
+   "validated": true,
+   "alts": [
+    {
+     "query": "tearing paper",
+     "p": 0.001,
+     "z": 1.91,
+     "cosine": 0.158
+    },
+    {
+     "query": "a plastic bag rustle",
+     "p": 0.0,
+     "z": 0.65,
+     "cosine": 0.105
+    }
+   ],
+   "results": [
+    {
+     "query": "a paper sheet sliding on a desk",
+     "cosine": 0.326,
+     "z": 3.05,
+     "percentile": 99.7,
+     "rank_in_vocab": 2,
+     "vocab_size": 322,
+     "verdict": "strong",
+     "validated": true,
+     "p_vs_alts": 0.998,
+     "alts": [
+      {
+       "query": "tearing paper",
+       "p": 0.001,
+       "z": 1.91,
+       "cosine": 0.158
+      },
+      {
+       "query": "a plastic bag rustle",
+       "p": 0.0,
+       "z": 0.65,
+       "cosine": 0.105
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "a spray can hissing",
+     "category": "everyday",
+     "z": 3.58,
+     "cosine": 0.34
+    },
+    {
+     "term": "a match being struck",
+     "category": "everyday",
+     "z": 2.94,
+     "cosine": 0.269
+    },
+    {
+     "term": "a printer printing",
+     "category": "everyday",
+     "z": 2.62,
+     "cosine": 0.268
+    },
+    {
+     "term": "a sword being drawn",
+     "category": "everyday",
+     "z": 2.3,
+     "cosine": 0.215
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 1.181,
+   "peak_dbfs": -15.6,
+   "true_peak_dbtp": -15.6,
+   "rms_dbfs": -49.7,
+   "lufs": -42.3,
+   "attack_ms": 293.0,
+   "decay_ms": 719.0,
+   "brightness_hz": 6905,
+   "bandwidth_hz": 20480,
+   "noise_floor_dbfs": -54.8,
+   "flatness": 0.0291,
+   "harmonic_ratio": 0.242,
+   "onset_count": 6,
+   "onsets_per_s": 5.08,
+   "width": "mono",
+   "digital_silence_frac": 0.0053
+  }
+ },
+ "paper_1": {
+  "kind": "paper",
+  "title": "Sliding Envelope.wav",
+  "summary": "1.15 s busy, 7.8 onsets/s (attack 99 ms, decays in 242 ms). Sounds most like: a quick swipe (z +2.9), an apple falling on grass (z +2.8), a sword being drawn (z +2.6) [plausible reading]. Other readings: a page turning (foley, z +2.6), a body falling on the ground (impacts, z +2.3). AudioSet tagger unsure (Zipper (clothing) 0.13). peak -26.9 dBFS, -40.0 LUFS, brightness 8.3 kHz, bandwidth 20.5 kHz",
+  "match": {
+   "summary": "paper_1.wav: 'a paper sheet sliding on a desk' -> strong (z +3.8; would rank #1 among 322 vocabulary descriptions; cosine 0.35). Forced choice vs your alternatives: 'a paper sheet sliding on a desk' 98%, 'tearing paper' 2%, 'a plastic bag rustle' <1%. It sounds most like: 'a quick swipe' (z +2.9), 'an apple falling on grass' (z +2.8), 'a sword being drawn' (z +2.6), 'a page turning' (z +2.6). Evidence for 'strong' (held-out library search, ~3% of candidate pairs true): the right kind of sound 98% of the time, the exact variant 61% (a close variant such as an Enter key for a spacebar counts as wrong then).",
+   "path": "sfx/candidates/paper_1.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -26.9,
+   "query": "a paper sheet sliding on a desk",
+   "cosine": 0.355,
+   "z": 3.89,
+   "percentile": 100.0,
+   "rank_in_vocab": 1,
+   "p_vs_alts": 0.978,
+   "verdict": "strong",
+   "validated": true,
+   "alts": [
+    {
+     "query": "tearing paper",
+     "p": 0.022,
+     "z": 3.46,
+     "cosine": 0.257
+    },
+    {
+     "query": "a plastic bag rustle",
+     "p": 0.0,
+     "z": 0.84,
+     "cosine": 0.079
+    }
+   ],
+   "results": [
+    {
+     "query": "a paper sheet sliding on a desk",
+     "cosine": 0.355,
+     "z": 3.89,
+     "percentile": 100.0,
+     "rank_in_vocab": 1,
+     "vocab_size": 322,
+     "verdict": "strong",
+     "validated": true,
+     "p_vs_alts": 0.978,
+     "alts": [
+      {
+       "query": "tearing paper",
+       "p": 0.022,
+       "z": 3.46,
+       "cosine": 0.257
+      },
+      {
+       "query": "a plastic bag rustle",
+       "p": 0.0,
+       "z": 0.84,
+       "cosine": 0.079
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "a quick swipe",
+     "category": "transitions",
+     "z": 2.9,
+     "cosine": 0.285
+    },
+    {
+     "term": "an apple falling on grass",
+     "category": "nature",
+     "z": 2.8,
+     "cosine": 0.234
+    },
+    {
+     "term": "a sword being drawn",
+     "category": "everyday",
+     "z": 2.61,
+     "cosine": 0.198
+    },
+    {
+     "term": "a page turning",
+     "category": "foley",
+     "z": 2.61,
+     "cosine": 0.243
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 1.152,
+   "peak_dbfs": -26.9,
+   "true_peak_dbtp": -26.6,
+   "rms_dbfs": -49.0,
+   "lufs": -40.0,
+   "attack_ms": 99.0,
+   "decay_ms": 242.0,
+   "brightness_hz": 8281,
+   "bandwidth_hz": 20480,
+   "noise_floor_dbfs": -86.5,
+   "flatness": 0.0323,
+   "harmonic_ratio": 0.003,
+   "onset_count": 9,
+   "onsets_per_s": 7.81,
+   "width": "mono",
+   "digital_silence_frac": 0.1027
+  }
+ },
+ "paper_2": {
+  "kind": "paper",
+  "title": "paper slide.wav",
+  "summary": "1.39 s busy, 6.5 onsets/s, tonal, pitch ~1466 Hz (F#6) (attack 86 ms). Sounds most like: leaves rustling (z +3.1), cloth rustling (z +2.6), a small animal running through grass (z +2.4) [clear reading]. Other readings: a soft air whoosh (transitions, z +2.3), a body falling on the ground (impacts, z +2.3). AudioSet tagger unsure (Snort 0.17, Snake 0.13, Hiss 0.09). peak -37.5 dBFS, -50.6 LUFS, bri",
+  "match": {
+   "summary": "paper_2.wav: 'a paper sheet sliding on a desk' -> strong (z +4.0; would rank #1 among 322 vocabulary descriptions; cosine 0.45). Forced choice vs your alternatives: 'a paper sheet sliding on a desk' >99%, 'tearing paper' <1%, 'a plastic bag rustle' <1%. It sounds most like: 'leaves rustling' (z +3.1), 'cloth rustling' (z +2.6), 'a small animal running through grass' (z +2.4), 'a soft air whoosh' (z +2.3). Evidence for 'strong' (held-out library search, ~3% of candidate pairs true): the right kind of sound 98% of the time, the exact variant 61% (a close variant such as an Enter key for a spacebar counts as wrong then).",
+   "path": "sfx/candidates/paper_2.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -37.5,
+   "query": "a paper sheet sliding on a desk",
+   "cosine": 0.446,
+   "z": 4.04,
+   "percentile": 100.0,
+   "rank_in_vocab": 1,
+   "p_vs_alts": 0.999,
+   "verdict": "strong",
+   "validated": true,
+   "alts": [
+    {
+     "query": "tearing paper",
+     "p": 0.0,
+     "z": 2.21,
+     "cosine": 0.205
+    },
+    {
+     "query": "a plastic bag rustle",
+     "p": 0.001,
+     "z": 1.97,
+     "cosine": 0.25
+    }
+   ],
+   "results": [
+    {
+     "query": "a paper sheet sliding on a desk",
+     "cosine": 0.446,
+     "z": 4.04,
+     "percentile": 100.0,
+     "rank_in_vocab": 1,
+     "vocab_size": 322,
+     "verdict": "strong",
+     "validated": true,
+     "p_vs_alts": 0.999,
+     "alts": [
+      {
+       "query": "tearing paper",
+       "p": 0.0,
+       "z": 2.21,
+       "cosine": 0.205
+      },
+      {
+       "query": "a plastic bag rustle",
+       "p": 0.001,
+       "z": 1.97,
+       "cosine": 0.25
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "leaves rustling",
+     "category": "nature",
+     "z": 3.12,
+     "cosine": 0.338
+    },
+    {
+     "term": "cloth rustling",
+     "category": "foley",
+     "z": 2.64,
+     "cosine": 0.302
+    },
+    {
+     "term": "a small animal running through grass",
+     "category": "nature",
+     "z": 2.4,
+     "cosine": 0.26
+    },
+    {
+     "term": "a soft air whoosh",
+     "category": "transitions",
+     "z": 2.39,
+     "cosine": 0.255
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 1.389,
+   "peak_dbfs": -37.5,
+   "true_peak_dbtp": -37.5,
+   "rms_dbfs": -50.2,
+   "lufs": -50.6,
+   "attack_ms": 86.0,
+   "brightness_hz": 5874,
+   "bandwidth_hz": 20480,
+   "noise_floor_dbfs": -55.2,
+   "flatness": 0.0104,
+   "harmonic_ratio": 0.913,
+   "f0_hz": 1465.9,
+   "onset_count": 9,
+   "onsets_per_s": 6.48,
+   "width": "mono",
+   "digital_silence_frac": 0.0036
+  }
+ },
+ "paper_3": {
+  "kind": "paper",
+  "title": "Underlining Stroke on Paper",
+  "summary": "2.01 s busy, 2.0 onsets/s (attack 110 ms, decays in 201 ms). Sounds most like: a quick swipe (z +3.1), a squishy wet squelch (z +2.6), a page turning (z +2.5) [clear reading]. Other readings: a punchy impact hit (impacts, z +2.1). AudioSet tagger unsure (Sound effect 0.18, Gasp 0.12). peak -24.5 dBFS, -41.4 LUFS, brightness 5.1 kHz, bandwidth 20.5 kHz, noise floor -91 dBFS, mono.",
+  "match": {
+   "summary": "paper_3.wav: 'a paper sheet sliding on a desk' -> plausible (z +2.9; would rank #2 among 322 vocabulary descriptions; cosine 0.34). Forced choice vs your alternatives: 'a paper sheet sliding on a desk' 33%, 'tearing paper' 67%, 'a plastic bag rustle' <1%. It sounds most like: 'a quick swipe' (z +3.1), 'a squishy wet squelch' (z +2.6), 'a page turning' (z +2.5), 'paper rustling' (z +2.4). Evidence for 'plausible' (held-out library search, ~3% of candidate pairs true): the right kind of sound 41% of the time, the exact variant 22% (a close variant such as an Enter key for a spacebar counts as wrong then).",
+   "path": "sfx/candidates/paper_3.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -24.5,
+   "query": "a paper sheet sliding on a desk",
+   "cosine": 0.345,
+   "z": 2.98,
+   "percentile": 99.7,
+   "rank_in_vocab": 2,
+   "p_vs_alts": 0.332,
+   "verdict": "plausible",
+   "validated": true,
+   "alts": [
+    {
+     "query": "tearing paper",
+     "p": 0.668,
+     "z": 3.75,
+     "cosine": 0.363
+    },
+    {
+     "query": "a plastic bag rustle",
+     "p": 0.0,
+     "z": 0.35,
+     "cosine": 0.094
+    }
+   ],
+   "results": [
+    {
+     "query": "a paper sheet sliding on a desk",
+     "cosine": 0.345,
+     "z": 2.98,
+     "percentile": 99.7,
+     "rank_in_vocab": 2,
+     "vocab_size": 322,
+     "verdict": "plausible",
+     "validated": true,
+     "p_vs_alts": 0.332,
+     "alts": [
+      {
+       "query": "tearing paper",
+       "p": 0.668,
+       "z": 3.75,
+       "cosine": 0.363
+      },
+      {
+       "query": "a plastic bag rustle",
+       "p": 0.0,
+       "z": 0.35,
+       "cosine": 0.094
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "a quick swipe",
+     "category": "transitions",
+     "z": 3.16,
+     "cosine": 0.385
+    },
+    {
+     "term": "a squishy wet squelch",
+     "category": "foley",
+     "z": 2.67,
+     "cosine": 0.268
+    },
+    {
+     "term": "a page turning",
+     "category": "foley",
+     "z": 2.53,
+     "cosine": 0.308
+    },
+    {
+     "term": "paper rustling",
+     "category": "foley",
+     "z": 2.47,
+     "cosine": 0.284
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 2.009,
+   "peak_dbfs": -24.5,
+   "true_peak_dbtp": -24.3,
+   "rms_dbfs": -44.8,
+   "lufs": -41.4,
+   "attack_ms": 110.0,
+   "decay_ms": 201.0,
+   "brightness_hz": 5086,
+   "bandwidth_hz": 20480,
+   "noise_floor_dbfs": -91.3,
+   "flatness": 0.0108,
+   "harmonic_ratio": 0.233,
+   "onset_count": 4,
+   "onsets_per_s": 1.99,
+   "width": "mono",
+   "digital_silence_frac": 0.0513
+  }
+ },
+ "chime_0": {
+  "kind": "chime",
+  "title": "Chime Notification",
+  "summary": "0.32 s short one-shot, tonal, pitch ~1231 Hz (Eb6) (attack 17 ms, decays in 147 ms). Sounds most like: an alarm clock beeping (z +2.8), a success chime (z +2.6), a bicycle bell (z +2.3) [plausible reading]. Other readings: a magic sparkle chime (chimes, z +2.2). AudioSet: Beep, bleep 0.82, Smoke detector, smoke alarm 0.09, Sound effect 0.05. peak -4.5 dBFS, brightness 3.7 kHz, bandwidth 16.3 kHz, ",
+  "match": {
+   "summary": "chime_0.wav: 'a soft gentle confirmation chime' -> plausible (z +2.5; would rank #7 among 322 vocabulary descriptions; cosine 0.27). Forced choice vs your alternatives: 'a soft gentle confirmation chime' 24%, 'a church bell' <1%, 'an alarm' 76%. It sounds most like: 'an alarm clock beeping' (z +2.8), 'a success chime' (z +2.6), 'a bicycle bell' (z +2.3), 'a magic sparkle chime' (z +2.2). Evidence for 'plausible' (held-out library search, ~3% of candidate pairs true): the right kind of sound 41% of the time, the exact variant 22% (a close variant such as an Enter key for a spacebar counts as wrong then).",
+   "path": "sfx/candidates/chime_0.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -4.5,
+   "query": "a soft gentle confirmation chime",
+   "cosine": 0.266,
+   "z": 2.56,
+   "percentile": 98.1,
+   "rank_in_vocab": 7,
+   "p_vs_alts": 0.245,
+   "verdict": "plausible",
+   "validated": true,
+   "alts": [
+    {
+     "query": "a church bell",
+     "p": 0.0,
+     "z": -0.34,
+     "cosine": -0.108
+    },
+    {
+     "query": "an alarm",
+     "p": 0.755,
+     "z": 3.33,
+     "cosine": 0.295
+    }
+   ],
+   "results": [
+    {
+     "query": "a soft gentle confirmation chime",
+     "cosine": 0.266,
+     "z": 2.56,
+     "percentile": 98.1,
+     "rank_in_vocab": 7,
+     "vocab_size": 322,
+     "verdict": "plausible",
+     "validated": true,
+     "p_vs_alts": 0.245,
+     "alts": [
+      {
+       "query": "a church bell",
+       "p": 0.0,
+       "z": -0.34,
+       "cosine": -0.108
+      },
+      {
+       "query": "an alarm",
+       "p": 0.755,
+       "z": 3.33,
+       "cosine": 0.295
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "an alarm clock beeping",
+     "category": "everyday",
+     "z": 2.84,
+     "cosine": 0.245
+    },
+    {
+     "term": "a success chime",
+     "category": "ui",
+     "z": 2.69,
+     "cosine": 0.313
+    },
+    {
+     "term": "a bicycle bell",
+     "category": "everyday",
+     "z": 2.38,
+     "cosine": 0.205
+    },
+    {
+     "term": "a magic sparkle chime",
+     "category": "chimes",
+     "z": 2.29,
+     "cosine": 0.259
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 0.324,
+   "peak_dbfs": -4.5,
+   "true_peak_dbtp": -4.4,
+   "rms_dbfs": -18.1,
+   "attack_ms": 17.0,
+   "decay_ms": 147.0,
+   "brightness_hz": 3678,
+   "bandwidth_hz": 16254,
+   "flatness": 0.0,
+   "harmonic_ratio": 0.965,
+   "f0_hz": 1230.8,
+   "onset_count": 3,
+   "onsets_per_s": 9.27,
+   "width": "mono",
+   "digital_silence_frac": 0.0103
+  }
+ },
+ "chime_1": {
+  "kind": "chime",
+  "title": "Wind Chime (G-003) +.wav",
+  "summary": "3.37 s busy, 3.6 onsets/s (attack 1 ms, decays in 305 ms). Sounds most like: a magic sparkle chime (z +3.8), a glissando on bar chimes (z +3.7), wind chimes (z +3.3) [clear reading]. Other readings: ice cubes in a glass (water, z +3.1), a bicycle bell (everyday, z +3.0). AudioSet tagger unsure (Bicycle bell 0.10). peak -12.7 dBFS, -26.2 LUFS, brightness 10.0 kHz, bandwidth 20.5 kHz, noise floor -7",
+  "match": {
+   "summary": "chime_1.wav: 'a soft gentle confirmation chime' -> no match (z +1.0; would rank #41 among 322 vocabulary descriptions; cosine 0.17). Forced choice vs your alternatives: 'a soft gentle confirmation chime' 74%, 'a church bell' 21%, 'an alarm' 5%. It sounds most like: 'a magic sparkle chime' (z +3.8), 'a glissando on bar chimes' (z +3.7), 'wind chimes' (z +3.3), 'a triangle hit' (z +3.1).",
+   "path": "sfx/candidates/chime_1.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -12.7,
+   "query": "a soft gentle confirmation chime",
+   "cosine": 0.167,
+   "z": 1.04,
+   "percentile": 87.6,
+   "rank_in_vocab": 41,
+   "p_vs_alts": 0.745,
+   "verdict": "no match",
+   "validated": true,
+   "alts": [
+    {
+     "query": "a church bell",
+     "p": 0.207,
+     "z": 1.27,
+     "cosine": 0.134
+    },
+    {
+     "query": "an alarm",
+     "p": 0.048,
+     "z": 0.91,
+     "cosine": 0.096
+    }
+   ],
+   "results": [
+    {
+     "query": "a soft gentle confirmation chime",
+     "cosine": 0.167,
+     "z": 1.04,
+     "percentile": 87.6,
+     "rank_in_vocab": 41,
+     "vocab_size": 322,
+     "verdict": "no match",
+     "validated": true,
+     "p_vs_alts": 0.745,
+     "alts": [
+      {
+       "query": "a church bell",
+       "p": 0.207,
+       "z": 1.27,
+       "cosine": 0.134
+      },
+      {
+       "query": "an alarm",
+       "p": 0.048,
+       "z": 0.91,
+       "cosine": 0.096
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "a magic sparkle chime",
+     "category": "chimes",
+     "z": 3.82,
+     "cosine": 0.488
+    },
+    {
+     "term": "a glissando on bar chimes",
+     "category": "chimes",
+     "z": 3.73,
+     "cosine": 0.455
+    },
+    {
+     "term": "wind chimes",
+     "category": "chimes",
+     "z": 3.32,
+     "cosine": 0.398
+    },
+    {
+     "term": "a triangle hit",
+     "category": "chimes",
+     "z": 3.17,
+     "cosine": 0.329
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 3.373,
+   "peak_dbfs": -12.7,
+   "true_peak_dbtp": -11.3,
+   "rms_dbfs": -36.3,
+   "lufs": -26.2,
+   "attack_ms": 1.0,
+   "decay_ms": 305.0,
+   "brightness_hz": 10044,
+   "bandwidth_hz": 20480,
+   "noise_floor_dbfs": -76.2,
+   "flatness": 0.0001,
+   "harmonic_ratio": 0.619,
+   "onset_count": 12,
+   "onsets_per_s": 3.56,
+   "width": "mono",
+   "digital_silence_frac": 0.0084
+  }
+ },
+ "chime_2": {
+  "kind": "chime",
+  "title": "Loading chime",
+  "summary": "0.15 s short one-shot, tonal, pitch ~532 Hz (C5) (attack 26 ms). Sounds most like: an error buzz (z +2.7), a chat message pop (z +2.7), a success chime (z +2.5) [plausible reading]. Other readings: a bubble pop (foley, z +2.1), an alarm clock beeping (everyday, z +2.0). AudioSet: Beep, bleep 0.50, Speech 0.12, Music 0.10. peak -8.1 dBFS, brightness 849 Hz, bandwidth 2.0 kHz, mono.",
+  "match": {
+   "summary": "chime_2.wav: 'a soft gentle confirmation chime' -> plausible (z +2.5; would rank #8 among 322 vocabulary descriptions; cosine 0.27). Forced choice vs your alternatives: 'a soft gentle confirmation chime' 87%, 'a church bell' <1%, 'an alarm' 13%. It sounds most like: 'an error buzz' (z +2.7), 'a chat message pop' (z +2.7), 'a success chime' (z +2.5), 'a digital glitch' (z +2.2). Evidence for 'plausible' (held-out library search, ~3% of candidate pairs true): the right kind of sound 41% of the time, the exact variant 22% (a close variant such as an Enter key for a spacebar counts as wrong then).",
+   "path": "sfx/candidates/chime_2.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -8.1,
+   "query": "a soft gentle confirmation chime",
+   "cosine": 0.273,
+   "z": 2.53,
+   "percentile": 97.8,
+   "rank_in_vocab": 8,
+   "p_vs_alts": 0.87,
+   "verdict": "plausible",
+   "validated": true,
+   "alts": [
+    {
+     "query": "a church bell",
+     "p": 0.0,
+     "z": -0.0,
+     "cosine": -0.08
+    },
+    {
+     "query": "an alarm",
+     "p": 0.13,
+     "z": 2.59,
+     "cosine": 0.224
+    }
+   ],
+   "results": [
+    {
+     "query": "a soft gentle confirmation chime",
+     "cosine": 0.273,
+     "z": 2.53,
+     "percentile": 97.8,
+     "rank_in_vocab": 8,
+     "vocab_size": 322,
+     "verdict": "plausible",
+     "validated": true,
+     "p_vs_alts": 0.87,
+     "alts": [
+      {
+       "query": "a church bell",
+       "p": 0.0,
+       "z": -0.0,
+       "cosine": -0.08
+      },
+      {
+       "query": "an alarm",
+       "p": 0.13,
+       "z": 2.59,
+       "cosine": 0.224
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "an error buzz",
+     "category": "ui",
+     "z": 2.76,
+     "cosine": 0.257
+    },
+    {
+     "term": "a chat message pop",
+     "category": "ui",
+     "z": 2.72,
+     "cosine": 0.345
+    },
+    {
+     "term": "a success chime",
+     "category": "ui",
+     "z": 2.56,
+     "cosine": 0.309
+    },
+    {
+     "term": "a digital glitch",
+     "category": "ui",
+     "z": 2.25,
+     "cosine": 0.247
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 0.15,
+   "peak_dbfs": -8.1,
+   "true_peak_dbtp": -8.1,
+   "rms_dbfs": -17.2,
+   "attack_ms": 26.0,
+   "brightness_hz": 849,
+   "bandwidth_hz": 2031,
+   "flatness": 0.0,
+   "harmonic_ratio": 0.979,
+   "f0_hz": 531.7,
+   "onset_count": 2,
+   "onsets_per_s": 13.33,
+   "width": "mono",
+   "digital_silence_frac": 0.0106
+  }
+ },
+ "chime_3": {
+  "kind": "chime",
+  "title": "bell ding 1.wav",
+  "summary": "2.52 s sustained, tonal, pitch ~690 Hz (F5) (attack 15 ms, decays in 855 ms). Sounds most like: a bicycle bell (z +4.7), a triangle hit (z +3.6), a small bell (z +3.3) [clear reading]. AudioSet: Bicycle bell 0.23, Ding 0.20, Bell 0.18. peak -0.4 dBFS, -14.2 LUFS, brightness 5.3 kHz, bandwidth 20.5 kHz, noise floor -83 dBFS, side/mid -36 dB.",
+  "match": {
+   "summary": "chime_3.wav: 'a soft gentle confirmation chime' -> no match (z +0.8; would rank #57 among 322 vocabulary descriptions; cosine 0.11). Forced choice vs your alternatives: 'a soft gentle confirmation chime' 3%, 'a church bell' 6%, 'an alarm' 91%. It sounds most like: 'a bicycle bell' (z +4.7), 'a triangle hit' (z +3.6), 'a small bell' (z +3.3), 'an alarm clock beeping' (z +3.2).",
+   "path": "sfx/candidates/chime_3.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -0.4,
+   "query": "a soft gentle confirmation chime",
+   "cosine": 0.111,
+   "z": 0.81,
+   "percentile": 82.6,
+   "rank_in_vocab": 57,
+   "p_vs_alts": 0.03,
+   "verdict": "no match",
+   "validated": true,
+   "alts": [
+    {
+     "query": "a church bell",
+     "p": 0.058,
+     "z": 1.52,
+     "cosine": 0.128
+    },
+    {
+     "query": "an alarm",
+     "p": 0.912,
+     "z": 2.19,
+     "cosine": 0.199
+    }
+   ],
+   "results": [
+    {
+     "query": "a soft gentle confirmation chime",
+     "cosine": 0.111,
+     "z": 0.81,
+     "percentile": 82.6,
+     "rank_in_vocab": 57,
+     "vocab_size": 322,
+     "verdict": "no match",
+     "validated": true,
+     "p_vs_alts": 0.03,
+     "alts": [
+      {
+       "query": "a church bell",
+       "p": 0.058,
+       "z": 1.52,
+       "cosine": 0.128
+      },
+      {
+       "query": "an alarm",
+       "p": 0.912,
+       "z": 2.19,
+       "cosine": 0.199
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "a bicycle bell",
+     "category": "everyday",
+     "z": 4.72,
+     "cosine": 0.477
+    },
+    {
+     "term": "a triangle hit",
+     "category": "chimes",
+     "z": 3.61,
+     "cosine": 0.336
+    },
+    {
+     "term": "a small bell",
+     "category": "chimes",
+     "z": 3.39,
+     "cosine": 0.367
+    },
+    {
+     "term": "an alarm clock beeping",
+     "category": "everyday",
+     "z": 3.27,
+     "cosine": 0.314
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 2.519,
+   "peak_dbfs": -0.4,
+   "true_peak_dbtp": 0.2,
+   "rms_dbfs": -24.0,
+   "lufs": -14.2,
+   "attack_ms": 15.0,
+   "decay_ms": 855.0,
+   "brightness_hz": 5336,
+   "bandwidth_hz": 20480,
+   "noise_floor_dbfs": -83.1,
+   "flatness": 0.0001,
+   "harmonic_ratio": 0.823,
+   "f0_hz": 689.6,
+   "onset_count": 1,
+   "onsets_per_s": 0.4,
+   "width": "side/mid -36 dB",
+   "digital_silence_frac": 0.0075
+  }
+ },
+ "swell_0": {
+  "kind": "swell",
+  "title": "fake swell.wav",
+  "summary": "5.36 s busy, 8.0 onsets/s, tonal, pitch ~456 Hz (Bb4) (attack 298 ms, decays in 3.4 s). Sounds most like: a sustained glass harp tone (z +3.5), a rising riser building tension (z +2.3), a saw cutting wood (z +2.3) [clear reading]. AudioSet: Theremin 0.34, Music 0.29, Siren 0.25. peak -1.7 dBFS, -11.1 LUFS, brightness 1.2 kHz, bandwidth 6.5 kHz, noise floor -26 dBFS, side/mid -22 dB.",
+  "match": {
+   "summary": "swell_0.wav: 'a slow soft ambient swell' -> no match (z +1.2; would rank #40 among 322 vocabulary descriptions; cosine 0.07). Forced choice vs your alternatives: 'a slow soft ambient swell' 72%, 'a guitar chord' 28%, 'an explosion' <1%. It sounds most like: 'a sustained glass harp tone' (z +3.5), 'a rising riser building tension' (z +2.3), 'a saw cutting wood' (z +2.3), 'brass section' (z +2.2).",
+   "path": "sfx/candidates/swell_0.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -1.7,
+   "query": "a slow soft ambient swell",
+   "cosine": 0.074,
+   "z": 1.27,
+   "percentile": 87.9,
+   "rank_in_vocab": 40,
+   "p_vs_alts": 0.716,
+   "verdict": "no match",
+   "validated": true,
+   "alts": [
+    {
+     "query": "a guitar chord",
+     "p": 0.283,
+     "z": 0.21,
+     "cosine": 0.05
+    },
+    {
+     "query": "an explosion",
+     "p": 0.001,
+     "z": 0.11,
+     "cosine": -0.09
+    }
+   ],
+   "results": [
+    {
+     "query": "a slow soft ambient swell",
+     "cosine": 0.074,
+     "z": 1.27,
+     "percentile": 87.9,
+     "rank_in_vocab": 40,
+     "vocab_size": 322,
+     "verdict": "no match",
+     "validated": true,
+     "p_vs_alts": 0.716,
+     "alts": [
+      {
+       "query": "a guitar chord",
+       "p": 0.283,
+       "z": 0.21,
+       "cosine": 0.05
+      },
+      {
+       "query": "an explosion",
+       "p": 0.001,
+       "z": 0.11,
+       "cosine": -0.09
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "a sustained glass harp tone",
+     "category": "chimes",
+     "z": 3.57,
+     "cosine": 0.279
+    },
+    {
+     "term": "a rising riser building tension",
+     "category": "transitions",
+     "z": 2.38,
+     "cosine": 0.232
+    },
+    {
+     "term": "a saw cutting wood",
+     "category": "everyday",
+     "z": 2.3,
+     "cosine": 0.179
+    },
+    {
+     "term": "brass section",
+     "category": "instruments",
+     "z": 2.2,
+     "cosine": 0.199
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 5.362,
+   "peak_dbfs": -1.7,
+   "true_peak_dbtp": -1.7,
+   "rms_dbfs": -14.1,
+   "lufs": -11.1,
+   "attack_ms": 298.0,
+   "decay_ms": 3420.0,
+   "brightness_hz": 1175,
+   "bandwidth_hz": 6450,
+   "noise_floor_dbfs": -25.9,
+   "flatness": 0.0,
+   "harmonic_ratio": 1.0,
+   "f0_hz": 455.9,
+   "onset_count": 43,
+   "onsets_per_s": 8.02,
+   "width": "side/mid -22 dB",
+   "digital_silence_frac": 0.0
+  }
+ },
+ "swell_1": {
+  "kind": "swell",
+  "title": "One Heavy Thud",
+  "summary": "3.59 s sustained (attack 43 ms, decays in 581 ms). Sounds most like: a door slam (z +4.5), a big drum hit (z +3.7), a heavy thud (z +2.8) [clear reading]. Other readings: a knock on a door (everyday, z +2.5), a cork pop (foley, z +2.3). AudioSet tagger unsure (Burst, pop 0.19, Explosion 0.12, Slam 0.12). peak -5.7 dBFS, -18.9 LUFS, brightness 1.1 kHz, bandwidth 20.5 kHz, noise floor -75 dBFS, mono",
+  "match": {
+   "summary": "swell_1.wav: 'a slow soft ambient swell' -> no match (z -1.0; would rank #268 among 322 vocabulary descriptions; cosine -0.10). Forced choice vs your alternatives: 'a slow soft ambient swell' <1%, 'a guitar chord' 2%, 'an explosion' 98%. It sounds most like: 'a door slam' (z +4.5), 'a big drum hit' (z +3.7), 'a heavy thud' (z +2.8), 'a gunshot' (z +2.7).",
+   "path": "sfx/candidates/swell_1.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -5.7,
+   "query": "a slow soft ambient swell",
+   "cosine": -0.101,
+   "z": -0.91,
+   "percentile": 17.1,
+   "rank_in_vocab": 268,
+   "p_vs_alts": 0.0,
+   "verdict": "no match",
+   "validated": true,
+   "alts": [
+    {
+     "query": "a guitar chord",
+     "p": 0.015,
+     "z": -0.01,
+     "cosine": 0.067
+    },
+    {
+     "query": "an explosion",
+     "p": 0.985,
+     "z": 2.68,
+     "cosine": 0.175
+    }
+   ],
+   "results": [
+    {
+     "query": "a slow soft ambient swell",
+     "cosine": -0.101,
+     "z": -0.91,
+     "percentile": 17.1,
+     "rank_in_vocab": 268,
+     "vocab_size": 322,
+     "verdict": "no match",
+     "validated": true,
+     "p_vs_alts": 0.0,
+     "alts": [
+      {
+       "query": "a guitar chord",
+       "p": 0.015,
+       "z": -0.01,
+       "cosine": 0.067
+      },
+      {
+       "query": "an explosion",
+       "p": 0.985,
+       "z": 2.68,
+       "cosine": 0.175
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "a door slam",
+     "category": "impacts",
+     "z": 4.5,
+     "cosine": 0.357
+    },
+    {
+     "term": "a big drum hit",
+     "category": "impacts",
+     "z": 3.71,
+     "cosine": 0.283
+    },
+    {
+     "term": "a heavy thud",
+     "category": "impacts",
+     "z": 2.8,
+     "cosine": 0.199
+    },
+    {
+     "term": "a gunshot",
+     "category": "impacts",
+     "z": 2.75,
+     "cosine": 0.221
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 3.587,
+   "peak_dbfs": -5.7,
+   "true_peak_dbtp": -5.5,
+   "rms_dbfs": -27.0,
+   "lufs": -18.9,
+   "attack_ms": 43.0,
+   "decay_ms": 581.0,
+   "brightness_hz": 1104,
+   "bandwidth_hz": 20480,
+   "noise_floor_dbfs": -74.7,
+   "flatness": 0.0006,
+   "harmonic_ratio": 0.265,
+   "onset_count": 1,
+   "onsets_per_s": 0.28,
+   "width": "mono",
+   "digital_silence_frac": 0.0299
+  }
+ },
+ "swell_2": {
+  "kind": "swell",
+  "title": "FX background drone - spaceship (+FX).wav",
+  "summary": "3.76 s 4 separate events (attack 103 ms, decays in 456 ms). Sounds most like: a sub bass drop (z +3.0), an electrical hum (z +2.5), a low rumble (z +2.3) [clear reading]. Other readings: bubbles underwater (water, z +2.1), a gust of wind rushing past (transitions, z +1.9). Unvalidated hint: a deep sub bass (z +3.1). AudioSet: Rumble 0.30, Sound effect 0.09, Heart murmur 0.06. peak -0.3 dBFS, -14.5",
+  "match": {
+   "summary": "swell_2.wav: 'a slow soft ambient swell' -> no match (z +1.5; would rank #25 among 322 vocabulary descriptions; cosine 0.13). Forced choice vs your alternatives: 'a slow soft ambient swell' 87%, 'a guitar chord' 13%, 'an explosion' <1%. It sounds most like: 'a deep sub bass' (z +3.1), 'a sub bass drop' (z +3.0), 'an electrical hum' (z +2.5), 'a low rumble' (z +2.3).",
+   "path": "sfx/candidates/swell_2.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -0.3,
+   "query": "a slow soft ambient swell",
+   "cosine": 0.126,
+   "z": 1.54,
+   "percentile": 92.5,
+   "rank_in_vocab": 25,
+   "p_vs_alts": 0.867,
+   "verdict": "no match",
+   "validated": true,
+   "alts": [
+    {
+     "query": "a guitar chord",
+     "p": 0.13,
+     "z": 0.19,
+     "cosine": 0.077
+    },
+    {
+     "query": "an explosion",
+     "p": 0.003,
+     "z": 0.51,
+     "cosine": -0.02
+    }
+   ],
+   "results": [
+    {
+     "query": "a slow soft ambient swell",
+     "cosine": 0.126,
+     "z": 1.54,
+     "percentile": 92.5,
+     "rank_in_vocab": 25,
+     "vocab_size": 322,
+     "verdict": "no match",
+     "validated": true,
+     "p_vs_alts": 0.867,
+     "alts": [
+      {
+       "query": "a guitar chord",
+       "p": 0.13,
+       "z": 0.19,
+       "cosine": 0.077
+      },
+      {
+       "query": "an explosion",
+       "p": 0.003,
+       "z": 0.51,
+       "cosine": -0.02
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "a deep sub bass",
+     "category": "instruments",
+     "z": 3.1,
+     "cosine": 0.303
+    },
+    {
+     "term": "a sub bass drop",
+     "category": "impacts",
+     "z": 3.01,
+     "cosine": 0.282
+    },
+    {
+     "term": "an electrical hum",
+     "category": "ambience",
+     "z": 2.56,
+     "cosine": 0.195
+    },
+    {
+     "term": "a low rumble",
+     "category": "impacts",
+     "z": 2.34,
+     "cosine": 0.189
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 3.763,
+   "peak_dbfs": -0.3,
+   "true_peak_dbtp": -0.3,
+   "rms_dbfs": -12.5,
+   "lufs": -14.5,
+   "attack_ms": 103.0,
+   "decay_ms": 456.0,
+   "brightness_hz": 114,
+   "bandwidth_hz": 403,
+   "noise_floor_dbfs": -17.8,
+   "flatness": 0.0,
+   "harmonic_ratio": 0.788,
+   "onset_count": 4,
+   "onsets_per_s": 1.06,
+   "width": "mono",
+   "digital_silence_frac": 0.0001
+  }
+ },
+ "swell_3": {
+  "kind": "swell",
+  "title": "guitar swell 12.wav",
+  "summary": "6.00 s 4 separate events, tonal, pitch ~65 Hz (C2) (attack 271 ms, decays in 3.5 s). Music (AudioSet Music 0.73). Unvalidated hints - genre: rock music with electric guitars (z +2.8), ambient synth pad music (z +1.7); mood (wrong for ~1 in 5 tracks in a test): dark and tense music (z +1.5), dreamy and ethereal music (z +1.4). Sounds most like: a sustained glass harp tone (z +2.9), a reverse cymbal",
+  "match": {
+   "summary": "swell_3.wav: 'a slow soft ambient swell' -> no match (z +1.1; would rank #44 among 322 vocabulary descriptions; cosine 0.16). Forced choice vs your alternatives: 'a slow soft ambient swell' <1%, 'a guitar chord' >99%, 'an explosion' <1%. It sounds most like: 'an electric guitar' (z +3.5), 'a sustained glass harp tone' (z +2.9), 'rock music with electric guitars' (z +2.8), 'a reverse cymbal swell' (z +2.3).",
+   "path": "sfx/candidates/swell_3.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -11.4,
+   "query": "a slow soft ambient swell",
+   "cosine": 0.163,
+   "z": 1.16,
+   "percentile": 86.6,
+   "rank_in_vocab": 44,
+   "p_vs_alts": 0.001,
+   "verdict": "no match",
+   "validated": true,
+   "alts": [
+    {
+     "query": "a guitar chord",
+     "p": 0.999,
+     "z": 2.26,
+     "cosine": 0.353
+    },
+    {
+     "query": "an explosion",
+     "p": 0.0,
+     "z": 0.7,
+     "cosine": 0.077
+    }
+   ],
+   "results": [
+    {
+     "query": "a slow soft ambient swell",
+     "cosine": 0.163,
+     "z": 1.16,
+     "percentile": 86.6,
+     "rank_in_vocab": 44,
+     "vocab_size": 322,
+     "verdict": "no match",
+     "validated": true,
+     "p_vs_alts": 0.001,
+     "alts": [
+      {
+       "query": "a guitar chord",
+       "p": 0.999,
+       "z": 2.26,
+       "cosine": 0.353
+      },
+      {
+       "query": "an explosion",
+       "p": 0.0,
+       "z": 0.7,
+       "cosine": 0.077
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "an electric guitar",
+     "category": "instruments",
+     "z": 3.52,
+     "cosine": 0.431
+    },
+    {
+     "term": "a sustained glass harp tone",
+     "category": "chimes",
+     "z": 2.9,
+     "cosine": 0.289
+    },
+    {
+     "term": "rock music with electric guitars",
+     "category": "music_genre",
+     "z": 2.86,
+     "cosine": 0.339
+    },
+    {
+     "term": "a reverse cymbal swell",
+     "category": "transitions",
+     "z": 2.32,
+     "cosine": 0.297
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 6.0,
+   "peak_dbfs": -11.4,
+   "true_peak_dbtp": -11.4,
+   "rms_dbfs": -27.0,
+   "lufs": -22.7,
+   "lra_lu": 8.8,
+   "attack_ms": 271.0,
+   "decay_ms": 3470.0,
+   "brightness_hz": 594,
+   "bandwidth_hz": 4063,
+   "noise_floor_dbfs": -64.7,
+   "flatness": 0.0,
+   "harmonic_ratio": 0.968,
+   "f0_hz": 65.0,
+   "onset_count": 4,
+   "onsets_per_s": 0.67,
+   "width": "side/mid -15 dB",
+   "digital_silence_frac": 0.0207
+  }
+ },
+ "swell_4": {
+  "kind": "swell",
+  "title": "guitar swell 3.wav",
+  "summary": "8.00 s busy, 2.9 onsets/s, tonal, pitch ~336 Hz (E4) (attack 263 ms, decays in 3.8 s). Music (AudioSet Music 0.71). Unvalidated hints - genre: ambient synth pad music (z +2.1), rock music with electric guitars (z +2.0); mood (wrong for ~1 in 5 tracks in a test): dreamy and ethereal music (z +2.4), mysterious music (z +1.9). Sounds most like: a sustained glass harp tone (z +2.5), a glissando on bar",
+  "match": {
+   "summary": "swell_4.wav: 'a slow soft ambient swell' -> no match (z +0.8; would rank #74 among 322 vocabulary descriptions; cosine 0.15). Forced choice vs your alternatives: 'a slow soft ambient swell' <1%, 'a guitar chord' >99%, 'an explosion' <1%. It sounds most like: 'a sustained glass harp tone' (z +2.5), 'an electric guitar' (z +2.5), 'dreamy and ethereal music' (z +2.4), 'a glissando on bar chimes' (z +2.2).",
+   "path": "sfx/candidates/swell_4.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -14.9,
+   "query": "a slow soft ambient swell",
+   "cosine": 0.148,
+   "z": 0.81,
+   "percentile": 77.3,
+   "rank_in_vocab": 74,
+   "p_vs_alts": 0.0,
+   "verdict": "no match",
+   "validated": true,
+   "alts": [
+    {
+     "query": "a guitar chord",
+     "p": 1.0,
+     "z": 1.85,
+     "cosine": 0.349
+    },
+    {
+     "query": "an explosion",
+     "p": 0.0,
+     "z": -0.0,
+     "cosine": 0.018
+    }
+   ],
+   "results": [
+    {
+     "query": "a slow soft ambient swell",
+     "cosine": 0.148,
+     "z": 0.81,
+     "percentile": 77.3,
+     "rank_in_vocab": 74,
+     "vocab_size": 322,
+     "verdict": "no match",
+     "validated": true,
+     "p_vs_alts": 0.0,
+     "alts": [
+      {
+       "query": "a guitar chord",
+       "p": 1.0,
+       "z": 1.85,
+       "cosine": 0.349
+      },
+      {
+       "query": "an explosion",
+       "p": 0.0,
+       "z": -0.0,
+       "cosine": 0.018
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "a sustained glass harp tone",
+     "category": "chimes",
+     "z": 2.56,
+     "cosine": 0.3
+    },
+    {
+     "term": "an electric guitar",
+     "category": "instruments",
+     "z": 2.52,
+     "cosine": 0.379
+    },
+    {
+     "term": "dreamy and ethereal music",
+     "category": "music_mood",
+     "z": 2.4,
+     "cosine": 0.354
+    },
+    {
+     "term": "a glissando on bar chimes",
+     "category": "chimes",
+     "z": 2.26,
+     "cosine": 0.348
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 8.0,
+   "peak_dbfs": -14.9,
+   "true_peak_dbtp": -14.8,
+   "rms_dbfs": -34.1,
+   "lufs": -26.6,
+   "lra_lu": 19.4,
+   "attack_ms": 263.0,
+   "decay_ms": 3848.0,
+   "brightness_hz": 1242,
+   "bandwidth_hz": 3225,
+   "noise_floor_dbfs": -89.8,
+   "flatness": 0.0,
+   "harmonic_ratio": 0.973,
+   "f0_hz": 336.4,
+   "onset_count": 23,
+   "onsets_per_s": 2.88,
+   "width": "side/mid -12 dB",
+   "digital_silence_frac": 0.0504
+  }
+ },
+ "rain_0": {
+  "kind": "rain",
+  "title": "Single Water Drop",
+  "summary": "0.47 s short transient (attack 4 ms, decays in 164 ms). Sounds most like: a bubble pop (z +3.8), a water drop (z +3.7), a cork pop (z +3.6) [clear reading]. AudioSet: Plop 0.62, Sound effect 0.27, Drip 0.09. peak -2.0 dBFS, -20.8 LUFS, brightness 664 Hz, bandwidth 5.1 kHz, mono.",
+  "match": {
+   "summary": "rain_0.wav: 'a single small water drop' -> strong (z +4.4; would rank #1 among 322 vocabulary descriptions; cosine 0.52). Forced choice vs your alternatives: 'a single small water drop' >99%, 'an explosion' <1%, 'a glass breaking' <1%. It sounds most like: 'a bubble pop' (z +3.8), 'a water drop' (z +3.7), 'a cork pop' (z +3.6), 'a mouth pop' (z +3.4). Evidence for 'strong' (held-out library search, ~3% of candidate pairs true): the right kind of sound 98% of the time, the exact variant 61% (a close variant such as an Enter key for a spacebar counts as wrong then).",
+   "path": "sfx/candidates/rain_0.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -2.0,
+   "query": "a single small water drop",
+   "cosine": 0.517,
+   "z": 4.44,
+   "percentile": 100.0,
+   "rank_in_vocab": 1,
+   "p_vs_alts": 1.0,
+   "verdict": "strong",
+   "validated": true,
+   "alts": [
+    {
+     "query": "an explosion",
+     "p": 0.0,
+     "z": 1.22,
+     "cosine": 0.085
+    },
+    {
+     "query": "a glass breaking",
+     "p": 0.0,
+     "z": 0.25,
+     "cosine": 0.018
+    }
+   ],
+   "results": [
+    {
+     "query": "a single small water drop",
+     "cosine": 0.517,
+     "z": 4.44,
+     "percentile": 100.0,
+     "rank_in_vocab": 1,
+     "vocab_size": 322,
+     "verdict": "strong",
+     "validated": true,
+     "p_vs_alts": 1.0,
+     "alts": [
+      {
+       "query": "an explosion",
+       "p": 0.0,
+       "z": 1.22,
+       "cosine": 0.085
+      },
+      {
+       "query": "a glass breaking",
+       "p": 0.0,
+       "z": 0.25,
+       "cosine": 0.018
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "a bubble pop",
+     "category": "foley",
+     "z": 3.86,
+     "cosine": 0.497
+    },
+    {
+     "term": "a water drop",
+     "category": "water",
+     "z": 3.7,
+     "cosine": 0.46
+    },
+    {
+     "term": "a cork pop",
+     "category": "foley",
+     "z": 3.63,
+     "cosine": 0.453
+    },
+    {
+     "term": "a mouth pop",
+     "category": "foley",
+     "z": 3.43,
+     "cosine": 0.418
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 0.472,
+   "peak_dbfs": -2.0,
+   "true_peak_dbtp": -2.0,
+   "rms_dbfs": -23.8,
+   "lufs": -20.8,
+   "attack_ms": 4.0,
+   "decay_ms": 164.0,
+   "brightness_hz": 664,
+   "bandwidth_hz": 5120,
+   "flatness": 0.0,
+   "harmonic_ratio": 0.011,
+   "onset_count": 1,
+   "onsets_per_s": 2.12,
+   "width": "mono",
+   "digital_silence_frac": 0.0315
+  }
+ },
+ "rain_1": {
+  "kind": "rain",
+  "title": "Bass Drop Huge",
+  "summary": "7.00 s busy, 14.6 onsets/s, tonal, pitch ~50 Hz (G1) (attack 1 ms, decays in 6.7 s). Sounds most like: a sub bass drop (z +5.1), a deep cinematic boom (z +2.6), a low rumble (z +2.4) [clear reading]. Other readings: a singing bowl (chimes, z +2.4), an electrical hum (ambience, z +2.0). Unvalidated hint: a deep sub bass (z +4.3). Character: boomy. AudioSet: Sine wave 0.94, Chirp tone 0.59. peak -3.",
+  "match": {
+   "summary": "rain_1.wav: 'a single small water drop' -> no match (z -0.6; would rank #226 among 322 vocabulary descriptions; cosine 0.00). Forced choice vs your alternatives: 'a single small water drop' 1%, 'an explosion' 96%, 'a glass breaking' 3%. It sounds most like: 'a sub bass drop' (z +5.1), 'a deep sub bass' (z +4.3), 'a deep cinematic boom' (z +2.6), 'a low rumble' (z +2.4).",
+   "path": "sfx/candidates/rain_1.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -3.3,
+   "query": "a single small water drop",
+   "cosine": 0.004,
+   "z": -0.56,
+   "percentile": 30.1,
+   "rank_in_vocab": 226,
+   "p_vs_alts": 0.008,
+   "verdict": "no match",
+   "validated": true,
+   "alts": [
+    {
+     "query": "an explosion",
+     "p": 0.958,
+     "z": 1.47,
+     "cosine": 0.127
+    },
+    {
+     "query": "a glass breaking",
+     "p": 0.034,
+     "z": 0.21,
+     "cosine": 0.041
+    }
+   ],
+   "results": [
+    {
+     "query": "a single small water drop",
+     "cosine": 0.004,
+     "z": -0.56,
+     "percentile": 30.1,
+     "rank_in_vocab": 226,
+     "vocab_size": 322,
+     "verdict": "no match",
+     "validated": true,
+     "p_vs_alts": 0.008,
+     "alts": [
+      {
+       "query": "an explosion",
+       "p": 0.958,
+       "z": 1.47,
+       "cosine": 0.127
+      },
+      {
+       "query": "a glass breaking",
+       "p": 0.034,
+       "z": 0.21,
+       "cosine": 0.041
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "a sub bass drop",
+     "category": "impacts",
+     "z": 5.18,
+     "cosine": 0.55
+    },
+    {
+     "term": "a deep sub bass",
+     "category": "instruments",
+     "z": 4.34,
+     "cosine": 0.477
+    },
+    {
+     "term": "a deep cinematic boom",
+     "category": "impacts",
+     "z": 2.64,
+     "cosine": 0.269
+    },
+    {
+     "term": "a low rumble",
+     "category": "impacts",
+     "z": 2.48,
+     "cosine": 0.253
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 7.0,
+   "peak_dbfs": -3.3,
+   "true_peak_dbtp": -3.3,
+   "rms_dbfs": -9.0,
+   "lufs": -9.0,
+   "lra_lu": 9.1,
+   "attack_ms": 1.0,
+   "decay_ms": 6698.0,
+   "brightness_hz": 54,
+   "bandwidth_hz": 80,
+   "noise_floor_dbfs": -20.4,
+   "flatness": 0.0,
+   "harmonic_ratio": 1.0,
+   "f0_hz": 50.0,
+   "onset_count": 102,
+   "onsets_per_s": 14.57,
+   "width": "mono",
+   "digital_silence_frac": 0.0002
+  }
+ },
+ "rain_2": {
+  "kind": "rain",
+  "title": "Ice Cubes Dropped in a Glass.aif",
+  "summary": "7.57 s busy, 3.6 onsets/s (attack 99 ms, decays in 219 ms). Sounds most like: ice cubes in a glass (z +5.3), lego bricks clicking (z +4.5), glass clinking (z +4.0) [clear reading]. Other readings: keys jingling (everyday, z +2.9), a glass ting (chimes, z +1.8). AudioSet: Coin (dropping) 0.25, Chink, clink 0.16, Glass 0.10. peak -8.6 dBFS, -32.3 LUFS, brightness 4.6 kHz, bandwidth 20.5 kHz, noise f",
+  "match": {
+   "summary": "rain_2.wav: 'a single small water drop' -> no match (z +0.4; would rank #98 among 322 vocabulary descriptions; cosine 0.07). Forced choice vs your alternatives: 'a single small water drop' <1%, 'an explosion' <1%, 'a glass breaking' >99%. It sounds most like: 'ice cubes in a glass' (z +5.3), 'lego bricks clicking' (z +4.5), 'glass clinking' (z +4.0), 'dominoes falling' (z +2.9).",
+   "path": "sfx/candidates/rain_2.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -8.6,
+   "query": "a single small water drop",
+   "cosine": 0.073,
+   "z": 0.45,
+   "percentile": 69.9,
+   "rank_in_vocab": 98,
+   "p_vs_alts": 0.0,
+   "verdict": "no match",
+   "validated": true,
+   "alts": [
+    {
+     "query": "an explosion",
+     "p": 0.0,
+     "z": 1.21,
+     "cosine": 0.062
+    },
+    {
+     "query": "a glass breaking",
+     "p": 1.0,
+     "z": 3.61,
+     "cosine": 0.319
+    }
+   ],
+   "results": [
+    {
+     "query": "a single small water drop",
+     "cosine": 0.073,
+     "z": 0.45,
+     "percentile": 69.9,
+     "rank_in_vocab": 98,
+     "vocab_size": 322,
+     "verdict": "no match",
+     "validated": true,
+     "p_vs_alts": 0.0,
+     "alts": [
+      {
+       "query": "an explosion",
+       "p": 0.0,
+       "z": 1.21,
+       "cosine": 0.062
+      },
+      {
+       "query": "a glass breaking",
+       "p": 1.0,
+       "z": 3.61,
+       "cosine": 0.319
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "ice cubes in a glass",
+     "category": "water",
+     "z": 5.36,
+     "cosine": 0.488
+    },
+    {
+     "term": "lego bricks clicking",
+     "category": "foley",
+     "z": 4.59,
+     "cosine": 0.443
+    },
+    {
+     "term": "glass clinking",
+     "category": "foley",
+     "z": 4.01,
+     "cosine": 0.336
+    },
+    {
+     "term": "dominoes falling",
+     "category": "foley",
+     "z": 2.92,
+     "cosine": 0.267
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 7.574,
+   "peak_dbfs": -8.6,
+   "true_peak_dbtp": -8.5,
+   "rms_dbfs": -43.2,
+   "lufs": -32.3,
+   "lra_lu": 8.0,
+   "attack_ms": 99.0,
+   "decay_ms": 219.0,
+   "brightness_hz": 4608,
+   "bandwidth_hz": 20480,
+   "noise_floor_dbfs": -62.4,
+   "flatness": 0.0118,
+   "harmonic_ratio": 0.033,
+   "onset_count": 27,
+   "onsets_per_s": 3.56,
+   "width": "mono",
+   "digital_silence_frac": 0.0045
+  }
+ },
+ "rain_3": {
+  "kind": "rain",
+  "title": "water drop 1.aif",
+  "summary": "0.38 s short transient (attack 4 ms, decays in 104 ms). Sounds most like: a water drop (z +3.8), a dripping tap (z +3.2), a liquid bloop (z +2.9) [clear reading]. Other readings: a soft key release click (keyboard, z +2.5), a glass ting (chimes, z +2.4). AudioSet tagger unsure (Sound effect 0.06, Chink, clink 0.06). peak -1.1 dBFS, brightness 6.5 kHz, bandwidth 20.5 kHz, side/mid -12 dB.",
+  "match": {
+   "summary": "rain_3.wav: 'a single small water drop' -> strong (z +4.3; would rank #1 among 322 vocabulary descriptions; cosine 0.46). Forced choice vs your alternatives: 'a single small water drop' >99%, 'an explosion' <1%, 'a glass breaking' <1%. It sounds most like: 'a water drop' (z +3.8), 'a dripping tap' (z +3.2), 'a liquid bloop' (z +2.9), 'pouring water' (z +2.7). Evidence for 'strong' (held-out library search, ~3% of candidate pairs true): the right kind of sound 98% of the time, the exact variant 61% (a close variant such as an Enter key for a spacebar counts as wrong then).",
+   "path": "sfx/candidates/rain_3.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -1.1,
+   "query": "a single small water drop",
+   "cosine": 0.464,
+   "z": 4.33,
+   "percentile": 100.0,
+   "rank_in_vocab": 1,
+   "p_vs_alts": 1.0,
+   "verdict": "strong",
+   "validated": true,
+   "alts": [
+    {
+     "query": "an explosion",
+     "p": 0.0,
+     "z": 1.1,
+     "cosine": 0.058
+    },
+    {
+     "query": "a glass breaking",
+     "p": 0.0,
+     "z": 1.63,
+     "cosine": 0.151
+    }
+   ],
+   "results": [
+    {
+     "query": "a single small water drop",
+     "cosine": 0.464,
+     "z": 4.33,
+     "percentile": 100.0,
+     "rank_in_vocab": 1,
+     "vocab_size": 322,
+     "verdict": "strong",
+     "validated": true,
+     "p_vs_alts": 1.0,
+     "alts": [
+      {
+       "query": "an explosion",
+       "p": 0.0,
+       "z": 1.1,
+       "cosine": 0.058
+      },
+      {
+       "query": "a glass breaking",
+       "p": 0.0,
+       "z": 1.63,
+       "cosine": 0.151
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "a water drop",
+     "category": "water",
+     "z": 3.8,
+     "cosine": 0.436
+    },
+    {
+     "term": "a dripping tap",
+     "category": "water",
+     "z": 3.25,
+     "cosine": 0.356
+    },
+    {
+     "term": "a liquid bloop",
+     "category": "water",
+     "z": 2.99,
+     "cosine": 0.344
+    },
+    {
+     "term": "pouring water",
+     "category": "water",
+     "z": 2.71,
+     "cosine": 0.249
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 0.382,
+   "peak_dbfs": -1.1,
+   "true_peak_dbtp": -0.7,
+   "rms_dbfs": -29.4,
+   "attack_ms": 4.0,
+   "decay_ms": 104.0,
+   "brightness_hz": 6544,
+   "bandwidth_hz": 20480,
+   "flatness": 0.0035,
+   "harmonic_ratio": 0.014,
+   "onset_count": 2,
+   "onsets_per_s": 5.23,
+   "width": "side/mid -12 dB",
+   "digital_silence_frac": 0.0002
+  }
+ },
+ "water_0": {
+  "kind": "water",
+  "title": "Splash",
+  "summary": "1.33 s busy, 6.8 onsets/s (attack 125 ms, decays in 194 ms). Sounds most like: water splashing (z +4.5), an object plunging into water (z +3.9), a squishy wet squelch (z +3.7) [clear reading]. Other readings: a punchy impact hit (impacts, z +2.6), ocean waves (ambience, z +2.2). AudioSet: Water 0.33, Slosh 0.25. peak -0.2 dBFS, -21.6 LUFS, brightness 5.6 kHz, bandwidth 20.5 kHz, noise floor -55 dB",
+  "match": {
+   "summary": "water_0.wav: 'a small water splash' -> strong (z +3.9; would rank #2 among 322 vocabulary descriptions; cosine 0.27). Forced choice vs your alternatives: 'a small water splash' >99%, 'a toilet flush' <1%, 'heavy rain' <1%. It sounds most like: 'water splashing' (z +4.5), 'an object plunging into water' (z +3.9), 'a squishy wet squelch' (z +3.7), 'pouring water' (z +2.9). Evidence for 'strong' (held-out library search, ~3% of candidate pairs true): the right kind of sound 98% of the time, the exact variant 61% (a close variant such as an Enter key for a spacebar counts as wrong then).",
+   "path": "sfx/candidates/water_0.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -0.2,
+   "query": "a small water splash",
+   "cosine": 0.272,
+   "z": 3.93,
+   "percentile": 99.7,
+   "rank_in_vocab": 2,
+   "p_vs_alts": 1.0,
+   "verdict": "strong",
+   "validated": true,
+   "alts": [
+    {
+     "query": "a toilet flush",
+     "p": 0.0,
+     "z": 1.74,
+     "cosine": 0.059
+    },
+    {
+     "query": "heavy rain",
+     "p": 0.0,
+     "z": 0.87,
+     "cosine": 0.053
+    }
+   ],
+   "results": [
+    {
+     "query": "a small water splash",
+     "cosine": 0.272,
+     "z": 3.93,
+     "percentile": 99.7,
+     "rank_in_vocab": 2,
+     "vocab_size": 322,
+     "verdict": "strong",
+     "validated": true,
+     "p_vs_alts": 1.0,
+     "alts": [
+      {
+       "query": "a toilet flush",
+       "p": 0.0,
+       "z": 1.74,
+       "cosine": 0.059
+      },
+      {
+       "query": "heavy rain",
+       "p": 0.0,
+       "z": 0.87,
+       "cosine": 0.053
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "water splashing",
+     "category": "water",
+     "z": 4.55,
+     "cosine": 0.339
+    },
+    {
+     "term": "an object plunging into water",
+     "category": "water",
+     "z": 3.91,
+     "cosine": 0.311
+    },
+    {
+     "term": "a squishy wet squelch",
+     "category": "foley",
+     "z": 3.75,
+     "cosine": 0.243
+    },
+    {
+     "term": "pouring water",
+     "category": "water",
+     "z": 2.91,
+     "cosine": 0.176
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 1.331,
+   "peak_dbfs": -0.2,
+   "true_peak_dbtp": -0.1,
+   "rms_dbfs": -26.7,
+   "lufs": -21.6,
+   "attack_ms": 125.0,
+   "decay_ms": 194.0,
+   "brightness_hz": 5599,
+   "bandwidth_hz": 20480,
+   "noise_floor_dbfs": -54.9,
+   "flatness": 0.0077,
+   "harmonic_ratio": 0.029,
+   "onset_count": 9,
+   "onsets_per_s": 6.76,
+   "width": "mono",
+   "digital_silence_frac": 0.0027
+  }
+ },
+ "water_1": {
+  "kind": "water",
+  "title": "Tiny Splash",
+  "summary": "1.62 s busy, 8.0 onsets/s (attack 58 ms, decays in 108 ms). Sounds most like: water splashing (z +3.6), a water drop (z +3.4), pouring water (z +3.4) [clear reading]. Other readings: a squishy wet squelch (foley, z +3.3), a light switch flicked (ui, z +2.1). AudioSet tagger unsure (Liquid 0.14, Water 0.10, Drip 0.07). peak -6.5 dBFS, -30.9 LUFS, brightness 4.7 kHz, bandwidth 20.5 kHz, noise floor ",
+  "match": {
+   "summary": "water_1.wav: 'a small water splash' -> strong (z +3.4; would rank #4 among 322 vocabulary descriptions; cosine 0.31). Forced choice vs your alternatives: 'a small water splash' >99%, 'a toilet flush' <1%, 'heavy rain' <1%. It sounds most like: 'water splashing' (z +3.6), 'a water drop' (z +3.4), 'pouring water' (z +3.4), 'a squishy wet squelch' (z +3.3). Evidence for 'strong' (held-out library search, ~3% of candidate pairs true): the right kind of sound 98% of the time, the exact variant 61% (a close variant such as an Enter key for a spacebar counts as wrong then).",
+   "path": "sfx/candidates/water_1.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -6.5,
+   "query": "a small water splash",
+   "cosine": 0.309,
+   "z": 3.43,
+   "percentile": 99.1,
+   "rank_in_vocab": 4,
+   "p_vs_alts": 0.998,
+   "verdict": "strong",
+   "validated": true,
+   "alts": [
+    {
+     "query": "a toilet flush",
+     "p": 0.0,
+     "z": 0.95,
+     "cosine": 0.068
+    },
+    {
+     "query": "heavy rain",
+     "p": 0.002,
+     "z": 1.07,
+     "cosine": 0.152
+    }
+   ],
+   "results": [
+    {
+     "query": "a small water splash",
+     "cosine": 0.309,
+     "z": 3.43,
+     "percentile": 99.1,
+     "rank_in_vocab": 4,
+     "vocab_size": 322,
+     "verdict": "strong",
+     "validated": true,
+     "p_vs_alts": 0.998,
+     "alts": [
+      {
+       "query": "a toilet flush",
+       "p": 0.0,
+       "z": 0.95,
+       "cosine": 0.068
+      },
+      {
+       "query": "heavy rain",
+       "p": 0.002,
+       "z": 1.07,
+       "cosine": 0.152
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "water splashing",
+     "category": "water",
+     "z": 3.68,
+     "cosine": 0.342
+    },
+    {
+     "term": "a water drop",
+     "category": "water",
+     "z": 3.47,
+     "cosine": 0.387
+    },
+    {
+     "term": "pouring water",
+     "category": "water",
+     "z": 3.44,
+     "cosine": 0.307
+    },
+    {
+     "term": "a squishy wet squelch",
+     "category": "foley",
+     "z": 3.35,
+     "cosine": 0.289
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 1.625,
+   "peak_dbfs": -6.5,
+   "true_peak_dbtp": -6.0,
+   "rms_dbfs": -39.5,
+   "lufs": -30.9,
+   "attack_ms": 58.0,
+   "decay_ms": 108.0,
+   "brightness_hz": 4737,
+   "bandwidth_hz": 20480,
+   "noise_floor_dbfs": -61.8,
+   "flatness": 0.0089,
+   "harmonic_ratio": 0.007,
+   "onset_count": 13,
+   "onsets_per_s": 8.0,
+   "width": "mono",
+   "digital_silence_frac": 0.0091
+  }
+ },
+ "water_2": {
+  "kind": "water",
+  "title": "Rock In Water Splash-Plop 3.aif",
+  "summary": "2.58 s busy, 1.9 onsets/s (attack 120 ms, decays in 54 ms). Sounds most like: an object plunging into water (z +3.5), water splashing (z +3.4), a water drop (z +3.2) [clear reading]. Other readings: digging in soil (nature, z +3.0), a squishy wet squelch (foley, z +2.2). AudioSet: Slosh 0.25, Liquid 0.20, Water 0.16. peak -0.4 dBFS, -27.7 LUFS, brightness 7.5 kHz, bandwidth 20.5 kHz, noise floor -",
+  "match": {
+   "summary": "water_2.wav: 'a small water splash' -> strong (z +3.8; would rank #1 among 322 vocabulary descriptions; cosine 0.34). Forced choice vs your alternatives: 'a small water splash' >99%, 'a toilet flush' <1%, 'heavy rain' <1%. It sounds most like: 'an object plunging into water' (z +3.5), 'water splashing' (z +3.4), 'a water drop' (z +3.2), 'digging in soil' (z +3.0). Evidence for 'strong' (held-out library search, ~3% of candidate pairs true): the right kind of sound 98% of the time, the exact variant 61% (a close variant such as an Enter key for a spacebar counts as wrong then).",
+   "path": "sfx/candidates/water_2.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -0.4,
+   "query": "a small water splash",
+   "cosine": 0.343,
+   "z": 3.81,
+   "percentile": 100.0,
+   "rank_in_vocab": 1,
+   "p_vs_alts": 1.0,
+   "verdict": "strong",
+   "validated": true,
+   "alts": [
+    {
+     "query": "a toilet flush",
+     "p": 0.0,
+     "z": 0.47,
+     "cosine": -0.003
+    },
+    {
+     "query": "heavy rain",
+     "p": 0.0,
+     "z": 0.07,
+     "cosine": 0.031
+    }
+   ],
+   "results": [
+    {
+     "query": "a small water splash",
+     "cosine": 0.343,
+     "z": 3.81,
+     "percentile": 100.0,
+     "rank_in_vocab": 1,
+     "vocab_size": 322,
+     "verdict": "strong",
+     "validated": true,
+     "p_vs_alts": 1.0,
+     "alts": [
+      {
+       "query": "a toilet flush",
+       "p": 0.0,
+       "z": 0.47,
+       "cosine": -0.003
+      },
+      {
+       "query": "heavy rain",
+       "p": 0.0,
+       "z": 0.07,
+       "cosine": 0.031
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "an object plunging into water",
+     "category": "water",
+     "z": 3.55,
+     "cosine": 0.357
+    },
+    {
+     "term": "water splashing",
+     "category": "water",
+     "z": 3.49,
+     "cosine": 0.321
+    },
+    {
+     "term": "a water drop",
+     "category": "water",
+     "z": 3.22,
+     "cosine": 0.358
+    },
+    {
+     "term": "digging in soil",
+     "category": "nature",
+     "z": 3.06,
+     "cosine": 0.225
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 2.576,
+   "peak_dbfs": -0.4,
+   "true_peak_dbtp": -0.2,
+   "rms_dbfs": -37.7,
+   "lufs": -27.7,
+   "attack_ms": 120.0,
+   "decay_ms": 54.0,
+   "brightness_hz": 7520,
+   "bandwidth_hz": 20480,
+   "noise_floor_dbfs": -56.5,
+   "flatness": 0.0125,
+   "harmonic_ratio": 0.014,
+   "onset_count": 5,
+   "onsets_per_s": 1.94,
+   "width": "mono",
+   "digital_silence_frac": 0.0058
+  }
+ },
+ "riser_0": {
+  "kind": "riser",
+  "title": "e5-02.aif",
+  "summary": "3.82 s 5 separate events (attack 32 ms, decays in 232 ms). Sounds most like: a stick swung fast through the air (z +2.7), cloth whipping through the air (z +2.7), a knife chopping on a board (z +2.6) [plausible reading]. Other readings: a punchy impact hit (impacts, z +2.2). AudioSet tagger unsure (Door 0.06, Whoosh, swoosh, swish 0.06). peak -3.1 dBFS, -18.7 LUFS, brightness 999 Hz, bandwidth 12.",
+  "match": {
+   "summary": "riser_0.wav: 'a slow soft rising tone' -> no match (z -0.4; would rank #185 among 322 vocabulary descriptions; cosine -0.06). Forced choice vs your alternatives: 'a slow soft rising tone' 4%, 'an alarm siren' <1%, 'a scream' 96%. It sounds most like: 'a stick swung fast through the air' (z +2.7), 'cloth whipping through the air' (z +2.7), 'a knife chopping on a board' (z +2.6), 'a record scratch' (z +2.4).",
+   "path": "sfx/candidates/riser_0.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -3.1,
+   "query": "a slow soft rising tone",
+   "cosine": -0.056,
+   "z": -0.33,
+   "percentile": 42.9,
+   "rank_in_vocab": 185,
+   "p_vs_alts": 0.041,
+   "verdict": "no match",
+   "validated": true,
+   "alts": [
+    {
+     "query": "an alarm siren",
+     "p": 0.002,
+     "z": -0.8,
+     "cosine": -0.131
+    },
+    {
+     "query": "a scream",
+     "p": 0.956,
+     "z": 0.72,
+     "cosine": 0.025
+    }
+   ],
+   "results": [
+    {
+     "query": "a slow soft rising tone",
+     "cosine": -0.056,
+     "z": -0.33,
+     "percentile": 42.9,
+     "rank_in_vocab": 185,
+     "vocab_size": 322,
+     "verdict": "no match",
+     "validated": true,
+     "p_vs_alts": 0.041,
+     "alts": [
+      {
+       "query": "an alarm siren",
+       "p": 0.002,
+       "z": -0.8,
+       "cosine": -0.131
+      },
+      {
+       "query": "a scream",
+       "p": 0.956,
+       "z": 0.72,
+       "cosine": 0.025
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "a stick swung fast through the air",
+     "category": "transitions",
+     "z": 2.76,
+     "cosine": 0.239
+    },
+    {
+     "term": "cloth whipping through the air",
+     "category": "transitions",
+     "z": 2.72,
+     "cosine": 0.224
+    },
+    {
+     "term": "a knife chopping on a board",
+     "category": "foley",
+     "z": 2.6,
+     "cosine": 0.251
+    },
+    {
+     "term": "a record scratch",
+     "category": "transitions",
+     "z": 2.48,
+     "cosine": 0.241
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 3.822,
+   "peak_dbfs": -3.1,
+   "true_peak_dbtp": -3.1,
+   "rms_dbfs": -25.5,
+   "lufs": -18.7,
+   "attack_ms": 32.0,
+   "decay_ms": 232.0,
+   "brightness_hz": 999,
+   "bandwidth_hz": 12901,
+   "noise_floor_dbfs": -200.0,
+   "flatness": 0.0002,
+   "harmonic_ratio": 0.005,
+   "onset_count": 5,
+   "onsets_per_s": 1.31,
+   "width": "mono",
+   "digital_silence_frac": 0.6487
+  }
+ },
+ "riser_1": {
+  "kind": "riser",
+  "title": "Riser",
+  "summary": "2.00 s busy, 9.0 onsets/s, tonal, pitch ~98 Hz (G2) (attack 142 ms). Sounds most like: a reverse cymbal swell (z +3.9), a deep cinematic whoosh (z +3.5), a cinematic hit with a long tail (z +3.0) [clear reading]. Other readings: a metal scrape (foley, z +2.3). AudioSet: Music 0.23, Sound effect 0.18, Whoosh, swoosh, swish 0.15. peak -0.3 dBFS, -18.4 LUFS, brightness 838 Hz, bandwidth 4.1 kHz, nois",
+  "match": {
+   "summary": "riser_1.wav: 'a slow soft rising tone' -> no match (z +1.8; would rank #14 among 322 vocabulary descriptions; cosine 0.19). Forced choice vs your alternatives: 'a slow soft rising tone' >99%, 'an alarm siren' <1%, 'a scream' <1%. It sounds most like: 'a reverse cymbal swell' (z +3.9), 'a deep cinematic whoosh' (z +3.5), 'a cinematic hit with a long tail' (z +3.0), 'a rising riser building tension' (z +3.0).",
+   "path": "sfx/candidates/riser_1.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -0.3,
+   "query": "a slow soft rising tone",
+   "cosine": 0.191,
+   "z": 1.82,
+   "percentile": 96.0,
+   "rank_in_vocab": 14,
+   "p_vs_alts": 0.996,
+   "verdict": "no match",
+   "validated": true,
+   "alts": [
+    {
+     "query": "an alarm siren",
+     "p": 0.0,
+     "z": 0.06,
+     "cosine": -0.017
+    },
+    {
+     "query": "a scream",
+     "p": 0.004,
+     "z": 0.59,
+     "cosine": 0.049
+    }
+   ],
+   "results": [
+    {
+     "query": "a slow soft rising tone",
+     "cosine": 0.191,
+     "z": 1.82,
+     "percentile": 96.0,
+     "rank_in_vocab": 14,
+     "vocab_size": 322,
+     "verdict": "no match",
+     "validated": true,
+     "p_vs_alts": 0.996,
+     "alts": [
+      {
+       "query": "an alarm siren",
+       "p": 0.0,
+       "z": 0.06,
+       "cosine": -0.017
+      },
+      {
+       "query": "a scream",
+       "p": 0.004,
+       "z": 0.59,
+       "cosine": 0.049
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "a reverse cymbal swell",
+     "category": "transitions",
+     "z": 3.98,
+     "cosine": 0.434
+    },
+    {
+     "term": "a deep cinematic whoosh",
+     "category": "transitions",
+     "z": 3.57,
+     "cosine": 0.366
+    },
+    {
+     "term": "a cinematic hit with a long tail",
+     "category": "impacts",
+     "z": 3.08,
+     "cosine": 0.288
+    },
+    {
+     "term": "a rising riser building tension",
+     "category": "transitions",
+     "z": 3.07,
+     "cosine": 0.357
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 2.0,
+   "peak_dbfs": -0.3,
+   "true_peak_dbtp": -0.3,
+   "rms_dbfs": -20.5,
+   "lufs": -18.4,
+   "attack_ms": 142.0,
+   "brightness_hz": 838,
+   "bandwidth_hz": 4063,
+   "noise_floor_dbfs": -57.4,
+   "flatness": 0.0,
+   "harmonic_ratio": 0.826,
+   "f0_hz": 97.5,
+   "onset_count": 18,
+   "onsets_per_s": 9.0,
+   "width": "side/mid -0 dB",
+   "digital_silence_frac": 0.0031
+  }
+ },
+ "riser_2": {
+  "kind": "riser",
+  "title": "reversed riser .wav",
+  "summary": "7.68 s busy, 4.3 onsets/s (attack 196 ms). Sounds most like: a reverse cymbal swell (z +3.7), a cinematic hit with a long tail (z +3.2), a downlifter falling sweep (z +2.8) [clear reading]. AudioSet: Whoosh, swoosh, swish 0.25, Static 0.13, Sound effect 0.06. peak -0.5 dBFS, -28.7 LUFS, brightness 2.5 kHz, bandwidth 12.9 kHz, noise floor -54 dBFS, side/mid -11 dB.",
+  "match": {
+   "summary": "riser_2.wav: 'a slow soft rising tone' -> no match (z +0.0; would rank #152 among 322 vocabulary descriptions; cosine 0.04). Forced choice vs your alternatives: 'a slow soft rising tone' 6%, 'an alarm siren' <1%, 'a scream' 94%. It sounds most like: 'a reverse cymbal swell' (z +3.7), 'a cinematic hit with a long tail' (z +3.2), 'a downlifter falling sweep' (z +2.8), 'a deep cinematic whoosh' (z +2.6).",
+   "path": "sfx/candidates/riser_2.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -0.5,
+   "query": "a slow soft rising tone",
+   "cosine": 0.043,
+   "z": 0.03,
+   "percentile": 53.1,
+   "rank_in_vocab": 152,
+   "p_vs_alts": 0.062,
+   "verdict": "no match",
+   "validated": true,
+   "alts": [
+    {
+     "query": "an alarm siren",
+     "p": 0.0,
+     "z": -0.99,
+     "cosine": -0.094
+    },
+    {
+     "query": "a scream",
+     "p": 0.937,
+     "z": 0.88,
+     "cosine": 0.113
+    }
+   ],
+   "results": [
+    {
+     "query": "a slow soft rising tone",
+     "cosine": 0.043,
+     "z": 0.03,
+     "percentile": 53.1,
+     "rank_in_vocab": 152,
+     "vocab_size": 322,
+     "verdict": "no match",
+     "validated": true,
+     "p_vs_alts": 0.062,
+     "alts": [
+      {
+       "query": "an alarm siren",
+       "p": 0.0,
+       "z": -0.99,
+       "cosine": -0.094
+      },
+      {
+       "query": "a scream",
+       "p": 0.937,
+       "z": 0.88,
+       "cosine": 0.113
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "a reverse cymbal swell",
+     "category": "transitions",
+     "z": 3.79,
+     "cosine": 0.46
+    },
+    {
+     "term": "a cinematic hit with a long tail",
+     "category": "impacts",
+     "z": 3.21,
+     "cosine": 0.344
+    },
+    {
+     "term": "a downlifter falling sweep",
+     "category": "transitions",
+     "z": 2.82,
+     "cosine": 0.359
+    },
+    {
+     "term": "a deep cinematic whoosh",
+     "category": "transitions",
+     "z": 2.63,
+     "cosine": 0.311
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 7.68,
+   "peak_dbfs": -0.5,
+   "true_peak_dbtp": -0.5,
+   "rms_dbfs": -28.6,
+   "lufs": -28.7,
+   "lra_lu": 11.9,
+   "attack_ms": 196.0,
+   "brightness_hz": 2513,
+   "bandwidth_hz": 12901,
+   "noise_floor_dbfs": -53.9,
+   "flatness": 0.0001,
+   "harmonic_ratio": 0.079,
+   "onset_count": 33,
+   "onsets_per_s": 4.3,
+   "width": "side/mid -11 dB",
+   "digital_silence_frac": 0.0
+  }
+ },
+ "riser_3": {
+  "kind": "riser",
+  "title": "Long Rising Tones 16.wav",
+  "summary": "1.99 s short swell, tonal, pitch ~395 Hz (G4) (attack 167 ms, decays in 481 ms). Sounds most like: a kalimba note (z +3.4), a success chime (z +3.2), a celesta note (z +2.9) [clear reading]. Unvalidated hint: a marimba (z +3.0). AudioSet: Doorbell 0.33, Ding-dong 0.30, Ding 0.23. peak -9.6 dBFS, -20.8 LUFS, brightness 1.4 kHz, bandwidth 10.2 kHz, noise floor -81 dBFS, side/mid 4 dB.",
+  "match": {
+   "summary": "riser_3.wav: 'a slow soft rising tone' -> no match (z -0.1; would rank #141 among 322 vocabulary descriptions; cosine -0.07). Forced choice vs your alternatives: 'a slow soft rising tone' 8%, 'an alarm siren' 47%, 'a scream' 45%. It sounds most like: 'a kalimba note' (z +3.4), 'a success chime' (z +3.2), 'a marimba' (z +3.0), 'a celesta note' (z +2.9).",
+   "path": "sfx/candidates/riser_3.wav",
+   "start": null,
+   "end": null,
+   "peak_dbfs": -9.6,
+   "query": "a slow soft rising tone",
+   "cosine": -0.065,
+   "z": -0.02,
+   "percentile": 56.5,
+   "rank_in_vocab": 141,
+   "p_vs_alts": 0.076,
+   "verdict": "no match",
+   "validated": true,
+   "alts": [
+    {
+     "query": "an alarm siren",
+     "p": 0.471,
+     "z": 0.68,
+     "cosine": -0.018
+    },
+    {
+     "query": "a scream",
+     "p": 0.453,
+     "z": 0.56,
+     "cosine": -0.019
+    }
+   ],
+   "results": [
+    {
+     "query": "a slow soft rising tone",
+     "cosine": -0.065,
+     "z": -0.02,
+     "percentile": 56.5,
+     "rank_in_vocab": 141,
+     "vocab_size": 322,
+     "verdict": "no match",
+     "validated": true,
+     "p_vs_alts": 0.076,
+     "alts": [
+      {
+       "query": "an alarm siren",
+       "p": 0.471,
+       "z": 0.68,
+       "cosine": -0.018
+      },
+      {
+       "query": "a scream",
+       "p": 0.453,
+       "z": 0.56,
+       "cosine": -0.019
+      }
+     ]
+    }
+   ],
+   "closest_vocab": [
+    {
+     "term": "a kalimba note",
+     "category": "chimes",
+     "z": 3.44,
+     "cosine": 0.351
+    },
+    {
+     "term": "a success chime",
+     "category": "ui",
+     "z": 3.24,
+     "cosine": 0.377
+    },
+    {
+     "term": "a marimba",
+     "category": "instruments",
+     "z": 3.07,
+     "cosine": 0.366
+    },
+    {
+     "term": "a celesta note",
+     "category": "chimes",
+     "z": 2.94,
+     "cosine": 0.342
+    }
+   ],
+   "verdict_thresholds_z": {
+    "strong": 3.0,
+    "plausible": 2.5,
+    "weak": 2.0
+   },
+   "verdict_evidence": {
+    "strong": {
+     "z": ">= 3",
+     "lr": 1289,
+     "precision_library": 0.98,
+     "precision_even_odds": 1.0,
+     "lr_strict": 51,
+     "precision_library_strict": 0.61,
+     "recall_at_or_above": 0.51
+    },
+    "plausible": {
+     "z": "2.5 - 3",
+     "lr": 21,
+     "precision_library": 0.41,
+     "precision_even_odds": 0.95,
+     "lr_strict": 9.1,
+     "precision_library_strict": 0.22,
+     "recall_at_or_above": 0.63
+    },
+    "weak": {
+     "z": "2 - 2.5",
+     "lr": 12,
+     "precision_library": 0.28,
+     "precision_even_odds": 0.92,
+     "lr_strict": 6.6,
+     "precision_library_strict": 0.17,
+     "recall_at_or_above": 0.76
+    },
+    "no match": {
+     "z": "< 2",
+     "lr": 0.25,
+     "precision_library": 0.008,
+     "precision_even_odds": 0.2,
+     "lr_strict": 0.25,
+     "precision_library_strict": 0.008
+    }
+   }
+  },
+  "measurements": {
+   "duration": 1.99,
+   "peak_dbfs": -9.6,
+   "true_peak_dbtp": -9.5,
+   "rms_dbfs": -29.9,
+   "lufs": -20.8,
+   "attack_ms": 167.0,
+   "decay_ms": 481.0,
+   "brightness_hz": 1370,
+   "bandwidth_hz": 10240,
+   "noise_floor_dbfs": -80.9,
+   "flatness": 0.0,
+   "harmonic_ratio": 0.826,
+   "f0_hz": 394.6,
+   "onset_count": 3,
+   "onsets_per_s": 1.51,
+   "width": "side/mid 4 dB",
+   "digital_silence_frac": 0.0035
+  }
+ }
+}

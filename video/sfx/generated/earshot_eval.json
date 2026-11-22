@@ -1,0 +1,133 @@
+{
+ "generated/gen_chime.wav": {
+  "z": 3.67,
+  "summary": "1.85 s short swell, tonal, pitch ~261 Hz (C4) (attack 186 ms, decays in 693 ms). Sounds most like: a kalimba note (z +4.0), a success chime (z +3.8), a doorbell (z +3.0) [clear reading]. Unvalidated hint: a marimba (z +3.3). AudioSet: Ding-dong 0.27, Doorbell 0.26, Music 0.14. peak -2.7 dBFS, -17.0 ",
+  "measurements": {
+   "duration": 1.846,
+   "peak_dbfs": -2.7,
+   "true_peak_dbtp": -2.7,
+   "rms_dbfs": -22.7,
+   "lufs": -17.0,
+   "attack_ms": 186.0,
+   "decay_ms": 693.0,
+   "brightness_hz": 905,
+   "bandwidth_hz": 1612,
+   "noise_floor_dbfs": -67.7,
+   "flatness": 0.0,
+   "harmonic_ratio": 0.972,
+   "f0_hz": 261.2,
+   "onset_count": 3,
+   "onsets_per_s": 1.62,
+   "width": "side/mid 0 dB",
+   "digital_silence_frac": 0.0004
+  }
+ },
+ "generated/gen_hollow.wav": {
+  "z": 0.93,
+  "summary": "0.29 s short one-shot (attack 97 ms, decays in 99 ms). Sounds most like: a fast whoosh (z +3.2), a deep cinematic whoosh (z +2.8), a punchy impact hit (z +2.7) [clear reading]. AudioSet tagger unsure (Heart murmur 0.09, Heart sounds, heartbeat 0.06). peak -1.3 dBFS, brightness 277 Hz, bandwidth 3.2 ",
+  "measurements": {
+   "duration": 0.286,
+   "peak_dbfs": -1.3,
+   "true_peak_dbtp": -1.2,
+   "rms_dbfs": -16.7,
+   "attack_ms": 97.0,
+   "decay_ms": 99.0,
+   "brightness_hz": 277,
+   "bandwidth_hz": 3225,
+   "flatness": 0.0,
+   "harmonic_ratio": 0.132,
+   "onset_count": 1,
+   "onsets_per_s": 3.49,
+   "width": "side/mid -16 dB",
+   "digital_silence_frac": 0.0007
+  }
+ },
+ "generated/gen_hollow_deep.wav": {
+  "z": 0.9,
+  "summary": "0.33 s short one-shot (attack 84 ms, decays in 133 ms). Sounds most like: a fast whoosh (z +3.4), a deep cinematic whoosh (z +2.7), a punchy impact hit (z +2.7) [clear reading]. AudioSet tagger unsure (Explosion 0.11, Slam 0.09). peak -1.7 dBFS, brightness 293 Hz, bandwidth 3.2 kHz, side/mid -16 dB.",
+  "measurements": {
+   "duration": 0.326,
+   "peak_dbfs": -1.7,
+   "true_peak_dbtp": -1.7,
+   "rms_dbfs": -16.1,
+   "attack_ms": 84.0,
+   "decay_ms": 133.0,
+   "brightness_hz": 293,
+   "bandwidth_hz": 3225,
+   "flatness": 0.0,
+   "harmonic_ratio": 0.052,
+   "onset_count": 1,
+   "onsets_per_s": 3.07,
+   "width": "side/mid -16 dB",
+   "digital_silence_frac": 0.0008
+  }
+ },
+ "generated/gen_riser_breath.wav": {
+  "z": -0.32,
+  "summary": "1.50 s busy, 9.3 onsets/s (attack 298 ms). Sounds most like: a bee flying by (z +2.6), a small animal running through grass (z +2.5), a ratchet clicking (z +2.4) [plausible reading]. Other readings: a record scratch (transitions, z +2.3), a spray can hissing (everyday, z +2.2). AudioSet tagger unsur",
+  "measurements": {
+   "duration": 1.5,
+   "peak_dbfs": -4.4,
+   "true_peak_dbtp": -4.2,
+   "rms_dbfs": -24.5,
+   "lufs": -19.0,
+   "attack_ms": 298.0,
+   "brightness_hz": 7432,
+   "bandwidth_hz": 20480,
+   "noise_floor_dbfs": -36.3,
+   "flatness": 0.026,
+   "harmonic_ratio": 0.349,
+   "onset_count": 14,
+   "onsets_per_s": 9.33,
+   "width": "mono",
+   "digital_silence_frac": 0.0003
+  }
+ },
+ "generated/gen_swell_drone.wav": {
+  "z": 2.11,
+  "summary": "7.91 s busy, 5.4 onsets/s, tonal, pitch ~50 Hz (G1) (attack 272 ms, decays in 3.0 s). Music (AudioSet Music 0.59). Unvalidated hints - genre: drum and bass music (z +1.4), hip hop beat with heavy bass (z +1.1); mood (wrong for ~1 in 5 tracks in a test): . Sounds most like: a sub bass drop (z +4.2), ",
+  "measurements": {
+   "duration": 7.908,
+   "peak_dbfs": -11.6,
+   "true_peak_dbtp": -11.6,
+   "rms_dbfs": -20.9,
+   "lufs": -20.3,
+   "lra_lu": 6.8,
+   "attack_ms": 272.0,
+   "decay_ms": 2975.0,
+   "brightness_hz": 61,
+   "bandwidth_hz": 403,
+   "noise_floor_dbfs": -53.2,
+   "flatness": 0.0,
+   "harmonic_ratio": 0.995,
+   "f0_hz": 50.0,
+   "onset_count": 43,
+   "onsets_per_s": 5.44,
+   "width": "side/mid -8 dB",
+   "digital_silence_frac": 0.0001
+  }
+ },
+ "generated/gen_swell_pad.wav": {
+  "z": 1.33,
+  "summary": "4.42 s busy, 5.4 onsets/s, tonal, pitch ~66 Hz (C2) (attack 284 ms, decays in 2.7 s). Sounds most like: a success chime (z +2.6), an uplifter sweep (z +2.3), a snare hit (z +1.9) [plausible reading]. Other readings: a sustained glass harp tone (chimes, z +1.5). Unvalidated hint: a warm analog synth ",
+  "measurements": {
+   "duration": 4.418,
+   "peak_dbfs": -10.4,
+   "true_peak_dbtp": -10.4,
+   "rms_dbfs": -24.9,
+   "lufs": -20.6,
+   "attack_ms": 284.0,
+   "decay_ms": 2738.0,
+   "brightness_hz": 503,
+   "bandwidth_hz": 4063,
+   "noise_floor_dbfs": -64.2,
+   "flatness": 0.0,
+   "harmonic_ratio": 1.0,
+   "f0_hz": 65.7,
+   "onset_count": 24,
+   "onsets_per_s": 5.43,
+   "width": "side/mid -8 dB",
+   "digital_silence_frac": 0.0001
+  }
+ }
+}

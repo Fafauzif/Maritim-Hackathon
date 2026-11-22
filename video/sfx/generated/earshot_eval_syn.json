@@ -1,0 +1,71 @@
+{
+ "generated/syn_hollow.wav": {
+  "z": 1.92,
+  "summary": "1.60 s short one-shot, tonal, pitch ~66 Hz (C2) (attack 33 ms, decays in 1355 ms). Sounds most like: a sub bass drop (z +4.2), a kick drum (z +3.1), a big drum hit (z +3.0) [clear reading]. Other readings: a kalimba note (chimes, z +2.4), a cow mooing (everyday, z +2.3). Unvalidated hint: a deep sub",
+  "measurements": {
+   "duration": 1.6,
+   "peak_dbfs": -3.0,
+   "true_peak_dbtp": -3.0,
+   "rms_dbfs": -15.8,
+   "lufs": -15.7,
+   "attack_ms": 33.0,
+   "decay_ms": 1355.0,
+   "brightness_hz": 85,
+   "bandwidth_hz": 160,
+   "noise_floor_dbfs": -40.1,
+   "flatness": 0.0,
+   "harmonic_ratio": 0.997,
+   "f0_hz": 65.5,
+   "onset_count": 1,
+   "onsets_per_s": 0.62,
+   "width": "mono",
+   "digital_silence_frac": 0.0005
+  }
+ },
+ "generated/syn_riser.wav": {
+  "z": 0.37,
+  "summary": "2.80 s busy, 10.7 onsets/s, tonal, pitch ~285 Hz (C#4) (attack 241 ms, decays in 189 ms). Sounds most like: an uplifter sweep (z +2.9), a downlifter falling sweep (z +2.8), a phone vibration buzz (z +2.5) [plausible reading]. Other readings: a vacuum cleaner (everyday, z +2.1). AudioSet: Sine wave 0",
+  "measurements": {
+   "duration": 2.8,
+   "peak_dbfs": -4.0,
+   "true_peak_dbtp": -4.0,
+   "rms_dbfs": -15.8,
+   "lufs": -12.0,
+   "attack_ms": 241.0,
+   "decay_ms": 189.0,
+   "brightness_hz": 2156,
+   "bandwidth_hz": 12901,
+   "noise_floor_dbfs": -39.4,
+   "flatness": 0.0002,
+   "harmonic_ratio": 0.99,
+   "f0_hz": 284.9,
+   "onset_count": 30,
+   "onsets_per_s": 10.71,
+   "width": "mono",
+   "digital_silence_frac": 0.0037
+  }
+ },
+ "generated/syn_swell.wav": {
+  "z": 1.81,
+  "summary": "4.50 s busy, 10.9 onsets/s, tonal, pitch ~56 Hz (A1) (attack 254 ms, decays in 2.1 s). Sounds most like: a downlifter falling sweep (z +2.9), a deep cinematic whoosh (z +2.8), a gust of wind rushing past (z +2.8) [plausible reading]. Other readings: being underwater (water, z +2.4), a big braam (imp",
+  "measurements": {
+   "duration": 4.5,
+   "peak_dbfs": -4.0,
+   "true_peak_dbtp": -4.0,
+   "rms_dbfs": -16.3,
+   "lufs": -14.5,
+   "attack_ms": 254.0,
+   "decay_ms": 2098.0,
+   "brightness_hz": 606,
+   "bandwidth_hz": 4063,
+   "noise_floor_dbfs": -43.4,
+   "flatness": 0.0,
+   "harmonic_ratio": 0.999,
+   "f0_hz": 55.6,
+   "onset_count": 49,
+   "onsets_per_s": 10.89,
+   "width": "mono",
+   "digital_silence_frac": 0.0069
+  }
+ }
+}

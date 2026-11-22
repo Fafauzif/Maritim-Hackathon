@@ -1,0 +1,57 @@
+[
+ {
+  "t": 14.2,
+  "moment": "\u224824,000 m\u00b3 reading",
+  "why_skipped": "the voice says the number at the same moment"
+ },
+ {
+  "t": 22.675,
+  "moment": "archive timeline draws",
+  "why_skipped": "0.7 s before the inspection ping, which carries the moment"
+ },
+ {
+  "t": 38.59,
+  "moment": "film title written on",
+  "why_skipped": "0.9 s after the camera-move whoosh; a second sound would crowd it"
+ },
+ {
+  "t": 38.85,
+  "moment": "four photo slots, one per name",
+  "why_skipped": "the voice speaks each name as its slot appears"
+ },
+ {
+  "t": 51.8,
+  "moment": "\"A blind spot.\" written on",
+  "why_skipped": "the voice carries the line; the swell already marks the frame"
+ },
+ {
+  "t": 79.925,
+  "moment": "4\u20138 digits count up",
+  "why_skipped": "the voice says the figure"
+ },
+ {
+  "t": 104.925,
+  "moment": "Kodingareng row, none lit",
+  "why_skipped": "silence is the point: nothing is seen"
+ },
+ {
+  "t": 91.425,
+  "moment": "pan down to the cloudy record",
+  "why_skipped": "a small in-shot pan under continuous voice; a ninth whoosh would repeat the pool"
+ },
+ {
+  "t": 188.7,
+  "moment": "MODELLED / MEASURED / MISSING labels",
+  "why_skipped": "the voice reads the three labels"
+ },
+ {
+  "t": 239.175,
+  "moment": "case-review panel",
+  "why_skipped": "0.4 s after the branch swell (0.5 s rule)"
+ },
+ {
+  "t": 276.05,
+  "moment": "move to the end card",
+  "why_skipped": "credits; the title ping and its tail close the film"
+ }
+]
